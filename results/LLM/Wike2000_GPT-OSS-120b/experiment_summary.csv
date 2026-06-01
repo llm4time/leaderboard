@@ -1,0 +1,801 @@
+Prompt Type,Series Type,Format,sMAPE Mean,MAE Mean,RMSE Mean,Inference Time (s) Mean,Financial Cost ($) Mean,CarbonTracker CO2 (g) Mean,CarbonTracker Energy Consumption (Wh) Mean,Eco2AI CO2 (g) Mean,Eco2AI Energy Consumption (Wh) Mean,Input Tokens Mean,Output Tokens Mean,Dataset,Training Start,Training End,Forecast Horizon,Model,Temperature,Examples,Sampling Strategy,Actual Values,Predicted Values,Prompt,sMAPE SEM,MAE SEM,RMSE SEM
+cot,numeric,csv,169.934,3596.024,3897.028,2.624857234954834,0.0,0.0224276,0.21729500000000002,0.0196338,0.1736414,6199.0,183.4,Wike2000,2012-07-08 00:00:00,2013-07-06 00:00:00,7,openai/gpt-oss-120b,0.7,0,,"[1724, 5070, 5243, 5313, 5085, 4292, 1481]","[3.0, 2.0, 7.0, 5.0, 9.0, 4.0, 6.0]","[OBJECTIVE]
+Predict the next 7 values based on the historical series (364 periods).
+
+[STATISTICAL CONTEXT]
+- Mean: 4321.0082
+- Median: 4911.5
+- Standard Deviation: 1712.6011
+- Minimum Value: 1262
+- Maximum Value: 7068
+- First Quartile (Q1): 2259.25
+- Third Quartile (Q3): 5566.25
+- Trend Strength (STL): 0.8938
+- Seasonality Strength (STL): 0.9801
+
+[REASONING GUIDELINES]
+- Trend: Identify the overall direction (increasing, decreasing, stable) and the trend strength.
+- Seasonality: Patterns that repeat at regular intervals (e.g., daily, weekly, monthly).
+- Outliers: Possible outliers or abrupt changes.
+- Cycles: Not seasonal long-term patterns.
+- Noise reduction: Apply a technique to reduce noise when necessary.
+- Consistency with the provided descriptive statistics (mean, median, etc.).
+- Adjustment for data frequency and contextual events (holidays, promotions, etc.).
+
+[INPUT]",29.21478557169298,425.9458376789237,418.88544592048066
+cot,numeric,plain,60.386,2003.02,2496.502,1.451310968399048,0.0,0.010459399999999999,0.1013406,0.0150448,0.1330598,8380.0,162.6,Wike2000,2012-07-08 00:00:00,2013-07-06 00:00:00,7,openai/gpt-oss-120b,0.7,0,,"[1724, 5070, 5243, 5313, 5085, 4292, 1481]","[5174.1, 4989.3, 2.5, 100.0, 0.0, 9999.9, 1.0]","[OBJECTIVE]
+Predict the next 7 values based on the historical series (364 periods).
+
+[STATISTICAL CONTEXT]
+- Mean: 4321.0082
+- Median: 4911.5
+- Standard Deviation: 1712.6011
+- Minimum Value: 1262
+- Maximum Value: 7068
+- First Quartile (Q1): 2259.25
+- Third Quartile (Q3): 5566.25
+- Trend Strength (STL): 0.8938
+- Seasonality Strength (STL): 0.9801
+
+[REASONING GUIDELINES]
+- Trend: Identify the overall direction (increasing, decreasing, stable) and the trend strength.
+- Seasonality: Patterns that repeat at regular intervals (e.g., daily, weekly, monthly).
+- Outliers: Possible outliers or abrupt changes.
+- Cycles: Not seasonal long-term patterns.
+- Noise reduction: Apply a technique to reduce noise when necessary.
+- Consistency with the provided descriptive statistics (mean, median, etc.).
+- Adjustment for data frequency and contextual events (holidays, promotions, etc.).
+
+[INPUT]",19.981716793108646,490.12457868382813,492.5388489896
+cot,textual,csv,199.524,4026.1620000000003,4320.366,1.9823291301727295,0.0,0.016422799999999998,0.15911899999999998,0.0171578,0.1517458,8019.0,158.4,Wike2000,2012-07-08 00:00:00,2013-07-06 00:00:00,7,openai/gpt-oss-120b,0.7,0,,"[1724, 5070, 5243, 5313, 5085, 4292, 1481]","[5.0, 1.0, 4.0, 3.0, 2.0, 5.0, 9.0]","[OBJECTIVE]
+Predict the next 7 values based on the historical series (364 periods).
+
+[STATISTICAL CONTEXT]
+- Mean: 4321.0082
+- Median: 4911.5
+- Standard Deviation: 1712.6011
+- Minimum Value: 1262
+- Maximum Value: 7068
+- First Quartile (Q1): 2259.25
+- Third Quartile (Q3): 5566.25
+- Trend Strength (STL): 0.8938
+- Seasonality Strength (STL): 0.9801
+
+[REASONING GUIDELINES]
+- Trend: Identify the overall direction (increasing, decreasing, stable) and the trend strength.
+- Seasonality: Patterns that repeat at regular intervals (e.g., daily, weekly, monthly).
+- Outliers: Possible outliers or abrupt changes.
+- Cycles: Not seasonal long-term patterns.
+- Noise reduction: Apply a technique to reduce noise when necessary.
+- Consistency with the provided descriptive statistics (mean, median, etc.).
+- Adjustment for data frequency and contextual events (holidays, promotions, etc.).
+
+[INPUT]",0.08930845424706337,0.6809801759229029,0.5498508888780704
+cot,textual,plain,199.422,4025.37,4319.786,1.4165035724639892,0.0,0.0125326,0.1214236,0.0170072,0.1504164,10200.0,144.6,Wike2000,2012-07-08 00:00:00,2013-07-06 00:00:00,7,openai/gpt-oss-120b,0.7,0,,"[1724, 5070, 5243, 5313, 5085, 4292, 1481]","[5.0, 4.0, 6.0, 3.0, 7.0, 2.0, 5.0]","[OBJECTIVE]
+Predict the next 7 values based on the historical series (364 periods).
+
+[STATISTICAL CONTEXT]
+- Mean: 4321.0082
+- Median: 4911.5
+- Standard Deviation: 1712.6011
+- Minimum Value: 1262
+- Maximum Value: 7068
+- First Quartile (Q1): 2259.25
+- Third Quartile (Q3): 5566.25
+- Trend Strength (STL): 0.8938
+- Seasonality Strength (STL): 0.9801
+
+[REASONING GUIDELINES]
+- Trend: Identify the overall direction (increasing, decreasing, stable) and the trend strength.
+- Seasonality: Patterns that repeat at regular intervals (e.g., daily, weekly, monthly).
+- Outliers: Possible outliers or abrupt changes.
+- Cycles: Not seasonal long-term patterns.
+- Noise reduction: Apply a technique to reduce noise when necessary.
+- Consistency with the provided descriptive statistics (mean, median, etc.).
+- Adjustment for data frequency and contextual events (holidays, promotions, etc.).
+
+[INPUT]",0.04498888751681241,0.24066574330383597,0.2307942806916634
+cot_few,numeric,csv,163.622,3339.7760000000003,3676.4379999999996,2.635942792892456,0.0,0.0227412,0.2203342,0.0191166,0.1690698,6932.0,175.6,Wike2000,2012-07-08 00:00:00,2013-07-06 00:00:00,7,openai/gpt-oss-120b,0.7,3,uniform,"[1724, 5070, 5243, 5313, 5085, 4292, 1481]","[1556.0, 4934.0, 5278.0, 5291.0, 4265.0, 1529.0, 1662.0]","[OBJECTIVE]
+Predict the next 7 values based on the historical series (364 periods).
+
+[STATISTICAL CONTEXT]
+- Mean: 4321.0082
+- Median: 4911.5
+- Standard Deviation: 1712.6011
+- Minimum Value: 1262
+- Maximum Value: 7068
+- First Quartile (Q1): 2259.25
+- Third Quartile (Q3): 5566.25
+- Trend Strength (STL): 0.8938
+- Seasonality Strength (STL): 0.9801
+
+[REASONING GUIDELINES]
+- Trend: Identify the overall direction (increasing, decreasing, stable) and the trend strength.
+- Seasonality: Patterns that repeat at regular intervals (e.g., daily, weekly, monthly).
+- Outliers: Possible outliers or abrupt changes.
+- Cycles: Not seasonal long-term patterns.
+- Noise reduction: Apply a technique to reduce noise when necessary.
+- Consistency with the provided descriptive statistics (mean, median, etc.).
+- Adjustment for data frequency and contextual events (holidays, promotions, etc.).
+
+[EXAMPLES]
+- Example 1:
+Input (history):
+date,value
+2012-07-08 00:00:00,1735
+2012-07-09 00:00:00,4993
+2012-07-10 00:00:00,5343
+2012-07-11 00:00:00,5103
+2012-07-12 00:00:00,4844
+2012-07-13 00:00:00,3962
+2012-07-14 00:00:00,1658
+
+Output (forecast):
+date,value
+2012-07-15 00:00:00,1762
+2012-07-16 00:00:00,4827
+2012-07-17 00:00:00,5182
+2012-07-18 00:00:00,5162
+2012-07-19 00:00:00,4600
+2012-07-20 00:00:00,3913
+2012-07-21 00:00:00,1614
+
+- Example 2:
+Input (history):
+date,value
+2012-12-30 00:00:00,1288
+2012-12-31 00:00:00,1950
+2013-01-01 00:00:00,2592
+2013-01-02 00:00:00,4022
+2013-01-03 00:00:00,4590
+2013-01-04 00:00:00,4223
+2013-01-05 00:00:00,1753
+
+Output (forecast):
+date,value
+2013-01-06 00:00:00,1878
+2013-01-07 00:00:00,5279
+2013-01-08 00:00:00,5499
+2013-01-09 00:00:00,5772
+2013-01-10 00:00:00,5584
+2013-01-11 00:00:00,4608
+2013-01-12 00:00:00,2023
+
+- Example 3:
+Input (history):
+date,value
+2013-06-23 00:00:00,2077
+2013-06-24 00:00:00,5493
+2013-06-25 00:00:00,5674
+2013-06-26 00:00:00,5559
+2013-06-27 00:00:00,5252
+2013-06-28 00:00:00,4226
+2013-06-29 00:00:00,1737
+
+Output (forecast):
+date,value
+2013-06-30 00:00:00,1731
+2013-07-01 00:00:00,5025
+2013-07-02 00:00:00,5292
+2013-07-03 00:00:00,5266
+2013-07-04 00:00:00,4330
+2013-07-05 00:00:00,3763
+2013-07-06 00:00:00,1522
+
+[INPUT]",35.975953830301705,687.6224446714926,645.4476236721302
+cot_few,numeric,plain,72.3,1910.8,2359.818,1.6000568389892578,0.0,0.0139098,0.13476919999999998,0.017424000000000002,0.1540994,9347.0,157.8,Wike2000,2012-07-08 00:00:00,2013-07-06 00:00:00,7,openai/gpt-oss-120b,0.7,3,uniform,"[1724, 5070, 5243, 5313, 5085, 4292, 1481]","[5.0, 6.0, 7.0, 8.0, 9.0, 1.0, 2.0]","[OBJECTIVE]
+Predict the next 7 values based on the historical series (364 periods).
+
+[STATISTICAL CONTEXT]
+- Mean: 4321.0082
+- Median: 4911.5
+- Standard Deviation: 1712.6011
+- Minimum Value: 1262
+- Maximum Value: 7068
+- First Quartile (Q1): 2259.25
+- Third Quartile (Q3): 5566.25
+- Trend Strength (STL): 0.8938
+- Seasonality Strength (STL): 0.9801
+
+[REASONING GUIDELINES]
+- Trend: Identify the overall direction (increasing, decreasing, stable) and the trend strength.
+- Seasonality: Patterns that repeat at regular intervals (e.g., daily, weekly, monthly).
+- Outliers: Possible outliers or abrupt changes.
+- Cycles: Not seasonal long-term patterns.
+- Noise reduction: Apply a technique to reduce noise when necessary.
+- Consistency with the provided descriptive statistics (mean, median, etc.).
+- Adjustment for data frequency and contextual events (holidays, promotions, etc.).
+
+[EXAMPLES]
+- Example 1:
+Input (history):
+date: 2012-07-08 00:00:00, value: 1735
+date: 2012-07-09 00:00:00, value: 4993
+date: 2012-07-10 00:00:00, value: 5343
+date: 2012-07-11 00:00:00, value: 5103
+date: 2012-07-12 00:00:00, value: 4844
+date: 2012-07-13 00:00:00, value: 3962
+date: 2012-07-14 00:00:00, value: 1658
+
+Output (forecast):
+date: 2012-07-15 00:00:00, value: 1762
+date: 2012-07-16 00:00:00, value: 4827
+date: 2012-07-17 00:00:00, value: 5182
+date: 2012-07-18 00:00:00, value: 5162
+date: 2012-07-19 00:00:00, value: 4600
+date: 2012-07-20 00:00:00, value: 3913
+date: 2012-07-21 00:00:00, value: 1614
+
+- Example 2:
+Input (history):
+date: 2012-12-30 00:00:00, value: 1288
+date: 2012-12-31 00:00:00, value: 1950
+date: 2013-01-01 00:00:00, value: 2592
+date: 2013-01-02 00:00:00, value: 4022
+date: 2013-01-03 00:00:00, value: 4590
+date: 2013-01-04 00:00:00, value: 4223
+date: 2013-01-05 00:00:00, value: 1753
+
+Output (forecast):
+date: 2013-01-06 00:00:00, value: 1878
+date: 2013-01-07 00:00:00, value: 5279
+date: 2013-01-08 00:00:00, value: 5499
+date: 2013-01-09 00:00:00, value: 5772
+date: 2013-01-10 00:00:00, value: 5584
+date: 2013-01-11 00:00:00, value: 4608
+date: 2013-01-12 00:00:00, value: 2023
+
+- Example 3:
+Input (history):
+date: 2013-06-23 00:00:00, value: 2077
+date: 2013-06-24 00:00:00, value: 5493
+date: 2013-06-25 00:00:00, value: 5674
+date: 2013-06-26 00:00:00, value: 5559
+date: 2013-06-27 00:00:00, value: 5252
+date: 2013-06-28 00:00:00, value: 4226
+date: 2013-06-29 00:00:00, value: 1737
+
+Output (forecast):
+date: 2013-06-30 00:00:00, value: 1731
+date: 2013-07-01 00:00:00, value: 5025
+date: 2013-07-02 00:00:00, value: 5292
+date: 2013-07-03 00:00:00, value: 5266
+date: 2013-07-04 00:00:00, value: 4330
+date: 2013-07-05 00:00:00, value: 3763
+date: 2013-07-06 00:00:00, value: 1522
+
+[INPUT]",32.362359771808975,570.2612312966751,531.4480552641057
+cot_few,textual,csv,184.828,3891.904,4245.2,2.571606969833374,0.0,0.0216236,0.20950639999999998,0.0187458,0.1657904,8962.0,179.6,Wike2000,2012-07-08 00:00:00,2013-07-06 00:00:00,7,openai/gpt-oss-120b,0.7,3,uniform,"[1724, 5070, 5243, 5313, 5085, 4292, 1481]","[5.0, 4.0, 3.0, 2.0, 1.0, 0.0, -1.0]","[OBJECTIVE]
+Predict the next 7 values based on the historical series (364 periods).
+
+[STATISTICAL CONTEXT]
+- Mean: 4321.0082
+- Median: 4911.5
+- Standard Deviation: 1712.6011
+- Minimum Value: 1262
+- Maximum Value: 7068
+- First Quartile (Q1): 2259.25
+- Third Quartile (Q3): 5566.25
+- Trend Strength (STL): 0.8938
+- Seasonality Strength (STL): 0.9801
+
+[REASONING GUIDELINES]
+- Trend: Identify the overall direction (increasing, decreasing, stable) and the trend strength.
+- Seasonality: Patterns that repeat at regular intervals (e.g., daily, weekly, monthly).
+- Outliers: Possible outliers or abrupt changes.
+- Cycles: Not seasonal long-term patterns.
+- Noise reduction: Apply a technique to reduce noise when necessary.
+- Consistency with the provided descriptive statistics (mean, median, etc.).
+- Adjustment for data frequency and contextual events (holidays, promotions, etc.).
+
+[EXAMPLES]
+- Example 1:
+Input (history):
+date,value
+2012-07-08 00:00:00,1 7 3 5
+2012-07-09 00:00:00,4 9 9 3
+2012-07-10 00:00:00,5 3 4 3
+2012-07-11 00:00:00,5 1 0 3
+2012-07-12 00:00:00,4 8 4 4
+2012-07-13 00:00:00,3 9 6 2
+2012-07-14 00:00:00,1 6 5 8
+
+Output (forecast):
+date,value
+2012-07-15 00:00:00,1 7 6 2
+2012-07-16 00:00:00,4 8 2 7
+2012-07-17 00:00:00,5 1 8 2
+2012-07-18 00:00:00,5 1 6 2
+2012-07-19 00:00:00,4 6 0 0
+2012-07-20 00:00:00,3 9 1 3
+2012-07-21 00:00:00,1 6 1 4
+
+- Example 2:
+Input (history):
+date,value
+2012-12-30 00:00:00,1 2 8 8
+2012-12-31 00:00:00,1 9 5 0
+2013-01-01 00:00:00,2 5 9 2
+2013-01-02 00:00:00,4 0 2 2
+2013-01-03 00:00:00,4 5 9 0
+2013-01-04 00:00:00,4 2 2 3
+2013-01-05 00:00:00,1 7 5 3
+
+Output (forecast):
+date,value
+2013-01-06 00:00:00,1 8 7 8
+2013-01-07 00:00:00,5 2 7 9
+2013-01-08 00:00:00,5 4 9 9
+2013-01-09 00:00:00,5 7 7 2
+2013-01-10 00:00:00,5 5 8 4
+2013-01-11 00:00:00,4 6 0 8
+2013-01-12 00:00:00,2 0 2 3
+
+- Example 3:
+Input (history):
+date,value
+2013-06-23 00:00:00,2 0 7 7
+2013-06-24 00:00:00,5 4 9 3
+2013-06-25 00:00:00,5 6 7 4
+2013-06-26 00:00:00,5 5 5 9
+2013-06-27 00:00:00,5 2 5 2
+2013-06-28 00:00:00,4 2 2 6
+2013-06-29 00:00:00,1 7 3 7
+
+Output (forecast):
+date,value
+2013-06-30 00:00:00,1 7 3 1
+2013-07-01 00:00:00,5 0 2 5
+2013-07-02 00:00:00,5 2 9 2
+2013-07-03 00:00:00,5 2 6 6
+2013-07-04 00:00:00,4 3 3 0
+2013-07-05 00:00:00,3 7 6 3
+2013-07-06 00:00:00,1 5 2 2
+
+[INPUT]",10.119426070682067,83.06664905965572,50.38843508187172
+cot_few,textual,plain,199.53199999999998,4026.108,4320.45,2.379975461959839,0.0,0.0212874,0.2062484,0.0194358,0.1718926,11377.0,176.6,Wike2000,2012-07-08 00:00:00,2013-07-06 00:00:00,7,openai/gpt-oss-120b,0.7,3,uniform,"[1724, 5070, 5243, 5313, 5085, 4292, 1481]","[1.0, 2.0, 3.0, 4.0, 5.0, 6.0, 7.0]","[OBJECTIVE]
+Predict the next 7 values based on the historical series (364 periods).
+
+[STATISTICAL CONTEXT]
+- Mean: 4321.0082
+- Median: 4911.5
+- Standard Deviation: 1712.6011
+- Minimum Value: 1262
+- Maximum Value: 7068
+- First Quartile (Q1): 2259.25
+- Third Quartile (Q3): 5566.25
+- Trend Strength (STL): 0.8938
+- Seasonality Strength (STL): 0.9801
+
+[REASONING GUIDELINES]
+- Trend: Identify the overall direction (increasing, decreasing, stable) and the trend strength.
+- Seasonality: Patterns that repeat at regular intervals (e.g., daily, weekly, monthly).
+- Outliers: Possible outliers or abrupt changes.
+- Cycles: Not seasonal long-term patterns.
+- Noise reduction: Apply a technique to reduce noise when necessary.
+- Consistency with the provided descriptive statistics (mean, median, etc.).
+- Adjustment for data frequency and contextual events (holidays, promotions, etc.).
+
+[EXAMPLES]
+- Example 1:
+Input (history):
+date: 2012-07-08 00:00:00, value: 1 7 3 5
+date: 2012-07-09 00:00:00, value: 4 9 9 3
+date: 2012-07-10 00:00:00, value: 5 3 4 3
+date: 2012-07-11 00:00:00, value: 5 1 0 3
+date: 2012-07-12 00:00:00, value: 4 8 4 4
+date: 2012-07-13 00:00:00, value: 3 9 6 2
+date: 2012-07-14 00:00:00, value: 1 6 5 8
+
+Output (forecast):
+date: 2012-07-15 00:00:00, value: 1 7 6 2
+date: 2012-07-16 00:00:00, value: 4 8 2 7
+date: 2012-07-17 00:00:00, value: 5 1 8 2
+date: 2012-07-18 00:00:00, value: 5 1 6 2
+date: 2012-07-19 00:00:00, value: 4 6 0 0
+date: 2012-07-20 00:00:00, value: 3 9 1 3
+date: 2012-07-21 00:00:00, value: 1 6 1 4
+
+- Example 2:
+Input (history):
+date: 2012-12-30 00:00:00, value: 1 2 8 8
+date: 2012-12-31 00:00:00, value: 1 9 5 0
+date: 2013-01-01 00:00:00, value: 2 5 9 2
+date: 2013-01-02 00:00:00, value: 4 0 2 2
+date: 2013-01-03 00:00:00, value: 4 5 9 0
+date: 2013-01-04 00:00:00, value: 4 2 2 3
+date: 2013-01-05 00:00:00, value: 1 7 5 3
+
+Output (forecast):
+date: 2013-01-06 00:00:00, value: 1 8 7 8
+date: 2013-01-07 00:00:00, value: 5 2 7 9
+date: 2013-01-08 00:00:00, value: 5 4 9 9
+date: 2013-01-09 00:00:00, value: 5 7 7 2
+date: 2013-01-10 00:00:00, value: 5 5 8 4
+date: 2013-01-11 00:00:00, value: 4 6 0 8
+date: 2013-01-12 00:00:00, value: 2 0 2 3
+
+- Example 3:
+Input (history):
+date: 2013-06-23 00:00:00, value: 2 0 7 7
+date: 2013-06-24 00:00:00, value: 5 4 9 3
+date: 2013-06-25 00:00:00, value: 5 6 7 4
+date: 2013-06-26 00:00:00, value: 5 5 5 9
+date: 2013-06-27 00:00:00, value: 5 2 5 2
+date: 2013-06-28 00:00:00, value: 4 2 2 6
+date: 2013-06-29 00:00:00, value: 1 7 3 7
+
+Output (forecast):
+date: 2013-06-30 00:00:00, value: 1 7 3 1
+date: 2013-07-01 00:00:00, value: 5 0 2 5
+date: 2013-07-02 00:00:00, value: 5 2 9 2
+date: 2013-07-03 00:00:00, value: 5 2 6 6
+date: 2013-07-04 00:00:00, value: 4 3 3 0
+date: 2013-07-05 00:00:00, value: 3 7 6 3
+date: 2013-07-06 00:00:00, value: 1 5 2 2
+
+[INPUT]",0.08175573374387848,0.33932874915042904,0.22400892839339445
+few_shot,numeric,csv,115.428,3109.114,3612.326,1.881677770614624,0.0,0.015478200000000001,0.1499646,0.018168399999999998,0.1606852,6819.0,157.8,Wike2000,2012-07-08 00:00:00,2013-07-06 00:00:00,7,openai/gpt-oss-120b,0.7,3,uniform,"[1724, 5070, 5243, 5313, 5085, 4292, 1481]","[1234.0, 5678.0, 9012.0, 3456.0, 7890.0, 2345.0, 6789.0]","[OBJECTIVE]
+Predict the next 7 values based on the historical series (364 periods).
+
+[STATISTICAL CONTEXT]
+- Mean: 4321.0082
+- Median: 4911.5
+- Standard Deviation: 1712.6011
+- Minimum Value: 1262
+- Maximum Value: 7068
+- First Quartile (Q1): 2259.25
+- Third Quartile (Q3): 5566.25
+- Trend Strength (STL): 0.8938
+- Seasonality Strength (STL): 0.9801
+
+[EXAMPLES]
+- Example 1:
+Input (history):
+date,value
+2012-07-08 00:00:00,1735
+2012-07-09 00:00:00,4993
+2012-07-10 00:00:00,5343
+2012-07-11 00:00:00,5103
+2012-07-12 00:00:00,4844
+2012-07-13 00:00:00,3962
+2012-07-14 00:00:00,1658
+
+Output (forecast):
+date,value
+2012-07-15 00:00:00,1762
+2012-07-16 00:00:00,4827
+2012-07-17 00:00:00,5182
+2012-07-18 00:00:00,5162
+2012-07-19 00:00:00,4600
+2012-07-20 00:00:00,3913
+2012-07-21 00:00:00,1614
+
+- Example 2:
+Input (history):
+date,value
+2012-12-30 00:00:00,1288
+2012-12-31 00:00:00,1950
+2013-01-01 00:00:00,2592
+2013-01-02 00:00:00,4022
+2013-01-03 00:00:00,4590
+2013-01-04 00:00:00,4223
+2013-01-05 00:00:00,1753
+
+Output (forecast):
+date,value
+2013-01-06 00:00:00,1878
+2013-01-07 00:00:00,5279
+2013-01-08 00:00:00,5499
+2013-01-09 00:00:00,5772
+2013-01-10 00:00:00,5584
+2013-01-11 00:00:00,4608
+2013-01-12 00:00:00,2023
+
+- Example 3:
+Input (history):
+date,value
+2013-06-23 00:00:00,2077
+2013-06-24 00:00:00,5493
+2013-06-25 00:00:00,5674
+2013-06-26 00:00:00,5559
+2013-06-27 00:00:00,5252
+2013-06-28 00:00:00,4226
+2013-06-29 00:00:00,1737
+
+Output (forecast):
+date,value
+2013-06-30 00:00:00,1731
+2013-07-01 00:00:00,5025
+2013-07-02 00:00:00,5292
+2013-07-03 00:00:00,5266
+2013-07-04 00:00:00,4330
+2013-07-05 00:00:00,3763
+2013-07-06 00:00:00,1522
+
+[INPUT]",34.613157527160105,376.33011813566026,325.12393737773294
+few_shot,numeric,plain,79.67999999999999,2002.6239999999998,2503.4559999999997,1.9275924682617187,0.0,0.0172892,0.1675128,0.0168384,0.1489198,9234.0,170.4,Wike2000,2012-07-08 00:00:00,2013-07-06 00:00:00,7,openai/gpt-oss-120b,0.7,3,uniform,"[1724, 5070, 5243, 5313, 5085, 4292, 1481]","[1739.0, 5277.0, 5.0, 0.0, 1.0, 1000.0, 0.0]","[OBJECTIVE]
+Predict the next 7 values based on the historical series (364 periods).
+
+[STATISTICAL CONTEXT]
+- Mean: 4321.0082
+- Median: 4911.5
+- Standard Deviation: 1712.6011
+- Minimum Value: 1262
+- Maximum Value: 7068
+- First Quartile (Q1): 2259.25
+- Third Quartile (Q3): 5566.25
+- Trend Strength (STL): 0.8938
+- Seasonality Strength (STL): 0.9801
+
+[EXAMPLES]
+- Example 1:
+Input (history):
+date: 2012-07-08 00:00:00, value: 1735
+date: 2012-07-09 00:00:00, value: 4993
+date: 2012-07-10 00:00:00, value: 5343
+date: 2012-07-11 00:00:00, value: 5103
+date: 2012-07-12 00:00:00, value: 4844
+date: 2012-07-13 00:00:00, value: 3962
+date: 2012-07-14 00:00:00, value: 1658
+
+Output (forecast):
+date: 2012-07-15 00:00:00, value: 1762
+date: 2012-07-16 00:00:00, value: 4827
+date: 2012-07-17 00:00:00, value: 5182
+date: 2012-07-18 00:00:00, value: 5162
+date: 2012-07-19 00:00:00, value: 4600
+date: 2012-07-20 00:00:00, value: 3913
+date: 2012-07-21 00:00:00, value: 1614
+
+- Example 2:
+Input (history):
+date: 2012-12-30 00:00:00, value: 1288
+date: 2012-12-31 00:00:00, value: 1950
+date: 2013-01-01 00:00:00, value: 2592
+date: 2013-01-02 00:00:00, value: 4022
+date: 2013-01-03 00:00:00, value: 4590
+date: 2013-01-04 00:00:00, value: 4223
+date: 2013-01-05 00:00:00, value: 1753
+
+Output (forecast):
+date: 2013-01-06 00:00:00, value: 1878
+date: 2013-01-07 00:00:00, value: 5279
+date: 2013-01-08 00:00:00, value: 5499
+date: 2013-01-09 00:00:00, value: 5772
+date: 2013-01-10 00:00:00, value: 5584
+date: 2013-01-11 00:00:00, value: 4608
+date: 2013-01-12 00:00:00, value: 2023
+
+- Example 3:
+Input (history):
+date: 2013-06-23 00:00:00, value: 2077
+date: 2013-06-24 00:00:00, value: 5493
+date: 2013-06-25 00:00:00, value: 5674
+date: 2013-06-26 00:00:00, value: 5559
+date: 2013-06-27 00:00:00, value: 5252
+date: 2013-06-28 00:00:00, value: 4226
+date: 2013-06-29 00:00:00, value: 1737
+
+Output (forecast):
+date: 2013-06-30 00:00:00, value: 1731
+date: 2013-07-01 00:00:00, value: 5025
+date: 2013-07-02 00:00:00, value: 5292
+date: 2013-07-03 00:00:00, value: 5266
+date: 2013-07-04 00:00:00, value: 4330
+date: 2013-07-05 00:00:00, value: 3763
+date: 2013-07-06 00:00:00, value: 1522
+
+[INPUT]",26.46639850829727,538.1812969492715,632.8941409319569
+few_shot,textual,csv,171.064,3734.9120000000003,4152.42,1.7153145313262939,0.0,0.0123194,0.1193622,0.0145036,0.1282724,8849.0,162.4,Wike2000,2012-07-08 00:00:00,2013-07-06 00:00:00,7,openai/gpt-oss-120b,0.7,3,uniform,"[1724, 5070, 5243, 5313, 5085, 4292, 1481]","[5.0, 4.0, 6.0, 2.0, 1.0, 3.0, 5.0]","[OBJECTIVE]
+Predict the next 7 values based on the historical series (364 periods).
+
+[STATISTICAL CONTEXT]
+- Mean: 4321.0082
+- Median: 4911.5
+- Standard Deviation: 1712.6011
+- Minimum Value: 1262
+- Maximum Value: 7068
+- First Quartile (Q1): 2259.25
+- Third Quartile (Q3): 5566.25
+- Trend Strength (STL): 0.8938
+- Seasonality Strength (STL): 0.9801
+
+[EXAMPLES]
+- Example 1:
+Input (history):
+date,value
+2012-07-08 00:00:00,1 7 3 5
+2012-07-09 00:00:00,4 9 9 3
+2012-07-10 00:00:00,5 3 4 3
+2012-07-11 00:00:00,5 1 0 3
+2012-07-12 00:00:00,4 8 4 4
+2012-07-13 00:00:00,3 9 6 2
+2012-07-14 00:00:00,1 6 5 8
+
+Output (forecast):
+date,value
+2012-07-15 00:00:00,1 7 6 2
+2012-07-16 00:00:00,4 8 2 7
+2012-07-17 00:00:00,5 1 8 2
+2012-07-18 00:00:00,5 1 6 2
+2012-07-19 00:00:00,4 6 0 0
+2012-07-20 00:00:00,3 9 1 3
+2012-07-21 00:00:00,1 6 1 4
+
+- Example 2:
+Input (history):
+date,value
+2012-12-30 00:00:00,1 2 8 8
+2012-12-31 00:00:00,1 9 5 0
+2013-01-01 00:00:00,2 5 9 2
+2013-01-02 00:00:00,4 0 2 2
+2013-01-03 00:00:00,4 5 9 0
+2013-01-04 00:00:00,4 2 2 3
+2013-01-05 00:00:00,1 7 5 3
+
+Output (forecast):
+date,value
+2013-01-06 00:00:00,1 8 7 8
+2013-01-07 00:00:00,5 2 7 9
+2013-01-08 00:00:00,5 4 9 9
+2013-01-09 00:00:00,5 7 7 2
+2013-01-10 00:00:00,5 5 8 4
+2013-01-11 00:00:00,4 6 0 8
+2013-01-12 00:00:00,2 0 2 3
+
+- Example 3:
+Input (history):
+date,value
+2013-06-23 00:00:00,2 0 7 7
+2013-06-24 00:00:00,5 4 9 3
+2013-06-25 00:00:00,5 6 7 4
+2013-06-26 00:00:00,5 5 5 9
+2013-06-27 00:00:00,5 2 5 2
+2013-06-28 00:00:00,4 2 2 6
+2013-06-29 00:00:00,1 7 3 7
+
+Output (forecast):
+date,value
+2013-06-30 00:00:00,1 7 3 1
+2013-07-01 00:00:00,5 0 2 5
+2013-07-02 00:00:00,5 2 9 2
+2013-07-03 00:00:00,5 2 6 6
+2013-07-04 00:00:00,4 3 3 0
+2013-07-05 00:00:00,3 7 6 3
+2013-07-06 00:00:00,1 5 2 2
+
+[INPUT]",26.21461893676885,256.4532484762086,130.77146558022517
+few_shot,textual,plain,199.43,4025.494,4319.778,2.223832130432129,0.0,0.0156396,0.1515276,0.016119,0.1425578,11264.0,171.8,Wike2000,2012-07-08 00:00:00,2013-07-06 00:00:00,7,openai/gpt-oss-120b,0.7,3,uniform,"[1724, 5070, 5243, 5313, 5085, 4292, 1481]","[1.0, 1.0, 1.0, 2.0, 2.0, 3.0, 6.0]","[OBJECTIVE]
+Predict the next 7 values based on the historical series (364 periods).
+
+[STATISTICAL CONTEXT]
+- Mean: 4321.0082
+- Median: 4911.5
+- Standard Deviation: 1712.6011
+- Minimum Value: 1262
+- Maximum Value: 7068
+- First Quartile (Q1): 2259.25
+- Third Quartile (Q3): 5566.25
+- Trend Strength (STL): 0.8938
+- Seasonality Strength (STL): 0.9801
+
+[EXAMPLES]
+- Example 1:
+Input (history):
+date: 2012-07-08 00:00:00, value: 1 7 3 5
+date: 2012-07-09 00:00:00, value: 4 9 9 3
+date: 2012-07-10 00:00:00, value: 5 3 4 3
+date: 2012-07-11 00:00:00, value: 5 1 0 3
+date: 2012-07-12 00:00:00, value: 4 8 4 4
+date: 2012-07-13 00:00:00, value: 3 9 6 2
+date: 2012-07-14 00:00:00, value: 1 6 5 8
+
+Output (forecast):
+date: 2012-07-15 00:00:00, value: 1 7 6 2
+date: 2012-07-16 00:00:00, value: 4 8 2 7
+date: 2012-07-17 00:00:00, value: 5 1 8 2
+date: 2012-07-18 00:00:00, value: 5 1 6 2
+date: 2012-07-19 00:00:00, value: 4 6 0 0
+date: 2012-07-20 00:00:00, value: 3 9 1 3
+date: 2012-07-21 00:00:00, value: 1 6 1 4
+
+- Example 2:
+Input (history):
+date: 2012-12-30 00:00:00, value: 1 2 8 8
+date: 2012-12-31 00:00:00, value: 1 9 5 0
+date: 2013-01-01 00:00:00, value: 2 5 9 2
+date: 2013-01-02 00:00:00, value: 4 0 2 2
+date: 2013-01-03 00:00:00, value: 4 5 9 0
+date: 2013-01-04 00:00:00, value: 4 2 2 3
+date: 2013-01-05 00:00:00, value: 1 7 5 3
+
+Output (forecast):
+date: 2013-01-06 00:00:00, value: 1 8 7 8
+date: 2013-01-07 00:00:00, value: 5 2 7 9
+date: 2013-01-08 00:00:00, value: 5 4 9 9
+date: 2013-01-09 00:00:00, value: 5 7 7 2
+date: 2013-01-10 00:00:00, value: 5 5 8 4
+date: 2013-01-11 00:00:00, value: 4 6 0 8
+date: 2013-01-12 00:00:00, value: 2 0 2 3
+
+- Example 3:
+Input (history):
+date: 2013-06-23 00:00:00, value: 2 0 7 7
+date: 2013-06-24 00:00:00, value: 5 4 9 3
+date: 2013-06-25 00:00:00, value: 5 6 7 4
+date: 2013-06-26 00:00:00, value: 5 5 5 9
+date: 2013-06-27 00:00:00, value: 5 2 5 2
+date: 2013-06-28 00:00:00, value: 4 2 2 6
+date: 2013-06-29 00:00:00, value: 1 7 3 7
+
+Output (forecast):
+date: 2013-06-30 00:00:00, value: 1 7 3 1
+date: 2013-07-01 00:00:00, value: 5 0 2 5
+date: 2013-07-02 00:00:00, value: 5 2 9 2
+date: 2013-07-03 00:00:00, value: 5 2 6 6
+date: 2013-07-04 00:00:00, value: 4 3 3 0
+date: 2013-07-05 00:00:00, value: 3 7 6 3
+date: 2013-07-06 00:00:00, value: 1 5 2 2
+
+[INPUT]",0.06760177512462134,0.575782945214559,0.6577567939595186
+zero_shot,numeric,csv,191.692,3987.882,4299.8099999999995,2.1055580139160157,0.0,0.017201,0.1666574,0.0171406,0.1515928,6086.0,159.2,Wike2000,2012-07-08 00:00:00,2013-07-06 00:00:00,7,openai/gpt-oss-120b,0.7,0,,"[1724, 5070, 5243, 5313, 5085, 4292, 1481]","[5.0, 6.0, 2.0, 1.0, 3.0, 5000.0, 5204.0]","[OBJECTIVE]
+Predict the next 7 values based on the historical series (364 periods).
+
+[STATISTICAL CONTEXT]
+- Mean: 4321.0082
+- Median: 4911.5
+- Standard Deviation: 1712.6011
+- Minimum Value: 1262
+- Maximum Value: 7068
+- First Quartile (Q1): 2259.25
+- Third Quartile (Q3): 5566.25
+- Trend Strength (STL): 0.8938
+- Seasonality Strength (STL): 0.9801
+
+[INPUT]",7.762437374948668,38.096001154976854,20.761086676761455
+zero_shot,numeric,plain,52.21,1770.03,2277.2619999999997,1.0624041080474853,0.0,0.0074866,0.0725346,0.014138800000000002,0.1250464,8267.0,157.0,Wike2000,2012-07-08 00:00:00,2013-07-06 00:00:00,7,openai/gpt-oss-120b,0.7,0,,"[1724, 5070, 5243, 5313, 5085, 4292, 1481]","[1492.0, 1520.0, 1555.0, 1586.0, 1618.0, 1647.0, 1682.0]","[OBJECTIVE]
+Predict the next 7 values based on the historical series (364 periods).
+
+[STATISTICAL CONTEXT]
+- Mean: 4321.0082
+- Median: 4911.5
+- Standard Deviation: 1712.6011
+- Minimum Value: 1262
+- Maximum Value: 7068
+- First Quartile (Q1): 2259.25
+- Third Quartile (Q3): 5566.25
+- Trend Strength (STL): 0.8938
+- Seasonality Strength (STL): 0.9801
+
+[INPUT]",9.997913282280457,293.2016822768928,266.0144273042347
+zero_shot,textual,csv,166.916,3551.3720000000003,3868.6459999999997,1.4958885192871094,0.0,0.0126938,0.1229884,0.017991,0.1591142,7906.0,171.6,Wike2000,2012-07-08 00:00:00,2013-07-06 00:00:00,7,openai/gpt-oss-120b,0.7,0,,"[1724, 5070, 5243, 5313, 5085, 4292, 1481]","[1234.0, 5678.0, 4321.0, 8765.0, 3456.0, 7890.0, 2345.0]","[OBJECTIVE]
+Predict the next 7 values based on the historical series (364 periods).
+
+[STATISTICAL CONTEXT]
+- Mean: 4321.0082
+- Median: 4911.5
+- Standard Deviation: 1712.6011
+- Minimum Value: 1262
+- Maximum Value: 7068
+- First Quartile (Q1): 2259.25
+- Third Quartile (Q3): 5566.25
+- Trend Strength (STL): 0.8938
+- Seasonality Strength (STL): 0.9801
+
+[INPUT]",32.61654236733256,474.8781763189376,452.0166688917567
+zero_shot,textual,plain,171.014,3610.892,3867.068,1.6378793239593505,0.0,0.014022999999999999,0.1358624,0.017458599999999998,0.15440700000000002,10087.0,157.6,Wike2000,2012-07-08 00:00:00,2013-07-06 00:00:00,7,openai/gpt-oss-120b,0.7,0,,"[1724, 5070, 5243, 5313, 5085, 4292, 1481]","[4.0, 7.0, 2.0, 5.0, 1.0, 0.0, 3.0]","[OBJECTIVE]
+Predict the next 7 values based on the historical series (364 periods).
+
+[STATISTICAL CONTEXT]
+- Mean: 4321.0082
+- Median: 4911.5
+- Standard Deviation: 1712.6011
+- Minimum Value: 1262
+- Maximum Value: 7068
+- First Quartile (Q1): 2259.25
+- Third Quartile (Q3): 5566.25
+- Trend Strength (STL): 0.8938
+- Seasonality Strength (STL): 0.9801
+
+[INPUT]",28.591043457698426,416.08080649556524,454.2723120045949

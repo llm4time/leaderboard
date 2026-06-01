@@ -1,0 +1,4001 @@
+Dataset,Training Start,Training End,Forecast Horizon,Model,Temperature,Series Type,Prompt Type,Examples,Sampling Strategy,Format,sMAPE,MAE,RMSE,Financial Cost ($),CarbonTracker CO2 (g),CarbonTracker Energy Consumption (Wh),Eco2AI CO2 (g),Eco2AI Energy Consumption (Wh),Input Tokens,Output Tokens,Inference Time (s),Actual Values,Predicted Values,Prompt
+Retail,2017-01-01 00:00:00,2017-12-30 00:00:00,7,qwen3-32b,0.7,numeric,zero_shot,0,,plain,76.84,44.75,65.28,0.0,0.897353,2.016523,0.170855,1.511068,12286,245,10.9907808303833,"[86.27850000000005, 0.0, 137.63199999999998, 50.094, 51.00150000000001, 43.956, 45.8205]","[0.0, 143.594, 143.594, 63.586, 63.586, 63.586, 77.521]","[OBJECTIVE]
+Predict the next 7 values based on the historical series (364 periods).
+
+[STATISTICAL CONTEXT]
+- Mean: 77.1322
+- Median: 51.986
+- Standard Deviation: 52.5492
+- Minimum Value: 0.0
+- Maximum Value: 267.498
+- First Quartile (Q1): 40.5665
+- Third Quartile (Q3): 113.2492
+- Trend Strength (STL): 0.2764
+- Seasonality Strength (STL): 0.9071
+
+[INPUT]"
+Retail,2017-01-01 00:00:00,2017-12-30 00:00:00,7,qwen3-32b,0.7,numeric,zero_shot,0,,plain,82.77,58.83,76.2,0.0,0.330643,0.743019,0.077723,0.687396,12286,218,4.6335039138793945,"[86.27850000000005, 0.0, 137.63199999999998, 50.094, 51.00150000000001, 43.956, 45.8205]","[54.637, 43.71, 53.873, 53.483, 45.114, 142.684, 190.49]","[OBJECTIVE]
+Predict the next 7 values based on the historical series (364 periods).
+
+[STATISTICAL CONTEXT]
+- Mean: 77.1322
+- Median: 51.986
+- Standard Deviation: 52.5492
+- Minimum Value: 0.0
+- Maximum Value: 267.498
+- First Quartile (Q1): 40.5665
+- Third Quartile (Q3): 113.2492
+- Trend Strength (STL): 0.2764
+- Seasonality Strength (STL): 0.9071
+
+[INPUT]"
+Retail,2017-01-01 00:00:00,2017-12-30 00:00:00,7,qwen3-32b,0.7,numeric,zero_shot,0,,plain,37.83,33.14,52.34,0.0,0.408758,0.918558,0.080798,0.714592,12286,245,5.207245826721191,"[86.27850000000005, 0.0, 137.63199999999998, 50.094, 51.00150000000001, 43.956, 45.8205]","[39.854, 0.0, 175.373, 173.932, 40.566, 42.664, 33.605]","[OBJECTIVE]
+Predict the next 7 values based on the historical series (364 periods).
+
+[STATISTICAL CONTEXT]
+- Mean: 77.1322
+- Median: 51.986
+- Standard Deviation: 52.5492
+- Minimum Value: 0.0
+- Maximum Value: 267.498
+- First Quartile (Q1): 40.5665
+- Third Quartile (Q3): 113.2492
+- Trend Strength (STL): 0.2764
+- Seasonality Strength (STL): 0.9071
+
+[INPUT]"
+Retail,2017-01-01 00:00:00,2017-12-30 00:00:00,7,qwen3-32b,0.7,numeric,zero_shot,0,,plain,33.81,26.0,39.35,0.0,0.420351,0.944609,0.072138,0.637999,12286,245,5.2171244621276855,"[86.27850000000005, 0.0, 137.63199999999998, 50.094, 51.00150000000001, 43.956, 45.8205]","[32.794, 0.0, 162.245, 135.197, 45.743, 48.564, 54.75]","[OBJECTIVE]
+Predict the next 7 values based on the historical series (364 periods).
+
+[STATISTICAL CONTEXT]
+- Mean: 77.1322
+- Median: 51.986
+- Standard Deviation: 52.5492
+- Minimum Value: 0.0
+- Maximum Value: 267.498
+- First Quartile (Q1): 40.5665
+- Third Quartile (Q3): 113.2492
+- Trend Strength (STL): 0.2764
+- Seasonality Strength (STL): 0.9071
+
+[INPUT]"
+Retail,2017-01-01 00:00:00,2017-12-30 00:00:00,7,qwen3-32b,0.7,numeric,zero_shot,0,,plain,21.79,19.26,37.56,0.0,0.333445,0.749315,0.077474,0.685194,12286,216,4.571284055709839,"[86.27850000000005, 0.0, 137.63199999999998, 50.094, 51.00150000000001, 43.956, 45.8205]","[97.734, 0.0, 148.431, 147.645, 42.047, 38.437, 46.388]","[OBJECTIVE]
+Predict the next 7 values based on the historical series (364 periods).
+
+[STATISTICAL CONTEXT]
+- Mean: 77.1322
+- Median: 51.986
+- Standard Deviation: 52.5492
+- Minimum Value: 0.0
+- Maximum Value: 267.498
+- First Quartile (Q1): 40.5665
+- Third Quartile (Q3): 113.2492
+- Trend Strength (STL): 0.2764
+- Seasonality Strength (STL): 0.9071
+
+[INPUT]"
+Retail,2017-01-01 00:00:00,2017-12-30 00:00:00,7,qwen3-32b,0.7,textual,zero_shot,0,,plain,24.29,19.44,39.55,0.0,0.996213,2.23868,0.181902,1.608773,13794,240,11.33036971092224,"[86.27850000000005, 0.0, 137.63199999999998, 50.094, 51.00150000000001, 43.956, 45.8205]","[79.14, 0.0, 138.37, 153.15, 39.89, 42.31, 33.46]","[OBJECTIVE]
+Predict the next 7 values based on the historical series (364 periods).
+
+[STATISTICAL CONTEXT]
+- Mean: 77.1322
+- Median: 51.986
+- Standard Deviation: 52.5492
+- Minimum Value: 0.0
+- Maximum Value: 267.498
+- First Quartile (Q1): 40.5665
+- Third Quartile (Q3): 113.2492
+- Trend Strength (STL): 0.2764
+- Seasonality Strength (STL): 0.9071
+
+[INPUT]"
+Retail,2017-01-01 00:00:00,2017-12-30 00:00:00,7,qwen3-32b,0.7,textual,zero_shot,0,,plain,34.63,35.4,56.05,0.0,0.424949,0.954942,0.079513,0.703226,13794,246,5.221693754196167,"[86.27850000000005, 0.0, 137.63199999999998, 50.094, 51.00150000000001, 43.956, 45.8205]","[137.492, 0.0, 177.152, 182.569, 39.869, 41.799, 34.53]","[OBJECTIVE]
+Predict the next 7 values based on the historical series (364 periods).
+
+[STATISTICAL CONTEXT]
+- Mean: 77.1322
+- Median: 51.986
+- Standard Deviation: 52.5492
+- Minimum Value: 0.0
+- Maximum Value: 267.498
+- First Quartile (Q1): 40.5665
+- Third Quartile (Q3): 113.2492
+- Trend Strength (STL): 0.2764
+- Seasonality Strength (STL): 0.9071
+
+[INPUT]"
+Retail,2017-01-01 00:00:00,2017-12-30 00:00:00,7,qwen3-32b,0.7,textual,zero_shot,0,,plain,72.57,48.0,75.11,0.0,0.430154,0.966638,0.088038,0.778622,13794,244,5.199720144271851,"[86.27850000000005, 0.0, 137.63199999999998, 50.094, 51.00150000000001, 43.956, 45.8205]","[0.0, 173.932, 175.373, 42.185, 42.664, 33.605, 57.272]","[OBJECTIVE]
+Predict the next 7 values based on the historical series (364 periods).
+
+[STATISTICAL CONTEXT]
+- Mean: 77.1322
+- Median: 51.986
+- Standard Deviation: 52.5492
+- Minimum Value: 0.0
+- Maximum Value: 267.498
+- First Quartile (Q1): 40.5665
+- Third Quartile (Q3): 113.2492
+- Trend Strength (STL): 0.2764
+- Seasonality Strength (STL): 0.9071
+
+[INPUT]"
+Retail,2017-01-01 00:00:00,2017-12-30 00:00:00,7,qwen3-32b,0.7,textual,zero_shot,0,,plain,46.71,45.71,82.46,0.0,0.403387,0.906488,0.085132,0.752925,13794,242,5.107422590255737,"[86.27850000000005, 0.0, 137.63199999999998, 50.094, 51.00150000000001, 43.956, 45.8205]","[45.32, 205.64, 197.21, 44.61, 43.84, 43.91, 44.75]","[OBJECTIVE]
+Predict the next 7 values based on the historical series (364 periods).
+
+[STATISTICAL CONTEXT]
+- Mean: 77.1322
+- Median: 51.986
+- Standard Deviation: 52.5492
+- Minimum Value: 0.0
+- Maximum Value: 267.498
+- First Quartile (Q1): 40.5665
+- Third Quartile (Q3): 113.2492
+- Trend Strength (STL): 0.2764
+- Seasonality Strength (STL): 0.9071
+
+[INPUT]"
+Retail,2017-01-01 00:00:00,2017-12-30 00:00:00,7,qwen3-32b,0.7,textual,zero_shot,0,,plain,28.19,25.76,41.99,0.0,0.425004,0.955066,0.08275,0.731857,13794,246,5.239413738250732,"[86.27850000000005, 0.0, 137.63199999999998, 50.094, 51.00150000000001, 43.956, 45.8205]","[94.347, 0.0, 185.883, 148.686, 40.052, 35.674, 39.609]","[OBJECTIVE]
+Predict the next 7 values based on the historical series (364 periods).
+
+[STATISTICAL CONTEXT]
+- Mean: 77.1322
+- Median: 51.986
+- Standard Deviation: 52.5492
+- Minimum Value: 0.0
+- Maximum Value: 267.498
+- First Quartile (Q1): 40.5665
+- Third Quartile (Q3): 113.2492
+- Trend Strength (STL): 0.2764
+- Seasonality Strength (STL): 0.9071
+
+[INPUT]"
+Retail,2017-01-01 00:00:00,2017-12-30 00:00:00,7,qwen3-32b,0.7,numeric,zero_shot,0,,csv,72.15,52.3,83.32,0.0,0.78818,1.77119,0.15338,1.356521,10105,215,9.438412189483644,"[86.27850000000005, 0.0, 137.63199999999998, 50.094, 51.00150000000001, 43.956, 45.8205]","[0.0, 195.734, 187.346, 45.738, 46.393, 32.92, 60.22]","[OBJECTIVE]
+Predict the next 7 values based on the historical series (364 periods).
+
+[STATISTICAL CONTEXT]
+- Mean: 77.1322
+- Median: 51.986
+- Standard Deviation: 52.5492
+- Minimum Value: 0.0
+- Maximum Value: 267.498
+- First Quartile (Q1): 40.5665
+- Third Quartile (Q3): 113.2492
+- Trend Strength (STL): 0.2764
+- Seasonality Strength (STL): 0.9071
+
+[INPUT]"
+Retail,2017-01-01 00:00:00,2017-12-30 00:00:00,7,qwen3-32b,0.7,numeric,zero_shot,0,,csv,76.44,65.99,102.47,0.0,0.382884,0.860413,0.070176,0.620644,10105,234,4.833687782287598,"[86.27850000000005, 0.0, 137.63199999999998, 50.094, 51.00150000000001, 43.956, 45.8205]","[0.0, 239.455, 227.133, 67.665, 49.912, 58.95, 58.83]","[OBJECTIVE]
+Predict the next 7 values based on the historical series (364 periods).
+
+[STATISTICAL CONTEXT]
+- Mean: 77.1322
+- Median: 51.986
+- Standard Deviation: 52.5492
+- Minimum Value: 0.0
+- Maximum Value: 267.498
+- First Quartile (Q1): 40.5665
+- Third Quartile (Q3): 113.2492
+- Trend Strength (STL): 0.2764
+- Seasonality Strength (STL): 0.9071
+
+[INPUT]"
+Retail,2017-01-01 00:00:00,2017-12-30 00:00:00,7,qwen3-32b,0.7,numeric,zero_shot,0,,csv,71.28,39.73,62.04,0.0,0.477161,1.072272,0.079139,0.699916,10105,283,5.846272468566895,"[86.27850000000005, 0.0, 137.63199999999998, 50.094, 51.00150000000001, 43.956, 45.8205]","[0.0, 135.4494004943998, 136.1584823307267, 57.35859634368639, 47.29166250843881, 58.2339819478906, 75.4583278193845]","[OBJECTIVE]
+Predict the next 7 values based on the historical series (364 periods).
+
+[STATISTICAL CONTEXT]
+- Mean: 77.1322
+- Median: 51.986
+- Standard Deviation: 52.5492
+- Minimum Value: 0.0
+- Maximum Value: 267.498
+- First Quartile (Q1): 40.5665
+- Third Quartile (Q3): 113.2492
+- Trend Strength (STL): 0.2764
+- Seasonality Strength (STL): 0.9071
+
+[INPUT]"
+Retail,2017-01-01 00:00:00,2017-12-30 00:00:00,7,qwen3-32b,0.7,numeric,zero_shot,0,,csv,68.91,44.07,70.08,0.0,0.349608,0.785637,0.078518,0.694429,10105,217,4.498539209365845,"[86.27850000000005, 0.0, 137.63199999999998, 50.094, 51.00150000000001, 43.956, 45.8205]","[0.0, 159.834, 172.032, 45.167, 43.384, 37.618, 54.945]","[OBJECTIVE]
+Predict the next 7 values based on the historical series (364 periods).
+
+[STATISTICAL CONTEXT]
+- Mean: 77.1322
+- Median: 51.986
+- Standard Deviation: 52.5492
+- Minimum Value: 0.0
+- Maximum Value: 267.498
+- First Quartile (Q1): 40.5665
+- Third Quartile (Q3): 113.2492
+- Trend Strength (STL): 0.2764
+- Seasonality Strength (STL): 0.9071
+
+[INPUT]"
+Retail,2017-01-01 00:00:00,2017-12-30 00:00:00,7,qwen3-32b,0.7,numeric,zero_shot,0,,csv,70.84,41.19,67.25,0.0,0.341315,0.766999,0.079096,0.69954,10105,219,4.574052095413208,"[86.27850000000005, 0.0, 137.63199999999998, 50.094, 51.00150000000001, 43.956, 45.8205]","[0.0, 153.492, 148.192, 34.631, 34.201, 47.655, 43.81]","[OBJECTIVE]
+Predict the next 7 values based on the historical series (364 periods).
+
+[STATISTICAL CONTEXT]
+- Mean: 77.1322
+- Median: 51.986
+- Standard Deviation: 52.5492
+- Minimum Value: 0.0
+- Maximum Value: 267.498
+- First Quartile (Q1): 40.5665
+- Third Quartile (Q3): 113.2492
+- Trend Strength (STL): 0.2764
+- Seasonality Strength (STL): 0.9071
+
+[INPUT]"
+Retail,2017-01-01 00:00:00,2017-12-30 00:00:00,7,qwen3-32b,0.7,textual,zero_shot,0,,csv,66.44,39.25,53.32,0.0,0.900843,2.024367,0.152943,1.352654,11613,240,10.24858832359314,"[86.27850000000005, 0.0, 137.63199999999998, 50.094, 51.00150000000001, 43.956, 45.8205]","[37.85, 42.29, 74.92, 158.26, 62.35, 42.29, 45.96]","[OBJECTIVE]
+Predict the next 7 values based on the historical series (364 periods).
+
+[STATISTICAL CONTEXT]
+- Mean: 77.1322
+- Median: 51.986
+- Standard Deviation: 52.5492
+- Minimum Value: 0.0
+- Maximum Value: 267.498
+- First Quartile (Q1): 40.5665
+- Third Quartile (Q3): 113.2492
+- Trend Strength (STL): 0.2764
+- Seasonality Strength (STL): 0.9071
+
+[INPUT]"
+Retail,2017-01-01 00:00:00,2017-12-30 00:00:00,7,qwen3-32b,0.7,textual,zero_shot,0,,csv,45.83,39.7,71.78,0.0,0.38961,0.875529,0.086641,0.766267,11613,240,5.034714937210083,"[86.27850000000005, 0.0, 137.63199999999998, 50.094, 51.00150000000001, 43.956, 45.8205]","[59.34, 182.98, 178.41, 43.67, 45.08, 38.29, 55.0]","[OBJECTIVE]
+Predict the next 7 values based on the historical series (364 periods).
+
+[STATISTICAL CONTEXT]
+- Mean: 77.1322
+- Median: 51.986
+- Standard Deviation: 52.5492
+- Minimum Value: 0.0
+- Maximum Value: 267.498
+- First Quartile (Q1): 40.5665
+- Third Quartile (Q3): 113.2492
+- Trend Strength (STL): 0.2764
+- Seasonality Strength (STL): 0.9071
+
+[INPUT]"
+Retail,2017-01-01 00:00:00,2017-12-30 00:00:00,7,qwen3-32b,0.7,textual,zero_shot,0,,csv,75.33,54.3,71.31,0.0,0.342184,0.768953,0.076082,0.672883,11613,207,4.377536296844482,"[86.27850000000005, 0.0, 137.63199999999998, 50.094, 51.00150000000001, 43.956, 45.8205]","[57.9, 34.5, 196.4, 186.5, 58.3, 51.8, 152.7]","[OBJECTIVE]
+Predict the next 7 values based on the historical series (364 periods).
+
+[STATISTICAL CONTEXT]
+- Mean: 77.1322
+- Median: 51.986
+- Standard Deviation: 52.5492
+- Minimum Value: 0.0
+- Maximum Value: 267.498
+- First Quartile (Q1): 40.5665
+- Third Quartile (Q3): 113.2492
+- Trend Strength (STL): 0.2764
+- Seasonality Strength (STL): 0.9071
+
+[INPUT]"
+Retail,2017-01-01 00:00:00,2017-12-30 00:00:00,7,qwen3-32b,0.7,textual,zero_shot,0,,csv,44.17,32.73,57.79,0.0,0.418929,0.941414,0.085508,0.756247,11613,248,5.199121713638306,"[86.27850000000005, 0.0, 137.63199999999998, 50.094, 51.00150000000001, 43.956, 45.8205]","[94.835, 146.438, 176.773, 39.931, 44.072, 37.939, 57.708]","[OBJECTIVE]
+Predict the next 7 values based on the historical series (364 periods).
+
+[STATISTICAL CONTEXT]
+- Mean: 77.1322
+- Median: 51.986
+- Standard Deviation: 52.5492
+- Minimum Value: 0.0
+- Maximum Value: 267.498
+- First Quartile (Q1): 40.5665
+- Third Quartile (Q3): 113.2492
+- Trend Strength (STL): 0.2764
+- Seasonality Strength (STL): 0.9071
+
+[INPUT]"
+Retail,2017-01-01 00:00:00,2017-12-30 00:00:00,7,qwen3-32b,0.7,textual,zero_shot,0,,csv,28.79,27.54,49.83,0.0,0.399892,0.898633,0.074764,0.661225,11613,238,5.004472970962524,"[86.27850000000005, 0.0, 137.63199999999998, 50.094, 51.00150000000001, 43.956, 45.8205]","[47.39, 0.0, 158.22, 174.19, 48.64, 43.52, 52.2]","[OBJECTIVE]
+Predict the next 7 values based on the historical series (364 periods).
+
+[STATISTICAL CONTEXT]
+- Mean: 77.1322
+- Median: 51.986
+- Standard Deviation: 52.5492
+- Minimum Value: 0.0
+- Maximum Value: 267.498
+- First Quartile (Q1): 40.5665
+- Third Quartile (Q3): 113.2492
+- Trend Strength (STL): 0.2764
+- Seasonality Strength (STL): 0.9071
+
+[INPUT]"
+Retail,2017-01-01 00:00:00,2017-12-30 00:00:00,7,qwen3-32b,0.7,numeric,cot,0,,plain,36.88,32.73,52.5,0.0,0.917334,2.061424,0.174909,1.546923,12399,233,10.664884567260742,"[86.27850000000005, 0.0, 137.63199999999998, 50.094, 51.00150000000001, 43.956, 45.8205]","[41.0, 0.0, 173.9, 175.4, 42.2, 42.7, 33.6]","[OBJECTIVE]
+Predict the next 7 values based on the historical series (364 periods).
+
+[STATISTICAL CONTEXT]
+- Mean: 77.1322
+- Median: 51.986
+- Standard Deviation: 52.5492
+- Minimum Value: 0.0
+- Maximum Value: 267.498
+- First Quartile (Q1): 40.5665
+- Third Quartile (Q3): 113.2492
+- Trend Strength (STL): 0.2764
+- Seasonality Strength (STL): 0.9071
+
+[REASONING GUIDELINES]
+- Trend: Identify the overall direction (increasing, decreasing, stable) and the trend strength.
+- Seasonality: Patterns that repeat at regular intervals (e.g., daily, weekly, monthly).
+- Outliers: Possible outliers or abrupt changes.
+- Cycles: Not seasonal long-term patterns.
+- Noise reduction: Apply a technique to reduce noise when necessary.
+- Consistency with the provided descriptive statistics (mean, median, etc.).
+- Adjustment for data frequency and contextual events (holidays, promotions, etc.).
+
+[INPUT]"
+Retail,2017-01-01 00:00:00,2017-12-30 00:00:00,7,qwen3-32b,0.7,numeric,cot,0,,plain,83.11,88.18,141.56,0.0,0.430927,0.968375,0.084957,0.751373,12399,248,5.252295732498169,"[86.27850000000005, 0.0, 137.63199999999998, 50.094, 51.00150000000001, 43.956, 45.8205]","[0.0, 327.7945, 294.9926, 34.9794, 33.5794, 35.8166, 40.691]","[OBJECTIVE]
+Predict the next 7 values based on the historical series (364 periods).
+
+[STATISTICAL CONTEXT]
+- Mean: 77.1322
+- Median: 51.986
+- Standard Deviation: 52.5492
+- Minimum Value: 0.0
+- Maximum Value: 267.498
+- First Quartile (Q1): 40.5665
+- Third Quartile (Q3): 113.2492
+- Trend Strength (STL): 0.2764
+- Seasonality Strength (STL): 0.9071
+
+[REASONING GUIDELINES]
+- Trend: Identify the overall direction (increasing, decreasing, stable) and the trend strength.
+- Seasonality: Patterns that repeat at regular intervals (e.g., daily, weekly, monthly).
+- Outliers: Possible outliers or abrupt changes.
+- Cycles: Not seasonal long-term patterns.
+- Noise reduction: Apply a technique to reduce noise when necessary.
+- Consistency with the provided descriptive statistics (mean, median, etc.).
+- Adjustment for data frequency and contextual events (holidays, promotions, etc.).
+
+[INPUT]"
+Retail,2017-01-01 00:00:00,2017-12-30 00:00:00,7,qwen3-32b,0.7,numeric,cot,0,,plain,72.57,48.0,75.11,0.0,0.362884,0.815469,0.07976,0.705407,12399,216,4.580185890197754,"[86.27850000000005, 0.0, 137.63199999999998, 50.094, 51.00150000000001, 43.956, 45.8205]","[0.0, 173.932, 175.373, 42.185, 42.664, 33.605, 57.272]","[OBJECTIVE]
+Predict the next 7 values based on the historical series (364 periods).
+
+[STATISTICAL CONTEXT]
+- Mean: 77.1322
+- Median: 51.986
+- Standard Deviation: 52.5492
+- Minimum Value: 0.0
+- Maximum Value: 267.498
+- First Quartile (Q1): 40.5665
+- Third Quartile (Q3): 113.2492
+- Trend Strength (STL): 0.2764
+- Seasonality Strength (STL): 0.9071
+
+[REASONING GUIDELINES]
+- Trend: Identify the overall direction (increasing, decreasing, stable) and the trend strength.
+- Seasonality: Patterns that repeat at regular intervals (e.g., daily, weekly, monthly).
+- Outliers: Possible outliers or abrupt changes.
+- Cycles: Not seasonal long-term patterns.
+- Noise reduction: Apply a technique to reduce noise when necessary.
+- Consistency with the provided descriptive statistics (mean, median, etc.).
+- Adjustment for data frequency and contextual events (holidays, promotions, etc.).
+
+[INPUT]"
+Retail,2017-01-01 00:00:00,2017-12-30 00:00:00,7,qwen3-32b,0.7,numeric,cot,0,,plain,73.5,43.36,65.15,0.0,0.35334,0.794022,0.075299,0.665956,12399,217,4.609704494476318,"[86.27850000000005, 0.0, 137.63199999999998, 50.094, 51.00150000000001, 43.956, 45.8205]","[0.0, 143.932, 155.373, 52.185, 62.664, 33.605, 77.272]","[OBJECTIVE]
+Predict the next 7 values based on the historical series (364 periods).
+
+[STATISTICAL CONTEXT]
+- Mean: 77.1322
+- Median: 51.986
+- Standard Deviation: 52.5492
+- Minimum Value: 0.0
+- Maximum Value: 267.498
+- First Quartile (Q1): 40.5665
+- Third Quartile (Q3): 113.2492
+- Trend Strength (STL): 0.2764
+- Seasonality Strength (STL): 0.9071
+
+[REASONING GUIDELINES]
+- Trend: Identify the overall direction (increasing, decreasing, stable) and the trend strength.
+- Seasonality: Patterns that repeat at regular intervals (e.g., daily, weekly, monthly).
+- Outliers: Possible outliers or abrupt changes.
+- Cycles: Not seasonal long-term patterns.
+- Noise reduction: Apply a technique to reduce noise when necessary.
+- Consistency with the provided descriptive statistics (mean, median, etc.).
+- Adjustment for data frequency and contextual events (holidays, promotions, etc.).
+
+[INPUT]"
+Retail,2017-01-01 00:00:00,2017-12-30 00:00:00,7,qwen3-32b,0.7,numeric,cot,0,,plain,72.57,48.0,75.11,0.0,0.367605,0.826079,0.079532,0.703394,12399,216,4.562662363052368,"[86.27850000000005, 0.0, 137.63199999999998, 50.094, 51.00150000000001, 43.956, 45.8205]","[0.0, 173.932, 175.373, 42.185, 42.664, 33.605, 57.272]","[OBJECTIVE]
+Predict the next 7 values based on the historical series (364 periods).
+
+[STATISTICAL CONTEXT]
+- Mean: 77.1322
+- Median: 51.986
+- Standard Deviation: 52.5492
+- Minimum Value: 0.0
+- Maximum Value: 267.498
+- First Quartile (Q1): 40.5665
+- Third Quartile (Q3): 113.2492
+- Trend Strength (STL): 0.2764
+- Seasonality Strength (STL): 0.9071
+
+[REASONING GUIDELINES]
+- Trend: Identify the overall direction (increasing, decreasing, stable) and the trend strength.
+- Seasonality: Patterns that repeat at regular intervals (e.g., daily, weekly, monthly).
+- Outliers: Possible outliers or abrupt changes.
+- Cycles: Not seasonal long-term patterns.
+- Noise reduction: Apply a technique to reduce noise when necessary.
+- Consistency with the provided descriptive statistics (mean, median, etc.).
+- Adjustment for data frequency and contextual events (holidays, promotions, etc.).
+
+[INPUT]"
+Retail,2017-01-01 00:00:00,2017-12-30 00:00:00,7,qwen3-32b,0.7,textual,cot,0,,plain,53.51,24.17,30.4,0.0,1.0165,2.284269,0.189721,1.677923,13907,240,11.506505489349363,"[86.27850000000005, 0.0, 137.63199999999998, 50.094, 51.00150000000001, 43.956, 45.8205]","[59.34, 41.61, 78.82, 68.54, 38.73, 38.59, 51.54]","[OBJECTIVE]
+Predict the next 7 values based on the historical series (364 periods).
+
+[STATISTICAL CONTEXT]
+- Mean: 77.1322
+- Median: 51.986
+- Standard Deviation: 52.5492
+- Minimum Value: 0.0
+- Maximum Value: 267.498
+- First Quartile (Q1): 40.5665
+- Third Quartile (Q3): 113.2492
+- Trend Strength (STL): 0.2764
+- Seasonality Strength (STL): 0.9071
+
+[REASONING GUIDELINES]
+- Trend: Identify the overall direction (increasing, decreasing, stable) and the trend strength.
+- Seasonality: Patterns that repeat at regular intervals (e.g., daily, weekly, monthly).
+- Outliers: Possible outliers or abrupt changes.
+- Cycles: Not seasonal long-term patterns.
+- Noise reduction: Apply a technique to reduce noise when necessary.
+- Consistency with the provided descriptive statistics (mean, median, etc.).
+- Adjustment for data frequency and contextual events (holidays, promotions, etc.).
+
+[INPUT]"
+Retail,2017-01-01 00:00:00,2017-12-30 00:00:00,7,qwen3-32b,0.7,textual,cot,0,,plain,72.57,48.0,75.11,0.0,0.41023,0.921865,0.089922,0.795283,13907,244,5.18110466003418,"[86.27850000000005, 0.0, 137.63199999999998, 50.094, 51.00150000000001, 43.956, 45.8205]","[0.0, 173.932, 175.373, 42.185, 42.664, 33.605, 57.272]","[OBJECTIVE]
+Predict the next 7 values based on the historical series (364 periods).
+
+[STATISTICAL CONTEXT]
+- Mean: 77.1322
+- Median: 51.986
+- Standard Deviation: 52.5492
+- Minimum Value: 0.0
+- Maximum Value: 267.498
+- First Quartile (Q1): 40.5665
+- Third Quartile (Q3): 113.2492
+- Trend Strength (STL): 0.2764
+- Seasonality Strength (STL): 0.9071
+
+[REASONING GUIDELINES]
+- Trend: Identify the overall direction (increasing, decreasing, stable) and the trend strength.
+- Seasonality: Patterns that repeat at regular intervals (e.g., daily, weekly, monthly).
+- Outliers: Possible outliers or abrupt changes.
+- Cycles: Not seasonal long-term patterns.
+- Noise reduction: Apply a technique to reduce noise when necessary.
+- Consistency with the provided descriptive statistics (mean, median, etc.).
+- Adjustment for data frequency and contextual events (holidays, promotions, etc.).
+
+[INPUT]"
+Retail,2017-01-01 00:00:00,2017-12-30 00:00:00,7,qwen3-32b,0.7,textual,cot,0,,plain,89.94,59.15,72.74,0.0,0.405818,0.91195,0.086486,0.764896,13907,235,5.006230354309082,"[86.27850000000005, 0.0, 137.63199999999998, 50.094, 51.00150000000001, 43.956, 45.8205]","[45.0, 36.0, 40.0, 74.0, 49.0, 175.0, 128.0]","[OBJECTIVE]
+Predict the next 7 values based on the historical series (364 periods).
+
+[STATISTICAL CONTEXT]
+- Mean: 77.1322
+- Median: 51.986
+- Standard Deviation: 52.5492
+- Minimum Value: 0.0
+- Maximum Value: 267.498
+- First Quartile (Q1): 40.5665
+- Third Quartile (Q3): 113.2492
+- Trend Strength (STL): 0.2764
+- Seasonality Strength (STL): 0.9071
+
+[REASONING GUIDELINES]
+- Trend: Identify the overall direction (increasing, decreasing, stable) and the trend strength.
+- Seasonality: Patterns that repeat at regular intervals (e.g., daily, weekly, monthly).
+- Outliers: Possible outliers or abrupt changes.
+- Cycles: Not seasonal long-term patterns.
+- Noise reduction: Apply a technique to reduce noise when necessary.
+- Consistency with the provided descriptive statistics (mean, median, etc.).
+- Adjustment for data frequency and contextual events (holidays, promotions, etc.).
+
+[INPUT]"
+Retail,2017-01-01 00:00:00,2017-12-30 00:00:00,7,qwen3-32b,0.7,textual,cot,0,,plain,51.67,43.18,75.6,0.0,0.40326,0.906202,0.088591,0.783508,13907,240,5.10749888420105,"[86.27850000000005, 0.0, 137.63199999999998, 50.094, 51.00150000000001, 43.956, 45.8205]","[54.93, 193.45, 166.01, 38.02, 43.04, 38.4, 69.3]","[OBJECTIVE]
+Predict the next 7 values based on the historical series (364 periods).
+
+[STATISTICAL CONTEXT]
+- Mean: 77.1322
+- Median: 51.986
+- Standard Deviation: 52.5492
+- Minimum Value: 0.0
+- Maximum Value: 267.498
+- First Quartile (Q1): 40.5665
+- Third Quartile (Q3): 113.2492
+- Trend Strength (STL): 0.2764
+- Seasonality Strength (STL): 0.9071
+
+[REASONING GUIDELINES]
+- Trend: Identify the overall direction (increasing, decreasing, stable) and the trend strength.
+- Seasonality: Patterns that repeat at regular intervals (e.g., daily, weekly, monthly).
+- Outliers: Possible outliers or abrupt changes.
+- Cycles: Not seasonal long-term patterns.
+- Noise reduction: Apply a technique to reduce noise when necessary.
+- Consistency with the provided descriptive statistics (mean, median, etc.).
+- Adjustment for data frequency and contextual events (holidays, promotions, etc.).
+
+[INPUT]"
+Retail,2017-01-01 00:00:00,2017-12-30 00:00:00,7,qwen3-32b,0.7,textual,cot,0,,plain,57.3,44.33,73.33,0.0,0.433594,0.974369,0.09406,0.831879,13907,255,5.404452085494995,"[86.27850000000005, 0.0, 137.63199999999998, 50.094, 51.00150000000001, 43.956, 45.8205]","[39.6465, 183.3865, 159.3955, 33.5235, 55.9045, 76.2735, 50.5345]","[OBJECTIVE]
+Predict the next 7 values based on the historical series (364 periods).
+
+[STATISTICAL CONTEXT]
+- Mean: 77.1322
+- Median: 51.986
+- Standard Deviation: 52.5492
+- Minimum Value: 0.0
+- Maximum Value: 267.498
+- First Quartile (Q1): 40.5665
+- Third Quartile (Q3): 113.2492
+- Trend Strength (STL): 0.2764
+- Seasonality Strength (STL): 0.9071
+
+[REASONING GUIDELINES]
+- Trend: Identify the overall direction (increasing, decreasing, stable) and the trend strength.
+- Seasonality: Patterns that repeat at regular intervals (e.g., daily, weekly, monthly).
+- Outliers: Possible outliers or abrupt changes.
+- Cycles: Not seasonal long-term patterns.
+- Noise reduction: Apply a technique to reduce noise when necessary.
+- Consistency with the provided descriptive statistics (mean, median, etc.).
+- Adjustment for data frequency and contextual events (holidays, promotions, etc.).
+
+[INPUT]"
+Retail,2017-01-01 00:00:00,2017-12-30 00:00:00,7,qwen3-32b,0.7,numeric,cot,0,,csv,29.86,25.47,46.39,0.0,0.755477,1.697702,0.156266,1.382042,10218,206,9.329773664474487,"[86.27850000000005, 0.0, 137.63199999999998, 50.094, 51.00150000000001, 43.956, 45.8205]","[37.95, 0.0, 145.9, 162.4, 51.2, 46.7, 52.3]","[OBJECTIVE]
+Predict the next 7 values based on the historical series (364 periods).
+
+[STATISTICAL CONTEXT]
+- Mean: 77.1322
+- Median: 51.986
+- Standard Deviation: 52.5492
+- Minimum Value: 0.0
+- Maximum Value: 267.498
+- First Quartile (Q1): 40.5665
+- Third Quartile (Q3): 113.2492
+- Trend Strength (STL): 0.2764
+- Seasonality Strength (STL): 0.9071
+
+[REASONING GUIDELINES]
+- Trend: Identify the overall direction (increasing, decreasing, stable) and the trend strength.
+- Seasonality: Patterns that repeat at regular intervals (e.g., daily, weekly, monthly).
+- Outliers: Possible outliers or abrupt changes.
+- Cycles: Not seasonal long-term patterns.
+- Noise reduction: Apply a technique to reduce noise when necessary.
+- Consistency with the provided descriptive statistics (mean, median, etc.).
+- Adjustment for data frequency and contextual events (holidays, promotions, etc.).
+
+[INPUT]"
+Retail,2017-01-01 00:00:00,2017-12-30 00:00:00,7,qwen3-32b,0.7,numeric,cot,0,,csv,62.9,52.44,98.74,0.0,0.344897,0.77505,0.070425,0.622849,10218,217,4.511802673339844,"[86.27850000000005, 0.0, 137.63199999999998, 50.094, 51.00150000000001, 43.956, 45.8205]","[0.0, 245.039, 110.578, 47.168, 48.614, 44.189, 42.651]","[OBJECTIVE]
+Predict the next 7 values based on the historical series (364 periods).
+
+[STATISTICAL CONTEXT]
+- Mean: 77.1322
+- Median: 51.986
+- Standard Deviation: 52.5492
+- Minimum Value: 0.0
+- Maximum Value: 267.498
+- First Quartile (Q1): 40.5665
+- Third Quartile (Q3): 113.2492
+- Trend Strength (STL): 0.2764
+- Seasonality Strength (STL): 0.9071
+
+[REASONING GUIDELINES]
+- Trend: Identify the overall direction (increasing, decreasing, stable) and the trend strength.
+- Seasonality: Patterns that repeat at regular intervals (e.g., daily, weekly, monthly).
+- Outliers: Possible outliers or abrupt changes.
+- Cycles: Not seasonal long-term patterns.
+- Noise reduction: Apply a technique to reduce noise when necessary.
+- Consistency with the provided descriptive statistics (mean, median, etc.).
+- Adjustment for data frequency and contextual events (holidays, promotions, etc.).
+
+[INPUT]"
+Retail,2017-01-01 00:00:00,2017-12-30 00:00:00,7,qwen3-32b,0.7,numeric,cot,0,,csv,32.47,30.4,50.82,0.0,0.398147,0.894712,0.088428,0.782068,10218,245,5.094923973083496,"[86.27850000000005, 0.0, 137.63199999999998, 50.094, 51.00150000000001, 43.956, 45.8205]","[57.394, 0.0, 173.932, 175.373, 42.185, 42.664, 33.605]","[OBJECTIVE]
+Predict the next 7 values based on the historical series (364 periods).
+
+[STATISTICAL CONTEXT]
+- Mean: 77.1322
+- Median: 51.986
+- Standard Deviation: 52.5492
+- Minimum Value: 0.0
+- Maximum Value: 267.498
+- First Quartile (Q1): 40.5665
+- Third Quartile (Q3): 113.2492
+- Trend Strength (STL): 0.2764
+- Seasonality Strength (STL): 0.9071
+
+[REASONING GUIDELINES]
+- Trend: Identify the overall direction (increasing, decreasing, stable) and the trend strength.
+- Seasonality: Patterns that repeat at regular intervals (e.g., daily, weekly, monthly).
+- Outliers: Possible outliers or abrupt changes.
+- Cycles: Not seasonal long-term patterns.
+- Noise reduction: Apply a technique to reduce noise when necessary.
+- Consistency with the provided descriptive statistics (mean, median, etc.).
+- Adjustment for data frequency and contextual events (holidays, promotions, etc.).
+
+[INPUT]"
+Retail,2017-01-01 00:00:00,2017-12-30 00:00:00,7,qwen3-32b,0.7,numeric,cot,0,,csv,67.25,57.3,99.85,0.0,0.407941,0.916722,0.086955,0.769043,10218,242,5.026926040649414,"[86.27850000000005, 0.0, 137.63199999999998, 50.094, 51.00150000000001, 43.956, 45.8205]","[0.0, 243.975, 189.815, 45.657, 48.527, 51.048, 50.479]","[OBJECTIVE]
+Predict the next 7 values based on the historical series (364 periods).
+
+[STATISTICAL CONTEXT]
+- Mean: 77.1322
+- Median: 51.986
+- Standard Deviation: 52.5492
+- Minimum Value: 0.0
+- Maximum Value: 267.498
+- First Quartile (Q1): 40.5665
+- Third Quartile (Q3): 113.2492
+- Trend Strength (STL): 0.2764
+- Seasonality Strength (STL): 0.9071
+
+[REASONING GUIDELINES]
+- Trend: Identify the overall direction (increasing, decreasing, stable) and the trend strength.
+- Seasonality: Patterns that repeat at regular intervals (e.g., daily, weekly, monthly).
+- Outliers: Possible outliers or abrupt changes.
+- Cycles: Not seasonal long-term patterns.
+- Noise reduction: Apply a technique to reduce noise when necessary.
+- Consistency with the provided descriptive statistics (mean, median, etc.).
+- Adjustment for data frequency and contextual events (holidays, promotions, etc.).
+
+[INPUT]"
+Retail,2017-01-01 00:00:00,2017-12-30 00:00:00,7,qwen3-32b,0.7,numeric,cot,0,,csv,81.24,40.02,52.59,0.0,0.316601,0.711463,0.075035,0.663623,10218,204,4.2269675731658936,"[86.27850000000005, 0.0, 137.63199999999998, 50.094, 51.00150000000001, 43.956, 45.8205]","[3.45, 98.7, 97.8, 27.0, 28.6, 32.5, 44.0]","[OBJECTIVE]
+Predict the next 7 values based on the historical series (364 periods).
+
+[STATISTICAL CONTEXT]
+- Mean: 77.1322
+- Median: 51.986
+- Standard Deviation: 52.5492
+- Minimum Value: 0.0
+- Maximum Value: 267.498
+- First Quartile (Q1): 40.5665
+- Third Quartile (Q3): 113.2492
+- Trend Strength (STL): 0.2764
+- Seasonality Strength (STL): 0.9071
+
+[REASONING GUIDELINES]
+- Trend: Identify the overall direction (increasing, decreasing, stable) and the trend strength.
+- Seasonality: Patterns that repeat at regular intervals (e.g., daily, weekly, monthly).
+- Outliers: Possible outliers or abrupt changes.
+- Cycles: Not seasonal long-term patterns.
+- Noise reduction: Apply a technique to reduce noise when necessary.
+- Consistency with the provided descriptive statistics (mean, median, etc.).
+- Adjustment for data frequency and contextual events (holidays, promotions, etc.).
+
+[INPUT]"
+Retail,2017-01-01 00:00:00,2017-12-30 00:00:00,7,qwen3-32b,0.7,textual,cot,0,,csv,47.31,38.57,67.66,0.0,0.901011,2.024745,0.171489,1.516677,11726,240,10.338599920272827,"[86.27850000000005, 0.0, 137.63199999999998, 50.094, 51.00150000000001, 43.956, 45.8205]","[59.43, 172.02, 175.05, 43.29, 45.7, 36.86, 60.3]","[OBJECTIVE]
+Predict the next 7 values based on the historical series (364 periods).
+
+[STATISTICAL CONTEXT]
+- Mean: 77.1322
+- Median: 51.986
+- Standard Deviation: 52.5492
+- Minimum Value: 0.0
+- Maximum Value: 267.498
+- First Quartile (Q1): 40.5665
+- Third Quartile (Q3): 113.2492
+- Trend Strength (STL): 0.2764
+- Seasonality Strength (STL): 0.9071
+
+[REASONING GUIDELINES]
+- Trend: Identify the overall direction (increasing, decreasing, stable) and the trend strength.
+- Seasonality: Patterns that repeat at regular intervals (e.g., daily, weekly, monthly).
+- Outliers: Possible outliers or abrupt changes.
+- Cycles: Not seasonal long-term patterns.
+- Noise reduction: Apply a technique to reduce noise when necessary.
+- Consistency with the provided descriptive statistics (mean, median, etc.).
+- Adjustment for data frequency and contextual events (holidays, promotions, etc.).
+
+[INPUT]"
+Retail,2017-01-01 00:00:00,2017-12-30 00:00:00,7,qwen3-32b,0.7,textual,cot,0,,csv,45.29,36.84,67.72,0.0,0.418422,0.940275,0.090605,0.801321,11726,248,5.2485127449035645,"[86.27850000000005, 0.0, 137.63199999999998, 50.094, 51.00150000000001, 43.956, 45.8205]","[94.503, 173.891, 175.346, 42.185, 42.664, 33.605, 57.272]","[OBJECTIVE]
+Predict the next 7 values based on the historical series (364 periods).
+
+[STATISTICAL CONTEXT]
+- Mean: 77.1322
+- Median: 51.986
+- Standard Deviation: 52.5492
+- Minimum Value: 0.0
+- Maximum Value: 267.498
+- First Quartile (Q1): 40.5665
+- Third Quartile (Q3): 113.2492
+- Trend Strength (STL): 0.2764
+- Seasonality Strength (STL): 0.9071
+
+[REASONING GUIDELINES]
+- Trend: Identify the overall direction (increasing, decreasing, stable) and the trend strength.
+- Seasonality: Patterns that repeat at regular intervals (e.g., daily, weekly, monthly).
+- Outliers: Possible outliers or abrupt changes.
+- Cycles: Not seasonal long-term patterns.
+- Noise reduction: Apply a technique to reduce noise when necessary.
+- Consistency with the provided descriptive statistics (mean, median, etc.).
+- Adjustment for data frequency and contextual events (holidays, promotions, etc.).
+
+[INPUT]"
+Retail,2017-01-01 00:00:00,2017-12-30 00:00:00,7,qwen3-32b,0.7,textual,cot,0,,csv,58.34,52.7,79.23,0.0,0.415923,0.934658,0.078189,0.691514,11726,242,5.118838310241699,"[86.27850000000005, 0.0, 137.63199999999998, 50.094, 51.00150000000001, 43.956, 45.8205]","[137.94, 183.57, 94.82, 46.81, 45.67, 36.89, 121.03]","[OBJECTIVE]
+Predict the next 7 values based on the historical series (364 periods).
+
+[STATISTICAL CONTEXT]
+- Mean: 77.1322
+- Median: 51.986
+- Standard Deviation: 52.5492
+- Minimum Value: 0.0
+- Maximum Value: 267.498
+- First Quartile (Q1): 40.5665
+- Third Quartile (Q3): 113.2492
+- Trend Strength (STL): 0.2764
+- Seasonality Strength (STL): 0.9071
+
+[REASONING GUIDELINES]
+- Trend: Identify the overall direction (increasing, decreasing, stable) and the trend strength.
+- Seasonality: Patterns that repeat at regular intervals (e.g., daily, weekly, monthly).
+- Outliers: Possible outliers or abrupt changes.
+- Cycles: Not seasonal long-term patterns.
+- Noise reduction: Apply a technique to reduce noise when necessary.
+- Consistency with the provided descriptive statistics (mean, median, etc.).
+- Adjustment for data frequency and contextual events (holidays, promotions, etc.).
+
+[INPUT]"
+Retail,2017-01-01 00:00:00,2017-12-30 00:00:00,7,qwen3-32b,0.7,textual,cot,0,,csv,64.51,45.97,71.46,0.0,0.410851,0.92326,0.09089,0.803849,11726,252,5.282536506652832,"[86.27850000000005, 0.0, 137.63199999999998, 50.094, 51.00150000000001, 43.956, 45.8205]","[30.5849, 175.023, 169.303, 27.5705, 38.7306, 36.3016, 62.7548]","[OBJECTIVE]
+Predict the next 7 values based on the historical series (364 periods).
+
+[STATISTICAL CONTEXT]
+- Mean: 77.1322
+- Median: 51.986
+- Standard Deviation: 52.5492
+- Minimum Value: 0.0
+- Maximum Value: 267.498
+- First Quartile (Q1): 40.5665
+- Third Quartile (Q3): 113.2492
+- Trend Strength (STL): 0.2764
+- Seasonality Strength (STL): 0.9071
+
+[REASONING GUIDELINES]
+- Trend: Identify the overall direction (increasing, decreasing, stable) and the trend strength.
+- Seasonality: Patterns that repeat at regular intervals (e.g., daily, weekly, monthly).
+- Outliers: Possible outliers or abrupt changes.
+- Cycles: Not seasonal long-term patterns.
+- Noise reduction: Apply a technique to reduce noise when necessary.
+- Consistency with the provided descriptive statistics (mean, median, etc.).
+- Adjustment for data frequency and contextual events (holidays, promotions, etc.).
+
+[INPUT]"
+Retail,2017-01-01 00:00:00,2017-12-30 00:00:00,7,qwen3-32b,0.7,textual,cot,0,,csv,53.77,19.11,29.55,0.0,0.392395,0.881786,0.087028,0.769692,11726,238,5.01326060295105,"[86.27850000000005, 0.0, 137.63199999999998, 50.094, 51.00150000000001, 43.956, 45.8205]","[53.87, 0.96, 148.94, 119.13, 45.27, 47.22, 56.9]","[OBJECTIVE]
+Predict the next 7 values based on the historical series (364 periods).
+
+[STATISTICAL CONTEXT]
+- Mean: 77.1322
+- Median: 51.986
+- Standard Deviation: 52.5492
+- Minimum Value: 0.0
+- Maximum Value: 267.498
+- First Quartile (Q1): 40.5665
+- Third Quartile (Q3): 113.2492
+- Trend Strength (STL): 0.2764
+- Seasonality Strength (STL): 0.9071
+
+[REASONING GUIDELINES]
+- Trend: Identify the overall direction (increasing, decreasing, stable) and the trend strength.
+- Seasonality: Patterns that repeat at regular intervals (e.g., daily, weekly, monthly).
+- Outliers: Possible outliers or abrupt changes.
+- Cycles: Not seasonal long-term patterns.
+- Noise reduction: Apply a technique to reduce noise when necessary.
+- Consistency with the provided descriptive statistics (mean, median, etc.).
+- Adjustment for data frequency and contextual events (holidays, promotions, etc.).
+
+[INPUT]"
+Retail,2017-01-01 00:00:00,2017-12-30 00:00:00,7,qwen3-32b,0.7,numeric,few_shot,3,uniform,plain,28.33,26.23,42.4,0.0,0.952313,2.140028,0.166395,1.471622,13719,209,10.767204284667969,"[86.27850000000005, 0.0, 137.63199999999998, 50.094, 51.00150000000001, 43.956, 45.8205]","[75.93, 0.0, 191.75, 146.8, 45.85, 32.16, 40.3]","[OBJECTIVE]
+Predict the next 7 values based on the historical series (364 periods).
+
+[STATISTICAL CONTEXT]
+- Mean: 77.1322
+- Median: 51.986
+- Standard Deviation: 52.5492
+- Minimum Value: 0.0
+- Maximum Value: 267.498
+- First Quartile (Q1): 40.5665
+- Third Quartile (Q3): 113.2492
+- Trend Strength (STL): 0.2764
+- Seasonality Strength (STL): 0.9071
+
+[EXAMPLES]
+- Example 1:
+Input (history):
+date: 2017-01-01 00:00:00, value: 0.0
+date: 2017-01-02 00:00:00, value: 173.932
+date: 2017-01-03 00:00:00, value: 175.373
+date: 2017-01-04 00:00:00, value: 42.185
+date: 2017-01-05 00:00:00, value: 42.664
+date: 2017-01-06 00:00:00, value: 33.605
+date: 2017-01-07 00:00:00, value: 57.272
+
+Output (forecast):
+date: 2017-01-08 00:00:00, value: 48.433
+date: 2017-01-09 00:00:00, value: 132.946
+date: 2017-01-10 00:00:00, value: 118.382
+date: 2017-01-11 00:00:00, value: 29.381
+date: 2017-01-12 00:00:00, value: 30.069
+date: 2017-01-13 00:00:00, value: 37.098
+date: 2017-01-14 00:00:00, value: 50.496
+
+- Example 2:
+Input (history):
+date: 2017-06-25 00:00:00, value: 59.361
+date: 2017-06-26 00:00:00, value: 141.972
+date: 2017-06-27 00:00:00, value: 169.02
+date: 2017-06-28 00:00:00, value: 33.369
+date: 2017-06-29 00:00:00, value: 34.898
+date: 2017-06-30 00:00:00, value: 54.516
+date: 2017-07-01 00:00:00, value: 105.264
+
+Output (forecast):
+date: 2017-07-02 00:00:00, value: 57.678
+date: 2017-07-03 00:00:00, value: 111.419
+date: 2017-07-04 00:00:00, value: 128.106
+date: 2017-07-05 00:00:00, value: 42.306
+date: 2017-07-06 00:00:00, value: 39.688
+date: 2017-07-07 00:00:00, value: 35.393
+date: 2017-07-08 00:00:00, value: 56.788
+
+- Example 3:
+Input (history):
+date: 2017-12-17 00:00:00, value: 47.338
+date: 2017-12-18 00:00:00, value: 85.536
+date: 2017-12-19 00:00:00, value: 122.089
+date: 2017-12-20 00:00:00, value: 33.605
+date: 2017-12-21 00:00:00, value: 51.942
+date: 2017-12-22 00:00:00, value: 42.146
+date: 2017-12-23 00:00:00, value: 83.127
+
+Output (forecast):
+date: 2017-12-24 00:00:00, value: 93.297
+date: 2017-12-25 00:00:00, value: 0.0
+date: 2017-12-26 00:00:00, value: 131.065
+date: 2017-12-27 00:00:00, value: 44.192
+date: 2017-12-28 00:00:00, value: 30.651
+date: 2017-12-29 00:00:00, value: 82.951
+date: 2017-12-30 00:00:00, value: 83.765
+
+[INPUT]"
+Retail,2017-01-01 00:00:00,2017-12-30 00:00:00,7,qwen3-32b,0.7,numeric,few_shot,3,uniform,plain,36.89,32.75,52.28,0.0,0.428177,0.962195,0.090326,0.798854,13719,244,5.179969549179077,"[86.27850000000005, 0.0, 137.63199999999998, 50.094, 51.00150000000001, 43.956, 45.8205]","[42.397, 0.0, 174.534, 175.036, 41.939, 41.484, 33.83]","[OBJECTIVE]
+Predict the next 7 values based on the historical series (364 periods).
+
+[STATISTICAL CONTEXT]
+- Mean: 77.1322
+- Median: 51.986
+- Standard Deviation: 52.5492
+- Minimum Value: 0.0
+- Maximum Value: 267.498
+- First Quartile (Q1): 40.5665
+- Third Quartile (Q3): 113.2492
+- Trend Strength (STL): 0.2764
+- Seasonality Strength (STL): 0.9071
+
+[EXAMPLES]
+- Example 1:
+Input (history):
+date: 2017-01-01 00:00:00, value: 0.0
+date: 2017-01-02 00:00:00, value: 173.932
+date: 2017-01-03 00:00:00, value: 175.373
+date: 2017-01-04 00:00:00, value: 42.185
+date: 2017-01-05 00:00:00, value: 42.664
+date: 2017-01-06 00:00:00, value: 33.605
+date: 2017-01-07 00:00:00, value: 57.272
+
+Output (forecast):
+date: 2017-01-08 00:00:00, value: 48.433
+date: 2017-01-09 00:00:00, value: 132.946
+date: 2017-01-10 00:00:00, value: 118.382
+date: 2017-01-11 00:00:00, value: 29.381
+date: 2017-01-12 00:00:00, value: 30.069
+date: 2017-01-13 00:00:00, value: 37.098
+date: 2017-01-14 00:00:00, value: 50.496
+
+- Example 2:
+Input (history):
+date: 2017-06-25 00:00:00, value: 59.361
+date: 2017-06-26 00:00:00, value: 141.972
+date: 2017-06-27 00:00:00, value: 169.02
+date: 2017-06-28 00:00:00, value: 33.369
+date: 2017-06-29 00:00:00, value: 34.898
+date: 2017-06-30 00:00:00, value: 54.516
+date: 2017-07-01 00:00:00, value: 105.264
+
+Output (forecast):
+date: 2017-07-02 00:00:00, value: 57.678
+date: 2017-07-03 00:00:00, value: 111.419
+date: 2017-07-04 00:00:00, value: 128.106
+date: 2017-07-05 00:00:00, value: 42.306
+date: 2017-07-06 00:00:00, value: 39.688
+date: 2017-07-07 00:00:00, value: 35.393
+date: 2017-07-08 00:00:00, value: 56.788
+
+- Example 3:
+Input (history):
+date: 2017-12-17 00:00:00, value: 47.338
+date: 2017-12-18 00:00:00, value: 85.536
+date: 2017-12-19 00:00:00, value: 122.089
+date: 2017-12-20 00:00:00, value: 33.605
+date: 2017-12-21 00:00:00, value: 51.942
+date: 2017-12-22 00:00:00, value: 42.146
+date: 2017-12-23 00:00:00, value: 83.127
+
+Output (forecast):
+date: 2017-12-24 00:00:00, value: 93.297
+date: 2017-12-25 00:00:00, value: 0.0
+date: 2017-12-26 00:00:00, value: 131.065
+date: 2017-12-27 00:00:00, value: 44.192
+date: 2017-12-28 00:00:00, value: 30.651
+date: 2017-12-29 00:00:00, value: 82.951
+date: 2017-12-30 00:00:00, value: 83.765
+
+[INPUT]"
+Retail,2017-01-01 00:00:00,2017-12-30 00:00:00,7,qwen3-32b,0.7,numeric,few_shot,3,uniform,plain,36.96,35.01,54.76,0.0,0.408695,0.918415,0.090919,0.804102,13719,246,5.243499279022217,"[86.27850000000005, 0.0, 137.63199999999998, 50.094, 51.00150000000001, 43.956, 45.8205]","[43.733, 0.0, 193.115, 176.402, 44.723, 38.687, 36.623]","[OBJECTIVE]
+Predict the next 7 values based on the historical series (364 periods).
+
+[STATISTICAL CONTEXT]
+- Mean: 77.1322
+- Median: 51.986
+- Standard Deviation: 52.5492
+- Minimum Value: 0.0
+- Maximum Value: 267.498
+- First Quartile (Q1): 40.5665
+- Third Quartile (Q3): 113.2492
+- Trend Strength (STL): 0.2764
+- Seasonality Strength (STL): 0.9071
+
+[EXAMPLES]
+- Example 1:
+Input (history):
+date: 2017-01-01 00:00:00, value: 0.0
+date: 2017-01-02 00:00:00, value: 173.932
+date: 2017-01-03 00:00:00, value: 175.373
+date: 2017-01-04 00:00:00, value: 42.185
+date: 2017-01-05 00:00:00, value: 42.664
+date: 2017-01-06 00:00:00, value: 33.605
+date: 2017-01-07 00:00:00, value: 57.272
+
+Output (forecast):
+date: 2017-01-08 00:00:00, value: 48.433
+date: 2017-01-09 00:00:00, value: 132.946
+date: 2017-01-10 00:00:00, value: 118.382
+date: 2017-01-11 00:00:00, value: 29.381
+date: 2017-01-12 00:00:00, value: 30.069
+date: 2017-01-13 00:00:00, value: 37.098
+date: 2017-01-14 00:00:00, value: 50.496
+
+- Example 2:
+Input (history):
+date: 2017-06-25 00:00:00, value: 59.361
+date: 2017-06-26 00:00:00, value: 141.972
+date: 2017-06-27 00:00:00, value: 169.02
+date: 2017-06-28 00:00:00, value: 33.369
+date: 2017-06-29 00:00:00, value: 34.898
+date: 2017-06-30 00:00:00, value: 54.516
+date: 2017-07-01 00:00:00, value: 105.264
+
+Output (forecast):
+date: 2017-07-02 00:00:00, value: 57.678
+date: 2017-07-03 00:00:00, value: 111.419
+date: 2017-07-04 00:00:00, value: 128.106
+date: 2017-07-05 00:00:00, value: 42.306
+date: 2017-07-06 00:00:00, value: 39.688
+date: 2017-07-07 00:00:00, value: 35.393
+date: 2017-07-08 00:00:00, value: 56.788
+
+- Example 3:
+Input (history):
+date: 2017-12-17 00:00:00, value: 47.338
+date: 2017-12-18 00:00:00, value: 85.536
+date: 2017-12-19 00:00:00, value: 122.089
+date: 2017-12-20 00:00:00, value: 33.605
+date: 2017-12-21 00:00:00, value: 51.942
+date: 2017-12-22 00:00:00, value: 42.146
+date: 2017-12-23 00:00:00, value: 83.127
+
+Output (forecast):
+date: 2017-12-24 00:00:00, value: 93.297
+date: 2017-12-25 00:00:00, value: 0.0
+date: 2017-12-26 00:00:00, value: 131.065
+date: 2017-12-27 00:00:00, value: 44.192
+date: 2017-12-28 00:00:00, value: 30.651
+date: 2017-12-29 00:00:00, value: 82.951
+date: 2017-12-30 00:00:00, value: 83.765
+
+[INPUT]"
+Retail,2017-01-01 00:00:00,2017-12-30 00:00:00,7,qwen3-32b,0.7,numeric,few_shot,3,uniform,plain,47.18,39.27,69.8,0.0,0.347206,0.780237,0.07929,0.701257,13719,216,4.6016271114349365,"[86.27850000000005, 0.0, 137.63199999999998, 50.094, 51.00150000000001, 43.956, 45.8205]","[54.34, 177.919, 170.23, 46.112, 48.768, 56.034, 59.972]","[OBJECTIVE]
+Predict the next 7 values based on the historical series (364 periods).
+
+[STATISTICAL CONTEXT]
+- Mean: 77.1322
+- Median: 51.986
+- Standard Deviation: 52.5492
+- Minimum Value: 0.0
+- Maximum Value: 267.498
+- First Quartile (Q1): 40.5665
+- Third Quartile (Q3): 113.2492
+- Trend Strength (STL): 0.2764
+- Seasonality Strength (STL): 0.9071
+
+[EXAMPLES]
+- Example 1:
+Input (history):
+date: 2017-01-01 00:00:00, value: 0.0
+date: 2017-01-02 00:00:00, value: 173.932
+date: 2017-01-03 00:00:00, value: 175.373
+date: 2017-01-04 00:00:00, value: 42.185
+date: 2017-01-05 00:00:00, value: 42.664
+date: 2017-01-06 00:00:00, value: 33.605
+date: 2017-01-07 00:00:00, value: 57.272
+
+Output (forecast):
+date: 2017-01-08 00:00:00, value: 48.433
+date: 2017-01-09 00:00:00, value: 132.946
+date: 2017-01-10 00:00:00, value: 118.382
+date: 2017-01-11 00:00:00, value: 29.381
+date: 2017-01-12 00:00:00, value: 30.069
+date: 2017-01-13 00:00:00, value: 37.098
+date: 2017-01-14 00:00:00, value: 50.496
+
+- Example 2:
+Input (history):
+date: 2017-06-25 00:00:00, value: 59.361
+date: 2017-06-26 00:00:00, value: 141.972
+date: 2017-06-27 00:00:00, value: 169.02
+date: 2017-06-28 00:00:00, value: 33.369
+date: 2017-06-29 00:00:00, value: 34.898
+date: 2017-06-30 00:00:00, value: 54.516
+date: 2017-07-01 00:00:00, value: 105.264
+
+Output (forecast):
+date: 2017-07-02 00:00:00, value: 57.678
+date: 2017-07-03 00:00:00, value: 111.419
+date: 2017-07-04 00:00:00, value: 128.106
+date: 2017-07-05 00:00:00, value: 42.306
+date: 2017-07-06 00:00:00, value: 39.688
+date: 2017-07-07 00:00:00, value: 35.393
+date: 2017-07-08 00:00:00, value: 56.788
+
+- Example 3:
+Input (history):
+date: 2017-12-17 00:00:00, value: 47.338
+date: 2017-12-18 00:00:00, value: 85.536
+date: 2017-12-19 00:00:00, value: 122.089
+date: 2017-12-20 00:00:00, value: 33.605
+date: 2017-12-21 00:00:00, value: 51.942
+date: 2017-12-22 00:00:00, value: 42.146
+date: 2017-12-23 00:00:00, value: 83.127
+
+Output (forecast):
+date: 2017-12-24 00:00:00, value: 93.297
+date: 2017-12-25 00:00:00, value: 0.0
+date: 2017-12-26 00:00:00, value: 131.065
+date: 2017-12-27 00:00:00, value: 44.192
+date: 2017-12-28 00:00:00, value: 30.651
+date: 2017-12-29 00:00:00, value: 82.951
+date: 2017-12-30 00:00:00, value: 83.765
+
+[INPUT]"
+Retail,2017-01-01 00:00:00,2017-12-30 00:00:00,7,qwen3-32b,0.7,numeric,few_shot,3,uniform,plain,35.29,33.05,50.4,0.0,0.421019,0.946111,0.088404,0.781859,13719,240,5.1000823974609375,"[86.27850000000005, 0.0, 137.63199999999998, 50.094, 51.00150000000001, 43.956, 45.8205]","[43.27, 0.0, 199.86, 158.91, 36.26, 42.88, 44.31]","[OBJECTIVE]
+Predict the next 7 values based on the historical series (364 periods).
+
+[STATISTICAL CONTEXT]
+- Mean: 77.1322
+- Median: 51.986
+- Standard Deviation: 52.5492
+- Minimum Value: 0.0
+- Maximum Value: 267.498
+- First Quartile (Q1): 40.5665
+- Third Quartile (Q3): 113.2492
+- Trend Strength (STL): 0.2764
+- Seasonality Strength (STL): 0.9071
+
+[EXAMPLES]
+- Example 1:
+Input (history):
+date: 2017-01-01 00:00:00, value: 0.0
+date: 2017-01-02 00:00:00, value: 173.932
+date: 2017-01-03 00:00:00, value: 175.373
+date: 2017-01-04 00:00:00, value: 42.185
+date: 2017-01-05 00:00:00, value: 42.664
+date: 2017-01-06 00:00:00, value: 33.605
+date: 2017-01-07 00:00:00, value: 57.272
+
+Output (forecast):
+date: 2017-01-08 00:00:00, value: 48.433
+date: 2017-01-09 00:00:00, value: 132.946
+date: 2017-01-10 00:00:00, value: 118.382
+date: 2017-01-11 00:00:00, value: 29.381
+date: 2017-01-12 00:00:00, value: 30.069
+date: 2017-01-13 00:00:00, value: 37.098
+date: 2017-01-14 00:00:00, value: 50.496
+
+- Example 2:
+Input (history):
+date: 2017-06-25 00:00:00, value: 59.361
+date: 2017-06-26 00:00:00, value: 141.972
+date: 2017-06-27 00:00:00, value: 169.02
+date: 2017-06-28 00:00:00, value: 33.369
+date: 2017-06-29 00:00:00, value: 34.898
+date: 2017-06-30 00:00:00, value: 54.516
+date: 2017-07-01 00:00:00, value: 105.264
+
+Output (forecast):
+date: 2017-07-02 00:00:00, value: 57.678
+date: 2017-07-03 00:00:00, value: 111.419
+date: 2017-07-04 00:00:00, value: 128.106
+date: 2017-07-05 00:00:00, value: 42.306
+date: 2017-07-06 00:00:00, value: 39.688
+date: 2017-07-07 00:00:00, value: 35.393
+date: 2017-07-08 00:00:00, value: 56.788
+
+- Example 3:
+Input (history):
+date: 2017-12-17 00:00:00, value: 47.338
+date: 2017-12-18 00:00:00, value: 85.536
+date: 2017-12-19 00:00:00, value: 122.089
+date: 2017-12-20 00:00:00, value: 33.605
+date: 2017-12-21 00:00:00, value: 51.942
+date: 2017-12-22 00:00:00, value: 42.146
+date: 2017-12-23 00:00:00, value: 83.127
+
+Output (forecast):
+date: 2017-12-24 00:00:00, value: 93.297
+date: 2017-12-25 00:00:00, value: 0.0
+date: 2017-12-26 00:00:00, value: 131.065
+date: 2017-12-27 00:00:00, value: 44.192
+date: 2017-12-28 00:00:00, value: 30.651
+date: 2017-12-29 00:00:00, value: 82.951
+date: 2017-12-30 00:00:00, value: 83.765
+
+[INPUT]"
+Retail,2017-01-01 00:00:00,2017-12-30 00:00:00,7,qwen3-32b,0.7,textual,few_shot,3,uniform,plain,28.84,27.97,49.83,0.0,1.101813,2.475985,0.204999,1.813043,15399,245,12.419452428817747,"[86.27850000000005, 0.0, 137.63199999999998, 50.094, 51.00150000000001, 43.956, 45.8205]","[74.39, 0.0, 173.932, 175.373, 42.185, 42.664, 33.605]","[OBJECTIVE]
+Predict the next 7 values based on the historical series (364 periods).
+
+[STATISTICAL CONTEXT]
+- Mean: 77.1322
+- Median: 51.986
+- Standard Deviation: 52.5492
+- Minimum Value: 0.0
+- Maximum Value: 267.498
+- First Quartile (Q1): 40.5665
+- Third Quartile (Q3): 113.2492
+- Trend Strength (STL): 0.2764
+- Seasonality Strength (STL): 0.9071
+
+[EXAMPLES]
+- Example 1:
+Input (history):
+date: 2017-01-01 00:00:00, value: 0 . 0
+date: 2017-01-02 00:00:00, value: 1 7 3 . 9 3 2
+date: 2017-01-03 00:00:00, value: 1 7 5 . 3 7 3
+date: 2017-01-04 00:00:00, value: 4 2 . 1 8 5
+date: 2017-01-05 00:00:00, value: 4 2 . 6 6 4
+date: 2017-01-06 00:00:00, value: 3 3 . 6 0 5
+date: 2017-01-07 00:00:00, value: 5 7 . 2 7 2
+
+Output (forecast):
+date: 2017-01-08 00:00:00, value: 4 8 . 4 3 3
+date: 2017-01-09 00:00:00, value: 1 3 2 . 9 4 6
+date: 2017-01-10 00:00:00, value: 1 1 8 . 3 8 2
+date: 2017-01-11 00:00:00, value: 2 9 . 3 8 1
+date: 2017-01-12 00:00:00, value: 3 0 . 0 6 9
+date: 2017-01-13 00:00:00, value: 3 7 . 0 9 8
+date: 2017-01-14 00:00:00, value: 5 0 . 4 9 6
+
+- Example 2:
+Input (history):
+date: 2017-06-25 00:00:00, value: 5 9 . 3 6 1
+date: 2017-06-26 00:00:00, value: 1 4 1 . 9 7 2
+date: 2017-06-27 00:00:00, value: 1 6 9 . 0 2
+date: 2017-06-28 00:00:00, value: 3 3 . 3 6 9
+date: 2017-06-29 00:00:00, value: 3 4 . 8 9 8
+date: 2017-06-30 00:00:00, value: 5 4 . 5 1 6
+date: 2017-07-01 00:00:00, value: 1 0 5 . 2 6 4
+
+Output (forecast):
+date: 2017-07-02 00:00:00, value: 5 7 . 6 7 8
+date: 2017-07-03 00:00:00, value: 1 1 1 . 4 1 9
+date: 2017-07-04 00:00:00, value: 1 2 8 . 1 0 6
+date: 2017-07-05 00:00:00, value: 4 2 . 3 0 6
+date: 2017-07-06 00:00:00, value: 3 9 . 6 8 8
+date: 2017-07-07 00:00:00, value: 3 5 . 3 9 3
+date: 2017-07-08 00:00:00, value: 5 6 . 7 8 8
+
+- Example 3:
+Input (history):
+date: 2017-12-17 00:00:00, value: 4 7 . 3 3 8
+date: 2017-12-18 00:00:00, value: 8 5 . 5 3 6
+date: 2017-12-19 00:00:00, value: 1 2 2 . 0 8 9
+date: 2017-12-20 00:00:00, value: 3 3 . 6 0 5
+date: 2017-12-21 00:00:00, value: 5 1 . 9 4 2
+date: 2017-12-22 00:00:00, value: 4 2 . 1 4 6
+date: 2017-12-23 00:00:00, value: 8 3 . 1 2 7
+
+Output (forecast):
+date: 2017-12-24 00:00:00, value: 9 3 . 2 9 7
+date: 2017-12-25 00:00:00, value: 0 . 0
+date: 2017-12-26 00:00:00, value: 1 3 1 . 0 6 5
+date: 2017-12-27 00:00:00, value: 4 4 . 1 9 2
+date: 2017-12-28 00:00:00, value: 3 0 . 6 5 1
+date: 2017-12-29 00:00:00, value: 8 2 . 9 5 1
+date: 2017-12-30 00:00:00, value: 8 3 . 7 6 5
+
+[INPUT]"
+Retail,2017-01-01 00:00:00,2017-12-30 00:00:00,7,qwen3-32b,0.7,textual,few_shot,3,uniform,plain,39.18,30.25,43.78,0.0,0.400249,0.899435,0.084874,0.750635,15399,236,5.049581050872803,"[86.27850000000005, 0.0, 137.63199999999998, 50.094, 51.00150000000001, 43.956, 45.8205]","[43.79, 0.0, 171.03, 150.3, 35.63, 31.2, 38.3]","[OBJECTIVE]
+Predict the next 7 values based on the historical series (364 periods).
+
+[STATISTICAL CONTEXT]
+- Mean: 77.1322
+- Median: 51.986
+- Standard Deviation: 52.5492
+- Minimum Value: 0.0
+- Maximum Value: 267.498
+- First Quartile (Q1): 40.5665
+- Third Quartile (Q3): 113.2492
+- Trend Strength (STL): 0.2764
+- Seasonality Strength (STL): 0.9071
+
+[EXAMPLES]
+- Example 1:
+Input (history):
+date: 2017-01-01 00:00:00, value: 0 . 0
+date: 2017-01-02 00:00:00, value: 1 7 3 . 9 3 2
+date: 2017-01-03 00:00:00, value: 1 7 5 . 3 7 3
+date: 2017-01-04 00:00:00, value: 4 2 . 1 8 5
+date: 2017-01-05 00:00:00, value: 4 2 . 6 6 4
+date: 2017-01-06 00:00:00, value: 3 3 . 6 0 5
+date: 2017-01-07 00:00:00, value: 5 7 . 2 7 2
+
+Output (forecast):
+date: 2017-01-08 00:00:00, value: 4 8 . 4 3 3
+date: 2017-01-09 00:00:00, value: 1 3 2 . 9 4 6
+date: 2017-01-10 00:00:00, value: 1 1 8 . 3 8 2
+date: 2017-01-11 00:00:00, value: 2 9 . 3 8 1
+date: 2017-01-12 00:00:00, value: 3 0 . 0 6 9
+date: 2017-01-13 00:00:00, value: 3 7 . 0 9 8
+date: 2017-01-14 00:00:00, value: 5 0 . 4 9 6
+
+- Example 2:
+Input (history):
+date: 2017-06-25 00:00:00, value: 5 9 . 3 6 1
+date: 2017-06-26 00:00:00, value: 1 4 1 . 9 7 2
+date: 2017-06-27 00:00:00, value: 1 6 9 . 0 2
+date: 2017-06-28 00:00:00, value: 3 3 . 3 6 9
+date: 2017-06-29 00:00:00, value: 3 4 . 8 9 8
+date: 2017-06-30 00:00:00, value: 5 4 . 5 1 6
+date: 2017-07-01 00:00:00, value: 1 0 5 . 2 6 4
+
+Output (forecast):
+date: 2017-07-02 00:00:00, value: 5 7 . 6 7 8
+date: 2017-07-03 00:00:00, value: 1 1 1 . 4 1 9
+date: 2017-07-04 00:00:00, value: 1 2 8 . 1 0 6
+date: 2017-07-05 00:00:00, value: 4 2 . 3 0 6
+date: 2017-07-06 00:00:00, value: 3 9 . 6 8 8
+date: 2017-07-07 00:00:00, value: 3 5 . 3 9 3
+date: 2017-07-08 00:00:00, value: 5 6 . 7 8 8
+
+- Example 3:
+Input (history):
+date: 2017-12-17 00:00:00, value: 4 7 . 3 3 8
+date: 2017-12-18 00:00:00, value: 8 5 . 5 3 6
+date: 2017-12-19 00:00:00, value: 1 2 2 . 0 8 9
+date: 2017-12-20 00:00:00, value: 3 3 . 6 0 5
+date: 2017-12-21 00:00:00, value: 5 1 . 9 4 2
+date: 2017-12-22 00:00:00, value: 4 2 . 1 4 6
+date: 2017-12-23 00:00:00, value: 8 3 . 1 2 7
+
+Output (forecast):
+date: 2017-12-24 00:00:00, value: 9 3 . 2 9 7
+date: 2017-12-25 00:00:00, value: 0 . 0
+date: 2017-12-26 00:00:00, value: 1 3 1 . 0 6 5
+date: 2017-12-27 00:00:00, value: 4 4 . 1 9 2
+date: 2017-12-28 00:00:00, value: 3 0 . 6 5 1
+date: 2017-12-29 00:00:00, value: 8 2 . 9 5 1
+date: 2017-12-30 00:00:00, value: 8 3 . 7 6 5
+
+[INPUT]"
+Retail,2017-01-01 00:00:00,2017-12-30 00:00:00,7,qwen3-32b,0.7,textual,few_shot,3,uniform,plain,55.47,44.66,74.93,0.0,0.42337,0.951394,0.088404,0.781858,15399,241,5.123063325881958,"[86.27850000000005, 0.0, 137.63199999999998, 50.094, 51.00150000000001, 43.956, 45.8205]","[49.73, 186.86, 184.51, 36.95, 25.12, 47.05, 45.63]","[OBJECTIVE]
+Predict the next 7 values based on the historical series (364 periods).
+
+[STATISTICAL CONTEXT]
+- Mean: 77.1322
+- Median: 51.986
+- Standard Deviation: 52.5492
+- Minimum Value: 0.0
+- Maximum Value: 267.498
+- First Quartile (Q1): 40.5665
+- Third Quartile (Q3): 113.2492
+- Trend Strength (STL): 0.2764
+- Seasonality Strength (STL): 0.9071
+
+[EXAMPLES]
+- Example 1:
+Input (history):
+date: 2017-01-01 00:00:00, value: 0 . 0
+date: 2017-01-02 00:00:00, value: 1 7 3 . 9 3 2
+date: 2017-01-03 00:00:00, value: 1 7 5 . 3 7 3
+date: 2017-01-04 00:00:00, value: 4 2 . 1 8 5
+date: 2017-01-05 00:00:00, value: 4 2 . 6 6 4
+date: 2017-01-06 00:00:00, value: 3 3 . 6 0 5
+date: 2017-01-07 00:00:00, value: 5 7 . 2 7 2
+
+Output (forecast):
+date: 2017-01-08 00:00:00, value: 4 8 . 4 3 3
+date: 2017-01-09 00:00:00, value: 1 3 2 . 9 4 6
+date: 2017-01-10 00:00:00, value: 1 1 8 . 3 8 2
+date: 2017-01-11 00:00:00, value: 2 9 . 3 8 1
+date: 2017-01-12 00:00:00, value: 3 0 . 0 6 9
+date: 2017-01-13 00:00:00, value: 3 7 . 0 9 8
+date: 2017-01-14 00:00:00, value: 5 0 . 4 9 6
+
+- Example 2:
+Input (history):
+date: 2017-06-25 00:00:00, value: 5 9 . 3 6 1
+date: 2017-06-26 00:00:00, value: 1 4 1 . 9 7 2
+date: 2017-06-27 00:00:00, value: 1 6 9 . 0 2
+date: 2017-06-28 00:00:00, value: 3 3 . 3 6 9
+date: 2017-06-29 00:00:00, value: 3 4 . 8 9 8
+date: 2017-06-30 00:00:00, value: 5 4 . 5 1 6
+date: 2017-07-01 00:00:00, value: 1 0 5 . 2 6 4
+
+Output (forecast):
+date: 2017-07-02 00:00:00, value: 5 7 . 6 7 8
+date: 2017-07-03 00:00:00, value: 1 1 1 . 4 1 9
+date: 2017-07-04 00:00:00, value: 1 2 8 . 1 0 6
+date: 2017-07-05 00:00:00, value: 4 2 . 3 0 6
+date: 2017-07-06 00:00:00, value: 3 9 . 6 8 8
+date: 2017-07-07 00:00:00, value: 3 5 . 3 9 3
+date: 2017-07-08 00:00:00, value: 5 6 . 7 8 8
+
+- Example 3:
+Input (history):
+date: 2017-12-17 00:00:00, value: 4 7 . 3 3 8
+date: 2017-12-18 00:00:00, value: 8 5 . 5 3 6
+date: 2017-12-19 00:00:00, value: 1 2 2 . 0 8 9
+date: 2017-12-20 00:00:00, value: 3 3 . 6 0 5
+date: 2017-12-21 00:00:00, value: 5 1 . 9 4 2
+date: 2017-12-22 00:00:00, value: 4 2 . 1 4 6
+date: 2017-12-23 00:00:00, value: 8 3 . 1 2 7
+
+Output (forecast):
+date: 2017-12-24 00:00:00, value: 9 3 . 2 9 7
+date: 2017-12-25 00:00:00, value: 0 . 0
+date: 2017-12-26 00:00:00, value: 1 3 1 . 0 6 5
+date: 2017-12-27 00:00:00, value: 4 4 . 1 9 2
+date: 2017-12-28 00:00:00, value: 3 0 . 6 5 1
+date: 2017-12-29 00:00:00, value: 8 2 . 9 5 1
+date: 2017-12-30 00:00:00, value: 8 3 . 7 6 5
+
+[INPUT]"
+Retail,2017-01-01 00:00:00,2017-12-30 00:00:00,7,qwen3-32b,0.7,textual,few_shot,3,uniform,plain,59.85,45.76,74.97,0.0,0.412692,0.927398,0.089081,0.787846,15399,241,5.161832332611084,"[86.27850000000005, 0.0, 137.63199999999998, 50.094, 51.00150000000001, 43.956, 45.8205]","[39.748, 188.372, 165.979, 36.03, 32.676, 36.697, 63.247]","[OBJECTIVE]
+Predict the next 7 values based on the historical series (364 periods).
+
+[STATISTICAL CONTEXT]
+- Mean: 77.1322
+- Median: 51.986
+- Standard Deviation: 52.5492
+- Minimum Value: 0.0
+- Maximum Value: 267.498
+- First Quartile (Q1): 40.5665
+- Third Quartile (Q3): 113.2492
+- Trend Strength (STL): 0.2764
+- Seasonality Strength (STL): 0.9071
+
+[EXAMPLES]
+- Example 1:
+Input (history):
+date: 2017-01-01 00:00:00, value: 0 . 0
+date: 2017-01-02 00:00:00, value: 1 7 3 . 9 3 2
+date: 2017-01-03 00:00:00, value: 1 7 5 . 3 7 3
+date: 2017-01-04 00:00:00, value: 4 2 . 1 8 5
+date: 2017-01-05 00:00:00, value: 4 2 . 6 6 4
+date: 2017-01-06 00:00:00, value: 3 3 . 6 0 5
+date: 2017-01-07 00:00:00, value: 5 7 . 2 7 2
+
+Output (forecast):
+date: 2017-01-08 00:00:00, value: 4 8 . 4 3 3
+date: 2017-01-09 00:00:00, value: 1 3 2 . 9 4 6
+date: 2017-01-10 00:00:00, value: 1 1 8 . 3 8 2
+date: 2017-01-11 00:00:00, value: 2 9 . 3 8 1
+date: 2017-01-12 00:00:00, value: 3 0 . 0 6 9
+date: 2017-01-13 00:00:00, value: 3 7 . 0 9 8
+date: 2017-01-14 00:00:00, value: 5 0 . 4 9 6
+
+- Example 2:
+Input (history):
+date: 2017-06-25 00:00:00, value: 5 9 . 3 6 1
+date: 2017-06-26 00:00:00, value: 1 4 1 . 9 7 2
+date: 2017-06-27 00:00:00, value: 1 6 9 . 0 2
+date: 2017-06-28 00:00:00, value: 3 3 . 3 6 9
+date: 2017-06-29 00:00:00, value: 3 4 . 8 9 8
+date: 2017-06-30 00:00:00, value: 5 4 . 5 1 6
+date: 2017-07-01 00:00:00, value: 1 0 5 . 2 6 4
+
+Output (forecast):
+date: 2017-07-02 00:00:00, value: 5 7 . 6 7 8
+date: 2017-07-03 00:00:00, value: 1 1 1 . 4 1 9
+date: 2017-07-04 00:00:00, value: 1 2 8 . 1 0 6
+date: 2017-07-05 00:00:00, value: 4 2 . 3 0 6
+date: 2017-07-06 00:00:00, value: 3 9 . 6 8 8
+date: 2017-07-07 00:00:00, value: 3 5 . 3 9 3
+date: 2017-07-08 00:00:00, value: 5 6 . 7 8 8
+
+- Example 3:
+Input (history):
+date: 2017-12-17 00:00:00, value: 4 7 . 3 3 8
+date: 2017-12-18 00:00:00, value: 8 5 . 5 3 6
+date: 2017-12-19 00:00:00, value: 1 2 2 . 0 8 9
+date: 2017-12-20 00:00:00, value: 3 3 . 6 0 5
+date: 2017-12-21 00:00:00, value: 5 1 . 9 4 2
+date: 2017-12-22 00:00:00, value: 4 2 . 1 4 6
+date: 2017-12-23 00:00:00, value: 8 3 . 1 2 7
+
+Output (forecast):
+date: 2017-12-24 00:00:00, value: 9 3 . 2 9 7
+date: 2017-12-25 00:00:00, value: 0 . 0
+date: 2017-12-26 00:00:00, value: 1 3 1 . 0 6 5
+date: 2017-12-27 00:00:00, value: 4 4 . 1 9 2
+date: 2017-12-28 00:00:00, value: 3 0 . 6 5 1
+date: 2017-12-29 00:00:00, value: 8 2 . 9 5 1
+date: 2017-12-30 00:00:00, value: 8 3 . 7 6 5
+
+[INPUT]"
+Retail,2017-01-01 00:00:00,2017-12-30 00:00:00,7,qwen3-32b,0.7,textual,few_shot,3,uniform,plain,51.4,19.4,38.51,0.0,0.417044,0.937178,0.076023,0.672359,15399,238,5.087913751602173,"[86.27850000000005, 0.0, 137.63199999999998, 50.094, 51.00150000000001, 43.956, 45.8205]","[79.47, 3.96, 134.83, 150.8, 40.82, 37.73, 40.7]","[OBJECTIVE]
+Predict the next 7 values based on the historical series (364 periods).
+
+[STATISTICAL CONTEXT]
+- Mean: 77.1322
+- Median: 51.986
+- Standard Deviation: 52.5492
+- Minimum Value: 0.0
+- Maximum Value: 267.498
+- First Quartile (Q1): 40.5665
+- Third Quartile (Q3): 113.2492
+- Trend Strength (STL): 0.2764
+- Seasonality Strength (STL): 0.9071
+
+[EXAMPLES]
+- Example 1:
+Input (history):
+date: 2017-01-01 00:00:00, value: 0 . 0
+date: 2017-01-02 00:00:00, value: 1 7 3 . 9 3 2
+date: 2017-01-03 00:00:00, value: 1 7 5 . 3 7 3
+date: 2017-01-04 00:00:00, value: 4 2 . 1 8 5
+date: 2017-01-05 00:00:00, value: 4 2 . 6 6 4
+date: 2017-01-06 00:00:00, value: 3 3 . 6 0 5
+date: 2017-01-07 00:00:00, value: 5 7 . 2 7 2
+
+Output (forecast):
+date: 2017-01-08 00:00:00, value: 4 8 . 4 3 3
+date: 2017-01-09 00:00:00, value: 1 3 2 . 9 4 6
+date: 2017-01-10 00:00:00, value: 1 1 8 . 3 8 2
+date: 2017-01-11 00:00:00, value: 2 9 . 3 8 1
+date: 2017-01-12 00:00:00, value: 3 0 . 0 6 9
+date: 2017-01-13 00:00:00, value: 3 7 . 0 9 8
+date: 2017-01-14 00:00:00, value: 5 0 . 4 9 6
+
+- Example 2:
+Input (history):
+date: 2017-06-25 00:00:00, value: 5 9 . 3 6 1
+date: 2017-06-26 00:00:00, value: 1 4 1 . 9 7 2
+date: 2017-06-27 00:00:00, value: 1 6 9 . 0 2
+date: 2017-06-28 00:00:00, value: 3 3 . 3 6 9
+date: 2017-06-29 00:00:00, value: 3 4 . 8 9 8
+date: 2017-06-30 00:00:00, value: 5 4 . 5 1 6
+date: 2017-07-01 00:00:00, value: 1 0 5 . 2 6 4
+
+Output (forecast):
+date: 2017-07-02 00:00:00, value: 5 7 . 6 7 8
+date: 2017-07-03 00:00:00, value: 1 1 1 . 4 1 9
+date: 2017-07-04 00:00:00, value: 1 2 8 . 1 0 6
+date: 2017-07-05 00:00:00, value: 4 2 . 3 0 6
+date: 2017-07-06 00:00:00, value: 3 9 . 6 8 8
+date: 2017-07-07 00:00:00, value: 3 5 . 3 9 3
+date: 2017-07-08 00:00:00, value: 5 6 . 7 8 8
+
+- Example 3:
+Input (history):
+date: 2017-12-17 00:00:00, value: 4 7 . 3 3 8
+date: 2017-12-18 00:00:00, value: 8 5 . 5 3 6
+date: 2017-12-19 00:00:00, value: 1 2 2 . 0 8 9
+date: 2017-12-20 00:00:00, value: 3 3 . 6 0 5
+date: 2017-12-21 00:00:00, value: 5 1 . 9 4 2
+date: 2017-12-22 00:00:00, value: 4 2 . 1 4 6
+date: 2017-12-23 00:00:00, value: 8 3 . 1 2 7
+
+Output (forecast):
+date: 2017-12-24 00:00:00, value: 9 3 . 2 9 7
+date: 2017-12-25 00:00:00, value: 0 . 0
+date: 2017-12-26 00:00:00, value: 1 3 1 . 0 6 5
+date: 2017-12-27 00:00:00, value: 4 4 . 1 9 2
+date: 2017-12-28 00:00:00, value: 3 0 . 6 5 1
+date: 2017-12-29 00:00:00, value: 8 2 . 9 5 1
+date: 2017-12-30 00:00:00, value: 8 3 . 7 6 5
+
+[INPUT]"
+Retail,2017-01-01 00:00:00,2017-12-30 00:00:00,7,qwen3-32b,0.7,numeric,few_shot,3,uniform,csv,56.41,40.86,65.37,0.0,0.839207,1.88586,0.169569,1.499695,11304,218,10.177088975906372,"[86.27850000000005, 0.0, 137.63199999999998, 50.094, 51.00150000000001, 43.956, 45.8205]","[39.704, 160.969, 174.447, 35.181, 40.669, 32.83, 51.08]","[OBJECTIVE]
+Predict the next 7 values based on the historical series (364 periods).
+
+[STATISTICAL CONTEXT]
+- Mean: 77.1322
+- Median: 51.986
+- Standard Deviation: 52.5492
+- Minimum Value: 0.0
+- Maximum Value: 267.498
+- First Quartile (Q1): 40.5665
+- Third Quartile (Q3): 113.2492
+- Trend Strength (STL): 0.2764
+- Seasonality Strength (STL): 0.9071
+
+[EXAMPLES]
+- Example 1:
+Input (history):
+date,value
+2017-01-01 00:00:00,0.0
+2017-01-02 00:00:00,173.932
+2017-01-03 00:00:00,175.373
+2017-01-04 00:00:00,42.185
+2017-01-05 00:00:00,42.664
+2017-01-06 00:00:00,33.605
+2017-01-07 00:00:00,57.272
+
+Output (forecast):
+date,value
+2017-01-08 00:00:00,48.433
+2017-01-09 00:00:00,132.946
+2017-01-10 00:00:00,118.382
+2017-01-11 00:00:00,29.381
+2017-01-12 00:00:00,30.069
+2017-01-13 00:00:00,37.098
+2017-01-14 00:00:00,50.496
+
+- Example 2:
+Input (history):
+date,value
+2017-06-25 00:00:00,59.361
+2017-06-26 00:00:00,141.972
+2017-06-27 00:00:00,169.02
+2017-06-28 00:00:00,33.369
+2017-06-29 00:00:00,34.898
+2017-06-30 00:00:00,54.516
+2017-07-01 00:00:00,105.264
+
+Output (forecast):
+date,value
+2017-07-02 00:00:00,57.678
+2017-07-03 00:00:00,111.419
+2017-07-04 00:00:00,128.106
+2017-07-05 00:00:00,42.306
+2017-07-06 00:00:00,39.688
+2017-07-07 00:00:00,35.393
+2017-07-08 00:00:00,56.788
+
+- Example 3:
+Input (history):
+date,value
+2017-12-17 00:00:00,47.338
+2017-12-18 00:00:00,85.536
+2017-12-19 00:00:00,122.089
+2017-12-20 00:00:00,33.605
+2017-12-21 00:00:00,51.942
+2017-12-22 00:00:00,42.146
+2017-12-23 00:00:00,83.127
+
+Output (forecast):
+date,value
+2017-12-24 00:00:00,93.297
+2017-12-25 00:00:00,0.0
+2017-12-26 00:00:00,131.065
+2017-12-27 00:00:00,44.192
+2017-12-28 00:00:00,30.651
+2017-12-29 00:00:00,82.951
+2017-12-30 00:00:00,83.765
+
+[INPUT]"
+Retail,2017-01-01 00:00:00,2017-12-30 00:00:00,7,qwen3-32b,0.7,numeric,few_shot,3,uniform,csv,56.62,29.83,41.17,0.0,0.351421,0.789711,0.072337,0.639761,11304,219,4.570681571960449,"[86.27850000000005, 0.0, 137.63199999999998, 50.094, 51.00150000000001, 43.956, 45.8205]","[39.974, 91.518, 163.361, 32.016, 33.721, 41.023, 52.786]","[OBJECTIVE]
+Predict the next 7 values based on the historical series (364 periods).
+
+[STATISTICAL CONTEXT]
+- Mean: 77.1322
+- Median: 51.986
+- Standard Deviation: 52.5492
+- Minimum Value: 0.0
+- Maximum Value: 267.498
+- First Quartile (Q1): 40.5665
+- Third Quartile (Q3): 113.2492
+- Trend Strength (STL): 0.2764
+- Seasonality Strength (STL): 0.9071
+
+[EXAMPLES]
+- Example 1:
+Input (history):
+date,value
+2017-01-01 00:00:00,0.0
+2017-01-02 00:00:00,173.932
+2017-01-03 00:00:00,175.373
+2017-01-04 00:00:00,42.185
+2017-01-05 00:00:00,42.664
+2017-01-06 00:00:00,33.605
+2017-01-07 00:00:00,57.272
+
+Output (forecast):
+date,value
+2017-01-08 00:00:00,48.433
+2017-01-09 00:00:00,132.946
+2017-01-10 00:00:00,118.382
+2017-01-11 00:00:00,29.381
+2017-01-12 00:00:00,30.069
+2017-01-13 00:00:00,37.098
+2017-01-14 00:00:00,50.496
+
+- Example 2:
+Input (history):
+date,value
+2017-06-25 00:00:00,59.361
+2017-06-26 00:00:00,141.972
+2017-06-27 00:00:00,169.02
+2017-06-28 00:00:00,33.369
+2017-06-29 00:00:00,34.898
+2017-06-30 00:00:00,54.516
+2017-07-01 00:00:00,105.264
+
+Output (forecast):
+date,value
+2017-07-02 00:00:00,57.678
+2017-07-03 00:00:00,111.419
+2017-07-04 00:00:00,128.106
+2017-07-05 00:00:00,42.306
+2017-07-06 00:00:00,39.688
+2017-07-07 00:00:00,35.393
+2017-07-08 00:00:00,56.788
+
+- Example 3:
+Input (history):
+date,value
+2017-12-17 00:00:00,47.338
+2017-12-18 00:00:00,85.536
+2017-12-19 00:00:00,122.089
+2017-12-20 00:00:00,33.605
+2017-12-21 00:00:00,51.942
+2017-12-22 00:00:00,42.146
+2017-12-23 00:00:00,83.127
+
+Output (forecast):
+date,value
+2017-12-24 00:00:00,93.297
+2017-12-25 00:00:00,0.0
+2017-12-26 00:00:00,131.065
+2017-12-27 00:00:00,44.192
+2017-12-28 00:00:00,30.651
+2017-12-29 00:00:00,82.951
+2017-12-30 00:00:00,83.765
+
+[INPUT]"
+Retail,2017-01-01 00:00:00,2017-12-30 00:00:00,7,qwen3-32b,0.7,numeric,few_shot,3,uniform,csv,21.13,20.69,33.84,0.0,0.367594,0.826053,0.078024,0.690053,11304,216,4.486340045928955,"[86.27850000000005, 0.0, 137.63199999999998, 50.094, 51.00150000000001, 43.956, 45.8205]","[73.46, 0.0, 190.112, 121.269, 55.638, 45.031, 48.493]","[OBJECTIVE]
+Predict the next 7 values based on the historical series (364 periods).
+
+[STATISTICAL CONTEXT]
+- Mean: 77.1322
+- Median: 51.986
+- Standard Deviation: 52.5492
+- Minimum Value: 0.0
+- Maximum Value: 267.498
+- First Quartile (Q1): 40.5665
+- Third Quartile (Q3): 113.2492
+- Trend Strength (STL): 0.2764
+- Seasonality Strength (STL): 0.9071
+
+[EXAMPLES]
+- Example 1:
+Input (history):
+date,value
+2017-01-01 00:00:00,0.0
+2017-01-02 00:00:00,173.932
+2017-01-03 00:00:00,175.373
+2017-01-04 00:00:00,42.185
+2017-01-05 00:00:00,42.664
+2017-01-06 00:00:00,33.605
+2017-01-07 00:00:00,57.272
+
+Output (forecast):
+date,value
+2017-01-08 00:00:00,48.433
+2017-01-09 00:00:00,132.946
+2017-01-10 00:00:00,118.382
+2017-01-11 00:00:00,29.381
+2017-01-12 00:00:00,30.069
+2017-01-13 00:00:00,37.098
+2017-01-14 00:00:00,50.496
+
+- Example 2:
+Input (history):
+date,value
+2017-06-25 00:00:00,59.361
+2017-06-26 00:00:00,141.972
+2017-06-27 00:00:00,169.02
+2017-06-28 00:00:00,33.369
+2017-06-29 00:00:00,34.898
+2017-06-30 00:00:00,54.516
+2017-07-01 00:00:00,105.264
+
+Output (forecast):
+date,value
+2017-07-02 00:00:00,57.678
+2017-07-03 00:00:00,111.419
+2017-07-04 00:00:00,128.106
+2017-07-05 00:00:00,42.306
+2017-07-06 00:00:00,39.688
+2017-07-07 00:00:00,35.393
+2017-07-08 00:00:00,56.788
+
+- Example 3:
+Input (history):
+date,value
+2017-12-17 00:00:00,47.338
+2017-12-18 00:00:00,85.536
+2017-12-19 00:00:00,122.089
+2017-12-20 00:00:00,33.605
+2017-12-21 00:00:00,51.942
+2017-12-22 00:00:00,42.146
+2017-12-23 00:00:00,83.127
+
+Output (forecast):
+date,value
+2017-12-24 00:00:00,93.297
+2017-12-25 00:00:00,0.0
+2017-12-26 00:00:00,131.065
+2017-12-27 00:00:00,44.192
+2017-12-28 00:00:00,30.651
+2017-12-29 00:00:00,82.951
+2017-12-30 00:00:00,83.765
+
+[INPUT]"
+Retail,2017-01-01 00:00:00,2017-12-30 00:00:00,7,qwen3-32b,0.7,numeric,few_shot,3,uniform,csv,54.67,38.62,61.12,0.0,0.35432,0.796224,0.071422,0.631666,11304,220,4.58078145980835,"[86.27850000000005, 0.0, 137.63199999999998, 50.094, 51.00150000000001, 43.956, 45.8205]","[35.491, 147.669, 175.192, 36.347, 41.278, 46.828, 53.832]","[OBJECTIVE]
+Predict the next 7 values based on the historical series (364 periods).
+
+[STATISTICAL CONTEXT]
+- Mean: 77.1322
+- Median: 51.986
+- Standard Deviation: 52.5492
+- Minimum Value: 0.0
+- Maximum Value: 267.498
+- First Quartile (Q1): 40.5665
+- Third Quartile (Q3): 113.2492
+- Trend Strength (STL): 0.2764
+- Seasonality Strength (STL): 0.9071
+
+[EXAMPLES]
+- Example 1:
+Input (history):
+date,value
+2017-01-01 00:00:00,0.0
+2017-01-02 00:00:00,173.932
+2017-01-03 00:00:00,175.373
+2017-01-04 00:00:00,42.185
+2017-01-05 00:00:00,42.664
+2017-01-06 00:00:00,33.605
+2017-01-07 00:00:00,57.272
+
+Output (forecast):
+date,value
+2017-01-08 00:00:00,48.433
+2017-01-09 00:00:00,132.946
+2017-01-10 00:00:00,118.382
+2017-01-11 00:00:00,29.381
+2017-01-12 00:00:00,30.069
+2017-01-13 00:00:00,37.098
+2017-01-14 00:00:00,50.496
+
+- Example 2:
+Input (history):
+date,value
+2017-06-25 00:00:00,59.361
+2017-06-26 00:00:00,141.972
+2017-06-27 00:00:00,169.02
+2017-06-28 00:00:00,33.369
+2017-06-29 00:00:00,34.898
+2017-06-30 00:00:00,54.516
+2017-07-01 00:00:00,105.264
+
+Output (forecast):
+date,value
+2017-07-02 00:00:00,57.678
+2017-07-03 00:00:00,111.419
+2017-07-04 00:00:00,128.106
+2017-07-05 00:00:00,42.306
+2017-07-06 00:00:00,39.688
+2017-07-07 00:00:00,35.393
+2017-07-08 00:00:00,56.788
+
+- Example 3:
+Input (history):
+date,value
+2017-12-17 00:00:00,47.338
+2017-12-18 00:00:00,85.536
+2017-12-19 00:00:00,122.089
+2017-12-20 00:00:00,33.605
+2017-12-21 00:00:00,51.942
+2017-12-22 00:00:00,42.146
+2017-12-23 00:00:00,83.127
+
+Output (forecast):
+date,value
+2017-12-24 00:00:00,93.297
+2017-12-25 00:00:00,0.0
+2017-12-26 00:00:00,131.065
+2017-12-27 00:00:00,44.192
+2017-12-28 00:00:00,30.651
+2017-12-29 00:00:00,82.951
+2017-12-30 00:00:00,83.765
+
+[INPUT]"
+Retail,2017-01-01 00:00:00,2017-12-30 00:00:00,7,qwen3-32b,0.7,numeric,few_shot,3,uniform,csv,27.84,27.27,49.7,0.0,0.370563,0.832725,0.078227,0.691856,11304,217,4.4985339641571045,"[86.27850000000005, 0.0, 137.63199999999998, 50.094, 51.00150000000001, 43.956, 45.8205]","[93.274, 0.0, 173.932, 175.373, 42.185, 42.664, 33.605]","[OBJECTIVE]
+Predict the next 7 values based on the historical series (364 periods).
+
+[STATISTICAL CONTEXT]
+- Mean: 77.1322
+- Median: 51.986
+- Standard Deviation: 52.5492
+- Minimum Value: 0.0
+- Maximum Value: 267.498
+- First Quartile (Q1): 40.5665
+- Third Quartile (Q3): 113.2492
+- Trend Strength (STL): 0.2764
+- Seasonality Strength (STL): 0.9071
+
+[EXAMPLES]
+- Example 1:
+Input (history):
+date,value
+2017-01-01 00:00:00,0.0
+2017-01-02 00:00:00,173.932
+2017-01-03 00:00:00,175.373
+2017-01-04 00:00:00,42.185
+2017-01-05 00:00:00,42.664
+2017-01-06 00:00:00,33.605
+2017-01-07 00:00:00,57.272
+
+Output (forecast):
+date,value
+2017-01-08 00:00:00,48.433
+2017-01-09 00:00:00,132.946
+2017-01-10 00:00:00,118.382
+2017-01-11 00:00:00,29.381
+2017-01-12 00:00:00,30.069
+2017-01-13 00:00:00,37.098
+2017-01-14 00:00:00,50.496
+
+- Example 2:
+Input (history):
+date,value
+2017-06-25 00:00:00,59.361
+2017-06-26 00:00:00,141.972
+2017-06-27 00:00:00,169.02
+2017-06-28 00:00:00,33.369
+2017-06-29 00:00:00,34.898
+2017-06-30 00:00:00,54.516
+2017-07-01 00:00:00,105.264
+
+Output (forecast):
+date,value
+2017-07-02 00:00:00,57.678
+2017-07-03 00:00:00,111.419
+2017-07-04 00:00:00,128.106
+2017-07-05 00:00:00,42.306
+2017-07-06 00:00:00,39.688
+2017-07-07 00:00:00,35.393
+2017-07-08 00:00:00,56.788
+
+- Example 3:
+Input (history):
+date,value
+2017-12-17 00:00:00,47.338
+2017-12-18 00:00:00,85.536
+2017-12-19 00:00:00,122.089
+2017-12-20 00:00:00,33.605
+2017-12-21 00:00:00,51.942
+2017-12-22 00:00:00,42.146
+2017-12-23 00:00:00,83.127
+
+Output (forecast):
+date,value
+2017-12-24 00:00:00,93.297
+2017-12-25 00:00:00,0.0
+2017-12-26 00:00:00,131.065
+2017-12-27 00:00:00,44.192
+2017-12-28 00:00:00,30.651
+2017-12-29 00:00:00,82.951
+2017-12-30 00:00:00,83.765
+
+[INPUT]"
+Retail,2017-01-01 00:00:00,2017-12-30 00:00:00,7,qwen3-32b,0.7,textual,few_shot,3,uniform,csv,20.33,17.65,36.78,0.0,0.988419,2.221166,0.182612,1.615045,12984,243,11.07501482963562,"[86.27850000000005, 0.0, 137.63199999999998, 50.094, 51.00150000000001, 43.956, 45.8205]","[74.399, 0.0, 135.583, 146.321, 46.949, 50.069, 49.03]","[OBJECTIVE]
+Predict the next 7 values based on the historical series (364 periods).
+
+[STATISTICAL CONTEXT]
+- Mean: 77.1322
+- Median: 51.986
+- Standard Deviation: 52.5492
+- Minimum Value: 0.0
+- Maximum Value: 267.498
+- First Quartile (Q1): 40.5665
+- Third Quartile (Q3): 113.2492
+- Trend Strength (STL): 0.2764
+- Seasonality Strength (STL): 0.9071
+
+[EXAMPLES]
+- Example 1:
+Input (history):
+date,value
+2017-01-01 00:00:00,0 . 0
+2017-01-02 00:00:00,1 7 3 . 9 3 2
+2017-01-03 00:00:00,1 7 5 . 3 7 3
+2017-01-04 00:00:00,4 2 . 1 8 5
+2017-01-05 00:00:00,4 2 . 6 6 4
+2017-01-06 00:00:00,3 3 . 6 0 5
+2017-01-07 00:00:00,5 7 . 2 7 2
+
+Output (forecast):
+date,value
+2017-01-08 00:00:00,4 8 . 4 3 3
+2017-01-09 00:00:00,1 3 2 . 9 4 6
+2017-01-10 00:00:00,1 1 8 . 3 8 2
+2017-01-11 00:00:00,2 9 . 3 8 1
+2017-01-12 00:00:00,3 0 . 0 6 9
+2017-01-13 00:00:00,3 7 . 0 9 8
+2017-01-14 00:00:00,5 0 . 4 9 6
+
+- Example 2:
+Input (history):
+date,value
+2017-06-25 00:00:00,5 9 . 3 6 1
+2017-06-26 00:00:00,1 4 1 . 9 7 2
+2017-06-27 00:00:00,1 6 9 . 0 2
+2017-06-28 00:00:00,3 3 . 3 6 9
+2017-06-29 00:00:00,3 4 . 8 9 8
+2017-06-30 00:00:00,5 4 . 5 1 6
+2017-07-01 00:00:00,1 0 5 . 2 6 4
+
+Output (forecast):
+date,value
+2017-07-02 00:00:00,5 7 . 6 7 8
+2017-07-03 00:00:00,1 1 1 . 4 1 9
+2017-07-04 00:00:00,1 2 8 . 1 0 6
+2017-07-05 00:00:00,4 2 . 3 0 6
+2017-07-06 00:00:00,3 9 . 6 8 8
+2017-07-07 00:00:00,3 5 . 3 9 3
+2017-07-08 00:00:00,5 6 . 7 8 8
+
+- Example 3:
+Input (history):
+date,value
+2017-12-17 00:00:00,4 7 . 3 3 8
+2017-12-18 00:00:00,8 5 . 5 3 6
+2017-12-19 00:00:00,1 2 2 . 0 8 9
+2017-12-20 00:00:00,3 3 . 6 0 5
+2017-12-21 00:00:00,5 1 . 9 4 2
+2017-12-22 00:00:00,4 2 . 1 4 6
+2017-12-23 00:00:00,8 3 . 1 2 7
+
+Output (forecast):
+date,value
+2017-12-24 00:00:00,9 3 . 2 9 7
+2017-12-25 00:00:00,0 . 0
+2017-12-26 00:00:00,1 3 1 . 0 6 5
+2017-12-27 00:00:00,4 4 . 1 9 2
+2017-12-28 00:00:00,3 0 . 6 5 1
+2017-12-29 00:00:00,8 2 . 9 5 1
+2017-12-30 00:00:00,8 3 . 7 6 5
+
+[INPUT]"
+Retail,2017-01-01 00:00:00,2017-12-30 00:00:00,7,qwen3-32b,0.7,textual,few_shot,3,uniform,csv,54.87,43.14,72.33,0.0,0.420515,0.944978,0.09059,0.801193,12984,249,5.249774932861328,"[86.27850000000005, 0.0, 137.63199999999998, 50.094, 51.00150000000001, 43.956, 45.8205]","[39.745, 181.046, 171.673, 36.441, 37.266, 42.741, 57.597]","[OBJECTIVE]
+Predict the next 7 values based on the historical series (364 periods).
+
+[STATISTICAL CONTEXT]
+- Mean: 77.1322
+- Median: 51.986
+- Standard Deviation: 52.5492
+- Minimum Value: 0.0
+- Maximum Value: 267.498
+- First Quartile (Q1): 40.5665
+- Third Quartile (Q3): 113.2492
+- Trend Strength (STL): 0.2764
+- Seasonality Strength (STL): 0.9071
+
+[EXAMPLES]
+- Example 1:
+Input (history):
+date,value
+2017-01-01 00:00:00,0 . 0
+2017-01-02 00:00:00,1 7 3 . 9 3 2
+2017-01-03 00:00:00,1 7 5 . 3 7 3
+2017-01-04 00:00:00,4 2 . 1 8 5
+2017-01-05 00:00:00,4 2 . 6 6 4
+2017-01-06 00:00:00,3 3 . 6 0 5
+2017-01-07 00:00:00,5 7 . 2 7 2
+
+Output (forecast):
+date,value
+2017-01-08 00:00:00,4 8 . 4 3 3
+2017-01-09 00:00:00,1 3 2 . 9 4 6
+2017-01-10 00:00:00,1 1 8 . 3 8 2
+2017-01-11 00:00:00,2 9 . 3 8 1
+2017-01-12 00:00:00,3 0 . 0 6 9
+2017-01-13 00:00:00,3 7 . 0 9 8
+2017-01-14 00:00:00,5 0 . 4 9 6
+
+- Example 2:
+Input (history):
+date,value
+2017-06-25 00:00:00,5 9 . 3 6 1
+2017-06-26 00:00:00,1 4 1 . 9 7 2
+2017-06-27 00:00:00,1 6 9 . 0 2
+2017-06-28 00:00:00,3 3 . 3 6 9
+2017-06-29 00:00:00,3 4 . 8 9 8
+2017-06-30 00:00:00,5 4 . 5 1 6
+2017-07-01 00:00:00,1 0 5 . 2 6 4
+
+Output (forecast):
+date,value
+2017-07-02 00:00:00,5 7 . 6 7 8
+2017-07-03 00:00:00,1 1 1 . 4 1 9
+2017-07-04 00:00:00,1 2 8 . 1 0 6
+2017-07-05 00:00:00,4 2 . 3 0 6
+2017-07-06 00:00:00,3 9 . 6 8 8
+2017-07-07 00:00:00,3 5 . 3 9 3
+2017-07-08 00:00:00,5 6 . 7 8 8
+
+- Example 3:
+Input (history):
+date,value
+2017-12-17 00:00:00,4 7 . 3 3 8
+2017-12-18 00:00:00,8 5 . 5 3 6
+2017-12-19 00:00:00,1 2 2 . 0 8 9
+2017-12-20 00:00:00,3 3 . 6 0 5
+2017-12-21 00:00:00,5 1 . 9 4 2
+2017-12-22 00:00:00,4 2 . 1 4 6
+2017-12-23 00:00:00,8 3 . 1 2 7
+
+Output (forecast):
+date,value
+2017-12-24 00:00:00,9 3 . 2 9 7
+2017-12-25 00:00:00,0 . 0
+2017-12-26 00:00:00,1 3 1 . 0 6 5
+2017-12-27 00:00:00,4 4 . 1 9 2
+2017-12-28 00:00:00,3 0 . 6 5 1
+2017-12-29 00:00:00,8 2 . 9 5 1
+2017-12-30 00:00:00,8 3 . 7 6 5
+
+[INPUT]"
+Retail,2017-01-01 00:00:00,2017-12-30 00:00:00,7,qwen3-32b,0.7,textual,few_shot,3,uniform,csv,35.08,26.23,39.6,0.0,0.422453,0.949332,0.090636,0.801596,12984,249,5.248767137527466,"[86.27850000000005, 0.0, 137.63199999999998, 50.094, 51.00150000000001, 43.956, 45.8205]","[43.8947, 0.0, 159.4498, 141.5835, 47.2774, 35.6144, 29.992]","[OBJECTIVE]
+Predict the next 7 values based on the historical series (364 periods).
+
+[STATISTICAL CONTEXT]
+- Mean: 77.1322
+- Median: 51.986
+- Standard Deviation: 52.5492
+- Minimum Value: 0.0
+- Maximum Value: 267.498
+- First Quartile (Q1): 40.5665
+- Third Quartile (Q3): 113.2492
+- Trend Strength (STL): 0.2764
+- Seasonality Strength (STL): 0.9071
+
+[EXAMPLES]
+- Example 1:
+Input (history):
+date,value
+2017-01-01 00:00:00,0 . 0
+2017-01-02 00:00:00,1 7 3 . 9 3 2
+2017-01-03 00:00:00,1 7 5 . 3 7 3
+2017-01-04 00:00:00,4 2 . 1 8 5
+2017-01-05 00:00:00,4 2 . 6 6 4
+2017-01-06 00:00:00,3 3 . 6 0 5
+2017-01-07 00:00:00,5 7 . 2 7 2
+
+Output (forecast):
+date,value
+2017-01-08 00:00:00,4 8 . 4 3 3
+2017-01-09 00:00:00,1 3 2 . 9 4 6
+2017-01-10 00:00:00,1 1 8 . 3 8 2
+2017-01-11 00:00:00,2 9 . 3 8 1
+2017-01-12 00:00:00,3 0 . 0 6 9
+2017-01-13 00:00:00,3 7 . 0 9 8
+2017-01-14 00:00:00,5 0 . 4 9 6
+
+- Example 2:
+Input (history):
+date,value
+2017-06-25 00:00:00,5 9 . 3 6 1
+2017-06-26 00:00:00,1 4 1 . 9 7 2
+2017-06-27 00:00:00,1 6 9 . 0 2
+2017-06-28 00:00:00,3 3 . 3 6 9
+2017-06-29 00:00:00,3 4 . 8 9 8
+2017-06-30 00:00:00,5 4 . 5 1 6
+2017-07-01 00:00:00,1 0 5 . 2 6 4
+
+Output (forecast):
+date,value
+2017-07-02 00:00:00,5 7 . 6 7 8
+2017-07-03 00:00:00,1 1 1 . 4 1 9
+2017-07-04 00:00:00,1 2 8 . 1 0 6
+2017-07-05 00:00:00,4 2 . 3 0 6
+2017-07-06 00:00:00,3 9 . 6 8 8
+2017-07-07 00:00:00,3 5 . 3 9 3
+2017-07-08 00:00:00,5 6 . 7 8 8
+
+- Example 3:
+Input (history):
+date,value
+2017-12-17 00:00:00,4 7 . 3 3 8
+2017-12-18 00:00:00,8 5 . 5 3 6
+2017-12-19 00:00:00,1 2 2 . 0 8 9
+2017-12-20 00:00:00,3 3 . 6 0 5
+2017-12-21 00:00:00,5 1 . 9 4 2
+2017-12-22 00:00:00,4 2 . 1 4 6
+2017-12-23 00:00:00,8 3 . 1 2 7
+
+Output (forecast):
+date,value
+2017-12-24 00:00:00,9 3 . 2 9 7
+2017-12-25 00:00:00,0 . 0
+2017-12-26 00:00:00,1 3 1 . 0 6 5
+2017-12-27 00:00:00,4 4 . 1 9 2
+2017-12-28 00:00:00,3 0 . 6 5 1
+2017-12-29 00:00:00,8 2 . 9 5 1
+2017-12-30 00:00:00,8 3 . 7 6 5
+
+[INPUT]"
+Retail,2017-01-01 00:00:00,2017-12-30 00:00:00,7,qwen3-32b,0.7,textual,few_shot,3,uniform,csv,38.18,31.31,46.63,0.0,0.421522,0.94724,0.074574,0.65954,12984,243,5.106657981872559,"[86.27850000000005, 0.0, 137.63199999999998, 50.094, 51.00150000000001, 43.956, 45.8205]","[39.794, 0.0, 174.765, 156.467, 34.069, 38.694, 52.82]","[OBJECTIVE]
+Predict the next 7 values based on the historical series (364 periods).
+
+[STATISTICAL CONTEXT]
+- Mean: 77.1322
+- Median: 51.986
+- Standard Deviation: 52.5492
+- Minimum Value: 0.0
+- Maximum Value: 267.498
+- First Quartile (Q1): 40.5665
+- Third Quartile (Q3): 113.2492
+- Trend Strength (STL): 0.2764
+- Seasonality Strength (STL): 0.9071
+
+[EXAMPLES]
+- Example 1:
+Input (history):
+date,value
+2017-01-01 00:00:00,0 . 0
+2017-01-02 00:00:00,1 7 3 . 9 3 2
+2017-01-03 00:00:00,1 7 5 . 3 7 3
+2017-01-04 00:00:00,4 2 . 1 8 5
+2017-01-05 00:00:00,4 2 . 6 6 4
+2017-01-06 00:00:00,3 3 . 6 0 5
+2017-01-07 00:00:00,5 7 . 2 7 2
+
+Output (forecast):
+date,value
+2017-01-08 00:00:00,4 8 . 4 3 3
+2017-01-09 00:00:00,1 3 2 . 9 4 6
+2017-01-10 00:00:00,1 1 8 . 3 8 2
+2017-01-11 00:00:00,2 9 . 3 8 1
+2017-01-12 00:00:00,3 0 . 0 6 9
+2017-01-13 00:00:00,3 7 . 0 9 8
+2017-01-14 00:00:00,5 0 . 4 9 6
+
+- Example 2:
+Input (history):
+date,value
+2017-06-25 00:00:00,5 9 . 3 6 1
+2017-06-26 00:00:00,1 4 1 . 9 7 2
+2017-06-27 00:00:00,1 6 9 . 0 2
+2017-06-28 00:00:00,3 3 . 3 6 9
+2017-06-29 00:00:00,3 4 . 8 9 8
+2017-06-30 00:00:00,5 4 . 5 1 6
+2017-07-01 00:00:00,1 0 5 . 2 6 4
+
+Output (forecast):
+date,value
+2017-07-02 00:00:00,5 7 . 6 7 8
+2017-07-03 00:00:00,1 1 1 . 4 1 9
+2017-07-04 00:00:00,1 2 8 . 1 0 6
+2017-07-05 00:00:00,4 2 . 3 0 6
+2017-07-06 00:00:00,3 9 . 6 8 8
+2017-07-07 00:00:00,3 5 . 3 9 3
+2017-07-08 00:00:00,5 6 . 7 8 8
+
+- Example 3:
+Input (history):
+date,value
+2017-12-17 00:00:00,4 7 . 3 3 8
+2017-12-18 00:00:00,8 5 . 5 3 6
+2017-12-19 00:00:00,1 2 2 . 0 8 9
+2017-12-20 00:00:00,3 3 . 6 0 5
+2017-12-21 00:00:00,5 1 . 9 4 2
+2017-12-22 00:00:00,4 2 . 1 4 6
+2017-12-23 00:00:00,8 3 . 1 2 7
+
+Output (forecast):
+date,value
+2017-12-24 00:00:00,9 3 . 2 9 7
+2017-12-25 00:00:00,0 . 0
+2017-12-26 00:00:00,1 3 1 . 0 6 5
+2017-12-27 00:00:00,4 4 . 1 9 2
+2017-12-28 00:00:00,3 0 . 6 5 1
+2017-12-29 00:00:00,8 2 . 9 5 1
+2017-12-30 00:00:00,8 3 . 7 6 5
+
+[INPUT]"
+Retail,2017-01-01 00:00:00,2017-12-30 00:00:00,7,qwen3-32b,0.7,textual,few_shot,3,uniform,csv,51.71,39.11,71.5,0.0,0.351483,0.78985,0.080935,0.715802,12984,220,4.63987135887146,"[86.27850000000005, 0.0, 137.63199999999998, 50.094, 51.00150000000001, 43.956, 45.8205]","[79.374, 184.883, 161.974, 35.677, 27.333, 35.138, 56.575]","[OBJECTIVE]
+Predict the next 7 values based on the historical series (364 periods).
+
+[STATISTICAL CONTEXT]
+- Mean: 77.1322
+- Median: 51.986
+- Standard Deviation: 52.5492
+- Minimum Value: 0.0
+- Maximum Value: 267.498
+- First Quartile (Q1): 40.5665
+- Third Quartile (Q3): 113.2492
+- Trend Strength (STL): 0.2764
+- Seasonality Strength (STL): 0.9071
+
+[EXAMPLES]
+- Example 1:
+Input (history):
+date,value
+2017-01-01 00:00:00,0 . 0
+2017-01-02 00:00:00,1 7 3 . 9 3 2
+2017-01-03 00:00:00,1 7 5 . 3 7 3
+2017-01-04 00:00:00,4 2 . 1 8 5
+2017-01-05 00:00:00,4 2 . 6 6 4
+2017-01-06 00:00:00,3 3 . 6 0 5
+2017-01-07 00:00:00,5 7 . 2 7 2
+
+Output (forecast):
+date,value
+2017-01-08 00:00:00,4 8 . 4 3 3
+2017-01-09 00:00:00,1 3 2 . 9 4 6
+2017-01-10 00:00:00,1 1 8 . 3 8 2
+2017-01-11 00:00:00,2 9 . 3 8 1
+2017-01-12 00:00:00,3 0 . 0 6 9
+2017-01-13 00:00:00,3 7 . 0 9 8
+2017-01-14 00:00:00,5 0 . 4 9 6
+
+- Example 2:
+Input (history):
+date,value
+2017-06-25 00:00:00,5 9 . 3 6 1
+2017-06-26 00:00:00,1 4 1 . 9 7 2
+2017-06-27 00:00:00,1 6 9 . 0 2
+2017-06-28 00:00:00,3 3 . 3 6 9
+2017-06-29 00:00:00,3 4 . 8 9 8
+2017-06-30 00:00:00,5 4 . 5 1 6
+2017-07-01 00:00:00,1 0 5 . 2 6 4
+
+Output (forecast):
+date,value
+2017-07-02 00:00:00,5 7 . 6 7 8
+2017-07-03 00:00:00,1 1 1 . 4 1 9
+2017-07-04 00:00:00,1 2 8 . 1 0 6
+2017-07-05 00:00:00,4 2 . 3 0 6
+2017-07-06 00:00:00,3 9 . 6 8 8
+2017-07-07 00:00:00,3 5 . 3 9 3
+2017-07-08 00:00:00,5 6 . 7 8 8
+
+- Example 3:
+Input (history):
+date,value
+2017-12-17 00:00:00,4 7 . 3 3 8
+2017-12-18 00:00:00,8 5 . 5 3 6
+2017-12-19 00:00:00,1 2 2 . 0 8 9
+2017-12-20 00:00:00,3 3 . 6 0 5
+2017-12-21 00:00:00,5 1 . 9 4 2
+2017-12-22 00:00:00,4 2 . 1 4 6
+2017-12-23 00:00:00,8 3 . 1 2 7
+
+Output (forecast):
+date,value
+2017-12-24 00:00:00,9 3 . 2 9 7
+2017-12-25 00:00:00,0 . 0
+2017-12-26 00:00:00,1 3 1 . 0 6 5
+2017-12-27 00:00:00,4 4 . 1 9 2
+2017-12-28 00:00:00,3 0 . 6 5 1
+2017-12-29 00:00:00,8 2 . 9 5 1
+2017-12-30 00:00:00,8 3 . 7 6 5
+
+[INPUT]"
+Retail,2017-01-01 00:00:00,2017-12-30 00:00:00,7,qwen3-32b,0.7,numeric,cot_few,3,uniform,plain,36.02,32.32,52.15,0.0,1.033769,2.323077,0.181514,1.605335,13832,246,11.6894109249115,"[86.27850000000005, 0.0, 137.63199999999998, 50.094, 51.00150000000001, 43.956, 45.8205]","[43.932, 0.0, 173.932, 175.373, 42.185, 42.664, 33.605]","[OBJECTIVE]
+Predict the next 7 values based on the historical series (364 periods).
+
+[STATISTICAL CONTEXT]
+- Mean: 77.1322
+- Median: 51.986
+- Standard Deviation: 52.5492
+- Minimum Value: 0.0
+- Maximum Value: 267.498
+- First Quartile (Q1): 40.5665
+- Third Quartile (Q3): 113.2492
+- Trend Strength (STL): 0.2764
+- Seasonality Strength (STL): 0.9071
+
+[REASONING GUIDELINES]
+- Trend: Identify the overall direction (increasing, decreasing, stable) and the trend strength.
+- Seasonality: Patterns that repeat at regular intervals (e.g., daily, weekly, monthly).
+- Outliers: Possible outliers or abrupt changes.
+- Cycles: Not seasonal long-term patterns.
+- Noise reduction: Apply a technique to reduce noise when necessary.
+- Consistency with the provided descriptive statistics (mean, median, etc.).
+- Adjustment for data frequency and contextual events (holidays, promotions, etc.).
+
+[EXAMPLES]
+- Example 1:
+Input (history):
+date: 2017-01-01 00:00:00, value: 0.0
+date: 2017-01-02 00:00:00, value: 173.932
+date: 2017-01-03 00:00:00, value: 175.373
+date: 2017-01-04 00:00:00, value: 42.185
+date: 2017-01-05 00:00:00, value: 42.664
+date: 2017-01-06 00:00:00, value: 33.605
+date: 2017-01-07 00:00:00, value: 57.272
+
+Output (forecast):
+date: 2017-01-08 00:00:00, value: 48.433
+date: 2017-01-09 00:00:00, value: 132.946
+date: 2017-01-10 00:00:00, value: 118.382
+date: 2017-01-11 00:00:00, value: 29.381
+date: 2017-01-12 00:00:00, value: 30.069
+date: 2017-01-13 00:00:00, value: 37.098
+date: 2017-01-14 00:00:00, value: 50.496
+
+- Example 2:
+Input (history):
+date: 2017-06-25 00:00:00, value: 59.361
+date: 2017-06-26 00:00:00, value: 141.972
+date: 2017-06-27 00:00:00, value: 169.02
+date: 2017-06-28 00:00:00, value: 33.369
+date: 2017-06-29 00:00:00, value: 34.898
+date: 2017-06-30 00:00:00, value: 54.516
+date: 2017-07-01 00:00:00, value: 105.264
+
+Output (forecast):
+date: 2017-07-02 00:00:00, value: 57.678
+date: 2017-07-03 00:00:00, value: 111.419
+date: 2017-07-04 00:00:00, value: 128.106
+date: 2017-07-05 00:00:00, value: 42.306
+date: 2017-07-06 00:00:00, value: 39.688
+date: 2017-07-07 00:00:00, value: 35.393
+date: 2017-07-08 00:00:00, value: 56.788
+
+- Example 3:
+Input (history):
+date: 2017-12-17 00:00:00, value: 47.338
+date: 2017-12-18 00:00:00, value: 85.536
+date: 2017-12-19 00:00:00, value: 122.089
+date: 2017-12-20 00:00:00, value: 33.605
+date: 2017-12-21 00:00:00, value: 51.942
+date: 2017-12-22 00:00:00, value: 42.146
+date: 2017-12-23 00:00:00, value: 83.127
+
+Output (forecast):
+date: 2017-12-24 00:00:00, value: 93.297
+date: 2017-12-25 00:00:00, value: 0.0
+date: 2017-12-26 00:00:00, value: 131.065
+date: 2017-12-27 00:00:00, value: 44.192
+date: 2017-12-28 00:00:00, value: 30.651
+date: 2017-12-29 00:00:00, value: 82.951
+date: 2017-12-30 00:00:00, value: 83.765
+
+[INPUT]"
+Retail,2017-01-01 00:00:00,2017-12-30 00:00:00,7,qwen3-32b,0.7,numeric,cot_few,3,uniform,plain,27.04,27.98,51.84,0.0,0.368564,0.828233,0.079668,0.704601,13832,215,4.5418009757995605,"[86.27850000000005, 0.0, 137.63199999999998, 50.094, 51.00150000000001, 43.956, 45.8205]","[78.394, 0.0, 176.727, 180.751, 42.69, 43.197, 36.68]","[OBJECTIVE]
+Predict the next 7 values based on the historical series (364 periods).
+
+[STATISTICAL CONTEXT]
+- Mean: 77.1322
+- Median: 51.986
+- Standard Deviation: 52.5492
+- Minimum Value: 0.0
+- Maximum Value: 267.498
+- First Quartile (Q1): 40.5665
+- Third Quartile (Q3): 113.2492
+- Trend Strength (STL): 0.2764
+- Seasonality Strength (STL): 0.9071
+
+[REASONING GUIDELINES]
+- Trend: Identify the overall direction (increasing, decreasing, stable) and the trend strength.
+- Seasonality: Patterns that repeat at regular intervals (e.g., daily, weekly, monthly).
+- Outliers: Possible outliers or abrupt changes.
+- Cycles: Not seasonal long-term patterns.
+- Noise reduction: Apply a technique to reduce noise when necessary.
+- Consistency with the provided descriptive statistics (mean, median, etc.).
+- Adjustment for data frequency and contextual events (holidays, promotions, etc.).
+
+[EXAMPLES]
+- Example 1:
+Input (history):
+date: 2017-01-01 00:00:00, value: 0.0
+date: 2017-01-02 00:00:00, value: 173.932
+date: 2017-01-03 00:00:00, value: 175.373
+date: 2017-01-04 00:00:00, value: 42.185
+date: 2017-01-05 00:00:00, value: 42.664
+date: 2017-01-06 00:00:00, value: 33.605
+date: 2017-01-07 00:00:00, value: 57.272
+
+Output (forecast):
+date: 2017-01-08 00:00:00, value: 48.433
+date: 2017-01-09 00:00:00, value: 132.946
+date: 2017-01-10 00:00:00, value: 118.382
+date: 2017-01-11 00:00:00, value: 29.381
+date: 2017-01-12 00:00:00, value: 30.069
+date: 2017-01-13 00:00:00, value: 37.098
+date: 2017-01-14 00:00:00, value: 50.496
+
+- Example 2:
+Input (history):
+date: 2017-06-25 00:00:00, value: 59.361
+date: 2017-06-26 00:00:00, value: 141.972
+date: 2017-06-27 00:00:00, value: 169.02
+date: 2017-06-28 00:00:00, value: 33.369
+date: 2017-06-29 00:00:00, value: 34.898
+date: 2017-06-30 00:00:00, value: 54.516
+date: 2017-07-01 00:00:00, value: 105.264
+
+Output (forecast):
+date: 2017-07-02 00:00:00, value: 57.678
+date: 2017-07-03 00:00:00, value: 111.419
+date: 2017-07-04 00:00:00, value: 128.106
+date: 2017-07-05 00:00:00, value: 42.306
+date: 2017-07-06 00:00:00, value: 39.688
+date: 2017-07-07 00:00:00, value: 35.393
+date: 2017-07-08 00:00:00, value: 56.788
+
+- Example 3:
+Input (history):
+date: 2017-12-17 00:00:00, value: 47.338
+date: 2017-12-18 00:00:00, value: 85.536
+date: 2017-12-19 00:00:00, value: 122.089
+date: 2017-12-20 00:00:00, value: 33.605
+date: 2017-12-21 00:00:00, value: 51.942
+date: 2017-12-22 00:00:00, value: 42.146
+date: 2017-12-23 00:00:00, value: 83.127
+
+Output (forecast):
+date: 2017-12-24 00:00:00, value: 93.297
+date: 2017-12-25 00:00:00, value: 0.0
+date: 2017-12-26 00:00:00, value: 131.065
+date: 2017-12-27 00:00:00, value: 44.192
+date: 2017-12-28 00:00:00, value: 30.651
+date: 2017-12-29 00:00:00, value: 82.951
+date: 2017-12-30 00:00:00, value: 83.765
+
+[INPUT]"
+Retail,2017-01-01 00:00:00,2017-12-30 00:00:00,7,qwen3-32b,0.7,numeric,cot_few,3,uniform,plain,32.46,34.56,62.65,0.0,0.351211,0.789238,0.069059,0.610771,13832,215,4.542763948440552,"[86.27850000000005, 0.0, 137.63199999999998, 50.094, 51.00150000000001, 43.956, 45.8205]","[72.19, 0.0, 183.417, 207.865, 38.456, 32.521, 46.11]","[OBJECTIVE]
+Predict the next 7 values based on the historical series (364 periods).
+
+[STATISTICAL CONTEXT]
+- Mean: 77.1322
+- Median: 51.986
+- Standard Deviation: 52.5492
+- Minimum Value: 0.0
+- Maximum Value: 267.498
+- First Quartile (Q1): 40.5665
+- Third Quartile (Q3): 113.2492
+- Trend Strength (STL): 0.2764
+- Seasonality Strength (STL): 0.9071
+
+[REASONING GUIDELINES]
+- Trend: Identify the overall direction (increasing, decreasing, stable) and the trend strength.
+- Seasonality: Patterns that repeat at regular intervals (e.g., daily, weekly, monthly).
+- Outliers: Possible outliers or abrupt changes.
+- Cycles: Not seasonal long-term patterns.
+- Noise reduction: Apply a technique to reduce noise when necessary.
+- Consistency with the provided descriptive statistics (mean, median, etc.).
+- Adjustment for data frequency and contextual events (holidays, promotions, etc.).
+
+[EXAMPLES]
+- Example 1:
+Input (history):
+date: 2017-01-01 00:00:00, value: 0.0
+date: 2017-01-02 00:00:00, value: 173.932
+date: 2017-01-03 00:00:00, value: 175.373
+date: 2017-01-04 00:00:00, value: 42.185
+date: 2017-01-05 00:00:00, value: 42.664
+date: 2017-01-06 00:00:00, value: 33.605
+date: 2017-01-07 00:00:00, value: 57.272
+
+Output (forecast):
+date: 2017-01-08 00:00:00, value: 48.433
+date: 2017-01-09 00:00:00, value: 132.946
+date: 2017-01-10 00:00:00, value: 118.382
+date: 2017-01-11 00:00:00, value: 29.381
+date: 2017-01-12 00:00:00, value: 30.069
+date: 2017-01-13 00:00:00, value: 37.098
+date: 2017-01-14 00:00:00, value: 50.496
+
+- Example 2:
+Input (history):
+date: 2017-06-25 00:00:00, value: 59.361
+date: 2017-06-26 00:00:00, value: 141.972
+date: 2017-06-27 00:00:00, value: 169.02
+date: 2017-06-28 00:00:00, value: 33.369
+date: 2017-06-29 00:00:00, value: 34.898
+date: 2017-06-30 00:00:00, value: 54.516
+date: 2017-07-01 00:00:00, value: 105.264
+
+Output (forecast):
+date: 2017-07-02 00:00:00, value: 57.678
+date: 2017-07-03 00:00:00, value: 111.419
+date: 2017-07-04 00:00:00, value: 128.106
+date: 2017-07-05 00:00:00, value: 42.306
+date: 2017-07-06 00:00:00, value: 39.688
+date: 2017-07-07 00:00:00, value: 35.393
+date: 2017-07-08 00:00:00, value: 56.788
+
+- Example 3:
+Input (history):
+date: 2017-12-17 00:00:00, value: 47.338
+date: 2017-12-18 00:00:00, value: 85.536
+date: 2017-12-19 00:00:00, value: 122.089
+date: 2017-12-20 00:00:00, value: 33.605
+date: 2017-12-21 00:00:00, value: 51.942
+date: 2017-12-22 00:00:00, value: 42.146
+date: 2017-12-23 00:00:00, value: 83.127
+
+Output (forecast):
+date: 2017-12-24 00:00:00, value: 93.297
+date: 2017-12-25 00:00:00, value: 0.0
+date: 2017-12-26 00:00:00, value: 131.065
+date: 2017-12-27 00:00:00, value: 44.192
+date: 2017-12-28 00:00:00, value: 30.651
+date: 2017-12-29 00:00:00, value: 82.951
+date: 2017-12-30 00:00:00, value: 83.765
+
+[INPUT]"
+Retail,2017-01-01 00:00:00,2017-12-30 00:00:00,7,qwen3-32b,0.7,numeric,cot_few,3,uniform,plain,34.68,31.87,52.15,0.0,0.405429,0.911077,0.089335,0.790094,13832,244,5.159977674484253,"[86.27850000000005, 0.0, 137.63199999999998, 50.094, 51.00150000000001, 43.956, 45.8205]","[47.93, 0.0, 174.895, 176.415, 43.209, 43.35, 33.076]","[OBJECTIVE]
+Predict the next 7 values based on the historical series (364 periods).
+
+[STATISTICAL CONTEXT]
+- Mean: 77.1322
+- Median: 51.986
+- Standard Deviation: 52.5492
+- Minimum Value: 0.0
+- Maximum Value: 267.498
+- First Quartile (Q1): 40.5665
+- Third Quartile (Q3): 113.2492
+- Trend Strength (STL): 0.2764
+- Seasonality Strength (STL): 0.9071
+
+[REASONING GUIDELINES]
+- Trend: Identify the overall direction (increasing, decreasing, stable) and the trend strength.
+- Seasonality: Patterns that repeat at regular intervals (e.g., daily, weekly, monthly).
+- Outliers: Possible outliers or abrupt changes.
+- Cycles: Not seasonal long-term patterns.
+- Noise reduction: Apply a technique to reduce noise when necessary.
+- Consistency with the provided descriptive statistics (mean, median, etc.).
+- Adjustment for data frequency and contextual events (holidays, promotions, etc.).
+
+[EXAMPLES]
+- Example 1:
+Input (history):
+date: 2017-01-01 00:00:00, value: 0.0
+date: 2017-01-02 00:00:00, value: 173.932
+date: 2017-01-03 00:00:00, value: 175.373
+date: 2017-01-04 00:00:00, value: 42.185
+date: 2017-01-05 00:00:00, value: 42.664
+date: 2017-01-06 00:00:00, value: 33.605
+date: 2017-01-07 00:00:00, value: 57.272
+
+Output (forecast):
+date: 2017-01-08 00:00:00, value: 48.433
+date: 2017-01-09 00:00:00, value: 132.946
+date: 2017-01-10 00:00:00, value: 118.382
+date: 2017-01-11 00:00:00, value: 29.381
+date: 2017-01-12 00:00:00, value: 30.069
+date: 2017-01-13 00:00:00, value: 37.098
+date: 2017-01-14 00:00:00, value: 50.496
+
+- Example 2:
+Input (history):
+date: 2017-06-25 00:00:00, value: 59.361
+date: 2017-06-26 00:00:00, value: 141.972
+date: 2017-06-27 00:00:00, value: 169.02
+date: 2017-06-28 00:00:00, value: 33.369
+date: 2017-06-29 00:00:00, value: 34.898
+date: 2017-06-30 00:00:00, value: 54.516
+date: 2017-07-01 00:00:00, value: 105.264
+
+Output (forecast):
+date: 2017-07-02 00:00:00, value: 57.678
+date: 2017-07-03 00:00:00, value: 111.419
+date: 2017-07-04 00:00:00, value: 128.106
+date: 2017-07-05 00:00:00, value: 42.306
+date: 2017-07-06 00:00:00, value: 39.688
+date: 2017-07-07 00:00:00, value: 35.393
+date: 2017-07-08 00:00:00, value: 56.788
+
+- Example 3:
+Input (history):
+date: 2017-12-17 00:00:00, value: 47.338
+date: 2017-12-18 00:00:00, value: 85.536
+date: 2017-12-19 00:00:00, value: 122.089
+date: 2017-12-20 00:00:00, value: 33.605
+date: 2017-12-21 00:00:00, value: 51.942
+date: 2017-12-22 00:00:00, value: 42.146
+date: 2017-12-23 00:00:00, value: 83.127
+
+Output (forecast):
+date: 2017-12-24 00:00:00, value: 93.297
+date: 2017-12-25 00:00:00, value: 0.0
+date: 2017-12-26 00:00:00, value: 131.065
+date: 2017-12-27 00:00:00, value: 44.192
+date: 2017-12-28 00:00:00, value: 30.651
+date: 2017-12-29 00:00:00, value: 82.951
+date: 2017-12-30 00:00:00, value: 83.765
+
+[INPUT]"
+Retail,2017-01-01 00:00:00,2017-12-30 00:00:00,7,qwen3-32b,0.7,numeric,cot_few,3,uniform,plain,30.63,25.93,49.14,0.0,0.42087,0.945775,0.086222,0.762557,13832,245,5.170504570007324,"[86.27850000000005, 0.0, 137.63199999999998, 50.094, 51.00150000000001, 43.956, 45.8205]","[79.532, 0.0, 147.981, 177.065, 28.436, 49.678, 54.98]","[OBJECTIVE]
+Predict the next 7 values based on the historical series (364 periods).
+
+[STATISTICAL CONTEXT]
+- Mean: 77.1322
+- Median: 51.986
+- Standard Deviation: 52.5492
+- Minimum Value: 0.0
+- Maximum Value: 267.498
+- First Quartile (Q1): 40.5665
+- Third Quartile (Q3): 113.2492
+- Trend Strength (STL): 0.2764
+- Seasonality Strength (STL): 0.9071
+
+[REASONING GUIDELINES]
+- Trend: Identify the overall direction (increasing, decreasing, stable) and the trend strength.
+- Seasonality: Patterns that repeat at regular intervals (e.g., daily, weekly, monthly).
+- Outliers: Possible outliers or abrupt changes.
+- Cycles: Not seasonal long-term patterns.
+- Noise reduction: Apply a technique to reduce noise when necessary.
+- Consistency with the provided descriptive statistics (mean, median, etc.).
+- Adjustment for data frequency and contextual events (holidays, promotions, etc.).
+
+[EXAMPLES]
+- Example 1:
+Input (history):
+date: 2017-01-01 00:00:00, value: 0.0
+date: 2017-01-02 00:00:00, value: 173.932
+date: 2017-01-03 00:00:00, value: 175.373
+date: 2017-01-04 00:00:00, value: 42.185
+date: 2017-01-05 00:00:00, value: 42.664
+date: 2017-01-06 00:00:00, value: 33.605
+date: 2017-01-07 00:00:00, value: 57.272
+
+Output (forecast):
+date: 2017-01-08 00:00:00, value: 48.433
+date: 2017-01-09 00:00:00, value: 132.946
+date: 2017-01-10 00:00:00, value: 118.382
+date: 2017-01-11 00:00:00, value: 29.381
+date: 2017-01-12 00:00:00, value: 30.069
+date: 2017-01-13 00:00:00, value: 37.098
+date: 2017-01-14 00:00:00, value: 50.496
+
+- Example 2:
+Input (history):
+date: 2017-06-25 00:00:00, value: 59.361
+date: 2017-06-26 00:00:00, value: 141.972
+date: 2017-06-27 00:00:00, value: 169.02
+date: 2017-06-28 00:00:00, value: 33.369
+date: 2017-06-29 00:00:00, value: 34.898
+date: 2017-06-30 00:00:00, value: 54.516
+date: 2017-07-01 00:00:00, value: 105.264
+
+Output (forecast):
+date: 2017-07-02 00:00:00, value: 57.678
+date: 2017-07-03 00:00:00, value: 111.419
+date: 2017-07-04 00:00:00, value: 128.106
+date: 2017-07-05 00:00:00, value: 42.306
+date: 2017-07-06 00:00:00, value: 39.688
+date: 2017-07-07 00:00:00, value: 35.393
+date: 2017-07-08 00:00:00, value: 56.788
+
+- Example 3:
+Input (history):
+date: 2017-12-17 00:00:00, value: 47.338
+date: 2017-12-18 00:00:00, value: 85.536
+date: 2017-12-19 00:00:00, value: 122.089
+date: 2017-12-20 00:00:00, value: 33.605
+date: 2017-12-21 00:00:00, value: 51.942
+date: 2017-12-22 00:00:00, value: 42.146
+date: 2017-12-23 00:00:00, value: 83.127
+
+Output (forecast):
+date: 2017-12-24 00:00:00, value: 93.297
+date: 2017-12-25 00:00:00, value: 0.0
+date: 2017-12-26 00:00:00, value: 131.065
+date: 2017-12-27 00:00:00, value: 44.192
+date: 2017-12-28 00:00:00, value: 30.651
+date: 2017-12-29 00:00:00, value: 82.951
+date: 2017-12-30 00:00:00, value: 83.765
+
+[INPUT]"
+Retail,2017-01-01 00:00:00,2017-12-30 00:00:00,7,qwen3-32b,0.7,textual,cot_few,3,uniform,plain,35.05,31.83,51.77,0.0,1.132543,2.545041,0.206318,1.824706,15512,246,12.512858390808104,"[86.27850000000005, 0.0, 137.63199999999998, 50.094, 51.00150000000001, 43.956, 45.8205]","[47.338, 0.0, 173.932, 175.373, 42.185, 42.664, 33.605]","[OBJECTIVE]
+Predict the next 7 values based on the historical series (364 periods).
+
+[STATISTICAL CONTEXT]
+- Mean: 77.1322
+- Median: 51.986
+- Standard Deviation: 52.5492
+- Minimum Value: 0.0
+- Maximum Value: 267.498
+- First Quartile (Q1): 40.5665
+- Third Quartile (Q3): 113.2492
+- Trend Strength (STL): 0.2764
+- Seasonality Strength (STL): 0.9071
+
+[REASONING GUIDELINES]
+- Trend: Identify the overall direction (increasing, decreasing, stable) and the trend strength.
+- Seasonality: Patterns that repeat at regular intervals (e.g., daily, weekly, monthly).
+- Outliers: Possible outliers or abrupt changes.
+- Cycles: Not seasonal long-term patterns.
+- Noise reduction: Apply a technique to reduce noise when necessary.
+- Consistency with the provided descriptive statistics (mean, median, etc.).
+- Adjustment for data frequency and contextual events (holidays, promotions, etc.).
+
+[EXAMPLES]
+- Example 1:
+Input (history):
+date: 2017-01-01 00:00:00, value: 0 . 0
+date: 2017-01-02 00:00:00, value: 1 7 3 . 9 3 2
+date: 2017-01-03 00:00:00, value: 1 7 5 . 3 7 3
+date: 2017-01-04 00:00:00, value: 4 2 . 1 8 5
+date: 2017-01-05 00:00:00, value: 4 2 . 6 6 4
+date: 2017-01-06 00:00:00, value: 3 3 . 6 0 5
+date: 2017-01-07 00:00:00, value: 5 7 . 2 7 2
+
+Output (forecast):
+date: 2017-01-08 00:00:00, value: 4 8 . 4 3 3
+date: 2017-01-09 00:00:00, value: 1 3 2 . 9 4 6
+date: 2017-01-10 00:00:00, value: 1 1 8 . 3 8 2
+date: 2017-01-11 00:00:00, value: 2 9 . 3 8 1
+date: 2017-01-12 00:00:00, value: 3 0 . 0 6 9
+date: 2017-01-13 00:00:00, value: 3 7 . 0 9 8
+date: 2017-01-14 00:00:00, value: 5 0 . 4 9 6
+
+- Example 2:
+Input (history):
+date: 2017-06-25 00:00:00, value: 5 9 . 3 6 1
+date: 2017-06-26 00:00:00, value: 1 4 1 . 9 7 2
+date: 2017-06-27 00:00:00, value: 1 6 9 . 0 2
+date: 2017-06-28 00:00:00, value: 3 3 . 3 6 9
+date: 2017-06-29 00:00:00, value: 3 4 . 8 9 8
+date: 2017-06-30 00:00:00, value: 5 4 . 5 1 6
+date: 2017-07-01 00:00:00, value: 1 0 5 . 2 6 4
+
+Output (forecast):
+date: 2017-07-02 00:00:00, value: 5 7 . 6 7 8
+date: 2017-07-03 00:00:00, value: 1 1 1 . 4 1 9
+date: 2017-07-04 00:00:00, value: 1 2 8 . 1 0 6
+date: 2017-07-05 00:00:00, value: 4 2 . 3 0 6
+date: 2017-07-06 00:00:00, value: 3 9 . 6 8 8
+date: 2017-07-07 00:00:00, value: 3 5 . 3 9 3
+date: 2017-07-08 00:00:00, value: 5 6 . 7 8 8
+
+- Example 3:
+Input (history):
+date: 2017-12-17 00:00:00, value: 4 7 . 3 3 8
+date: 2017-12-18 00:00:00, value: 8 5 . 5 3 6
+date: 2017-12-19 00:00:00, value: 1 2 2 . 0 8 9
+date: 2017-12-20 00:00:00, value: 3 3 . 6 0 5
+date: 2017-12-21 00:00:00, value: 5 1 . 9 4 2
+date: 2017-12-22 00:00:00, value: 4 2 . 1 4 6
+date: 2017-12-23 00:00:00, value: 8 3 . 1 2 7
+
+Output (forecast):
+date: 2017-12-24 00:00:00, value: 9 3 . 2 9 7
+date: 2017-12-25 00:00:00, value: 0 . 0
+date: 2017-12-26 00:00:00, value: 1 3 1 . 0 6 5
+date: 2017-12-27 00:00:00, value: 4 4 . 1 9 2
+date: 2017-12-28 00:00:00, value: 3 0 . 6 5 1
+date: 2017-12-29 00:00:00, value: 8 2 . 9 5 1
+date: 2017-12-30 00:00:00, value: 8 3 . 7 6 5
+
+[INPUT]"
+Retail,2017-01-01 00:00:00,2017-12-30 00:00:00,7,qwen3-32b,0.7,textual,cot_few,3,uniform,plain,40.28,41.77,64.1,0.0,0.423308,0.951254,0.085751,0.758394,15512,243,5.170803785324097,"[86.27850000000005, 0.0, 137.63199999999998, 50.094, 51.00150000000001, 43.956, 45.8205]","[49.429, 0.0, 237.805, 180.75, 40.345, 30.212, 46.14]","[OBJECTIVE]
+Predict the next 7 values based on the historical series (364 periods).
+
+[STATISTICAL CONTEXT]
+- Mean: 77.1322
+- Median: 51.986
+- Standard Deviation: 52.5492
+- Minimum Value: 0.0
+- Maximum Value: 267.498
+- First Quartile (Q1): 40.5665
+- Third Quartile (Q3): 113.2492
+- Trend Strength (STL): 0.2764
+- Seasonality Strength (STL): 0.9071
+
+[REASONING GUIDELINES]
+- Trend: Identify the overall direction (increasing, decreasing, stable) and the trend strength.
+- Seasonality: Patterns that repeat at regular intervals (e.g., daily, weekly, monthly).
+- Outliers: Possible outliers or abrupt changes.
+- Cycles: Not seasonal long-term patterns.
+- Noise reduction: Apply a technique to reduce noise when necessary.
+- Consistency with the provided descriptive statistics (mean, median, etc.).
+- Adjustment for data frequency and contextual events (holidays, promotions, etc.).
+
+[EXAMPLES]
+- Example 1:
+Input (history):
+date: 2017-01-01 00:00:00, value: 0 . 0
+date: 2017-01-02 00:00:00, value: 1 7 3 . 9 3 2
+date: 2017-01-03 00:00:00, value: 1 7 5 . 3 7 3
+date: 2017-01-04 00:00:00, value: 4 2 . 1 8 5
+date: 2017-01-05 00:00:00, value: 4 2 . 6 6 4
+date: 2017-01-06 00:00:00, value: 3 3 . 6 0 5
+date: 2017-01-07 00:00:00, value: 5 7 . 2 7 2
+
+Output (forecast):
+date: 2017-01-08 00:00:00, value: 4 8 . 4 3 3
+date: 2017-01-09 00:00:00, value: 1 3 2 . 9 4 6
+date: 2017-01-10 00:00:00, value: 1 1 8 . 3 8 2
+date: 2017-01-11 00:00:00, value: 2 9 . 3 8 1
+date: 2017-01-12 00:00:00, value: 3 0 . 0 6 9
+date: 2017-01-13 00:00:00, value: 3 7 . 0 9 8
+date: 2017-01-14 00:00:00, value: 5 0 . 4 9 6
+
+- Example 2:
+Input (history):
+date: 2017-06-25 00:00:00, value: 5 9 . 3 6 1
+date: 2017-06-26 00:00:00, value: 1 4 1 . 9 7 2
+date: 2017-06-27 00:00:00, value: 1 6 9 . 0 2
+date: 2017-06-28 00:00:00, value: 3 3 . 3 6 9
+date: 2017-06-29 00:00:00, value: 3 4 . 8 9 8
+date: 2017-06-30 00:00:00, value: 5 4 . 5 1 6
+date: 2017-07-01 00:00:00, value: 1 0 5 . 2 6 4
+
+Output (forecast):
+date: 2017-07-02 00:00:00, value: 5 7 . 6 7 8
+date: 2017-07-03 00:00:00, value: 1 1 1 . 4 1 9
+date: 2017-07-04 00:00:00, value: 1 2 8 . 1 0 6
+date: 2017-07-05 00:00:00, value: 4 2 . 3 0 6
+date: 2017-07-06 00:00:00, value: 3 9 . 6 8 8
+date: 2017-07-07 00:00:00, value: 3 5 . 3 9 3
+date: 2017-07-08 00:00:00, value: 5 6 . 7 8 8
+
+- Example 3:
+Input (history):
+date: 2017-12-17 00:00:00, value: 4 7 . 3 3 8
+date: 2017-12-18 00:00:00, value: 8 5 . 5 3 6
+date: 2017-12-19 00:00:00, value: 1 2 2 . 0 8 9
+date: 2017-12-20 00:00:00, value: 3 3 . 6 0 5
+date: 2017-12-21 00:00:00, value: 5 1 . 9 4 2
+date: 2017-12-22 00:00:00, value: 4 2 . 1 4 6
+date: 2017-12-23 00:00:00, value: 8 3 . 1 2 7
+
+Output (forecast):
+date: 2017-12-24 00:00:00, value: 9 3 . 2 9 7
+date: 2017-12-25 00:00:00, value: 0 . 0
+date: 2017-12-26 00:00:00, value: 1 3 1 . 0 6 5
+date: 2017-12-27 00:00:00, value: 4 4 . 1 9 2
+date: 2017-12-28 00:00:00, value: 3 0 . 6 5 1
+date: 2017-12-29 00:00:00, value: 8 2 . 9 5 1
+date: 2017-12-30 00:00:00, value: 8 3 . 7 6 5
+
+[INPUT]"
+Retail,2017-01-01 00:00:00,2017-12-30 00:00:00,7,qwen3-32b,0.7,textual,cot_few,3,uniform,plain,54.22,34.2,52.67,0.0,0.436745,0.98145,0.079209,0.700534,15512,245,5.212404012680054,"[86.27850000000005, 0.0, 137.63199999999998, 50.094, 51.00150000000001, 43.956, 45.8205]","[83.549, 54.676, 178.549, 170.875, 46.45, 49.138, 56.38]","[OBJECTIVE]
+Predict the next 7 values based on the historical series (364 periods).
+
+[STATISTICAL CONTEXT]
+- Mean: 77.1322
+- Median: 51.986
+- Standard Deviation: 52.5492
+- Minimum Value: 0.0
+- Maximum Value: 267.498
+- First Quartile (Q1): 40.5665
+- Third Quartile (Q3): 113.2492
+- Trend Strength (STL): 0.2764
+- Seasonality Strength (STL): 0.9071
+
+[REASONING GUIDELINES]
+- Trend: Identify the overall direction (increasing, decreasing, stable) and the trend strength.
+- Seasonality: Patterns that repeat at regular intervals (e.g., daily, weekly, monthly).
+- Outliers: Possible outliers or abrupt changes.
+- Cycles: Not seasonal long-term patterns.
+- Noise reduction: Apply a technique to reduce noise when necessary.
+- Consistency with the provided descriptive statistics (mean, median, etc.).
+- Adjustment for data frequency and contextual events (holidays, promotions, etc.).
+
+[EXAMPLES]
+- Example 1:
+Input (history):
+date: 2017-01-01 00:00:00, value: 0 . 0
+date: 2017-01-02 00:00:00, value: 1 7 3 . 9 3 2
+date: 2017-01-03 00:00:00, value: 1 7 5 . 3 7 3
+date: 2017-01-04 00:00:00, value: 4 2 . 1 8 5
+date: 2017-01-05 00:00:00, value: 4 2 . 6 6 4
+date: 2017-01-06 00:00:00, value: 3 3 . 6 0 5
+date: 2017-01-07 00:00:00, value: 5 7 . 2 7 2
+
+Output (forecast):
+date: 2017-01-08 00:00:00, value: 4 8 . 4 3 3
+date: 2017-01-09 00:00:00, value: 1 3 2 . 9 4 6
+date: 2017-01-10 00:00:00, value: 1 1 8 . 3 8 2
+date: 2017-01-11 00:00:00, value: 2 9 . 3 8 1
+date: 2017-01-12 00:00:00, value: 3 0 . 0 6 9
+date: 2017-01-13 00:00:00, value: 3 7 . 0 9 8
+date: 2017-01-14 00:00:00, value: 5 0 . 4 9 6
+
+- Example 2:
+Input (history):
+date: 2017-06-25 00:00:00, value: 5 9 . 3 6 1
+date: 2017-06-26 00:00:00, value: 1 4 1 . 9 7 2
+date: 2017-06-27 00:00:00, value: 1 6 9 . 0 2
+date: 2017-06-28 00:00:00, value: 3 3 . 3 6 9
+date: 2017-06-29 00:00:00, value: 3 4 . 8 9 8
+date: 2017-06-30 00:00:00, value: 5 4 . 5 1 6
+date: 2017-07-01 00:00:00, value: 1 0 5 . 2 6 4
+
+Output (forecast):
+date: 2017-07-02 00:00:00, value: 5 7 . 6 7 8
+date: 2017-07-03 00:00:00, value: 1 1 1 . 4 1 9
+date: 2017-07-04 00:00:00, value: 1 2 8 . 1 0 6
+date: 2017-07-05 00:00:00, value: 4 2 . 3 0 6
+date: 2017-07-06 00:00:00, value: 3 9 . 6 8 8
+date: 2017-07-07 00:00:00, value: 3 5 . 3 9 3
+date: 2017-07-08 00:00:00, value: 5 6 . 7 8 8
+
+- Example 3:
+Input (history):
+date: 2017-12-17 00:00:00, value: 4 7 . 3 3 8
+date: 2017-12-18 00:00:00, value: 8 5 . 5 3 6
+date: 2017-12-19 00:00:00, value: 1 2 2 . 0 8 9
+date: 2017-12-20 00:00:00, value: 3 3 . 6 0 5
+date: 2017-12-21 00:00:00, value: 5 1 . 9 4 2
+date: 2017-12-22 00:00:00, value: 4 2 . 1 4 6
+date: 2017-12-23 00:00:00, value: 8 3 . 1 2 7
+
+Output (forecast):
+date: 2017-12-24 00:00:00, value: 9 3 . 2 9 7
+date: 2017-12-25 00:00:00, value: 0 . 0
+date: 2017-12-26 00:00:00, value: 1 3 1 . 0 6 5
+date: 2017-12-27 00:00:00, value: 4 4 . 1 9 2
+date: 2017-12-28 00:00:00, value: 3 0 . 6 5 1
+date: 2017-12-29 00:00:00, value: 8 2 . 9 5 1
+date: 2017-12-30 00:00:00, value: 8 3 . 7 6 5
+
+[INPUT]"
+Retail,2017-01-01 00:00:00,2017-12-30 00:00:00,7,qwen3-32b,0.7,textual,cot_few,3,uniform,plain,39.71,35.99,54.23,0.0,0.406438,0.913343,0.089254,0.789372,15512,240,5.142958164215088,"[86.27850000000005, 0.0, 137.63199999999998, 50.094, 51.00150000000001, 43.956, 45.8205]","[44.37, 0.0, 195.64, 173.26, 40.34, 37.81, 33.75]","[OBJECTIVE]
+Predict the next 7 values based on the historical series (364 periods).
+
+[STATISTICAL CONTEXT]
+- Mean: 77.1322
+- Median: 51.986
+- Standard Deviation: 52.5492
+- Minimum Value: 0.0
+- Maximum Value: 267.498
+- First Quartile (Q1): 40.5665
+- Third Quartile (Q3): 113.2492
+- Trend Strength (STL): 0.2764
+- Seasonality Strength (STL): 0.9071
+
+[REASONING GUIDELINES]
+- Trend: Identify the overall direction (increasing, decreasing, stable) and the trend strength.
+- Seasonality: Patterns that repeat at regular intervals (e.g., daily, weekly, monthly).
+- Outliers: Possible outliers or abrupt changes.
+- Cycles: Not seasonal long-term patterns.
+- Noise reduction: Apply a technique to reduce noise when necessary.
+- Consistency with the provided descriptive statistics (mean, median, etc.).
+- Adjustment for data frequency and contextual events (holidays, promotions, etc.).
+
+[EXAMPLES]
+- Example 1:
+Input (history):
+date: 2017-01-01 00:00:00, value: 0 . 0
+date: 2017-01-02 00:00:00, value: 1 7 3 . 9 3 2
+date: 2017-01-03 00:00:00, value: 1 7 5 . 3 7 3
+date: 2017-01-04 00:00:00, value: 4 2 . 1 8 5
+date: 2017-01-05 00:00:00, value: 4 2 . 6 6 4
+date: 2017-01-06 00:00:00, value: 3 3 . 6 0 5
+date: 2017-01-07 00:00:00, value: 5 7 . 2 7 2
+
+Output (forecast):
+date: 2017-01-08 00:00:00, value: 4 8 . 4 3 3
+date: 2017-01-09 00:00:00, value: 1 3 2 . 9 4 6
+date: 2017-01-10 00:00:00, value: 1 1 8 . 3 8 2
+date: 2017-01-11 00:00:00, value: 2 9 . 3 8 1
+date: 2017-01-12 00:00:00, value: 3 0 . 0 6 9
+date: 2017-01-13 00:00:00, value: 3 7 . 0 9 8
+date: 2017-01-14 00:00:00, value: 5 0 . 4 9 6
+
+- Example 2:
+Input (history):
+date: 2017-06-25 00:00:00, value: 5 9 . 3 6 1
+date: 2017-06-26 00:00:00, value: 1 4 1 . 9 7 2
+date: 2017-06-27 00:00:00, value: 1 6 9 . 0 2
+date: 2017-06-28 00:00:00, value: 3 3 . 3 6 9
+date: 2017-06-29 00:00:00, value: 3 4 . 8 9 8
+date: 2017-06-30 00:00:00, value: 5 4 . 5 1 6
+date: 2017-07-01 00:00:00, value: 1 0 5 . 2 6 4
+
+Output (forecast):
+date: 2017-07-02 00:00:00, value: 5 7 . 6 7 8
+date: 2017-07-03 00:00:00, value: 1 1 1 . 4 1 9
+date: 2017-07-04 00:00:00, value: 1 2 8 . 1 0 6
+date: 2017-07-05 00:00:00, value: 4 2 . 3 0 6
+date: 2017-07-06 00:00:00, value: 3 9 . 6 8 8
+date: 2017-07-07 00:00:00, value: 3 5 . 3 9 3
+date: 2017-07-08 00:00:00, value: 5 6 . 7 8 8
+
+- Example 3:
+Input (history):
+date: 2017-12-17 00:00:00, value: 4 7 . 3 3 8
+date: 2017-12-18 00:00:00, value: 8 5 . 5 3 6
+date: 2017-12-19 00:00:00, value: 1 2 2 . 0 8 9
+date: 2017-12-20 00:00:00, value: 3 3 . 6 0 5
+date: 2017-12-21 00:00:00, value: 5 1 . 9 4 2
+date: 2017-12-22 00:00:00, value: 4 2 . 1 4 6
+date: 2017-12-23 00:00:00, value: 8 3 . 1 2 7
+
+Output (forecast):
+date: 2017-12-24 00:00:00, value: 9 3 . 2 9 7
+date: 2017-12-25 00:00:00, value: 0 . 0
+date: 2017-12-26 00:00:00, value: 1 3 1 . 0 6 5
+date: 2017-12-27 00:00:00, value: 4 4 . 1 9 2
+date: 2017-12-28 00:00:00, value: 3 0 . 6 5 1
+date: 2017-12-29 00:00:00, value: 8 2 . 9 5 1
+date: 2017-12-30 00:00:00, value: 8 3 . 7 6 5
+
+[INPUT]"
+Retail,2017-01-01 00:00:00,2017-12-30 00:00:00,7,qwen3-32b,0.7,textual,cot_few,3,uniform,plain,72.57,48.0,75.11,0.0,0.383995,0.86291,0.072095,0.637623,15512,231,4.948099851608276,"[86.27850000000005, 0.0, 137.63199999999998, 50.094, 51.00150000000001, 43.956, 45.8205]","[0.0, 173.932, 175.373, 42.185, 42.664, 33.605, 57.272]","[OBJECTIVE]
+Predict the next 7 values based on the historical series (364 periods).
+
+[STATISTICAL CONTEXT]
+- Mean: 77.1322
+- Median: 51.986
+- Standard Deviation: 52.5492
+- Minimum Value: 0.0
+- Maximum Value: 267.498
+- First Quartile (Q1): 40.5665
+- Third Quartile (Q3): 113.2492
+- Trend Strength (STL): 0.2764
+- Seasonality Strength (STL): 0.9071
+
+[REASONING GUIDELINES]
+- Trend: Identify the overall direction (increasing, decreasing, stable) and the trend strength.
+- Seasonality: Patterns that repeat at regular intervals (e.g., daily, weekly, monthly).
+- Outliers: Possible outliers or abrupt changes.
+- Cycles: Not seasonal long-term patterns.
+- Noise reduction: Apply a technique to reduce noise when necessary.
+- Consistency with the provided descriptive statistics (mean, median, etc.).
+- Adjustment for data frequency and contextual events (holidays, promotions, etc.).
+
+[EXAMPLES]
+- Example 1:
+Input (history):
+date: 2017-01-01 00:00:00, value: 0 . 0
+date: 2017-01-02 00:00:00, value: 1 7 3 . 9 3 2
+date: 2017-01-03 00:00:00, value: 1 7 5 . 3 7 3
+date: 2017-01-04 00:00:00, value: 4 2 . 1 8 5
+date: 2017-01-05 00:00:00, value: 4 2 . 6 6 4
+date: 2017-01-06 00:00:00, value: 3 3 . 6 0 5
+date: 2017-01-07 00:00:00, value: 5 7 . 2 7 2
+
+Output (forecast):
+date: 2017-01-08 00:00:00, value: 4 8 . 4 3 3
+date: 2017-01-09 00:00:00, value: 1 3 2 . 9 4 6
+date: 2017-01-10 00:00:00, value: 1 1 8 . 3 8 2
+date: 2017-01-11 00:00:00, value: 2 9 . 3 8 1
+date: 2017-01-12 00:00:00, value: 3 0 . 0 6 9
+date: 2017-01-13 00:00:00, value: 3 7 . 0 9 8
+date: 2017-01-14 00:00:00, value: 5 0 . 4 9 6
+
+- Example 2:
+Input (history):
+date: 2017-06-25 00:00:00, value: 5 9 . 3 6 1
+date: 2017-06-26 00:00:00, value: 1 4 1 . 9 7 2
+date: 2017-06-27 00:00:00, value: 1 6 9 . 0 2
+date: 2017-06-28 00:00:00, value: 3 3 . 3 6 9
+date: 2017-06-29 00:00:00, value: 3 4 . 8 9 8
+date: 2017-06-30 00:00:00, value: 5 4 . 5 1 6
+date: 2017-07-01 00:00:00, value: 1 0 5 . 2 6 4
+
+Output (forecast):
+date: 2017-07-02 00:00:00, value: 5 7 . 6 7 8
+date: 2017-07-03 00:00:00, value: 1 1 1 . 4 1 9
+date: 2017-07-04 00:00:00, value: 1 2 8 . 1 0 6
+date: 2017-07-05 00:00:00, value: 4 2 . 3 0 6
+date: 2017-07-06 00:00:00, value: 3 9 . 6 8 8
+date: 2017-07-07 00:00:00, value: 3 5 . 3 9 3
+date: 2017-07-08 00:00:00, value: 5 6 . 7 8 8
+
+- Example 3:
+Input (history):
+date: 2017-12-17 00:00:00, value: 4 7 . 3 3 8
+date: 2017-12-18 00:00:00, value: 8 5 . 5 3 6
+date: 2017-12-19 00:00:00, value: 1 2 2 . 0 8 9
+date: 2017-12-20 00:00:00, value: 3 3 . 6 0 5
+date: 2017-12-21 00:00:00, value: 5 1 . 9 4 2
+date: 2017-12-22 00:00:00, value: 4 2 . 1 4 6
+date: 2017-12-23 00:00:00, value: 8 3 . 1 2 7
+
+Output (forecast):
+date: 2017-12-24 00:00:00, value: 9 3 . 2 9 7
+date: 2017-12-25 00:00:00, value: 0 . 0
+date: 2017-12-26 00:00:00, value: 1 3 1 . 0 6 5
+date: 2017-12-27 00:00:00, value: 4 4 . 1 9 2
+date: 2017-12-28 00:00:00, value: 3 0 . 6 5 1
+date: 2017-12-29 00:00:00, value: 8 2 . 9 5 1
+date: 2017-12-30 00:00:00, value: 8 3 . 7 6 5
+
+[INPUT]"
+Retail,2017-01-01 00:00:00,2017-12-30 00:00:00,7,qwen3-32b,0.7,numeric,cot_few,3,uniform,csv,72.57,48.0,75.11,0.0,0.88633,1.991753,0.157506,1.393007,11417,243,10.798331499099731,"[86.27850000000005, 0.0, 137.63199999999998, 50.094, 51.00150000000001, 43.956, 45.8205]","[0.0, 173.932, 175.373, 42.185, 42.664, 33.605, 57.272]","[OBJECTIVE]
+Predict the next 7 values based on the historical series (364 periods).
+
+[STATISTICAL CONTEXT]
+- Mean: 77.1322
+- Median: 51.986
+- Standard Deviation: 52.5492
+- Minimum Value: 0.0
+- Maximum Value: 267.498
+- First Quartile (Q1): 40.5665
+- Third Quartile (Q3): 113.2492
+- Trend Strength (STL): 0.2764
+- Seasonality Strength (STL): 0.9071
+
+[REASONING GUIDELINES]
+- Trend: Identify the overall direction (increasing, decreasing, stable) and the trend strength.
+- Seasonality: Patterns that repeat at regular intervals (e.g., daily, weekly, monthly).
+- Outliers: Possible outliers or abrupt changes.
+- Cycles: Not seasonal long-term patterns.
+- Noise reduction: Apply a technique to reduce noise when necessary.
+- Consistency with the provided descriptive statistics (mean, median, etc.).
+- Adjustment for data frequency and contextual events (holidays, promotions, etc.).
+
+[EXAMPLES]
+- Example 1:
+Input (history):
+date,value
+2017-01-01 00:00:00,0.0
+2017-01-02 00:00:00,173.932
+2017-01-03 00:00:00,175.373
+2017-01-04 00:00:00,42.185
+2017-01-05 00:00:00,42.664
+2017-01-06 00:00:00,33.605
+2017-01-07 00:00:00,57.272
+
+Output (forecast):
+date,value
+2017-01-08 00:00:00,48.433
+2017-01-09 00:00:00,132.946
+2017-01-10 00:00:00,118.382
+2017-01-11 00:00:00,29.381
+2017-01-12 00:00:00,30.069
+2017-01-13 00:00:00,37.098
+2017-01-14 00:00:00,50.496
+
+- Example 2:
+Input (history):
+date,value
+2017-06-25 00:00:00,59.361
+2017-06-26 00:00:00,141.972
+2017-06-27 00:00:00,169.02
+2017-06-28 00:00:00,33.369
+2017-06-29 00:00:00,34.898
+2017-06-30 00:00:00,54.516
+2017-07-01 00:00:00,105.264
+
+Output (forecast):
+date,value
+2017-07-02 00:00:00,57.678
+2017-07-03 00:00:00,111.419
+2017-07-04 00:00:00,128.106
+2017-07-05 00:00:00,42.306
+2017-07-06 00:00:00,39.688
+2017-07-07 00:00:00,35.393
+2017-07-08 00:00:00,56.788
+
+- Example 3:
+Input (history):
+date,value
+2017-12-17 00:00:00,47.338
+2017-12-18 00:00:00,85.536
+2017-12-19 00:00:00,122.089
+2017-12-20 00:00:00,33.605
+2017-12-21 00:00:00,51.942
+2017-12-22 00:00:00,42.146
+2017-12-23 00:00:00,83.127
+
+Output (forecast):
+date,value
+2017-12-24 00:00:00,93.297
+2017-12-25 00:00:00,0.0
+2017-12-26 00:00:00,131.065
+2017-12-27 00:00:00,44.192
+2017-12-28 00:00:00,30.651
+2017-12-29 00:00:00,82.951
+2017-12-30 00:00:00,83.765
+
+[INPUT]"
+Retail,2017-01-01 00:00:00,2017-12-30 00:00:00,7,qwen3-32b,0.7,numeric,cot_few,3,uniform,csv,71.79,47.83,74.92,0.0,0.34739,0.780653,0.08093,0.715761,11417,221,4.610162973403931,"[86.27850000000005, 0.0, 137.63199999999998, 50.094, 51.00150000000001, 43.956, 45.8205]","[1.19345, 173.932, 175.373, 42.185, 42.664, 33.605, 57.272]","[OBJECTIVE]
+Predict the next 7 values based on the historical series (364 periods).
+
+[STATISTICAL CONTEXT]
+- Mean: 77.1322
+- Median: 51.986
+- Standard Deviation: 52.5492
+- Minimum Value: 0.0
+- Maximum Value: 267.498
+- First Quartile (Q1): 40.5665
+- Third Quartile (Q3): 113.2492
+- Trend Strength (STL): 0.2764
+- Seasonality Strength (STL): 0.9071
+
+[REASONING GUIDELINES]
+- Trend: Identify the overall direction (increasing, decreasing, stable) and the trend strength.
+- Seasonality: Patterns that repeat at regular intervals (e.g., daily, weekly, monthly).
+- Outliers: Possible outliers or abrupt changes.
+- Cycles: Not seasonal long-term patterns.
+- Noise reduction: Apply a technique to reduce noise when necessary.
+- Consistency with the provided descriptive statistics (mean, median, etc.).
+- Adjustment for data frequency and contextual events (holidays, promotions, etc.).
+
+[EXAMPLES]
+- Example 1:
+Input (history):
+date,value
+2017-01-01 00:00:00,0.0
+2017-01-02 00:00:00,173.932
+2017-01-03 00:00:00,175.373
+2017-01-04 00:00:00,42.185
+2017-01-05 00:00:00,42.664
+2017-01-06 00:00:00,33.605
+2017-01-07 00:00:00,57.272
+
+Output (forecast):
+date,value
+2017-01-08 00:00:00,48.433
+2017-01-09 00:00:00,132.946
+2017-01-10 00:00:00,118.382
+2017-01-11 00:00:00,29.381
+2017-01-12 00:00:00,30.069
+2017-01-13 00:00:00,37.098
+2017-01-14 00:00:00,50.496
+
+- Example 2:
+Input (history):
+date,value
+2017-06-25 00:00:00,59.361
+2017-06-26 00:00:00,141.972
+2017-06-27 00:00:00,169.02
+2017-06-28 00:00:00,33.369
+2017-06-29 00:00:00,34.898
+2017-06-30 00:00:00,54.516
+2017-07-01 00:00:00,105.264
+
+Output (forecast):
+date,value
+2017-07-02 00:00:00,57.678
+2017-07-03 00:00:00,111.419
+2017-07-04 00:00:00,128.106
+2017-07-05 00:00:00,42.306
+2017-07-06 00:00:00,39.688
+2017-07-07 00:00:00,35.393
+2017-07-08 00:00:00,56.788
+
+- Example 3:
+Input (history):
+date,value
+2017-12-17 00:00:00,47.338
+2017-12-18 00:00:00,85.536
+2017-12-19 00:00:00,122.089
+2017-12-20 00:00:00,33.605
+2017-12-21 00:00:00,51.942
+2017-12-22 00:00:00,42.146
+2017-12-23 00:00:00,83.127
+
+Output (forecast):
+date,value
+2017-12-24 00:00:00,93.297
+2017-12-25 00:00:00,0.0
+2017-12-26 00:00:00,131.065
+2017-12-27 00:00:00,44.192
+2017-12-28 00:00:00,30.651
+2017-12-29 00:00:00,82.951
+2017-12-30 00:00:00,83.765
+
+[INPUT]"
+Retail,2017-01-01 00:00:00,2017-12-30 00:00:00,7,qwen3-32b,0.7,numeric,cot_few,3,uniform,csv,46.53,36.68,69.01,0.0,0.361473,0.812298,0.069091,0.611055,11417,219,4.59052300453186,"[86.27850000000005, 0.0, 137.63199999999998, 50.094, 51.00150000000001, 43.956, 45.8205]","[39.495, 175.268, 154.335, 48.308, 39.231, 42.76, 42.563]","[OBJECTIVE]
+Predict the next 7 values based on the historical series (364 periods).
+
+[STATISTICAL CONTEXT]
+- Mean: 77.1322
+- Median: 51.986
+- Standard Deviation: 52.5492
+- Minimum Value: 0.0
+- Maximum Value: 267.498
+- First Quartile (Q1): 40.5665
+- Third Quartile (Q3): 113.2492
+- Trend Strength (STL): 0.2764
+- Seasonality Strength (STL): 0.9071
+
+[REASONING GUIDELINES]
+- Trend: Identify the overall direction (increasing, decreasing, stable) and the trend strength.
+- Seasonality: Patterns that repeat at regular intervals (e.g., daily, weekly, monthly).
+- Outliers: Possible outliers or abrupt changes.
+- Cycles: Not seasonal long-term patterns.
+- Noise reduction: Apply a technique to reduce noise when necessary.
+- Consistency with the provided descriptive statistics (mean, median, etc.).
+- Adjustment for data frequency and contextual events (holidays, promotions, etc.).
+
+[EXAMPLES]
+- Example 1:
+Input (history):
+date,value
+2017-01-01 00:00:00,0.0
+2017-01-02 00:00:00,173.932
+2017-01-03 00:00:00,175.373
+2017-01-04 00:00:00,42.185
+2017-01-05 00:00:00,42.664
+2017-01-06 00:00:00,33.605
+2017-01-07 00:00:00,57.272
+
+Output (forecast):
+date,value
+2017-01-08 00:00:00,48.433
+2017-01-09 00:00:00,132.946
+2017-01-10 00:00:00,118.382
+2017-01-11 00:00:00,29.381
+2017-01-12 00:00:00,30.069
+2017-01-13 00:00:00,37.098
+2017-01-14 00:00:00,50.496
+
+- Example 2:
+Input (history):
+date,value
+2017-06-25 00:00:00,59.361
+2017-06-26 00:00:00,141.972
+2017-06-27 00:00:00,169.02
+2017-06-28 00:00:00,33.369
+2017-06-29 00:00:00,34.898
+2017-06-30 00:00:00,54.516
+2017-07-01 00:00:00,105.264
+
+Output (forecast):
+date,value
+2017-07-02 00:00:00,57.678
+2017-07-03 00:00:00,111.419
+2017-07-04 00:00:00,128.106
+2017-07-05 00:00:00,42.306
+2017-07-06 00:00:00,39.688
+2017-07-07 00:00:00,35.393
+2017-07-08 00:00:00,56.788
+
+- Example 3:
+Input (history):
+date,value
+2017-12-17 00:00:00,47.338
+2017-12-18 00:00:00,85.536
+2017-12-19 00:00:00,122.089
+2017-12-20 00:00:00,33.605
+2017-12-21 00:00:00,51.942
+2017-12-22 00:00:00,42.146
+2017-12-23 00:00:00,83.127
+
+Output (forecast):
+date,value
+2017-12-24 00:00:00,93.297
+2017-12-25 00:00:00,0.0
+2017-12-26 00:00:00,131.065
+2017-12-27 00:00:00,44.192
+2017-12-28 00:00:00,30.651
+2017-12-29 00:00:00,82.951
+2017-12-30 00:00:00,83.765
+
+[INPUT]"
+Retail,2017-01-01 00:00:00,2017-12-30 00:00:00,7,qwen3-32b,0.7,numeric,cot_few,3,uniform,csv,29.01,28.1,49.86,0.0,0.405997,0.912352,0.088608,0.78366,11417,246,5.129397392272949,"[86.27850000000005, 0.0, 137.63199999999998, 50.094, 51.00150000000001, 43.956, 45.8205]","[73.498, 0.0, 173.932, 175.373, 42.185, 42.664, 33.605]","[OBJECTIVE]
+Predict the next 7 values based on the historical series (364 periods).
+
+[STATISTICAL CONTEXT]
+- Mean: 77.1322
+- Median: 51.986
+- Standard Deviation: 52.5492
+- Minimum Value: 0.0
+- Maximum Value: 267.498
+- First Quartile (Q1): 40.5665
+- Third Quartile (Q3): 113.2492
+- Trend Strength (STL): 0.2764
+- Seasonality Strength (STL): 0.9071
+
+[REASONING GUIDELINES]
+- Trend: Identify the overall direction (increasing, decreasing, stable) and the trend strength.
+- Seasonality: Patterns that repeat at regular intervals (e.g., daily, weekly, monthly).
+- Outliers: Possible outliers or abrupt changes.
+- Cycles: Not seasonal long-term patterns.
+- Noise reduction: Apply a technique to reduce noise when necessary.
+- Consistency with the provided descriptive statistics (mean, median, etc.).
+- Adjustment for data frequency and contextual events (holidays, promotions, etc.).
+
+[EXAMPLES]
+- Example 1:
+Input (history):
+date,value
+2017-01-01 00:00:00,0.0
+2017-01-02 00:00:00,173.932
+2017-01-03 00:00:00,175.373
+2017-01-04 00:00:00,42.185
+2017-01-05 00:00:00,42.664
+2017-01-06 00:00:00,33.605
+2017-01-07 00:00:00,57.272
+
+Output (forecast):
+date,value
+2017-01-08 00:00:00,48.433
+2017-01-09 00:00:00,132.946
+2017-01-10 00:00:00,118.382
+2017-01-11 00:00:00,29.381
+2017-01-12 00:00:00,30.069
+2017-01-13 00:00:00,37.098
+2017-01-14 00:00:00,50.496
+
+- Example 2:
+Input (history):
+date,value
+2017-06-25 00:00:00,59.361
+2017-06-26 00:00:00,141.972
+2017-06-27 00:00:00,169.02
+2017-06-28 00:00:00,33.369
+2017-06-29 00:00:00,34.898
+2017-06-30 00:00:00,54.516
+2017-07-01 00:00:00,105.264
+
+Output (forecast):
+date,value
+2017-07-02 00:00:00,57.678
+2017-07-03 00:00:00,111.419
+2017-07-04 00:00:00,128.106
+2017-07-05 00:00:00,42.306
+2017-07-06 00:00:00,39.688
+2017-07-07 00:00:00,35.393
+2017-07-08 00:00:00,56.788
+
+- Example 3:
+Input (history):
+date,value
+2017-12-17 00:00:00,47.338
+2017-12-18 00:00:00,85.536
+2017-12-19 00:00:00,122.089
+2017-12-20 00:00:00,33.605
+2017-12-21 00:00:00,51.942
+2017-12-22 00:00:00,42.146
+2017-12-23 00:00:00,83.127
+
+Output (forecast):
+date,value
+2017-12-24 00:00:00,93.297
+2017-12-25 00:00:00,0.0
+2017-12-26 00:00:00,131.065
+2017-12-27 00:00:00,44.192
+2017-12-28 00:00:00,30.651
+2017-12-29 00:00:00,82.951
+2017-12-30 00:00:00,83.765
+
+[INPUT]"
+Retail,2017-01-01 00:00:00,2017-12-30 00:00:00,7,qwen3-32b,0.7,numeric,cot_few,3,uniform,csv,57.66,28.46,34.1,0.0,0.353894,0.795268,0.066675,0.589686,11417,219,4.530198335647583,"[86.27850000000005, 0.0, 137.63199999999998, 50.094, 51.00150000000001, 43.956, 45.8205]","[59.972, 51.134, 117.981, 108.394, 44.374, 75.004, 51.975]","[OBJECTIVE]
+Predict the next 7 values based on the historical series (364 periods).
+
+[STATISTICAL CONTEXT]
+- Mean: 77.1322
+- Median: 51.986
+- Standard Deviation: 52.5492
+- Minimum Value: 0.0
+- Maximum Value: 267.498
+- First Quartile (Q1): 40.5665
+- Third Quartile (Q3): 113.2492
+- Trend Strength (STL): 0.2764
+- Seasonality Strength (STL): 0.9071
+
+[REASONING GUIDELINES]
+- Trend: Identify the overall direction (increasing, decreasing, stable) and the trend strength.
+- Seasonality: Patterns that repeat at regular intervals (e.g., daily, weekly, monthly).
+- Outliers: Possible outliers or abrupt changes.
+- Cycles: Not seasonal long-term patterns.
+- Noise reduction: Apply a technique to reduce noise when necessary.
+- Consistency with the provided descriptive statistics (mean, median, etc.).
+- Adjustment for data frequency and contextual events (holidays, promotions, etc.).
+
+[EXAMPLES]
+- Example 1:
+Input (history):
+date,value
+2017-01-01 00:00:00,0.0
+2017-01-02 00:00:00,173.932
+2017-01-03 00:00:00,175.373
+2017-01-04 00:00:00,42.185
+2017-01-05 00:00:00,42.664
+2017-01-06 00:00:00,33.605
+2017-01-07 00:00:00,57.272
+
+Output (forecast):
+date,value
+2017-01-08 00:00:00,48.433
+2017-01-09 00:00:00,132.946
+2017-01-10 00:00:00,118.382
+2017-01-11 00:00:00,29.381
+2017-01-12 00:00:00,30.069
+2017-01-13 00:00:00,37.098
+2017-01-14 00:00:00,50.496
+
+- Example 2:
+Input (history):
+date,value
+2017-06-25 00:00:00,59.361
+2017-06-26 00:00:00,141.972
+2017-06-27 00:00:00,169.02
+2017-06-28 00:00:00,33.369
+2017-06-29 00:00:00,34.898
+2017-06-30 00:00:00,54.516
+2017-07-01 00:00:00,105.264
+
+Output (forecast):
+date,value
+2017-07-02 00:00:00,57.678
+2017-07-03 00:00:00,111.419
+2017-07-04 00:00:00,128.106
+2017-07-05 00:00:00,42.306
+2017-07-06 00:00:00,39.688
+2017-07-07 00:00:00,35.393
+2017-07-08 00:00:00,56.788
+
+- Example 3:
+Input (history):
+date,value
+2017-12-17 00:00:00,47.338
+2017-12-18 00:00:00,85.536
+2017-12-19 00:00:00,122.089
+2017-12-20 00:00:00,33.605
+2017-12-21 00:00:00,51.942
+2017-12-22 00:00:00,42.146
+2017-12-23 00:00:00,83.127
+
+Output (forecast):
+date,value
+2017-12-24 00:00:00,93.297
+2017-12-25 00:00:00,0.0
+2017-12-26 00:00:00,131.065
+2017-12-27 00:00:00,44.192
+2017-12-28 00:00:00,30.651
+2017-12-29 00:00:00,82.951
+2017-12-30 00:00:00,83.765
+
+[INPUT]"
+Retail,2017-01-01 00:00:00,2017-12-30 00:00:00,7,qwen3-32b,0.7,textual,cot_few,3,uniform,csv,57.06,46.52,77.17,0.0,0.946204,2.126301,0.149958,1.326254,13097,234,10.825607776641846,"[86.27850000000005, 0.0, 137.63199999999998, 50.094, 51.00150000000001, 43.956, 45.8205]","[42.47, 193.5, 166.2, 45.5, 34.5, 40.0, 80.5]","[OBJECTIVE]
+Predict the next 7 values based on the historical series (364 periods).
+
+[STATISTICAL CONTEXT]
+- Mean: 77.1322
+- Median: 51.986
+- Standard Deviation: 52.5492
+- Minimum Value: 0.0
+- Maximum Value: 267.498
+- First Quartile (Q1): 40.5665
+- Third Quartile (Q3): 113.2492
+- Trend Strength (STL): 0.2764
+- Seasonality Strength (STL): 0.9071
+
+[REASONING GUIDELINES]
+- Trend: Identify the overall direction (increasing, decreasing, stable) and the trend strength.
+- Seasonality: Patterns that repeat at regular intervals (e.g., daily, weekly, monthly).
+- Outliers: Possible outliers or abrupt changes.
+- Cycles: Not seasonal long-term patterns.
+- Noise reduction: Apply a technique to reduce noise when necessary.
+- Consistency with the provided descriptive statistics (mean, median, etc.).
+- Adjustment for data frequency and contextual events (holidays, promotions, etc.).
+
+[EXAMPLES]
+- Example 1:
+Input (history):
+date,value
+2017-01-01 00:00:00,0 . 0
+2017-01-02 00:00:00,1 7 3 . 9 3 2
+2017-01-03 00:00:00,1 7 5 . 3 7 3
+2017-01-04 00:00:00,4 2 . 1 8 5
+2017-01-05 00:00:00,4 2 . 6 6 4
+2017-01-06 00:00:00,3 3 . 6 0 5
+2017-01-07 00:00:00,5 7 . 2 7 2
+
+Output (forecast):
+date,value
+2017-01-08 00:00:00,4 8 . 4 3 3
+2017-01-09 00:00:00,1 3 2 . 9 4 6
+2017-01-10 00:00:00,1 1 8 . 3 8 2
+2017-01-11 00:00:00,2 9 . 3 8 1
+2017-01-12 00:00:00,3 0 . 0 6 9
+2017-01-13 00:00:00,3 7 . 0 9 8
+2017-01-14 00:00:00,5 0 . 4 9 6
+
+- Example 2:
+Input (history):
+date,value
+2017-06-25 00:00:00,5 9 . 3 6 1
+2017-06-26 00:00:00,1 4 1 . 9 7 2
+2017-06-27 00:00:00,1 6 9 . 0 2
+2017-06-28 00:00:00,3 3 . 3 6 9
+2017-06-29 00:00:00,3 4 . 8 9 8
+2017-06-30 00:00:00,5 4 . 5 1 6
+2017-07-01 00:00:00,1 0 5 . 2 6 4
+
+Output (forecast):
+date,value
+2017-07-02 00:00:00,5 7 . 6 7 8
+2017-07-03 00:00:00,1 1 1 . 4 1 9
+2017-07-04 00:00:00,1 2 8 . 1 0 6
+2017-07-05 00:00:00,4 2 . 3 0 6
+2017-07-06 00:00:00,3 9 . 6 8 8
+2017-07-07 00:00:00,3 5 . 3 9 3
+2017-07-08 00:00:00,5 6 . 7 8 8
+
+- Example 3:
+Input (history):
+date,value
+2017-12-17 00:00:00,4 7 . 3 3 8
+2017-12-18 00:00:00,8 5 . 5 3 6
+2017-12-19 00:00:00,1 2 2 . 0 8 9
+2017-12-20 00:00:00,3 3 . 6 0 5
+2017-12-21 00:00:00,5 1 . 9 4 2
+2017-12-22 00:00:00,4 2 . 1 4 6
+2017-12-23 00:00:00,8 3 . 1 2 7
+
+Output (forecast):
+date,value
+2017-12-24 00:00:00,9 3 . 2 9 7
+2017-12-25 00:00:00,0 . 0
+2017-12-26 00:00:00,1 3 1 . 0 6 5
+2017-12-27 00:00:00,4 4 . 1 9 2
+2017-12-28 00:00:00,3 0 . 6 5 1
+2017-12-29 00:00:00,8 2 . 9 5 1
+2017-12-30 00:00:00,8 3 . 7 6 5
+
+[INPUT]"
+Retail,2017-01-01 00:00:00,2017-12-30 00:00:00,7,qwen3-32b,0.7,textual,cot_few,3,uniform,csv,28.92,28.03,49.85,0.0,0.404791,0.909642,0.088804,0.7854,13097,244,5.149679899215698,"[86.27850000000005, 0.0, 137.63199999999998, 50.094, 51.00150000000001, 43.956, 45.8205]","[73.994, 0.0, 173.932, 175.373, 42.185, 42.664, 33.605]","[OBJECTIVE]
+Predict the next 7 values based on the historical series (364 periods).
+
+[STATISTICAL CONTEXT]
+- Mean: 77.1322
+- Median: 51.986
+- Standard Deviation: 52.5492
+- Minimum Value: 0.0
+- Maximum Value: 267.498
+- First Quartile (Q1): 40.5665
+- Third Quartile (Q3): 113.2492
+- Trend Strength (STL): 0.2764
+- Seasonality Strength (STL): 0.9071
+
+[REASONING GUIDELINES]
+- Trend: Identify the overall direction (increasing, decreasing, stable) and the trend strength.
+- Seasonality: Patterns that repeat at regular intervals (e.g., daily, weekly, monthly).
+- Outliers: Possible outliers or abrupt changes.
+- Cycles: Not seasonal long-term patterns.
+- Noise reduction: Apply a technique to reduce noise when necessary.
+- Consistency with the provided descriptive statistics (mean, median, etc.).
+- Adjustment for data frequency and contextual events (holidays, promotions, etc.).
+
+[EXAMPLES]
+- Example 1:
+Input (history):
+date,value
+2017-01-01 00:00:00,0 . 0
+2017-01-02 00:00:00,1 7 3 . 9 3 2
+2017-01-03 00:00:00,1 7 5 . 3 7 3
+2017-01-04 00:00:00,4 2 . 1 8 5
+2017-01-05 00:00:00,4 2 . 6 6 4
+2017-01-06 00:00:00,3 3 . 6 0 5
+2017-01-07 00:00:00,5 7 . 2 7 2
+
+Output (forecast):
+date,value
+2017-01-08 00:00:00,4 8 . 4 3 3
+2017-01-09 00:00:00,1 3 2 . 9 4 6
+2017-01-10 00:00:00,1 1 8 . 3 8 2
+2017-01-11 00:00:00,2 9 . 3 8 1
+2017-01-12 00:00:00,3 0 . 0 6 9
+2017-01-13 00:00:00,3 7 . 0 9 8
+2017-01-14 00:00:00,5 0 . 4 9 6
+
+- Example 2:
+Input (history):
+date,value
+2017-06-25 00:00:00,5 9 . 3 6 1
+2017-06-26 00:00:00,1 4 1 . 9 7 2
+2017-06-27 00:00:00,1 6 9 . 0 2
+2017-06-28 00:00:00,3 3 . 3 6 9
+2017-06-29 00:00:00,3 4 . 8 9 8
+2017-06-30 00:00:00,5 4 . 5 1 6
+2017-07-01 00:00:00,1 0 5 . 2 6 4
+
+Output (forecast):
+date,value
+2017-07-02 00:00:00,5 7 . 6 7 8
+2017-07-03 00:00:00,1 1 1 . 4 1 9
+2017-07-04 00:00:00,1 2 8 . 1 0 6
+2017-07-05 00:00:00,4 2 . 3 0 6
+2017-07-06 00:00:00,3 9 . 6 8 8
+2017-07-07 00:00:00,3 5 . 3 9 3
+2017-07-08 00:00:00,5 6 . 7 8 8
+
+- Example 3:
+Input (history):
+date,value
+2017-12-17 00:00:00,4 7 . 3 3 8
+2017-12-18 00:00:00,8 5 . 5 3 6
+2017-12-19 00:00:00,1 2 2 . 0 8 9
+2017-12-20 00:00:00,3 3 . 6 0 5
+2017-12-21 00:00:00,5 1 . 9 4 2
+2017-12-22 00:00:00,4 2 . 1 4 6
+2017-12-23 00:00:00,8 3 . 1 2 7
+
+Output (forecast):
+date,value
+2017-12-24 00:00:00,9 3 . 2 9 7
+2017-12-25 00:00:00,0 . 0
+2017-12-26 00:00:00,1 3 1 . 0 6 5
+2017-12-27 00:00:00,4 4 . 1 9 2
+2017-12-28 00:00:00,3 0 . 6 5 1
+2017-12-29 00:00:00,8 2 . 9 5 1
+2017-12-30 00:00:00,8 3 . 7 6 5
+
+[INPUT]"
+Retail,2017-01-01 00:00:00,2017-12-30 00:00:00,7,qwen3-32b,0.7,textual,cot_few,3,uniform,csv,36.62,26.93,44.32,0.0,0.414192,0.930769,0.081005,0.71642,13097,241,5.097194671630859,"[86.27850000000005, 0.0, 137.63199999999998, 50.094, 51.00150000000001, 43.956, 45.8205]","[49.176, 0.0, 132.88, 158.66, 31.272, 32.971, 38.45]","[OBJECTIVE]
+Predict the next 7 values based on the historical series (364 periods).
+
+[STATISTICAL CONTEXT]
+- Mean: 77.1322
+- Median: 51.986
+- Standard Deviation: 52.5492
+- Minimum Value: 0.0
+- Maximum Value: 267.498
+- First Quartile (Q1): 40.5665
+- Third Quartile (Q3): 113.2492
+- Trend Strength (STL): 0.2764
+- Seasonality Strength (STL): 0.9071
+
+[REASONING GUIDELINES]
+- Trend: Identify the overall direction (increasing, decreasing, stable) and the trend strength.
+- Seasonality: Patterns that repeat at regular intervals (e.g., daily, weekly, monthly).
+- Outliers: Possible outliers or abrupt changes.
+- Cycles: Not seasonal long-term patterns.
+- Noise reduction: Apply a technique to reduce noise when necessary.
+- Consistency with the provided descriptive statistics (mean, median, etc.).
+- Adjustment for data frequency and contextual events (holidays, promotions, etc.).
+
+[EXAMPLES]
+- Example 1:
+Input (history):
+date,value
+2017-01-01 00:00:00,0 . 0
+2017-01-02 00:00:00,1 7 3 . 9 3 2
+2017-01-03 00:00:00,1 7 5 . 3 7 3
+2017-01-04 00:00:00,4 2 . 1 8 5
+2017-01-05 00:00:00,4 2 . 6 6 4
+2017-01-06 00:00:00,3 3 . 6 0 5
+2017-01-07 00:00:00,5 7 . 2 7 2
+
+Output (forecast):
+date,value
+2017-01-08 00:00:00,4 8 . 4 3 3
+2017-01-09 00:00:00,1 3 2 . 9 4 6
+2017-01-10 00:00:00,1 1 8 . 3 8 2
+2017-01-11 00:00:00,2 9 . 3 8 1
+2017-01-12 00:00:00,3 0 . 0 6 9
+2017-01-13 00:00:00,3 7 . 0 9 8
+2017-01-14 00:00:00,5 0 . 4 9 6
+
+- Example 2:
+Input (history):
+date,value
+2017-06-25 00:00:00,5 9 . 3 6 1
+2017-06-26 00:00:00,1 4 1 . 9 7 2
+2017-06-27 00:00:00,1 6 9 . 0 2
+2017-06-28 00:00:00,3 3 . 3 6 9
+2017-06-29 00:00:00,3 4 . 8 9 8
+2017-06-30 00:00:00,5 4 . 5 1 6
+2017-07-01 00:00:00,1 0 5 . 2 6 4
+
+Output (forecast):
+date,value
+2017-07-02 00:00:00,5 7 . 6 7 8
+2017-07-03 00:00:00,1 1 1 . 4 1 9
+2017-07-04 00:00:00,1 2 8 . 1 0 6
+2017-07-05 00:00:00,4 2 . 3 0 6
+2017-07-06 00:00:00,3 9 . 6 8 8
+2017-07-07 00:00:00,3 5 . 3 9 3
+2017-07-08 00:00:00,5 6 . 7 8 8
+
+- Example 3:
+Input (history):
+date,value
+2017-12-17 00:00:00,4 7 . 3 3 8
+2017-12-18 00:00:00,8 5 . 5 3 6
+2017-12-19 00:00:00,1 2 2 . 0 8 9
+2017-12-20 00:00:00,3 3 . 6 0 5
+2017-12-21 00:00:00,5 1 . 9 4 2
+2017-12-22 00:00:00,4 2 . 1 4 6
+2017-12-23 00:00:00,8 3 . 1 2 7
+
+Output (forecast):
+date,value
+2017-12-24 00:00:00,9 3 . 2 9 7
+2017-12-25 00:00:00,0 . 0
+2017-12-26 00:00:00,1 3 1 . 0 6 5
+2017-12-27 00:00:00,4 4 . 1 9 2
+2017-12-28 00:00:00,3 0 . 6 5 1
+2017-12-29 00:00:00,8 2 . 9 5 1
+2017-12-30 00:00:00,8 3 . 7 6 5
+
+[INPUT]"
+Retail,2017-01-01 00:00:00,2017-12-30 00:00:00,7,qwen3-32b,0.7,textual,cot_few,3,uniform,csv,49.81,57.82,115.17,0.0,0.419341,0.94234,0.086773,0.767438,13097,238,5.027337074279785,"[86.27850000000005, 0.0, 137.63199999999998, 50.094, 51.00150000000001, 43.956, 45.8205]","[45.5, 299.37, 160.38, 55.35, 53.35, 46.53, 77.5]","[OBJECTIVE]
+Predict the next 7 values based on the historical series (364 periods).
+
+[STATISTICAL CONTEXT]
+- Mean: 77.1322
+- Median: 51.986
+- Standard Deviation: 52.5492
+- Minimum Value: 0.0
+- Maximum Value: 267.498
+- First Quartile (Q1): 40.5665
+- Third Quartile (Q3): 113.2492
+- Trend Strength (STL): 0.2764
+- Seasonality Strength (STL): 0.9071
+
+[REASONING GUIDELINES]
+- Trend: Identify the overall direction (increasing, decreasing, stable) and the trend strength.
+- Seasonality: Patterns that repeat at regular intervals (e.g., daily, weekly, monthly).
+- Outliers: Possible outliers or abrupt changes.
+- Cycles: Not seasonal long-term patterns.
+- Noise reduction: Apply a technique to reduce noise when necessary.
+- Consistency with the provided descriptive statistics (mean, median, etc.).
+- Adjustment for data frequency and contextual events (holidays, promotions, etc.).
+
+[EXAMPLES]
+- Example 1:
+Input (history):
+date,value
+2017-01-01 00:00:00,0 . 0
+2017-01-02 00:00:00,1 7 3 . 9 3 2
+2017-01-03 00:00:00,1 7 5 . 3 7 3
+2017-01-04 00:00:00,4 2 . 1 8 5
+2017-01-05 00:00:00,4 2 . 6 6 4
+2017-01-06 00:00:00,3 3 . 6 0 5
+2017-01-07 00:00:00,5 7 . 2 7 2
+
+Output (forecast):
+date,value
+2017-01-08 00:00:00,4 8 . 4 3 3
+2017-01-09 00:00:00,1 3 2 . 9 4 6
+2017-01-10 00:00:00,1 1 8 . 3 8 2
+2017-01-11 00:00:00,2 9 . 3 8 1
+2017-01-12 00:00:00,3 0 . 0 6 9
+2017-01-13 00:00:00,3 7 . 0 9 8
+2017-01-14 00:00:00,5 0 . 4 9 6
+
+- Example 2:
+Input (history):
+date,value
+2017-06-25 00:00:00,5 9 . 3 6 1
+2017-06-26 00:00:00,1 4 1 . 9 7 2
+2017-06-27 00:00:00,1 6 9 . 0 2
+2017-06-28 00:00:00,3 3 . 3 6 9
+2017-06-29 00:00:00,3 4 . 8 9 8
+2017-06-30 00:00:00,5 4 . 5 1 6
+2017-07-01 00:00:00,1 0 5 . 2 6 4
+
+Output (forecast):
+date,value
+2017-07-02 00:00:00,5 7 . 6 7 8
+2017-07-03 00:00:00,1 1 1 . 4 1 9
+2017-07-04 00:00:00,1 2 8 . 1 0 6
+2017-07-05 00:00:00,4 2 . 3 0 6
+2017-07-06 00:00:00,3 9 . 6 8 8
+2017-07-07 00:00:00,3 5 . 3 9 3
+2017-07-08 00:00:00,5 6 . 7 8 8
+
+- Example 3:
+Input (history):
+date,value
+2017-12-17 00:00:00,4 7 . 3 3 8
+2017-12-18 00:00:00,8 5 . 5 3 6
+2017-12-19 00:00:00,1 2 2 . 0 8 9
+2017-12-20 00:00:00,3 3 . 6 0 5
+2017-12-21 00:00:00,5 1 . 9 4 2
+2017-12-22 00:00:00,4 2 . 1 4 6
+2017-12-23 00:00:00,8 3 . 1 2 7
+
+Output (forecast):
+date,value
+2017-12-24 00:00:00,9 3 . 2 9 7
+2017-12-25 00:00:00,0 . 0
+2017-12-26 00:00:00,1 3 1 . 0 6 5
+2017-12-27 00:00:00,4 4 . 1 9 2
+2017-12-28 00:00:00,3 0 . 6 5 1
+2017-12-29 00:00:00,8 2 . 9 5 1
+2017-12-30 00:00:00,8 3 . 7 6 5
+
+[INPUT]"
+Retail,2017-01-01 00:00:00,2017-12-30 00:00:00,7,qwen3-32b,0.7,textual,cot_few,3,uniform,csv,38.91,33.87,53.41,0.0,0.450967,1.013409,0.094998,0.840176,13097,263,5.553124666213989,"[86.27850000000005, 0.0, 137.63199999999998, 50.094, 51.00150000000001, 43.956, 45.8205]","[38.493, 0.0, 175.246, 176.551, 41.239, 41.705, 32.59]","[OBJECTIVE]
+Predict the next 7 values based on the historical series (364 periods).
+
+[STATISTICAL CONTEXT]
+- Mean: 77.1322
+- Median: 51.986
+- Standard Deviation: 52.5492
+- Minimum Value: 0.0
+- Maximum Value: 267.498
+- First Quartile (Q1): 40.5665
+- Third Quartile (Q3): 113.2492
+- Trend Strength (STL): 0.2764
+- Seasonality Strength (STL): 0.9071
+
+[REASONING GUIDELINES]
+- Trend: Identify the overall direction (increasing, decreasing, stable) and the trend strength.
+- Seasonality: Patterns that repeat at regular intervals (e.g., daily, weekly, monthly).
+- Outliers: Possible outliers or abrupt changes.
+- Cycles: Not seasonal long-term patterns.
+- Noise reduction: Apply a technique to reduce noise when necessary.
+- Consistency with the provided descriptive statistics (mean, median, etc.).
+- Adjustment for data frequency and contextual events (holidays, promotions, etc.).
+
+[EXAMPLES]
+- Example 1:
+Input (history):
+date,value
+2017-01-01 00:00:00,0 . 0
+2017-01-02 00:00:00,1 7 3 . 9 3 2
+2017-01-03 00:00:00,1 7 5 . 3 7 3
+2017-01-04 00:00:00,4 2 . 1 8 5
+2017-01-05 00:00:00,4 2 . 6 6 4
+2017-01-06 00:00:00,3 3 . 6 0 5
+2017-01-07 00:00:00,5 7 . 2 7 2
+
+Output (forecast):
+date,value
+2017-01-08 00:00:00,4 8 . 4 3 3
+2017-01-09 00:00:00,1 3 2 . 9 4 6
+2017-01-10 00:00:00,1 1 8 . 3 8 2
+2017-01-11 00:00:00,2 9 . 3 8 1
+2017-01-12 00:00:00,3 0 . 0 6 9
+2017-01-13 00:00:00,3 7 . 0 9 8
+2017-01-14 00:00:00,5 0 . 4 9 6
+
+- Example 2:
+Input (history):
+date,value
+2017-06-25 00:00:00,5 9 . 3 6 1
+2017-06-26 00:00:00,1 4 1 . 9 7 2
+2017-06-27 00:00:00,1 6 9 . 0 2
+2017-06-28 00:00:00,3 3 . 3 6 9
+2017-06-29 00:00:00,3 4 . 8 9 8
+2017-06-30 00:00:00,5 4 . 5 1 6
+2017-07-01 00:00:00,1 0 5 . 2 6 4
+
+Output (forecast):
+date,value
+2017-07-02 00:00:00,5 7 . 6 7 8
+2017-07-03 00:00:00,1 1 1 . 4 1 9
+2017-07-04 00:00:00,1 2 8 . 1 0 6
+2017-07-05 00:00:00,4 2 . 3 0 6
+2017-07-06 00:00:00,3 9 . 6 8 8
+2017-07-07 00:00:00,3 5 . 3 9 3
+2017-07-08 00:00:00,5 6 . 7 8 8
+
+- Example 3:
+Input (history):
+date,value
+2017-12-17 00:00:00,4 7 . 3 3 8
+2017-12-18 00:00:00,8 5 . 5 3 6
+2017-12-19 00:00:00,1 2 2 . 0 8 9
+2017-12-20 00:00:00,3 3 . 6 0 5
+2017-12-21 00:00:00,5 1 . 9 4 2
+2017-12-22 00:00:00,4 2 . 1 4 6
+2017-12-23 00:00:00,8 3 . 1 2 7
+
+Output (forecast):
+date,value
+2017-12-24 00:00:00,9 3 . 2 9 7
+2017-12-25 00:00:00,0 . 0
+2017-12-26 00:00:00,1 3 1 . 0 6 5
+2017-12-27 00:00:00,4 4 . 1 9 2
+2017-12-28 00:00:00,3 0 . 6 5 1
+2017-12-29 00:00:00,8 2 . 9 5 1
+2017-12-30 00:00:00,8 3 . 7 6 5
+
+[INPUT]"

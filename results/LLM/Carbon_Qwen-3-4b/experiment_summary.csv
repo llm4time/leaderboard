@@ -1,0 +1,801 @@
+Prompt Type,Series Type,Format,sMAPE Mean,MAE Mean,RMSE Mean,Inference Time (s) Mean,Financial Cost ($) Mean,CarbonTracker CO2 (g) Mean,CarbonTracker Energy Consumption (Wh) Mean,Eco2AI CO2 (g) Mean,Eco2AI Energy Consumption (Wh) Mean,Input Tokens Mean,Output Tokens Mean,Dataset,Training Start,Training End,Forecast Horizon,Model,Temperature,Examples,Sampling Strategy,Actual Values,Predicted Values,Prompt,sMAPE SEM,MAE SEM,RMSE SEM
+cot,numeric,csv,11.696000000000002,12.904,13.35,5.711375570297241,0.0,0.1139338,0.2560308,0.0221862,0.196219,10372.0,245.2,Carbon,2025-02-14 00:00:00,2026-02-12 00:00:00,7,qwen3-4b,0.7,0,,"[108.384965034, 104.169610454, 101.285553346, 105.2188019046, 103.9162523781, 101.268491208, 102.72191958]","[117.435, 118.139, 118.325, 115.972, 114.613, 116.087, 114.273]","[OBJECTIVE]
+Predict the next 7 values based on the historical series (364 periods).
+
+[STATISTICAL CONTEXT]
+- Mean: 104.3048
+- Median: 102.4395
+- Standard Deviation: 7.6184
+- Minimum Value: 90.279
+- Maximum Value: 126.566
+- First Quartile (Q1): 98.88
+- Third Quartile (Q3): 109.2462
+- Trend Strength (STL): 0.9659
+- Seasonality Strength (STL): 0.6648
+
+[REASONING GUIDELINES]
+- Trend: Identify the overall direction (increasing, decreasing, stable) and the trend strength.
+- Seasonality: Patterns that repeat at regular intervals (e.g., daily, weekly, monthly).
+- Outliers: Possible outliers or abrupt changes.
+- Cycles: Not seasonal long-term patterns.
+- Noise reduction: Apply a technique to reduce noise when necessary.
+- Consistency with the provided descriptive statistics (mean, median, etc.).
+- Adjustment for data frequency and contextual events (holidays, promotions, etc.).
+
+[INPUT]",0.5861109110057582,0.69376220709981,0.738268243933057
+cot,numeric,plain,12.192,13.536000000000001,14.012,5.806585836410522,0.0,0.1183262,0.2659018,0.021183,0.1873464,12553.0,227.6,Carbon,2025-02-14 00:00:00,2026-02-12 00:00:00,7,qwen3-4b,0.7,0,,"[108.384965034, 104.169610454, 101.285553346, 105.2188019046, 103.9162523781, 101.268491208, 102.72191958]","[104.35, 107.23, 109.82, 112.03, 113.45, 114.76, 115.12]","[OBJECTIVE]
+Predict the next 7 values based on the historical series (364 periods).
+
+[STATISTICAL CONTEXT]
+- Mean: 104.3048
+- Median: 102.4395
+- Standard Deviation: 7.6184
+- Minimum Value: 90.279
+- Maximum Value: 126.566
+- First Quartile (Q1): 98.88
+- Third Quartile (Q3): 109.2462
+- Trend Strength (STL): 0.9659
+- Seasonality Strength (STL): 0.6648
+
+[REASONING GUIDELINES]
+- Trend: Identify the overall direction (increasing, decreasing, stable) and the trend strength.
+- Seasonality: Patterns that repeat at regular intervals (e.g., daily, weekly, monthly).
+- Outliers: Possible outliers or abrupt changes.
+- Cycles: Not seasonal long-term patterns.
+- Noise reduction: Apply a technique to reduce noise when necessary.
+- Consistency with the provided descriptive statistics (mean, median, etc.).
+- Adjustment for data frequency and contextual events (holidays, promotions, etc.).
+
+[INPUT]",1.456294613050532,1.7108144259387106,1.6228536594530019
+cot,textual,csv,15.994,14.9,18.476,6.08396315574646,0.0,0.1248688,0.2806036,0.0247788,0.2191474,12031.0,246.4,Carbon,2025-02-14 00:00:00,2026-02-12 00:00:00,7,qwen3-4b,0.7,0,,"[108.384965034, 104.169610454, 101.285553346, 105.2188019046, 103.9162523781, 101.268491208, 102.72191958]","[115.43, 117.89, 119.71, 120.27, 121.16, 121.66, 122.21]","[OBJECTIVE]
+Predict the next 7 values based on the historical series (364 periods).
+
+[STATISTICAL CONTEXT]
+- Mean: 104.3048
+- Median: 102.4395
+- Standard Deviation: 7.6184
+- Minimum Value: 90.279
+- Maximum Value: 126.566
+- First Quartile (Q1): 98.88
+- Third Quartile (Q3): 109.2462
+- Trend Strength (STL): 0.9659
+- Seasonality Strength (STL): 0.6648
+
+[REASONING GUIDELINES]
+- Trend: Identify the overall direction (increasing, decreasing, stable) and the trend strength.
+- Seasonality: Patterns that repeat at regular intervals (e.g., daily, weekly, monthly).
+- Outliers: Possible outliers or abrupt changes.
+- Cycles: Not seasonal long-term patterns.
+- Noise reduction: Apply a technique to reduce noise when necessary.
+- Consistency with the provided descriptive statistics (mean, median, etc.).
+- Adjustment for data frequency and contextual events (holidays, promotions, etc.).
+
+[INPUT]",3.8192415477421693,1.6916323477635438,4.743605801497422
+cot,textual,plain,10.924,11.992,12.34,6.089843225479126,0.0,0.1290524,0.2900058,0.0248048,0.2193756,14212.0,222.0,Carbon,2025-02-14 00:00:00,2026-02-12 00:00:00,7,qwen3-4b,0.7,0,,"[108.384965034, 104.169610454, 101.285553346, 105.2188019046, 103.9162523781, 101.268491208, 102.72191958]","[114.35, 115.76, 113.22, 115.82, 114.35, 113.22, 112.96]","[OBJECTIVE]
+Predict the next 7 values based on the historical series (364 periods).
+
+[STATISTICAL CONTEXT]
+- Mean: 104.3048
+- Median: 102.4395
+- Standard Deviation: 7.6184
+- Minimum Value: 90.279
+- Maximum Value: 126.566
+- First Quartile (Q1): 98.88
+- Third Quartile (Q3): 109.2462
+- Trend Strength (STL): 0.9659
+- Seasonality Strength (STL): 0.6648
+
+[REASONING GUIDELINES]
+- Trend: Identify the overall direction (increasing, decreasing, stable) and the trend strength.
+- Seasonality: Patterns that repeat at regular intervals (e.g., daily, weekly, monthly).
+- Outliers: Possible outliers or abrupt changes.
+- Cycles: Not seasonal long-term patterns.
+- Noise reduction: Apply a technique to reduce noise when necessary.
+- Consistency with the provided descriptive statistics (mean, median, etc.).
+- Adjustment for data frequency and contextual events (holidays, promotions, etc.).
+
+[INPUT]",0.5212542565773444,0.6024732359200696,0.6310388260638166
+cot_few,numeric,csv,8.669999999999998,9.424,9.96,6.109846210479736,0.0,0.12442299999999999,0.27960219999999997,0.025130000000000003,0.22225479999999997,11600.0,247.8,Carbon,2025-02-14 00:00:00,2026-02-12 00:00:00,7,qwen3-4b,0.7,3,uniform,"[108.384965034, 104.169610454, 101.285553346, 105.2188019046, 103.9162523781, 101.268491208, 102.72191958]","[105.123, 107.456, 108.791, 109.234, 110.123, 112.456, 113.789]","[OBJECTIVE]
+Predict the next 7 values based on the historical series (364 periods).
+
+[STATISTICAL CONTEXT]
+- Mean: 104.3048
+- Median: 102.4395
+- Standard Deviation: 7.6184
+- Minimum Value: 90.279
+- Maximum Value: 126.566
+- First Quartile (Q1): 98.88
+- Third Quartile (Q3): 109.2462
+- Trend Strength (STL): 0.9659
+- Seasonality Strength (STL): 0.6648
+
+[REASONING GUIDELINES]
+- Trend: Identify the overall direction (increasing, decreasing, stable) and the trend strength.
+- Seasonality: Patterns that repeat at regular intervals (e.g., daily, weekly, monthly).
+- Outliers: Possible outliers or abrupt changes.
+- Cycles: Not seasonal long-term patterns.
+- Noise reduction: Apply a technique to reduce noise when necessary.
+- Consistency with the provided descriptive statistics (mean, median, etc.).
+- Adjustment for data frequency and contextual events (holidays, promotions, etc.).
+
+[EXAMPLES]
+- Example 1:
+Input (history):
+date,value
+2025-02-14 00:00:00,118.353
+2025-02-15 00:00:00,112.923
+2025-02-16 00:00:00,109.214
+2025-02-17 00:00:00,114.754
+2025-02-18 00:00:00,115.661
+2025-02-19 00:00:00,118.682
+2025-02-20 00:00:00,122.667
+
+Output (forecast):
+date,value
+2025-02-21 00:00:00,122.096
+2025-02-22 00:00:00,118.001
+2025-02-23 00:00:00,111.916
+2025-02-24 00:00:00,109.57
+2025-02-25 00:00:00,107.978
+2025-02-26 00:00:00,109.619
+2025-02-27 00:00:00,109.491
+
+- Example 2:
+Input (history):
+date,value
+2025-08-08 00:00:00,105.604
+2025-08-09 00:00:00,101.325
+2025-08-10 00:00:00,97.763
+2025-08-11 00:00:00,100.23
+2025-08-12 00:00:00,100.147
+2025-08-13 00:00:00,104.24
+2025-08-14 00:00:00,103.289
+
+Output (forecast):
+date,value
+2025-08-15 00:00:00,101.259
+2025-08-16 00:00:00,98.411
+2025-08-17 00:00:00,97.962
+2025-08-18 00:00:00,100.39
+2025-08-19 00:00:00,101.24
+2025-08-20 00:00:00,105.024
+2025-08-21 00:00:00,104.731
+
+- Example 3:
+Input (history):
+date,value
+2026-01-30 00:00:00,123.36
+2026-01-31 00:00:00,120.505
+2026-02-01 00:00:00,126.566
+2026-02-02 00:00:00,124.353
+2026-02-03 00:00:00,121.116
+2026-02-04 00:00:00,119.228
+2026-02-05 00:00:00,122.434
+
+Output (forecast):
+date,value
+2026-02-06 00:00:00,123.632
+2026-02-07 00:00:00,119.613
+2026-02-08 00:00:00,118.519
+2026-02-09 00:00:00,118.849
+2026-02-10 00:00:00,116.584
+2026-02-11 00:00:00,109.457
+2026-02-12 00:00:00,109.162
+
+[INPUT]",0.9941730231705141,1.123826499064691,1.0288683103293639
+cot_few,numeric,plain,14.424000000000001,16.238,16.528,6.1122925758361815,0.0,0.1280964,0.2878568,0.0245604,0.2172152,14015.0,226.2,Carbon,2025-02-14 00:00:00,2026-02-12 00:00:00,7,qwen3-4b,0.7,3,uniform,"[108.384965034, 104.169610454, 101.285553346, 105.2188019046, 103.9162523781, 101.268491208, 102.72191958]","[115.743, 114.161, 114.405, 114.783, 114.306, 112.949, 110.228]","[OBJECTIVE]
+Predict the next 7 values based on the historical series (364 periods).
+
+[STATISTICAL CONTEXT]
+- Mean: 104.3048
+- Median: 102.4395
+- Standard Deviation: 7.6184
+- Minimum Value: 90.279
+- Maximum Value: 126.566
+- First Quartile (Q1): 98.88
+- Third Quartile (Q3): 109.2462
+- Trend Strength (STL): 0.9659
+- Seasonality Strength (STL): 0.6648
+
+[REASONING GUIDELINES]
+- Trend: Identify the overall direction (increasing, decreasing, stable) and the trend strength.
+- Seasonality: Patterns that repeat at regular intervals (e.g., daily, weekly, monthly).
+- Outliers: Possible outliers or abrupt changes.
+- Cycles: Not seasonal long-term patterns.
+- Noise reduction: Apply a technique to reduce noise when necessary.
+- Consistency with the provided descriptive statistics (mean, median, etc.).
+- Adjustment for data frequency and contextual events (holidays, promotions, etc.).
+
+[EXAMPLES]
+- Example 1:
+Input (history):
+date: 2025-02-14 00:00:00, value: 118.353
+date: 2025-02-15 00:00:00, value: 112.923
+date: 2025-02-16 00:00:00, value: 109.214
+date: 2025-02-17 00:00:00, value: 114.754
+date: 2025-02-18 00:00:00, value: 115.661
+date: 2025-02-19 00:00:00, value: 118.682
+date: 2025-02-20 00:00:00, value: 122.667
+
+Output (forecast):
+date: 2025-02-21 00:00:00, value: 122.096
+date: 2025-02-22 00:00:00, value: 118.001
+date: 2025-02-23 00:00:00, value: 111.916
+date: 2025-02-24 00:00:00, value: 109.57
+date: 2025-02-25 00:00:00, value: 107.978
+date: 2025-02-26 00:00:00, value: 109.619
+date: 2025-02-27 00:00:00, value: 109.491
+
+- Example 2:
+Input (history):
+date: 2025-08-08 00:00:00, value: 105.604
+date: 2025-08-09 00:00:00, value: 101.325
+date: 2025-08-10 00:00:00, value: 97.763
+date: 2025-08-11 00:00:00, value: 100.23
+date: 2025-08-12 00:00:00, value: 100.147
+date: 2025-08-13 00:00:00, value: 104.24
+date: 2025-08-14 00:00:00, value: 103.289
+
+Output (forecast):
+date: 2025-08-15 00:00:00, value: 101.259
+date: 2025-08-16 00:00:00, value: 98.411
+date: 2025-08-17 00:00:00, value: 97.962
+date: 2025-08-18 00:00:00, value: 100.39
+date: 2025-08-19 00:00:00, value: 101.24
+date: 2025-08-20 00:00:00, value: 105.024
+date: 2025-08-21 00:00:00, value: 104.731
+
+- Example 3:
+Input (history):
+date: 2026-01-30 00:00:00, value: 123.36
+date: 2026-01-31 00:00:00, value: 120.505
+date: 2026-02-01 00:00:00, value: 126.566
+date: 2026-02-02 00:00:00, value: 124.353
+date: 2026-02-03 00:00:00, value: 121.116
+date: 2026-02-04 00:00:00, value: 119.228
+date: 2026-02-05 00:00:00, value: 122.434
+
+Output (forecast):
+date: 2026-02-06 00:00:00, value: 123.632
+date: 2026-02-07 00:00:00, value: 119.613
+date: 2026-02-08 00:00:00, value: 118.519
+date: 2026-02-09 00:00:00, value: 118.849
+date: 2026-02-10 00:00:00, value: 116.584
+date: 2026-02-11 00:00:00, value: 109.457
+date: 2026-02-12 00:00:00, value: 109.162
+
+[INPUT]",1.840778639597928,2.2398982119730353,2.265434616138811
+cot_few,textual,csv,10.384,11.378,11.642,6.60758867263794,0.0,0.13854640000000001,0.3113394,0.0274094,0.2424144,13460.0,253.2,Carbon,2025-02-14 00:00:00,2026-02-12 00:00:00,7,qwen3-4b,0.7,3,uniform,"[108.384965034, 104.169610454, 101.285553346, 105.2188019046, 103.9162523781, 101.268491208, 102.72191958]","[115.734, 114.476, 114.899, 113.925, 114.134, 113.624, 113.068]","[OBJECTIVE]
+Predict the next 7 values based on the historical series (364 periods).
+
+[STATISTICAL CONTEXT]
+- Mean: 104.3048
+- Median: 102.4395
+- Standard Deviation: 7.6184
+- Minimum Value: 90.279
+- Maximum Value: 126.566
+- First Quartile (Q1): 98.88
+- Third Quartile (Q3): 109.2462
+- Trend Strength (STL): 0.9659
+- Seasonality Strength (STL): 0.6648
+
+[REASONING GUIDELINES]
+- Trend: Identify the overall direction (increasing, decreasing, stable) and the trend strength.
+- Seasonality: Patterns that repeat at regular intervals (e.g., daily, weekly, monthly).
+- Outliers: Possible outliers or abrupt changes.
+- Cycles: Not seasonal long-term patterns.
+- Noise reduction: Apply a technique to reduce noise when necessary.
+- Consistency with the provided descriptive statistics (mean, median, etc.).
+- Adjustment for data frequency and contextual events (holidays, promotions, etc.).
+
+[EXAMPLES]
+- Example 1:
+Input (history):
+date,value
+2025-02-14 00:00:00,1 1 8 . 3 5 3
+2025-02-15 00:00:00,1 1 2 . 9 2 3
+2025-02-16 00:00:00,1 0 9 . 2 1 4
+2025-02-17 00:00:00,1 1 4 . 7 5 4
+2025-02-18 00:00:00,1 1 5 . 6 6 1
+2025-02-19 00:00:00,1 1 8 . 6 8 2
+2025-02-20 00:00:00,1 2 2 . 6 6 7
+
+Output (forecast):
+date,value
+2025-02-21 00:00:00,1 2 2 . 0 9 6
+2025-02-22 00:00:00,1 1 8 . 0 0 1
+2025-02-23 00:00:00,1 1 1 . 9 1 6
+2025-02-24 00:00:00,1 0 9 . 5 7
+2025-02-25 00:00:00,1 0 7 . 9 7 8
+2025-02-26 00:00:00,1 0 9 . 6 1 9
+2025-02-27 00:00:00,1 0 9 . 4 9 1
+
+- Example 2:
+Input (history):
+date,value
+2025-08-08 00:00:00,1 0 5 . 6 0 4
+2025-08-09 00:00:00,1 0 1 . 3 2 5
+2025-08-10 00:00:00,9 7 . 7 6 3
+2025-08-11 00:00:00,1 0 0 . 2 3
+2025-08-12 00:00:00,1 0 0 . 1 4 7
+2025-08-13 00:00:00,1 0 4 . 2 4
+2025-08-14 00:00:00,1 0 3 . 2 8 9
+
+Output (forecast):
+date,value
+2025-08-15 00:00:00,1 0 1 . 2 5 9
+2025-08-16 00:00:00,9 8 . 4 1 1
+2025-08-17 00:00:00,9 7 . 9 6 2
+2025-08-18 00:00:00,1 0 0 . 3 9
+2025-08-19 00:00:00,1 0 1 . 2 4
+2025-08-20 00:00:00,1 0 5 . 0 2 4
+2025-08-21 00:00:00,1 0 4 . 7 3 1
+
+- Example 3:
+Input (history):
+date,value
+2026-01-30 00:00:00,1 2 3 . 3 6
+2026-01-31 00:00:00,1 2 0 . 5 0 5
+2026-02-01 00:00:00,1 2 6 . 5 6 6
+2026-02-02 00:00:00,1 2 4 . 3 5 3
+2026-02-03 00:00:00,1 2 1 . 1 1 6
+2026-02-04 00:00:00,1 1 9 . 2 2 8
+2026-02-05 00:00:00,1 2 2 . 4 3 4
+
+Output (forecast):
+date,value
+2026-02-06 00:00:00,1 2 3 . 6 3 2
+2026-02-07 00:00:00,1 1 9 . 6 1 3
+2026-02-08 00:00:00,1 1 8 . 5 1 9
+2026-02-09 00:00:00,1 1 8 . 8 4 9
+2026-02-10 00:00:00,1 1 6 . 5 8 4
+2026-02-11 00:00:00,1 0 9 . 4 5 7
+2026-02-12 00:00:00,1 0 9 . 1 6 2
+
+[INPUT]",0.8145403611853743,0.940475411693469,0.9596113796740845
+cot_few,textual,plain,10.172,11.126000000000001,11.454,6.5785445213317875,0.0,0.1386184,0.311502,0.0281452,0.24891899999999997,15875.0,223.4,Carbon,2025-02-14 00:00:00,2026-02-12 00:00:00,7,qwen3-4b,0.7,3,uniform,"[108.384965034, 104.169610454, 101.285553346, 105.2188019046, 103.9162523781, 101.268491208, 102.72191958]","[114.57, 113.23, 114.67, 113.89, 111.75, 110.42, 109.34]","[OBJECTIVE]
+Predict the next 7 values based on the historical series (364 periods).
+
+[STATISTICAL CONTEXT]
+- Mean: 104.3048
+- Median: 102.4395
+- Standard Deviation: 7.6184
+- Minimum Value: 90.279
+- Maximum Value: 126.566
+- First Quartile (Q1): 98.88
+- Third Quartile (Q3): 109.2462
+- Trend Strength (STL): 0.9659
+- Seasonality Strength (STL): 0.6648
+
+[REASONING GUIDELINES]
+- Trend: Identify the overall direction (increasing, decreasing, stable) and the trend strength.
+- Seasonality: Patterns that repeat at regular intervals (e.g., daily, weekly, monthly).
+- Outliers: Possible outliers or abrupt changes.
+- Cycles: Not seasonal long-term patterns.
+- Noise reduction: Apply a technique to reduce noise when necessary.
+- Consistency with the provided descriptive statistics (mean, median, etc.).
+- Adjustment for data frequency and contextual events (holidays, promotions, etc.).
+
+[EXAMPLES]
+- Example 1:
+Input (history):
+date: 2025-02-14 00:00:00, value: 1 1 8 . 3 5 3
+date: 2025-02-15 00:00:00, value: 1 1 2 . 9 2 3
+date: 2025-02-16 00:00:00, value: 1 0 9 . 2 1 4
+date: 2025-02-17 00:00:00, value: 1 1 4 . 7 5 4
+date: 2025-02-18 00:00:00, value: 1 1 5 . 6 6 1
+date: 2025-02-19 00:00:00, value: 1 1 8 . 6 8 2
+date: 2025-02-20 00:00:00, value: 1 2 2 . 6 6 7
+
+Output (forecast):
+date: 2025-02-21 00:00:00, value: 1 2 2 . 0 9 6
+date: 2025-02-22 00:00:00, value: 1 1 8 . 0 0 1
+date: 2025-02-23 00:00:00, value: 1 1 1 . 9 1 6
+date: 2025-02-24 00:00:00, value: 1 0 9 . 5 7
+date: 2025-02-25 00:00:00, value: 1 0 7 . 9 7 8
+date: 2025-02-26 00:00:00, value: 1 0 9 . 6 1 9
+date: 2025-02-27 00:00:00, value: 1 0 9 . 4 9 1
+
+- Example 2:
+Input (history):
+date: 2025-08-08 00:00:00, value: 1 0 5 . 6 0 4
+date: 2025-08-09 00:00:00, value: 1 0 1 . 3 2 5
+date: 2025-08-10 00:00:00, value: 9 7 . 7 6 3
+date: 2025-08-11 00:00:00, value: 1 0 0 . 2 3
+date: 2025-08-12 00:00:00, value: 1 0 0 . 1 4 7
+date: 2025-08-13 00:00:00, value: 1 0 4 . 2 4
+date: 2025-08-14 00:00:00, value: 1 0 3 . 2 8 9
+
+Output (forecast):
+date: 2025-08-15 00:00:00, value: 1 0 1 . 2 5 9
+date: 2025-08-16 00:00:00, value: 9 8 . 4 1 1
+date: 2025-08-17 00:00:00, value: 9 7 . 9 6 2
+date: 2025-08-18 00:00:00, value: 1 0 0 . 3 9
+date: 2025-08-19 00:00:00, value: 1 0 1 . 2 4
+date: 2025-08-20 00:00:00, value: 1 0 5 . 0 2 4
+date: 2025-08-21 00:00:00, value: 1 0 4 . 7 3 1
+
+- Example 3:
+Input (history):
+date: 2026-01-30 00:00:00, value: 1 2 3 . 3 6
+date: 2026-01-31 00:00:00, value: 1 2 0 . 5 0 5
+date: 2026-02-01 00:00:00, value: 1 2 6 . 5 6 6
+date: 2026-02-02 00:00:00, value: 1 2 4 . 3 5 3
+date: 2026-02-03 00:00:00, value: 1 2 1 . 1 1 6
+date: 2026-02-04 00:00:00, value: 1 1 9 . 2 2 8
+date: 2026-02-05 00:00:00, value: 1 2 2 . 4 3 4
+
+Output (forecast):
+date: 2026-02-06 00:00:00, value: 1 2 3 . 6 3 2
+date: 2026-02-07 00:00:00, value: 1 1 9 . 6 1 3
+date: 2026-02-08 00:00:00, value: 1 1 8 . 5 1 9
+date: 2026-02-09 00:00:00, value: 1 1 8 . 8 4 9
+date: 2026-02-10 00:00:00, value: 1 1 6 . 5 8 4
+date: 2026-02-11 00:00:00, value: 1 0 9 . 4 5 7
+date: 2026-02-12 00:00:00, value: 1 0 9 . 1 6 2
+
+[INPUT]",0.711543392914304,0.8166676190470639,0.85455602507969
+few_shot,numeric,csv,6.419999999999999,6.952,7.498,6.019156122207642,0.0,0.12292,0.27622460000000004,0.025312400000000002,0.22386620000000002,11487.0,246.6,Carbon,2025-02-14 00:00:00,2026-02-12 00:00:00,7,qwen3-4b,0.7,3,uniform,"[108.384965034, 104.169610454, 101.285553346, 105.2188019046, 103.9162523781, 101.268491208, 102.72191958]","[104.357, 107.536, 110.082, 109.341, 107.353, 106.078, 105.221]","[OBJECTIVE]
+Predict the next 7 values based on the historical series (364 periods).
+
+[STATISTICAL CONTEXT]
+- Mean: 104.3048
+- Median: 102.4395
+- Standard Deviation: 7.6184
+- Minimum Value: 90.279
+- Maximum Value: 126.566
+- First Quartile (Q1): 98.88
+- Third Quartile (Q3): 109.2462
+- Trend Strength (STL): 0.9659
+- Seasonality Strength (STL): 0.6648
+
+[EXAMPLES]
+- Example 1:
+Input (history):
+date,value
+2025-02-14 00:00:00,118.353
+2025-02-15 00:00:00,112.923
+2025-02-16 00:00:00,109.214
+2025-02-17 00:00:00,114.754
+2025-02-18 00:00:00,115.661
+2025-02-19 00:00:00,118.682
+2025-02-20 00:00:00,122.667
+
+Output (forecast):
+date,value
+2025-02-21 00:00:00,122.096
+2025-02-22 00:00:00,118.001
+2025-02-23 00:00:00,111.916
+2025-02-24 00:00:00,109.57
+2025-02-25 00:00:00,107.978
+2025-02-26 00:00:00,109.619
+2025-02-27 00:00:00,109.491
+
+- Example 2:
+Input (history):
+date,value
+2025-08-08 00:00:00,105.604
+2025-08-09 00:00:00,101.325
+2025-08-10 00:00:00,97.763
+2025-08-11 00:00:00,100.23
+2025-08-12 00:00:00,100.147
+2025-08-13 00:00:00,104.24
+2025-08-14 00:00:00,103.289
+
+Output (forecast):
+date,value
+2025-08-15 00:00:00,101.259
+2025-08-16 00:00:00,98.411
+2025-08-17 00:00:00,97.962
+2025-08-18 00:00:00,100.39
+2025-08-19 00:00:00,101.24
+2025-08-20 00:00:00,105.024
+2025-08-21 00:00:00,104.731
+
+- Example 3:
+Input (history):
+date,value
+2026-01-30 00:00:00,123.36
+2026-01-31 00:00:00,120.505
+2026-02-01 00:00:00,126.566
+2026-02-02 00:00:00,124.353
+2026-02-03 00:00:00,121.116
+2026-02-04 00:00:00,119.228
+2026-02-05 00:00:00,122.434
+
+Output (forecast):
+date,value
+2026-02-06 00:00:00,123.632
+2026-02-07 00:00:00,119.613
+2026-02-08 00:00:00,118.519
+2026-02-09 00:00:00,118.849
+2026-02-10 00:00:00,116.584
+2026-02-11 00:00:00,109.457
+2026-02-12 00:00:00,109.162
+
+[INPUT]",1.770951721532803,1.9790942372711815,2.0205726910952744
+few_shot,numeric,plain,11.386,12.556000000000001,12.87,6.242435550689697,0.0,0.1313384,0.295142,0.0266852,0.23600780000000002,13902.0,233.0,Carbon,2025-02-14 00:00:00,2026-02-12 00:00:00,7,qwen3-4b,0.7,3,uniform,"[108.384965034, 104.169610454, 101.285553346, 105.2188019046, 103.9162523781, 101.268491208, 102.72191958]","[115.437, 118.254, 115.902, 116.478, 114.381, 113.925, 113.024]","[OBJECTIVE]
+Predict the next 7 values based on the historical series (364 periods).
+
+[STATISTICAL CONTEXT]
+- Mean: 104.3048
+- Median: 102.4395
+- Standard Deviation: 7.6184
+- Minimum Value: 90.279
+- Maximum Value: 126.566
+- First Quartile (Q1): 98.88
+- Third Quartile (Q3): 109.2462
+- Trend Strength (STL): 0.9659
+- Seasonality Strength (STL): 0.6648
+
+[EXAMPLES]
+- Example 1:
+Input (history):
+date: 2025-02-14 00:00:00, value: 118.353
+date: 2025-02-15 00:00:00, value: 112.923
+date: 2025-02-16 00:00:00, value: 109.214
+date: 2025-02-17 00:00:00, value: 114.754
+date: 2025-02-18 00:00:00, value: 115.661
+date: 2025-02-19 00:00:00, value: 118.682
+date: 2025-02-20 00:00:00, value: 122.667
+
+Output (forecast):
+date: 2025-02-21 00:00:00, value: 122.096
+date: 2025-02-22 00:00:00, value: 118.001
+date: 2025-02-23 00:00:00, value: 111.916
+date: 2025-02-24 00:00:00, value: 109.57
+date: 2025-02-25 00:00:00, value: 107.978
+date: 2025-02-26 00:00:00, value: 109.619
+date: 2025-02-27 00:00:00, value: 109.491
+
+- Example 2:
+Input (history):
+date: 2025-08-08 00:00:00, value: 105.604
+date: 2025-08-09 00:00:00, value: 101.325
+date: 2025-08-10 00:00:00, value: 97.763
+date: 2025-08-11 00:00:00, value: 100.23
+date: 2025-08-12 00:00:00, value: 100.147
+date: 2025-08-13 00:00:00, value: 104.24
+date: 2025-08-14 00:00:00, value: 103.289
+
+Output (forecast):
+date: 2025-08-15 00:00:00, value: 101.259
+date: 2025-08-16 00:00:00, value: 98.411
+date: 2025-08-17 00:00:00, value: 97.962
+date: 2025-08-18 00:00:00, value: 100.39
+date: 2025-08-19 00:00:00, value: 101.24
+date: 2025-08-20 00:00:00, value: 105.024
+date: 2025-08-21 00:00:00, value: 104.731
+
+- Example 3:
+Input (history):
+date: 2026-01-30 00:00:00, value: 123.36
+date: 2026-01-31 00:00:00, value: 120.505
+date: 2026-02-01 00:00:00, value: 126.566
+date: 2026-02-02 00:00:00, value: 124.353
+date: 2026-02-03 00:00:00, value: 121.116
+date: 2026-02-04 00:00:00, value: 119.228
+date: 2026-02-05 00:00:00, value: 122.434
+
+Output (forecast):
+date: 2026-02-06 00:00:00, value: 123.632
+date: 2026-02-07 00:00:00, value: 119.613
+date: 2026-02-08 00:00:00, value: 118.519
+date: 2026-02-09 00:00:00, value: 118.849
+date: 2026-02-10 00:00:00, value: 116.584
+date: 2026-02-11 00:00:00, value: 109.457
+date: 2026-02-12 00:00:00, value: 109.162
+
+[INPUT]",0.7939811080875915,0.9449264521644,0.9295267613145948
+few_shot,textual,csv,10.862,11.914,12.252,6.514830112457275,0.0,0.137914,0.3099194,0.026389600000000003,0.2333956,13347.0,253.4,Carbon,2025-02-14 00:00:00,2026-02-12 00:00:00,7,qwen3-4b,0.7,3,uniform,"[108.384965034, 104.169610454, 101.285553346, 105.2188019046, 103.9162523781, 101.268491208, 102.72191958]","[117.753, 114.234, 113.815, 113.931, 113.367, 113.853, 113.221]","[OBJECTIVE]
+Predict the next 7 values based on the historical series (364 periods).
+
+[STATISTICAL CONTEXT]
+- Mean: 104.3048
+- Median: 102.4395
+- Standard Deviation: 7.6184
+- Minimum Value: 90.279
+- Maximum Value: 126.566
+- First Quartile (Q1): 98.88
+- Third Quartile (Q3): 109.2462
+- Trend Strength (STL): 0.9659
+- Seasonality Strength (STL): 0.6648
+
+[EXAMPLES]
+- Example 1:
+Input (history):
+date,value
+2025-02-14 00:00:00,1 1 8 . 3 5 3
+2025-02-15 00:00:00,1 1 2 . 9 2 3
+2025-02-16 00:00:00,1 0 9 . 2 1 4
+2025-02-17 00:00:00,1 1 4 . 7 5 4
+2025-02-18 00:00:00,1 1 5 . 6 6 1
+2025-02-19 00:00:00,1 1 8 . 6 8 2
+2025-02-20 00:00:00,1 2 2 . 6 6 7
+
+Output (forecast):
+date,value
+2025-02-21 00:00:00,1 2 2 . 0 9 6
+2025-02-22 00:00:00,1 1 8 . 0 0 1
+2025-02-23 00:00:00,1 1 1 . 9 1 6
+2025-02-24 00:00:00,1 0 9 . 5 7
+2025-02-25 00:00:00,1 0 7 . 9 7 8
+2025-02-26 00:00:00,1 0 9 . 6 1 9
+2025-02-27 00:00:00,1 0 9 . 4 9 1
+
+- Example 2:
+Input (history):
+date,value
+2025-08-08 00:00:00,1 0 5 . 6 0 4
+2025-08-09 00:00:00,1 0 1 . 3 2 5
+2025-08-10 00:00:00,9 7 . 7 6 3
+2025-08-11 00:00:00,1 0 0 . 2 3
+2025-08-12 00:00:00,1 0 0 . 1 4 7
+2025-08-13 00:00:00,1 0 4 . 2 4
+2025-08-14 00:00:00,1 0 3 . 2 8 9
+
+Output (forecast):
+date,value
+2025-08-15 00:00:00,1 0 1 . 2 5 9
+2025-08-16 00:00:00,9 8 . 4 1 1
+2025-08-17 00:00:00,9 7 . 9 6 2
+2025-08-18 00:00:00,1 0 0 . 3 9
+2025-08-19 00:00:00,1 0 1 . 2 4
+2025-08-20 00:00:00,1 0 5 . 0 2 4
+2025-08-21 00:00:00,1 0 4 . 7 3 1
+
+- Example 3:
+Input (history):
+date,value
+2026-01-30 00:00:00,1 2 3 . 3 6
+2026-01-31 00:00:00,1 2 0 . 5 0 5
+2026-02-01 00:00:00,1 2 6 . 5 6 6
+2026-02-02 00:00:00,1 2 4 . 3 5 3
+2026-02-03 00:00:00,1 2 1 . 1 1 6
+2026-02-04 00:00:00,1 1 9 . 2 2 8
+2026-02-05 00:00:00,1 2 2 . 4 3 4
+
+Output (forecast):
+date,value
+2026-02-06 00:00:00,1 2 3 . 6 3 2
+2026-02-07 00:00:00,1 1 9 . 6 1 3
+2026-02-08 00:00:00,1 1 8 . 5 1 9
+2026-02-09 00:00:00,1 1 8 . 8 4 9
+2026-02-10 00:00:00,1 1 6 . 5 8 4
+2026-02-11 00:00:00,1 0 9 . 4 5 7
+2026-02-12 00:00:00,1 0 9 . 1 6 2
+
+[INPUT]",0.4285953802830824,0.4975600466275401,0.5560161868147365
+few_shot,textual,plain,10.592,11.606,11.926,7.174755096435547,0.0,0.1534636,0.34486160000000005,0.029386000000000002,0.2598936,15762.0,255.6,Carbon,2025-02-14 00:00:00,2026-02-12 00:00:00,7,qwen3-4b,0.7,3,uniform,"[108.384965034, 104.169610454, 101.285553346, 105.2188019046, 103.9162523781, 101.268491208, 102.72191958]","[115.347, 112.626, 110.895, 114.446, 115.158, 112.354, 115.632]","[OBJECTIVE]
+Predict the next 7 values based on the historical series (364 periods).
+
+[STATISTICAL CONTEXT]
+- Mean: 104.3048
+- Median: 102.4395
+- Standard Deviation: 7.6184
+- Minimum Value: 90.279
+- Maximum Value: 126.566
+- First Quartile (Q1): 98.88
+- Third Quartile (Q3): 109.2462
+- Trend Strength (STL): 0.9659
+- Seasonality Strength (STL): 0.6648
+
+[EXAMPLES]
+- Example 1:
+Input (history):
+date: 2025-02-14 00:00:00, value: 1 1 8 . 3 5 3
+date: 2025-02-15 00:00:00, value: 1 1 2 . 9 2 3
+date: 2025-02-16 00:00:00, value: 1 0 9 . 2 1 4
+date: 2025-02-17 00:00:00, value: 1 1 4 . 7 5 4
+date: 2025-02-18 00:00:00, value: 1 1 5 . 6 6 1
+date: 2025-02-19 00:00:00, value: 1 1 8 . 6 8 2
+date: 2025-02-20 00:00:00, value: 1 2 2 . 6 6 7
+
+Output (forecast):
+date: 2025-02-21 00:00:00, value: 1 2 2 . 0 9 6
+date: 2025-02-22 00:00:00, value: 1 1 8 . 0 0 1
+date: 2025-02-23 00:00:00, value: 1 1 1 . 9 1 6
+date: 2025-02-24 00:00:00, value: 1 0 9 . 5 7
+date: 2025-02-25 00:00:00, value: 1 0 7 . 9 7 8
+date: 2025-02-26 00:00:00, value: 1 0 9 . 6 1 9
+date: 2025-02-27 00:00:00, value: 1 0 9 . 4 9 1
+
+- Example 2:
+Input (history):
+date: 2025-08-08 00:00:00, value: 1 0 5 . 6 0 4
+date: 2025-08-09 00:00:00, value: 1 0 1 . 3 2 5
+date: 2025-08-10 00:00:00, value: 9 7 . 7 6 3
+date: 2025-08-11 00:00:00, value: 1 0 0 . 2 3
+date: 2025-08-12 00:00:00, value: 1 0 0 . 1 4 7
+date: 2025-08-13 00:00:00, value: 1 0 4 . 2 4
+date: 2025-08-14 00:00:00, value: 1 0 3 . 2 8 9
+
+Output (forecast):
+date: 2025-08-15 00:00:00, value: 1 0 1 . 2 5 9
+date: 2025-08-16 00:00:00, value: 9 8 . 4 1 1
+date: 2025-08-17 00:00:00, value: 9 7 . 9 6 2
+date: 2025-08-18 00:00:00, value: 1 0 0 . 3 9
+date: 2025-08-19 00:00:00, value: 1 0 1 . 2 4
+date: 2025-08-20 00:00:00, value: 1 0 5 . 0 2 4
+date: 2025-08-21 00:00:00, value: 1 0 4 . 7 3 1
+
+- Example 3:
+Input (history):
+date: 2026-01-30 00:00:00, value: 1 2 3 . 3 6
+date: 2026-01-31 00:00:00, value: 1 2 0 . 5 0 5
+date: 2026-02-01 00:00:00, value: 1 2 6 . 5 6 6
+date: 2026-02-02 00:00:00, value: 1 2 4 . 3 5 3
+date: 2026-02-03 00:00:00, value: 1 2 1 . 1 1 6
+date: 2026-02-04 00:00:00, value: 1 1 9 . 2 2 8
+date: 2026-02-05 00:00:00, value: 1 2 2 . 4 3 4
+
+Output (forecast):
+date: 2026-02-06 00:00:00, value: 1 2 3 . 6 3 2
+date: 2026-02-07 00:00:00, value: 1 1 9 . 6 1 3
+date: 2026-02-08 00:00:00, value: 1 1 8 . 5 1 9
+date: 2026-02-09 00:00:00, value: 1 1 8 . 8 4 9
+date: 2026-02-10 00:00:00, value: 1 1 6 . 5 8 4
+date: 2026-02-11 00:00:00, value: 1 0 9 . 4 5 7
+date: 2026-02-12 00:00:00, value: 1 0 9 . 1 6 2
+
+[INPUT]",0.47994166312167563,0.5568357028783266,0.592010135048379
+zero_shot,numeric,csv,11.408,12.572,13.057999999999998,5.649383878707885,0.0,0.10856360000000001,0.24396279999999998,0.0203928,0.1803562,10259.0,243.6,Carbon,2025-02-14 00:00:00,2026-02-12 00:00:00,7,qwen3-4b,0.7,0,,"[108.384965034, 104.169610454, 101.285553346, 105.2188019046, 103.9162523781, 101.268491208, 102.72191958]","[113.457, 118.353, 112.923, 109.214, 114.754, 115.661, 118.682]","[OBJECTIVE]
+Predict the next 7 values based on the historical series (364 periods).
+
+[STATISTICAL CONTEXT]
+- Mean: 104.3048
+- Median: 102.4395
+- Standard Deviation: 7.6184
+- Minimum Value: 90.279
+- Maximum Value: 126.566
+- First Quartile (Q1): 98.88
+- Third Quartile (Q3): 109.2462
+- Trend Strength (STL): 0.9659
+- Seasonality Strength (STL): 0.6648
+
+[INPUT]",0.7805664609756173,0.9125206846970648,0.903484366217811
+zero_shot,numeric,plain,14.307999999999998,16.044,16.288,5.759231901168823,0.0,0.111977,0.2516336,0.0222136,0.1964588,12440.0,226.2,Carbon,2025-02-14 00:00:00,2026-02-12 00:00:00,7,qwen3-4b,0.7,0,,"[108.384965034, 104.169610454, 101.285553346, 105.2188019046, 103.9162523781, 101.268491208, 102.72191958]","[113.574, 114.496, 116.402, 118.038, 117.629, 117.066, 117.863]","[OBJECTIVE]
+Predict the next 7 values based on the historical series (364 periods).
+
+[STATISTICAL CONTEXT]
+- Mean: 104.3048
+- Median: 102.4395
+- Standard Deviation: 7.6184
+- Minimum Value: 90.279
+- Maximum Value: 126.566
+- First Quartile (Q1): 98.88
+- Third Quartile (Q3): 109.2462
+- Trend Strength (STL): 0.9659
+- Seasonality Strength (STL): 0.6648
+
+[INPUT]",1.419571766414083,1.7021180922603458,1.6621835037083
+zero_shot,textual,csv,9.302,10.214,10.974,5.954289388656616,0.0,0.1220492,0.2742676,0.024409800000000002,0.2158834,11918.0,241.0,Carbon,2025-02-14 00:00:00,2026-02-12 00:00:00,7,qwen3-4b,0.7,0,,"[108.384965034, 104.169610454, 101.285553346, 105.2188019046, 103.9162523781, 101.268491208, 102.72191958]","[116.87, 117.24, 119.33, 121.36, 120.75, 112.85, 114.17]","[OBJECTIVE]
+Predict the next 7 values based on the historical series (364 periods).
+
+[STATISTICAL CONTEXT]
+- Mean: 104.3048
+- Median: 102.4395
+- Standard Deviation: 7.6184
+- Minimum Value: 90.279
+- Maximum Value: 126.566
+- First Quartile (Q1): 98.88
+- Third Quartile (Q3): 109.2462
+- Trend Strength (STL): 0.9659
+- Seasonality Strength (STL): 0.6648
+
+[INPUT]",1.7619858115206262,1.9925250312103986,1.9337698932396272
+zero_shot,textual,plain,10.794,11.846,12.244,6.188589954376221,0.0,0.12483459999999999,0.2805278,0.024034,0.21255839999999998,14099.0,230.4,Carbon,2025-02-14 00:00:00,2026-02-12 00:00:00,7,qwen3-4b,0.7,0,,"[108.384965034, 104.169610454, 101.285553346, 105.2188019046, 103.9162523781, 101.268491208, 102.72191958]","[115.347, 116.194, 114.823, 116.341, 117.509, 117.846, 117.343]","[OBJECTIVE]
+Predict the next 7 values based on the historical series (364 periods).
+
+[STATISTICAL CONTEXT]
+- Mean: 104.3048
+- Median: 102.4395
+- Standard Deviation: 7.6184
+- Minimum Value: 90.279
+- Maximum Value: 126.566
+- First Quartile (Q1): 98.88
+- Third Quartile (Q3): 109.2462
+- Trend Strength (STL): 0.9659
+- Seasonality Strength (STL): 0.6648
+
+[INPUT]",0.7659934725570448,0.9006919562203272,0.979972448592306

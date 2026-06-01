@@ -1,0 +1,4001 @@
+Dataset,Training Start,Training End,Forecast Horizon,Model,Temperature,Series Type,Prompt Type,Examples,Sampling Strategy,Format,sMAPE,MAE,RMSE,Financial Cost ($),CarbonTracker CO2 (g),CarbonTracker Energy Consumption (Wh),Eco2AI CO2 (g),Eco2AI Energy Consumption (Wh),Input Tokens,Output Tokens,Inference Time (s),Actual Values,Predicted Values,Prompt
+Covid-19,2021-03-12 00:00:00,2022-03-10 00:00:00,7,mistralai/ministral-3-14b-reasoning,0.7,numeric,zero_shot,0,,plain,45.41,1894.43,2172.11,0.0,0.421057,0.946196,0.087293,0.772033,11921,208,18.437435626983643,"[4184, 4194, 3614, 3116, 2503, 2568, 2876]","[4895.0, 4476.0, 4975.0, 5098.0, 5250.0, 5533.0, 6089.0]","[OBJECTIVE]
+Predict the next 7 values based on the historical series (364 periods).
+
+[STATISTICAL CONTEXT]
+- Mean: 87124.1099
+- Median: 39083.5
+- Standard Deviation: 107555.5417
+- Minimum Value: 3993
+- Maximum Value: 414188
+- First Quartile (Q1): 16033.5
+- Third Quartile (Q3): 109220.5
+- Trend Strength (STL): 0.9985
+- Seasonality Strength (STL): 0.7754
+
+[INPUT]"
+Covid-19,2021-03-12 00:00:00,2022-03-10 00:00:00,7,mistralai/ministral-3-14b-reasoning,0.7,numeric,zero_shot,0,,plain,54.91,2430.29,2514.65,0.0,0.226753,0.509557,0.037762,0.333977,11921,236,10.502366065979004,"[4184, 4194, 3614, 3116, 2503, 2568, 2876]","[5498.0, 6129.0, 6760.0, 5990.0, 5610.0, 5230.0, 4850.0]","[OBJECTIVE]
+Predict the next 7 values based on the historical series (364 periods).
+
+[STATISTICAL CONTEXT]
+- Mean: 87124.1099
+- Median: 39083.5
+- Standard Deviation: 107555.5417
+- Minimum Value: 3993
+- Maximum Value: 414188
+- First Quartile (Q1): 16033.5
+- Third Quartile (Q3): 109220.5
+- Trend Strength (STL): 0.9985
+- Seasonality Strength (STL): 0.7754
+
+[INPUT]"
+Covid-19,2021-03-12 00:00:00,2022-03-10 00:00:00,7,mistralai/ministral-3-14b-reasoning,0.7,numeric,zero_shot,0,,plain,53.73,2393.57,2666.44,0.0,0.200233,0.449961,0.037538,0.331992,11921,205,9.189331531524658,"[4184, 4194, 3614, 3116, 2503, 2568, 2876]","[4896.0, 5124.0, 5402.0, 5680.0, 5958.0, 6236.0, 6514.0]","[OBJECTIVE]
+Predict the next 7 values based on the historical series (364 periods).
+
+[STATISTICAL CONTEXT]
+- Mean: 87124.1099
+- Median: 39083.5
+- Standard Deviation: 107555.5417
+- Minimum Value: 3993
+- Maximum Value: 414188
+- First Quartile (Q1): 16033.5
+- Third Quartile (Q3): 109220.5
+- Trend Strength (STL): 0.9985
+- Seasonality Strength (STL): 0.7754
+
+[INPUT]"
+Covid-19,2021-03-12 00:00:00,2022-03-10 00:00:00,7,mistralai/ministral-3-14b-reasoning,0.7,numeric,zero_shot,0,,plain,55.91,2525.0,2774.34,0.0,0.19721,0.443168,0.032267,0.28537,11921,207,9.326555252075195,"[4184, 4194, 3614, 3116, 2503, 2568, 2876]","[4980.0, 5250.0, 5680.0, 5920.0, 6120.0, 6300.0, 6480.0]","[OBJECTIVE]
+Predict the next 7 values based on the historical series (364 periods).
+
+[STATISTICAL CONTEXT]
+- Mean: 87124.1099
+- Median: 39083.5
+- Standard Deviation: 107555.5417
+- Minimum Value: 3993
+- Maximum Value: 414188
+- First Quartile (Q1): 16033.5
+- Third Quartile (Q3): 109220.5
+- Trend Strength (STL): 0.9985
+- Seasonality Strength (STL): 0.7754
+
+[INPUT]"
+Covid-19,2021-03-12 00:00:00,2022-03-10 00:00:00,7,mistralai/ministral-3-14b-reasoning,0.7,numeric,zero_shot,0,,plain,50.5,2168.86,2374.35,0.0,0.206086,0.463115,0.034606,0.306057,11921,210,9.350729942321776,"[4184, 4194, 3614, 3116, 2503, 2568, 2876]","[4985.0, 5132.0, 5286.0, 5448.0, 5617.0, 5793.0, 5976.0]","[OBJECTIVE]
+Predict the next 7 values based on the historical series (364 periods).
+
+[STATISTICAL CONTEXT]
+- Mean: 87124.1099
+- Median: 39083.5
+- Standard Deviation: 107555.5417
+- Minimum Value: 3993
+- Maximum Value: 414188
+- First Quartile (Q1): 16033.5
+- Third Quartile (Q3): 109220.5
+- Trend Strength (STL): 0.9985
+- Seasonality Strength (STL): 0.7754
+
+[INPUT]"
+Covid-19,2021-03-12 00:00:00,2022-03-10 00:00:00,7,mistralai/ministral-3-14b-reasoning,0.7,textual,zero_shot,0,,plain,199.4,3288.86,3354.8,0.0,0.448386,1.007609,0.063649,0.562925,13423,185,17.892024993896484,"[4184, 4194, 3614, 3116, 2503, 2568, 2876]","[4.0, 4.0, 5.0, 6.0, 5.0, 5.0, 4.0]","[OBJECTIVE]
+Predict the next 7 values based on the historical series (364 periods).
+
+[STATISTICAL CONTEXT]
+- Mean: 87124.1099
+- Median: 39083.5
+- Standard Deviation: 107555.5417
+- Minimum Value: 3993
+- Maximum Value: 414188
+- First Quartile (Q1): 16033.5
+- Third Quartile (Q3): 109220.5
+- Trend Strength (STL): 0.9985
+- Seasonality Strength (STL): 0.7754
+
+[INPUT]"
+Covid-19,2021-03-12 00:00:00,2022-03-10 00:00:00,7,mistralai/ministral-3-14b-reasoning,0.7,textual,zero_shot,0,,plain,199.3,3288.14,3354.2,0.0,0.216371,0.486227,0.034732,0.307174,13423,216,10.000678777694702,"[4184, 4194, 3614, 3116, 2503, 2568, 2876]","[4.0, 3.0, 8.0, 5.0, 9.0, 3.0, 6.0]","[OBJECTIVE]
+Predict the next 7 values based on the historical series (364 periods).
+
+[STATISTICAL CONTEXT]
+- Mean: 87124.1099
+- Median: 39083.5
+- Standard Deviation: 107555.5417
+- Minimum Value: 3993
+- Maximum Value: 414188
+- First Quartile (Q1): 16033.5
+- Third Quartile (Q3): 109220.5
+- Trend Strength (STL): 0.9985
+- Seasonality Strength (STL): 0.7754
+
+[INPUT]"
+Covid-19,2021-03-12 00:00:00,2022-03-10 00:00:00,7,mistralai/ministral-3-14b-reasoning,0.7,textual,zero_shot,0,,plain,199.14,3287.0,3353.14,0.0,0.216645,0.486844,0.033729,0.298303,13423,216,9.793751239776611,"[4184, 4194, 3614, 3116, 2503, 2568, 2876]","[4.0, 5.0, 9.0, 5.0, 8.0, 9.0, 6.0]","[OBJECTIVE]
+Predict the next 7 values based on the historical series (364 periods).
+
+[STATISTICAL CONTEXT]
+- Mean: 87124.1099
+- Median: 39083.5
+- Standard Deviation: 107555.5417
+- Minimum Value: 3993
+- Maximum Value: 414188
+- First Quartile (Q1): 16033.5
+- Third Quartile (Q3): 109220.5
+- Trend Strength (STL): 0.9985
+- Seasonality Strength (STL): 0.7754
+
+[INPUT]"
+Covid-19,2021-03-12 00:00:00,2022-03-10 00:00:00,7,mistralai/ministral-3-14b-reasoning,0.7,textual,zero_shot,0,,plain,199.46,3289.29,3355.18,0.0,0.184214,0.413964,0.035919,0.317676,13423,186,8.533149003982544,"[4184, 4194, 3614, 3116, 2503, 2568, 2876]","[4.0, 4.0, 5.0, 3.0, 4.0, 5.0, 5.0]","[OBJECTIVE]
+Predict the next 7 values based on the historical series (364 periods).
+
+[STATISTICAL CONTEXT]
+- Mean: 87124.1099
+- Median: 39083.5
+- Standard Deviation: 107555.5417
+- Minimum Value: 3993
+- Maximum Value: 414188
+- First Quartile (Q1): 16033.5
+- Third Quartile (Q3): 109220.5
+- Trend Strength (STL): 0.9985
+- Seasonality Strength (STL): 0.7754
+
+[INPUT]"
+Covid-19,2021-03-12 00:00:00,2022-03-10 00:00:00,7,mistralai/ministral-3-14b-reasoning,0.7,textual,zero_shot,0,,plain,199.39,3288.69,3354.55,0.0,0.198792,0.446724,0.03907,0.345541,13423,202,9.284038066864014,"[4184, 4194, 3614, 3116, 2503, 2568, 2876]","[4.8, 5.2, 4.9, 4.7, 4.6, 4.9, 5.1]","[OBJECTIVE]
+Predict the next 7 values based on the historical series (364 periods).
+
+[STATISTICAL CONTEXT]
+- Mean: 87124.1099
+- Median: 39083.5
+- Standard Deviation: 107555.5417
+- Minimum Value: 3993
+- Maximum Value: 414188
+- First Quartile (Q1): 16033.5
+- Third Quartile (Q3): 109220.5
+- Trend Strength (STL): 0.9985
+- Seasonality Strength (STL): 0.7754
+
+[INPUT]"
+Covid-19,2021-03-12 00:00:00,2022-03-10 00:00:00,7,mistralai/ministral-3-14b-reasoning,0.7,numeric,zero_shot,0,,csv,51.93,2305.0,2410.38,0.0,0.408441,0.917846,0.070656,0.624891,9740,243,17.064409732818604,"[4184, 4194, 3614, 3116, 2503, 2568, 2876]","[5849.0, 6874.0, 7159.0, 5101.0, 5377.0, 4589.0, 4241.0]","[OBJECTIVE]
+Predict the next 7 values based on the historical series (364 periods).
+
+[STATISTICAL CONTEXT]
+- Mean: 87124.1099
+- Median: 39083.5
+- Standard Deviation: 107555.5417
+- Minimum Value: 3993
+- Maximum Value: 414188
+- First Quartile (Q1): 16033.5
+- Third Quartile (Q3): 109220.5
+- Trend Strength (STL): 0.9985
+- Seasonality Strength (STL): 0.7754
+
+[INPUT]"
+Covid-19,2021-03-12 00:00:00,2022-03-10 00:00:00,7,mistralai/ministral-3-14b-reasoning,0.7,numeric,zero_shot,0,,csv,35.72,1360.0,1424.15,0.0,0.240467,0.540376,0.039525,0.349565,9740,254,10.92085027694702,"[4184, 4194, 3614, 3116, 2503, 2568, 2876]","[4869.0, 5126.0, 4987.0, 4675.0, 4501.0, 4312.0, 4105.0]","[OBJECTIVE]
+Predict the next 7 values based on the historical series (364 periods).
+
+[STATISTICAL CONTEXT]
+- Mean: 87124.1099
+- Median: 39083.5
+- Standard Deviation: 107555.5417
+- Minimum Value: 3993
+- Maximum Value: 414188
+- First Quartile (Q1): 16033.5
+- Third Quartile (Q3): 109220.5
+- Trend Strength (STL): 0.9985
+- Seasonality Strength (STL): 0.7754
+
+[INPUT]"
+Covid-19,2021-03-12 00:00:00,2022-03-10 00:00:00,7,mistralai/ministral-3-14b-reasoning,0.7,numeric,zero_shot,0,,csv,41.17,1671.71,1825.14,0.0,0.220266,0.49498,0.042424,0.375207,9740,236,10.139200448989868,"[4184, 4194, 3614, 3116, 2503, 2568, 2876]","[4289.0, 5872.0, 6018.0, 5201.0, 4807.0, 4423.0, 4147.0]","[OBJECTIVE]
+Predict the next 7 values based on the historical series (364 periods).
+
+[STATISTICAL CONTEXT]
+- Mean: 87124.1099
+- Median: 39083.5
+- Standard Deviation: 107555.5417
+- Minimum Value: 3993
+- Maximum Value: 414188
+- First Quartile (Q1): 16033.5
+- Third Quartile (Q3): 109220.5
+- Trend Strength (STL): 0.9985
+- Seasonality Strength (STL): 0.7754
+
+[INPUT]"
+Covid-19,2021-03-12 00:00:00,2022-03-10 00:00:00,7,mistralai/ministral-3-14b-reasoning,0.7,numeric,zero_shot,0,,csv,40.07,1613.14,1646.02,0.0,0.249861,0.561486,0.047127,0.416796,9740,262,11.31634783744812,"[4184, 4194, 3614, 3116, 2503, 2568, 2876]","[5948.0, 5672.0, 5297.0, 4921.0, 4545.0, 4170.0, 3794.0]","[OBJECTIVE]
+Predict the next 7 values based on the historical series (364 periods).
+
+[STATISTICAL CONTEXT]
+- Mean: 87124.1099
+- Median: 39083.5
+- Standard Deviation: 107555.5417
+- Minimum Value: 3993
+- Maximum Value: 414188
+- First Quartile (Q1): 16033.5
+- Third Quartile (Q3): 109220.5
+- Trend Strength (STL): 0.9985
+- Seasonality Strength (STL): 0.7754
+
+[INPUT]"
+Covid-19,2021-03-12 00:00:00,2022-03-10 00:00:00,7,mistralai/ministral-3-14b-reasoning,0.7,numeric,zero_shot,0,,csv,29.83,1090.0,1172.91,0.0,0.261758,0.58822,0.040606,0.359124,9740,276,11.845540523529053,"[4184, 4194, 3614, 3116, 2503, 2568, 2876]","[4985.0, 4567.0, 4782.0, 4123.0, 4354.0, 3998.0, 3876.0]","[OBJECTIVE]
+Predict the next 7 values based on the historical series (364 periods).
+
+[STATISTICAL CONTEXT]
+- Mean: 87124.1099
+- Median: 39083.5
+- Standard Deviation: 107555.5417
+- Minimum Value: 3993
+- Maximum Value: 414188
+- First Quartile (Q1): 16033.5
+- Third Quartile (Q3): 109220.5
+- Trend Strength (STL): 0.9985
+- Seasonality Strength (STL): 0.7754
+
+[INPUT]"
+Covid-19,2021-03-12 00:00:00,2022-03-10 00:00:00,7,mistralai/ministral-3-14b-reasoning,0.7,textual,zero_shot,0,,csv,199.18,3287.14,3353.15,0.0,0.403803,0.907423,0.06684,0.591141,11242,187,16.153323888778687,"[4184, 4194, 3614, 3116, 2503, 2568, 2876]","[8.0, 5.0, 4.0, 6.0, 9.0, 5.0, 8.0]","[OBJECTIVE]
+Predict the next 7 values based on the historical series (364 periods).
+
+[STATISTICAL CONTEXT]
+- Mean: 87124.1099
+- Median: 39083.5
+- Standard Deviation: 107555.5417
+- Minimum Value: 3993
+- Maximum Value: 414188
+- First Quartile (Q1): 16033.5
+- Third Quartile (Q3): 109220.5
+- Trend Strength (STL): 0.9985
+- Seasonality Strength (STL): 0.7754
+
+[INPUT]"
+Covid-19,2021-03-12 00:00:00,2022-03-10 00:00:00,7,mistralai/ministral-3-14b-reasoning,0.7,textual,zero_shot,0,,csv,199.67,3290.71,3356.34,0.0,0.201054,0.451807,0.036621,0.323878,11242,212,9.346800327301024,"[4184, 4194, 3614, 3116, 2503, 2568, 2876]","[5.0, 4.0, 3.0, 3.0, 2.0, 2.0, 1.0]","[OBJECTIVE]
+Predict the next 7 values based on the historical series (364 periods).
+
+[STATISTICAL CONTEXT]
+- Mean: 87124.1099
+- Median: 39083.5
+- Standard Deviation: 107555.5417
+- Minimum Value: 3993
+- Maximum Value: 414188
+- First Quartile (Q1): 16033.5
+- Third Quartile (Q3): 109220.5
+- Trend Strength (STL): 0.9985
+- Seasonality Strength (STL): 0.7754
+
+[INPUT]"
+Covid-19,2021-03-12 00:00:00,2022-03-10 00:00:00,7,mistralai/ministral-3-14b-reasoning,0.7,textual,zero_shot,0,,csv,199.56,3290.0,3355.73,0.0,0.179493,0.403355,0.033633,0.297456,11242,187,8.254066944122314,"[4184, 4194, 3614, 3116, 2503, 2568, 2876]","[4.0, 5.0, 4.0, 3.0, 4.0, 2.0, 3.0]","[OBJECTIVE]
+Predict the next 7 values based on the historical series (364 periods).
+
+[STATISTICAL CONTEXT]
+- Mean: 87124.1099
+- Median: 39083.5
+- Standard Deviation: 107555.5417
+- Minimum Value: 3993
+- Maximum Value: 414188
+- First Quartile (Q1): 16033.5
+- Third Quartile (Q3): 109220.5
+- Trend Strength (STL): 0.9985
+- Seasonality Strength (STL): 0.7754
+
+[INPUT]"
+Covid-19,2021-03-12 00:00:00,2022-03-10 00:00:00,7,mistralai/ministral-3-14b-reasoning,0.7,textual,zero_shot,0,,csv,199.32,3288.29,3354.27,0.0,0.207937,0.467275,0.039747,0.351525,11242,215,9.45291233062744,"[4184, 4194, 3614, 3116, 2503, 2568, 2876]","[5.0, 4.0, 5.0, 6.0, 6.0, 5.0, 6.0]","[OBJECTIVE]
+Predict the next 7 values based on the historical series (364 periods).
+
+[STATISTICAL CONTEXT]
+- Mean: 87124.1099
+- Median: 39083.5
+- Standard Deviation: 107555.5417
+- Minimum Value: 3993
+- Maximum Value: 414188
+- First Quartile (Q1): 16033.5
+- Third Quartile (Q3): 109220.5
+- Trend Strength (STL): 0.9985
+- Seasonality Strength (STL): 0.7754
+
+[INPUT]"
+Covid-19,2021-03-12 00:00:00,2022-03-10 00:00:00,7,mistralai/ministral-3-14b-reasoning,0.7,textual,zero_shot,0,,csv,199.29,3287.91,3353.81,0.0,0.188849,0.42438,0.032089,0.283803,11242,201,8.904500961303711,"[4184, 4194, 3614, 3116, 2503, 2568, 2876]","[4.8, 5.9, 6.4, 6.2, 5.6, 5.0, 5.7]","[OBJECTIVE]
+Predict the next 7 values based on the historical series (364 periods).
+
+[STATISTICAL CONTEXT]
+- Mean: 87124.1099
+- Median: 39083.5
+- Standard Deviation: 107555.5417
+- Minimum Value: 3993
+- Maximum Value: 414188
+- First Quartile (Q1): 16033.5
+- Third Quartile (Q3): 109220.5
+- Trend Strength (STL): 0.9985
+- Seasonality Strength (STL): 0.7754
+
+[INPUT]"
+Covid-19,2021-03-12 00:00:00,2022-03-10 00:00:00,7,mistralai/ministral-3-14b-reasoning,0.7,numeric,cot,0,,plain,50.42,2135.14,2178.56,0.0,0.476864,1.071604,0.07792,0.689133,12039,235,19.0203115940094,"[4184, 4194, 3614, 3116, 2503, 2568, 2876]","[5894.0, 5672.0, 5543.0, 5415.0, 5287.0, 5159.0, 5031.0]","[OBJECTIVE]
+Predict the next 7 values based on the historical series (364 periods).
+
+[STATISTICAL CONTEXT]
+- Mean: 87124.1099
+- Median: 39083.5
+- Standard Deviation: 107555.5417
+- Minimum Value: 3993
+- Maximum Value: 414188
+- First Quartile (Q1): 16033.5
+- Third Quartile (Q3): 109220.5
+- Trend Strength (STL): 0.9985
+- Seasonality Strength (STL): 0.7754
+
+[REASONING GUIDELINES]
+- Trend: Identify the overall direction (increasing, decreasing, stable) and the trend strength.
+- Seasonality: Patterns that repeat at regular intervals (e.g., daily, weekly, monthly).
+- Outliers: Possible outliers or abrupt changes.
+- Cycles: Not seasonal long-term patterns.
+- Noise reduction: Apply a technique to reduce noise when necessary.
+- Consistency with the provided descriptive statistics (mean, median, etc.).
+- Adjustment for data frequency and contextual events (holidays, promotions, etc.).
+
+[INPUT]"
+Covid-19,2021-03-12 00:00:00,2022-03-10 00:00:00,7,mistralai/ministral-3-14b-reasoning,0.7,numeric,cot,0,,plain,45.23,1856.43,2039.8,0.0,0.229762,0.51632,0.037883,0.335045,12039,227,10.2618567943573,"[4184, 4194, 3614, 3116, 2503, 2568, 2876]","[4850.0, 4950.0, 5050.0, 5150.0, 5250.0, 5350.0, 5450.0]","[OBJECTIVE]
+Predict the next 7 values based on the historical series (364 periods).
+
+[STATISTICAL CONTEXT]
+- Mean: 87124.1099
+- Median: 39083.5
+- Standard Deviation: 107555.5417
+- Minimum Value: 3993
+- Maximum Value: 414188
+- First Quartile (Q1): 16033.5
+- Third Quartile (Q3): 109220.5
+- Trend Strength (STL): 0.9985
+- Seasonality Strength (STL): 0.7754
+
+[REASONING GUIDELINES]
+- Trend: Identify the overall direction (increasing, decreasing, stable) and the trend strength.
+- Seasonality: Patterns that repeat at regular intervals (e.g., daily, weekly, monthly).
+- Outliers: Possible outliers or abrupt changes.
+- Cycles: Not seasonal long-term patterns.
+- Noise reduction: Apply a technique to reduce noise when necessary.
+- Consistency with the provided descriptive statistics (mean, median, etc.).
+- Adjustment for data frequency and contextual events (holidays, promotions, etc.).
+
+[INPUT]"
+Covid-19,2021-03-12 00:00:00,2022-03-10 00:00:00,7,mistralai/ministral-3-14b-reasoning,0.7,numeric,cot,0,,plain,51.22,2299.0,2713.45,0.0,0.205816,0.462508,0.036133,0.319564,12039,208,9.247670650482178,"[4184, 4194, 3614, 3116, 2503, 2568, 2876]","[4895.0, 4700.0, 4923.0, 5173.0, 5691.0, 6584.0, 7182.0]","[OBJECTIVE]
+Predict the next 7 values based on the historical series (364 periods).
+
+[STATISTICAL CONTEXT]
+- Mean: 87124.1099
+- Median: 39083.5
+- Standard Deviation: 107555.5417
+- Minimum Value: 3993
+- Maximum Value: 414188
+- First Quartile (Q1): 16033.5
+- Third Quartile (Q3): 109220.5
+- Trend Strength (STL): 0.9985
+- Seasonality Strength (STL): 0.7754
+
+[REASONING GUIDELINES]
+- Trend: Identify the overall direction (increasing, decreasing, stable) and the trend strength.
+- Seasonality: Patterns that repeat at regular intervals (e.g., daily, weekly, monthly).
+- Outliers: Possible outliers or abrupt changes.
+- Cycles: Not seasonal long-term patterns.
+- Noise reduction: Apply a technique to reduce noise when necessary.
+- Consistency with the provided descriptive statistics (mean, median, etc.).
+- Adjustment for data frequency and contextual events (holidays, promotions, etc.).
+
+[INPUT]"
+Covid-19,2021-03-12 00:00:00,2022-03-10 00:00:00,7,mistralai/ministral-3-14b-reasoning,0.7,numeric,cot,0,,plain,61.3,2957.14,3326.24,0.0,0.202868,0.455884,0.036597,0.32367,12039,205,9.20806121826172,"[4184, 4194, 3614, 3116, 2503, 2568, 2876]","[4898.0, 5280.0, 5895.0, 6234.0, 6789.0, 7126.0, 7533.0]","[OBJECTIVE]
+Predict the next 7 values based on the historical series (364 periods).
+
+[STATISTICAL CONTEXT]
+- Mean: 87124.1099
+- Median: 39083.5
+- Standard Deviation: 107555.5417
+- Minimum Value: 3993
+- Maximum Value: 414188
+- First Quartile (Q1): 16033.5
+- Third Quartile (Q3): 109220.5
+- Trend Strength (STL): 0.9985
+- Seasonality Strength (STL): 0.7754
+
+[REASONING GUIDELINES]
+- Trend: Identify the overall direction (increasing, decreasing, stable) and the trend strength.
+- Seasonality: Patterns that repeat at regular intervals (e.g., daily, weekly, monthly).
+- Outliers: Possible outliers or abrupt changes.
+- Cycles: Not seasonal long-term patterns.
+- Noise reduction: Apply a technique to reduce noise when necessary.
+- Consistency with the provided descriptive statistics (mean, median, etc.).
+- Adjustment for data frequency and contextual events (holidays, promotions, etc.).
+
+[INPUT]"
+Covid-19,2021-03-12 00:00:00,2022-03-10 00:00:00,7,mistralai/ministral-3-14b-reasoning,0.7,numeric,cot,0,,plain,56.87,2611.29,2909.51,0.0,0.202815,0.455763,0.039553,0.349809,12039,205,9.325660705566406,"[4184, 4194, 3614, 3116, 2503, 2568, 2876]","[4988.0, 5217.0, 5534.0, 5876.0, 6218.0, 6573.0, 6928.0]","[OBJECTIVE]
+Predict the next 7 values based on the historical series (364 periods).
+
+[STATISTICAL CONTEXT]
+- Mean: 87124.1099
+- Median: 39083.5
+- Standard Deviation: 107555.5417
+- Minimum Value: 3993
+- Maximum Value: 414188
+- First Quartile (Q1): 16033.5
+- Third Quartile (Q3): 109220.5
+- Trend Strength (STL): 0.9985
+- Seasonality Strength (STL): 0.7754
+
+[REASONING GUIDELINES]
+- Trend: Identify the overall direction (increasing, decreasing, stable) and the trend strength.
+- Seasonality: Patterns that repeat at regular intervals (e.g., daily, weekly, monthly).
+- Outliers: Possible outliers or abrupt changes.
+- Cycles: Not seasonal long-term patterns.
+- Noise reduction: Apply a technique to reduce noise when necessary.
+- Consistency with the provided descriptive statistics (mean, median, etc.).
+- Adjustment for data frequency and contextual events (holidays, promotions, etc.).
+
+[INPUT]"
+Covid-19,2021-03-12 00:00:00,2022-03-10 00:00:00,7,mistralai/ministral-3-14b-reasoning,0.7,textual,cot,0,,plain,192.56,3234.29,3302.06,0.0,0.473139,1.063234,0.077708,0.68726,13541,194,18.613587141036987,"[4184, 4194, 3614, 3116, 2503, 2568, 2876]","[48.0, 59.0, 56.0, 65.0, 62.0, 64.0, 61.0]","[OBJECTIVE]
+Predict the next 7 values based on the historical series (364 periods).
+
+[STATISTICAL CONTEXT]
+- Mean: 87124.1099
+- Median: 39083.5
+- Standard Deviation: 107555.5417
+- Minimum Value: 3993
+- Maximum Value: 414188
+- First Quartile (Q1): 16033.5
+- Third Quartile (Q3): 109220.5
+- Trend Strength (STL): 0.9985
+- Seasonality Strength (STL): 0.7754
+
+[REASONING GUIDELINES]
+- Trend: Identify the overall direction (increasing, decreasing, stable) and the trend strength.
+- Seasonality: Patterns that repeat at regular intervals (e.g., daily, weekly, monthly).
+- Outliers: Possible outliers or abrupt changes.
+- Cycles: Not seasonal long-term patterns.
+- Noise reduction: Apply a technique to reduce noise when necessary.
+- Consistency with the provided descriptive statistics (mean, median, etc.).
+- Adjustment for data frequency and contextual events (holidays, promotions, etc.).
+
+[INPUT]"
+Covid-19,2021-03-12 00:00:00,2022-03-10 00:00:00,7,mistralai/ministral-3-14b-reasoning,0.7,textual,cot,0,,plain,199.33,3288.29,3354.24,0.0,0.182812,0.410813,0.035729,0.315995,13541,186,8.548479795455933,"[4184, 4194, 3614, 3116, 2503, 2568, 2876]","[4.0, 6.0, 4.0, 5.0, 4.0, 6.0, 8.0]","[OBJECTIVE]
+Predict the next 7 values based on the historical series (364 periods).
+
+[STATISTICAL CONTEXT]
+- Mean: 87124.1099
+- Median: 39083.5
+- Standard Deviation: 107555.5417
+- Minimum Value: 3993
+- Maximum Value: 414188
+- First Quartile (Q1): 16033.5
+- Third Quartile (Q3): 109220.5
+- Trend Strength (STL): 0.9985
+- Seasonality Strength (STL): 0.7754
+
+[REASONING GUIDELINES]
+- Trend: Identify the overall direction (increasing, decreasing, stable) and the trend strength.
+- Seasonality: Patterns that repeat at regular intervals (e.g., daily, weekly, monthly).
+- Outliers: Possible outliers or abrupt changes.
+- Cycles: Not seasonal long-term patterns.
+- Noise reduction: Apply a technique to reduce noise when necessary.
+- Consistency with the provided descriptive statistics (mean, median, etc.).
+- Adjustment for data frequency and contextual events (holidays, promotions, etc.).
+
+[INPUT]"
+Covid-19,2021-03-12 00:00:00,2022-03-10 00:00:00,7,mistralai/ministral-3-14b-reasoning,0.7,textual,cot,0,,plain,199.35,3288.14,3353.81,0.0,0.183644,0.412683,0.030944,0.273676,13541,185,8.516796827316284,"[4184, 4194, 3614, 3116, 2503, 2568, 2876]","[4.0, 8.0, 9.0, 5.0, 6.0, 1.0, 5.0]","[OBJECTIVE]
+Predict the next 7 values based on the historical series (364 periods).
+
+[STATISTICAL CONTEXT]
+- Mean: 87124.1099
+- Median: 39083.5
+- Standard Deviation: 107555.5417
+- Minimum Value: 3993
+- Maximum Value: 414188
+- First Quartile (Q1): 16033.5
+- Third Quartile (Q3): 109220.5
+- Trend Strength (STL): 0.9985
+- Seasonality Strength (STL): 0.7754
+
+[REASONING GUIDELINES]
+- Trend: Identify the overall direction (increasing, decreasing, stable) and the trend strength.
+- Seasonality: Patterns that repeat at regular intervals (e.g., daily, weekly, monthly).
+- Outliers: Possible outliers or abrupt changes.
+- Cycles: Not seasonal long-term patterns.
+- Noise reduction: Apply a technique to reduce noise when necessary.
+- Consistency with the provided descriptive statistics (mean, median, etc.).
+- Adjustment for data frequency and contextual events (holidays, promotions, etc.).
+
+[INPUT]"
+Covid-19,2021-03-12 00:00:00,2022-03-10 00:00:00,7,mistralai/ministral-3-14b-reasoning,0.7,textual,cot,0,,plain,199.35,3288.29,3354.08,0.0,0.217281,0.488273,0.03746,0.331305,13541,213,9.767982482910156,"[4184, 4194, 3614, 3116, 2503, 2568, 2876]","[4.0, 5.0, 9.0, 8.0, 4.0, 4.0, 3.0]","[OBJECTIVE]
+Predict the next 7 values based on the historical series (364 periods).
+
+[STATISTICAL CONTEXT]
+- Mean: 87124.1099
+- Median: 39083.5
+- Standard Deviation: 107555.5417
+- Minimum Value: 3993
+- Maximum Value: 414188
+- First Quartile (Q1): 16033.5
+- Third Quartile (Q3): 109220.5
+- Trend Strength (STL): 0.9985
+- Seasonality Strength (STL): 0.7754
+
+[REASONING GUIDELINES]
+- Trend: Identify the overall direction (increasing, decreasing, stable) and the trend strength.
+- Seasonality: Patterns that repeat at regular intervals (e.g., daily, weekly, monthly).
+- Outliers: Possible outliers or abrupt changes.
+- Cycles: Not seasonal long-term patterns.
+- Noise reduction: Apply a technique to reduce noise when necessary.
+- Consistency with the provided descriptive statistics (mean, median, etc.).
+- Adjustment for data frequency and contextual events (holidays, promotions, etc.).
+
+[INPUT]"
+Covid-19,2021-03-12 00:00:00,2022-03-10 00:00:00,7,mistralai/ministral-3-14b-reasoning,0.7,textual,cot,0,,plain,199.33,3288.29,3354.22,0.0,0.184546,0.41471,0.033721,0.298233,13541,187,8.564992666244507,"[4184, 4194, 3614, 3116, 2503, 2568, 2876]","[4.0, 5.0, 6.0, 8.0, 9.0, 1.0, 4.0]","[OBJECTIVE]
+Predict the next 7 values based on the historical series (364 periods).
+
+[STATISTICAL CONTEXT]
+- Mean: 87124.1099
+- Median: 39083.5
+- Standard Deviation: 107555.5417
+- Minimum Value: 3993
+- Maximum Value: 414188
+- First Quartile (Q1): 16033.5
+- Third Quartile (Q3): 109220.5
+- Trend Strength (STL): 0.9985
+- Seasonality Strength (STL): 0.7754
+
+[REASONING GUIDELINES]
+- Trend: Identify the overall direction (increasing, decreasing, stable) and the trend strength.
+- Seasonality: Patterns that repeat at regular intervals (e.g., daily, weekly, monthly).
+- Outliers: Possible outliers or abrupt changes.
+- Cycles: Not seasonal long-term patterns.
+- Noise reduction: Apply a technique to reduce noise when necessary.
+- Consistency with the provided descriptive statistics (mean, median, etc.).
+- Adjustment for data frequency and contextual events (holidays, promotions, etc.).
+
+[INPUT]"
+Covid-19,2021-03-12 00:00:00,2022-03-10 00:00:00,7,mistralai/ministral-3-14b-reasoning,0.7,numeric,cot,0,,csv,56.78,2597.14,2877.94,0.0,0.390854,0.878324,0.063952,0.5656,9858,208,16.133949995040894,"[4184, 4194, 3614, 3116, 2503, 2568, 2876]","[4985.0, 5250.0, 5600.0, 5900.0, 6200.0, 6500.0, 6800.0]","[OBJECTIVE]
+Predict the next 7 values based on the historical series (364 periods).
+
+[STATISTICAL CONTEXT]
+- Mean: 87124.1099
+- Median: 39083.5
+- Standard Deviation: 107555.5417
+- Minimum Value: 3993
+- Maximum Value: 414188
+- First Quartile (Q1): 16033.5
+- Third Quartile (Q3): 109220.5
+- Trend Strength (STL): 0.9985
+- Seasonality Strength (STL): 0.7754
+
+[REASONING GUIDELINES]
+- Trend: Identify the overall direction (increasing, decreasing, stable) and the trend strength.
+- Seasonality: Patterns that repeat at regular intervals (e.g., daily, weekly, monthly).
+- Outliers: Possible outliers or abrupt changes.
+- Cycles: Not seasonal long-term patterns.
+- Noise reduction: Apply a technique to reduce noise when necessary.
+- Consistency with the provided descriptive statistics (mean, median, etc.).
+- Adjustment for data frequency and contextual events (holidays, promotions, etc.).
+
+[INPUT]"
+Covid-19,2021-03-12 00:00:00,2022-03-10 00:00:00,7,mistralai/ministral-3-14b-reasoning,0.7,numeric,cot,0,,csv,58.4,2846.43,3378.02,0.0,0.214362,0.481713,0.041469,0.366756,9858,227,9.75118637084961,"[4184, 4194, 3614, 3116, 2503, 2568, 2876]","[4250.0, 4830.0, 5900.0, 6200.0, 6500.0, 7800.0, 7500.0]","[OBJECTIVE]
+Predict the next 7 values based on the historical series (364 periods).
+
+[STATISTICAL CONTEXT]
+- Mean: 87124.1099
+- Median: 39083.5
+- Standard Deviation: 107555.5417
+- Minimum Value: 3993
+- Maximum Value: 414188
+- First Quartile (Q1): 16033.5
+- Third Quartile (Q3): 109220.5
+- Trend Strength (STL): 0.9985
+- Seasonality Strength (STL): 0.7754
+
+[REASONING GUIDELINES]
+- Trend: Identify the overall direction (increasing, decreasing, stable) and the trend strength.
+- Seasonality: Patterns that repeat at regular intervals (e.g., daily, weekly, monthly).
+- Outliers: Possible outliers or abrupt changes.
+- Cycles: Not seasonal long-term patterns.
+- Noise reduction: Apply a technique to reduce noise when necessary.
+- Consistency with the provided descriptive statistics (mean, median, etc.).
+- Adjustment for data frequency and contextual events (holidays, promotions, etc.).
+
+[INPUT]"
+Covid-19,2021-03-12 00:00:00,2022-03-10 00:00:00,7,mistralai/ministral-3-14b-reasoning,0.7,numeric,cot,0,,csv,54.37,2445.0,2740.99,0.0,0.192202,0.431914,0.030941,0.273643,9858,208,8.969607591629028,"[4184, 4194, 3614, 3116, 2503, 2568, 2876]","[4859.0, 5126.0, 5403.0, 5700.0, 6017.0, 6354.0, 6711.0]","[OBJECTIVE]
+Predict the next 7 values based on the historical series (364 periods).
+
+[STATISTICAL CONTEXT]
+- Mean: 87124.1099
+- Median: 39083.5
+- Standard Deviation: 107555.5417
+- Minimum Value: 3993
+- Maximum Value: 414188
+- First Quartile (Q1): 16033.5
+- Third Quartile (Q3): 109220.5
+- Trend Strength (STL): 0.9985
+- Seasonality Strength (STL): 0.7754
+
+[REASONING GUIDELINES]
+- Trend: Identify the overall direction (increasing, decreasing, stable) and the trend strength.
+- Seasonality: Patterns that repeat at regular intervals (e.g., daily, weekly, monthly).
+- Outliers: Possible outliers or abrupt changes.
+- Cycles: Not seasonal long-term patterns.
+- Noise reduction: Apply a technique to reduce noise when necessary.
+- Consistency with the provided descriptive statistics (mean, median, etc.).
+- Adjustment for data frequency and contextual events (holidays, promotions, etc.).
+
+[INPUT]"
+Covid-19,2021-03-12 00:00:00,2022-03-10 00:00:00,7,mistralai/ministral-3-14b-reasoning,0.7,numeric,cot,0,,csv,50.81,2194.29,2421.12,0.0,0.19239,0.432336,0.031217,0.276087,9858,206,8.83178162574768,"[4184, 4194, 3614, 3116, 2503, 2568, 2876]","[4892.0, 5103.0, 5306.0, 5501.0, 5690.0, 5873.0, 6050.0]","[OBJECTIVE]
+Predict the next 7 values based on the historical series (364 periods).
+
+[STATISTICAL CONTEXT]
+- Mean: 87124.1099
+- Median: 39083.5
+- Standard Deviation: 107555.5417
+- Minimum Value: 3993
+- Maximum Value: 414188
+- First Quartile (Q1): 16033.5
+- Third Quartile (Q3): 109220.5
+- Trend Strength (STL): 0.9985
+- Seasonality Strength (STL): 0.7754
+
+[REASONING GUIDELINES]
+- Trend: Identify the overall direction (increasing, decreasing, stable) and the trend strength.
+- Seasonality: Patterns that repeat at regular intervals (e.g., daily, weekly, monthly).
+- Outliers: Possible outliers or abrupt changes.
+- Cycles: Not seasonal long-term patterns.
+- Noise reduction: Apply a technique to reduce noise when necessary.
+- Consistency with the provided descriptive statistics (mean, median, etc.).
+- Adjustment for data frequency and contextual events (holidays, promotions, etc.).
+
+[INPUT]"
+Covid-19,2021-03-12 00:00:00,2022-03-10 00:00:00,7,mistralai/ministral-3-14b-reasoning,0.7,numeric,cot,0,,csv,56.84,2614.33,2925.34,0.0,0.211283,0.474792,0.041542,0.367407,9858,222,9.586471557617188,"[4184, 4194, 3614, 3116, 2503, 2568, 2876]","[4879.5, 5162.3, 5585.1, 6007.9, 6290.7, 6573.5, 6856.3]","[OBJECTIVE]
+Predict the next 7 values based on the historical series (364 periods).
+
+[STATISTICAL CONTEXT]
+- Mean: 87124.1099
+- Median: 39083.5
+- Standard Deviation: 107555.5417
+- Minimum Value: 3993
+- Maximum Value: 414188
+- First Quartile (Q1): 16033.5
+- Third Quartile (Q3): 109220.5
+- Trend Strength (STL): 0.9985
+- Seasonality Strength (STL): 0.7754
+
+[REASONING GUIDELINES]
+- Trend: Identify the overall direction (increasing, decreasing, stable) and the trend strength.
+- Seasonality: Patterns that repeat at regular intervals (e.g., daily, weekly, monthly).
+- Outliers: Possible outliers or abrupt changes.
+- Cycles: Not seasonal long-term patterns.
+- Noise reduction: Apply a technique to reduce noise when necessary.
+- Consistency with the provided descriptive statistics (mean, median, etc.).
+- Adjustment for data frequency and contextual events (holidays, promotions, etc.).
+
+[INPUT]"
+Covid-19,2021-03-12 00:00:00,2022-03-10 00:00:00,7,mistralai/ministral-3-14b-reasoning,0.7,textual,cot,0,,csv,199.4,3288.86,3354.74,0.0,0.400971,0.901058,0.067247,0.594744,11360,187,16.17250657081604,"[4184, 4194, 3614, 3116, 2503, 2568, 2876]","[4.0, 5.0, 5.0, 5.0, 5.0, 4.0, 5.0]","[OBJECTIVE]
+Predict the next 7 values based on the historical series (364 periods).
+
+[STATISTICAL CONTEXT]
+- Mean: 87124.1099
+- Median: 39083.5
+- Standard Deviation: 107555.5417
+- Minimum Value: 3993
+- Maximum Value: 414188
+- First Quartile (Q1): 16033.5
+- Third Quartile (Q3): 109220.5
+- Trend Strength (STL): 0.9985
+- Seasonality Strength (STL): 0.7754
+
+[REASONING GUIDELINES]
+- Trend: Identify the overall direction (increasing, decreasing, stable) and the trend strength.
+- Seasonality: Patterns that repeat at regular intervals (e.g., daily, weekly, monthly).
+- Outliers: Possible outliers or abrupt changes.
+- Cycles: Not seasonal long-term patterns.
+- Noise reduction: Apply a technique to reduce noise when necessary.
+- Consistency with the provided descriptive statistics (mean, median, etc.).
+- Adjustment for data frequency and contextual events (holidays, promotions, etc.).
+
+[INPUT]"
+Covid-19,2021-03-12 00:00:00,2022-03-10 00:00:00,7,mistralai/ministral-3-14b-reasoning,0.7,textual,cot,0,,csv,199.44,3289.14,3355.0,0.0,0.176241,0.396047,0.034844,0.308168,11360,187,8.228116989135742,"[4184, 4194, 3614, 3116, 2503, 2568, 2876]","[4.0, 5.0, 4.0, 5.0, 4.0, 4.0, 5.0]","[OBJECTIVE]
+Predict the next 7 values based on the historical series (364 periods).
+
+[STATISTICAL CONTEXT]
+- Mean: 87124.1099
+- Median: 39083.5
+- Standard Deviation: 107555.5417
+- Minimum Value: 3993
+- Maximum Value: 414188
+- First Quartile (Q1): 16033.5
+- Third Quartile (Q3): 109220.5
+- Trend Strength (STL): 0.9985
+- Seasonality Strength (STL): 0.7754
+
+[REASONING GUIDELINES]
+- Trend: Identify the overall direction (increasing, decreasing, stable) and the trend strength.
+- Seasonality: Patterns that repeat at regular intervals (e.g., daily, weekly, monthly).
+- Outliers: Possible outliers or abrupt changes.
+- Cycles: Not seasonal long-term patterns.
+- Noise reduction: Apply a technique to reduce noise when necessary.
+- Consistency with the provided descriptive statistics (mean, median, etc.).
+- Adjustment for data frequency and contextual events (holidays, promotions, etc.).
+
+[INPUT]"
+Covid-19,2021-03-12 00:00:00,2022-03-10 00:00:00,7,mistralai/ministral-3-14b-reasoning,0.7,textual,cot,0,,csv,141.44,2753.57,2843.71,0.0,0.211566,0.475429,0.034385,0.304107,11360,220,9.80548906326294,"[4184, 4194, 3614, 3116, 2503, 2568, 2876]","[459.0, 486.0, 513.0, 540.0, 567.0, 594.0, 621.0]","[OBJECTIVE]
+Predict the next 7 values based on the historical series (364 periods).
+
+[STATISTICAL CONTEXT]
+- Mean: 87124.1099
+- Median: 39083.5
+- Standard Deviation: 107555.5417
+- Minimum Value: 3993
+- Maximum Value: 414188
+- First Quartile (Q1): 16033.5
+- Third Quartile (Q3): 109220.5
+- Trend Strength (STL): 0.9985
+- Seasonality Strength (STL): 0.7754
+
+[REASONING GUIDELINES]
+- Trend: Identify the overall direction (increasing, decreasing, stable) and the trend strength.
+- Seasonality: Patterns that repeat at regular intervals (e.g., daily, weekly, monthly).
+- Outliers: Possible outliers or abrupt changes.
+- Cycles: Not seasonal long-term patterns.
+- Noise reduction: Apply a technique to reduce noise when necessary.
+- Consistency with the provided descriptive statistics (mean, median, etc.).
+- Adjustment for data frequency and contextual events (holidays, promotions, etc.).
+
+[INPUT]"
+Covid-19,2021-03-12 00:00:00,2022-03-10 00:00:00,7,mistralai/ministral-3-14b-reasoning,0.7,textual,cot,0,,csv,199.07,3286.57,3352.85,0.0,0.18414,0.413798,0.034422,0.304432,11360,188,8.365960121154785,"[4184, 4194, 3614, 3116, 2503, 2568, 2876]","[4.0, 5.0, 6.0, 7.0, 8.0, 9.0, 10.0]","[OBJECTIVE]
+Predict the next 7 values based on the historical series (364 periods).
+
+[STATISTICAL CONTEXT]
+- Mean: 87124.1099
+- Median: 39083.5
+- Standard Deviation: 107555.5417
+- Minimum Value: 3993
+- Maximum Value: 414188
+- First Quartile (Q1): 16033.5
+- Third Quartile (Q3): 109220.5
+- Trend Strength (STL): 0.9985
+- Seasonality Strength (STL): 0.7754
+
+[REASONING GUIDELINES]
+- Trend: Identify the overall direction (increasing, decreasing, stable) and the trend strength.
+- Seasonality: Patterns that repeat at regular intervals (e.g., daily, weekly, monthly).
+- Outliers: Possible outliers or abrupt changes.
+- Cycles: Not seasonal long-term patterns.
+- Noise reduction: Apply a technique to reduce noise when necessary.
+- Consistency with the provided descriptive statistics (mean, median, etc.).
+- Adjustment for data frequency and contextual events (holidays, promotions, etc.).
+
+[INPUT]"
+Covid-19,2021-03-12 00:00:00,2022-03-10 00:00:00,7,mistralai/ministral-3-14b-reasoning,0.7,textual,cot,0,,csv,199.44,3289.14,3355.03,0.0,0.209601,0.471014,0.039739,0.351456,11360,215,9.481051683425903,"[4184, 4194, 3614, 3116, 2503, 2568, 2876]","[4.0, 5.0, 3.0, 5.0, 4.0, 4.0, 6.0]","[OBJECTIVE]
+Predict the next 7 values based on the historical series (364 periods).
+
+[STATISTICAL CONTEXT]
+- Mean: 87124.1099
+- Median: 39083.5
+- Standard Deviation: 107555.5417
+- Minimum Value: 3993
+- Maximum Value: 414188
+- First Quartile (Q1): 16033.5
+- Third Quartile (Q3): 109220.5
+- Trend Strength (STL): 0.9985
+- Seasonality Strength (STL): 0.7754
+
+[REASONING GUIDELINES]
+- Trend: Identify the overall direction (increasing, decreasing, stable) and the trend strength.
+- Seasonality: Patterns that repeat at regular intervals (e.g., daily, weekly, monthly).
+- Outliers: Possible outliers or abrupt changes.
+- Cycles: Not seasonal long-term patterns.
+- Noise reduction: Apply a technique to reduce noise when necessary.
+- Consistency with the provided descriptive statistics (mean, median, etc.).
+- Adjustment for data frequency and contextual events (holidays, promotions, etc.).
+
+[INPUT]"
+Covid-19,2021-03-12 00:00:00,2022-03-10 00:00:00,7,mistralai/ministral-3-14b-reasoning,0.7,numeric,few_shot,3,uniform,plain,54.68,2467.0,2766.08,0.0,0.485678,1.091411,0.080192,0.709233,13299,228,19.20354676246643,"[4184, 4194, 3614, 3116, 2503, 2568, 2876]","[4859.0, 5142.0, 5427.0, 5711.0, 6018.0, 6378.0, 6789.0]","[OBJECTIVE]
+Predict the next 7 values based on the historical series (364 periods).
+
+[STATISTICAL CONTEXT]
+- Mean: 87124.1099
+- Median: 39083.5
+- Standard Deviation: 107555.5417
+- Minimum Value: 3993
+- Maximum Value: 414188
+- First Quartile (Q1): 16033.5
+- Third Quartile (Q3): 109220.5
+- Trend Strength (STL): 0.9985
+- Seasonality Strength (STL): 0.7754
+
+[EXAMPLES]
+- Example 1:
+Input (history):
+date: 2021-03-12 00:00:00, value: 22854
+date: 2021-03-13 00:00:00, value: 23285
+date: 2021-03-14 00:00:00, value: 24882
+date: 2021-03-15 00:00:00, value: 25320
+date: 2021-03-16 00:00:00, value: 26291
+date: 2021-03-17 00:00:00, value: 24492
+date: 2021-03-18 00:00:00, value: 28903
+
+Output (forecast):
+date: 2021-03-19 00:00:00, value: 35871
+date: 2021-03-20 00:00:00, value: 39726
+date: 2021-03-21 00:00:00, value: 40953
+date: 2021-03-22 00:00:00, value: 43846
+date: 2021-03-23 00:00:00, value: 46951
+date: 2021-03-24 00:00:00, value: 40715
+date: 2021-03-25 00:00:00, value: 47262
+
+- Example 2:
+Input (history):
+date: 2021-09-03 00:00:00, value: 47092
+date: 2021-09-04 00:00:00, value: 45352
+date: 2021-09-05 00:00:00, value: 42618
+date: 2021-09-06 00:00:00, value: 42766
+date: 2021-09-07 00:00:00, value: 38948
+date: 2021-09-08 00:00:00, value: 31222
+date: 2021-09-09 00:00:00, value: 37875
+
+Output (forecast):
+date: 2021-09-10 00:00:00, value: 43263
+date: 2021-09-11 00:00:00, value: 34973
+date: 2021-09-12 00:00:00, value: 33376
+date: 2021-09-13 00:00:00, value: 28591
+date: 2021-09-14 00:00:00, value: 27254
+date: 2021-09-15 00:00:00, value: 25404
+date: 2021-09-16 00:00:00, value: 27176
+
+- Example 3:
+Input (history):
+date: 2022-02-25 00:00:00, value: 14148
+date: 2022-02-26 00:00:00, value: 13166
+date: 2022-02-27 00:00:00, value: 11499
+date: 2022-02-28 00:00:00, value: 10273
+date: 2022-03-01 00:00:00, value: 8013
+date: 2022-03-02 00:00:00, value: 6915
+date: 2022-03-03 00:00:00, value: 7554
+
+Output (forecast):
+date: 2022-03-04 00:00:00, value: 6561
+date: 2022-03-05 00:00:00, value: 6396
+date: 2022-03-06 00:00:00, value: 5921
+date: 2022-03-07 00:00:00, value: 5476
+date: 2022-03-08 00:00:00, value: 4362
+date: 2022-03-09 00:00:00, value: 3993
+date: 2022-03-10 00:00:00, value: 4575
+
+[INPUT]"
+Covid-19,2021-03-12 00:00:00,2022-03-10 00:00:00,7,mistralai/ministral-3-14b-reasoning,0.7,numeric,few_shot,3,uniform,plain,53.01,2342.71,2600.84,0.0,0.204747,0.460105,0.039139,0.346155,13299,203,9.351678371429443,"[4184, 4194, 3614, 3116, 2503, 2568, 2876]","[4898.0, 5167.0, 5345.0, 5612.0, 5878.0, 6144.0, 6410.0]","[OBJECTIVE]
+Predict the next 7 values based on the historical series (364 periods).
+
+[STATISTICAL CONTEXT]
+- Mean: 87124.1099
+- Median: 39083.5
+- Standard Deviation: 107555.5417
+- Minimum Value: 3993
+- Maximum Value: 414188
+- First Quartile (Q1): 16033.5
+- Third Quartile (Q3): 109220.5
+- Trend Strength (STL): 0.9985
+- Seasonality Strength (STL): 0.7754
+
+[EXAMPLES]
+- Example 1:
+Input (history):
+date: 2021-03-12 00:00:00, value: 22854
+date: 2021-03-13 00:00:00, value: 23285
+date: 2021-03-14 00:00:00, value: 24882
+date: 2021-03-15 00:00:00, value: 25320
+date: 2021-03-16 00:00:00, value: 26291
+date: 2021-03-17 00:00:00, value: 24492
+date: 2021-03-18 00:00:00, value: 28903
+
+Output (forecast):
+date: 2021-03-19 00:00:00, value: 35871
+date: 2021-03-20 00:00:00, value: 39726
+date: 2021-03-21 00:00:00, value: 40953
+date: 2021-03-22 00:00:00, value: 43846
+date: 2021-03-23 00:00:00, value: 46951
+date: 2021-03-24 00:00:00, value: 40715
+date: 2021-03-25 00:00:00, value: 47262
+
+- Example 2:
+Input (history):
+date: 2021-09-03 00:00:00, value: 47092
+date: 2021-09-04 00:00:00, value: 45352
+date: 2021-09-05 00:00:00, value: 42618
+date: 2021-09-06 00:00:00, value: 42766
+date: 2021-09-07 00:00:00, value: 38948
+date: 2021-09-08 00:00:00, value: 31222
+date: 2021-09-09 00:00:00, value: 37875
+
+Output (forecast):
+date: 2021-09-10 00:00:00, value: 43263
+date: 2021-09-11 00:00:00, value: 34973
+date: 2021-09-12 00:00:00, value: 33376
+date: 2021-09-13 00:00:00, value: 28591
+date: 2021-09-14 00:00:00, value: 27254
+date: 2021-09-15 00:00:00, value: 25404
+date: 2021-09-16 00:00:00, value: 27176
+
+- Example 3:
+Input (history):
+date: 2022-02-25 00:00:00, value: 14148
+date: 2022-02-26 00:00:00, value: 13166
+date: 2022-02-27 00:00:00, value: 11499
+date: 2022-02-28 00:00:00, value: 10273
+date: 2022-03-01 00:00:00, value: 8013
+date: 2022-03-02 00:00:00, value: 6915
+date: 2022-03-03 00:00:00, value: 7554
+
+Output (forecast):
+date: 2022-03-04 00:00:00, value: 6561
+date: 2022-03-05 00:00:00, value: 6396
+date: 2022-03-06 00:00:00, value: 5921
+date: 2022-03-07 00:00:00, value: 5476
+date: 2022-03-08 00:00:00, value: 4362
+date: 2022-03-09 00:00:00, value: 3993
+date: 2022-03-10 00:00:00, value: 4575
+
+[INPUT]"
+Covid-19,2021-03-12 00:00:00,2022-03-10 00:00:00,7,mistralai/ministral-3-14b-reasoning,0.7,numeric,few_shot,3,uniform,plain,33.55,1255.57,1326.45,0.0,0.237777,0.534331,0.044753,0.395803,13299,236,10.6897451877594,"[4184, 4194, 3614, 3116, 2503, 2568, 2876]","[4957.0, 4872.0, 4723.0, 4601.0, 4418.0, 4261.0, 4012.0]","[OBJECTIVE]
+Predict the next 7 values based on the historical series (364 periods).
+
+[STATISTICAL CONTEXT]
+- Mean: 87124.1099
+- Median: 39083.5
+- Standard Deviation: 107555.5417
+- Minimum Value: 3993
+- Maximum Value: 414188
+- First Quartile (Q1): 16033.5
+- Third Quartile (Q3): 109220.5
+- Trend Strength (STL): 0.9985
+- Seasonality Strength (STL): 0.7754
+
+[EXAMPLES]
+- Example 1:
+Input (history):
+date: 2021-03-12 00:00:00, value: 22854
+date: 2021-03-13 00:00:00, value: 23285
+date: 2021-03-14 00:00:00, value: 24882
+date: 2021-03-15 00:00:00, value: 25320
+date: 2021-03-16 00:00:00, value: 26291
+date: 2021-03-17 00:00:00, value: 24492
+date: 2021-03-18 00:00:00, value: 28903
+
+Output (forecast):
+date: 2021-03-19 00:00:00, value: 35871
+date: 2021-03-20 00:00:00, value: 39726
+date: 2021-03-21 00:00:00, value: 40953
+date: 2021-03-22 00:00:00, value: 43846
+date: 2021-03-23 00:00:00, value: 46951
+date: 2021-03-24 00:00:00, value: 40715
+date: 2021-03-25 00:00:00, value: 47262
+
+- Example 2:
+Input (history):
+date: 2021-09-03 00:00:00, value: 47092
+date: 2021-09-04 00:00:00, value: 45352
+date: 2021-09-05 00:00:00, value: 42618
+date: 2021-09-06 00:00:00, value: 42766
+date: 2021-09-07 00:00:00, value: 38948
+date: 2021-09-08 00:00:00, value: 31222
+date: 2021-09-09 00:00:00, value: 37875
+
+Output (forecast):
+date: 2021-09-10 00:00:00, value: 43263
+date: 2021-09-11 00:00:00, value: 34973
+date: 2021-09-12 00:00:00, value: 33376
+date: 2021-09-13 00:00:00, value: 28591
+date: 2021-09-14 00:00:00, value: 27254
+date: 2021-09-15 00:00:00, value: 25404
+date: 2021-09-16 00:00:00, value: 27176
+
+- Example 3:
+Input (history):
+date: 2022-02-25 00:00:00, value: 14148
+date: 2022-02-26 00:00:00, value: 13166
+date: 2022-02-27 00:00:00, value: 11499
+date: 2022-02-28 00:00:00, value: 10273
+date: 2022-03-01 00:00:00, value: 8013
+date: 2022-03-02 00:00:00, value: 6915
+date: 2022-03-03 00:00:00, value: 7554
+
+Output (forecast):
+date: 2022-03-04 00:00:00, value: 6561
+date: 2022-03-05 00:00:00, value: 6396
+date: 2022-03-06 00:00:00, value: 5921
+date: 2022-03-07 00:00:00, value: 5476
+date: 2022-03-08 00:00:00, value: 4362
+date: 2022-03-09 00:00:00, value: 3993
+date: 2022-03-10 00:00:00, value: 4575
+
+[INPUT]"
+Covid-19,2021-03-12 00:00:00,2022-03-10 00:00:00,7,mistralai/ministral-3-14b-reasoning,0.7,numeric,few_shot,3,uniform,plain,61.09,2949.86,3333.8,0.0,0.207675,0.466686,0.039393,0.348397,13299,206,9.40136742591858,"[4184, 4194, 3614, 3116, 2503, 2568, 2876]","[4987.0, 5312.0, 5678.0, 6123.0, 6589.0, 7124.0, 7891.0]","[OBJECTIVE]
+Predict the next 7 values based on the historical series (364 periods).
+
+[STATISTICAL CONTEXT]
+- Mean: 87124.1099
+- Median: 39083.5
+- Standard Deviation: 107555.5417
+- Minimum Value: 3993
+- Maximum Value: 414188
+- First Quartile (Q1): 16033.5
+- Third Quartile (Q3): 109220.5
+- Trend Strength (STL): 0.9985
+- Seasonality Strength (STL): 0.7754
+
+[EXAMPLES]
+- Example 1:
+Input (history):
+date: 2021-03-12 00:00:00, value: 22854
+date: 2021-03-13 00:00:00, value: 23285
+date: 2021-03-14 00:00:00, value: 24882
+date: 2021-03-15 00:00:00, value: 25320
+date: 2021-03-16 00:00:00, value: 26291
+date: 2021-03-17 00:00:00, value: 24492
+date: 2021-03-18 00:00:00, value: 28903
+
+Output (forecast):
+date: 2021-03-19 00:00:00, value: 35871
+date: 2021-03-20 00:00:00, value: 39726
+date: 2021-03-21 00:00:00, value: 40953
+date: 2021-03-22 00:00:00, value: 43846
+date: 2021-03-23 00:00:00, value: 46951
+date: 2021-03-24 00:00:00, value: 40715
+date: 2021-03-25 00:00:00, value: 47262
+
+- Example 2:
+Input (history):
+date: 2021-09-03 00:00:00, value: 47092
+date: 2021-09-04 00:00:00, value: 45352
+date: 2021-09-05 00:00:00, value: 42618
+date: 2021-09-06 00:00:00, value: 42766
+date: 2021-09-07 00:00:00, value: 38948
+date: 2021-09-08 00:00:00, value: 31222
+date: 2021-09-09 00:00:00, value: 37875
+
+Output (forecast):
+date: 2021-09-10 00:00:00, value: 43263
+date: 2021-09-11 00:00:00, value: 34973
+date: 2021-09-12 00:00:00, value: 33376
+date: 2021-09-13 00:00:00, value: 28591
+date: 2021-09-14 00:00:00, value: 27254
+date: 2021-09-15 00:00:00, value: 25404
+date: 2021-09-16 00:00:00, value: 27176
+
+- Example 3:
+Input (history):
+date: 2022-02-25 00:00:00, value: 14148
+date: 2022-02-26 00:00:00, value: 13166
+date: 2022-02-27 00:00:00, value: 11499
+date: 2022-02-28 00:00:00, value: 10273
+date: 2022-03-01 00:00:00, value: 8013
+date: 2022-03-02 00:00:00, value: 6915
+date: 2022-03-03 00:00:00, value: 7554
+
+Output (forecast):
+date: 2022-03-04 00:00:00, value: 6561
+date: 2022-03-05 00:00:00, value: 6396
+date: 2022-03-06 00:00:00, value: 5921
+date: 2022-03-07 00:00:00, value: 5476
+date: 2022-03-08 00:00:00, value: 4362
+date: 2022-03-09 00:00:00, value: 3993
+date: 2022-03-10 00:00:00, value: 4575
+
+[INPUT]"
+Covid-19,2021-03-12 00:00:00,2022-03-10 00:00:00,7,mistralai/ministral-3-14b-reasoning,0.7,numeric,few_shot,3,uniform,plain,28.55,1057.43,1088.62,0.0,0.241819,0.543413,0.045513,0.402521,13299,234,10.711039781570436,"[4184, 4194, 3614, 3116, 2503, 2568, 2876]","[5248.0, 5029.0, 4712.0, 4296.0, 3980.0, 3724.0, 3468.0]","[OBJECTIVE]
+Predict the next 7 values based on the historical series (364 periods).
+
+[STATISTICAL CONTEXT]
+- Mean: 87124.1099
+- Median: 39083.5
+- Standard Deviation: 107555.5417
+- Minimum Value: 3993
+- Maximum Value: 414188
+- First Quartile (Q1): 16033.5
+- Third Quartile (Q3): 109220.5
+- Trend Strength (STL): 0.9985
+- Seasonality Strength (STL): 0.7754
+
+[EXAMPLES]
+- Example 1:
+Input (history):
+date: 2021-03-12 00:00:00, value: 22854
+date: 2021-03-13 00:00:00, value: 23285
+date: 2021-03-14 00:00:00, value: 24882
+date: 2021-03-15 00:00:00, value: 25320
+date: 2021-03-16 00:00:00, value: 26291
+date: 2021-03-17 00:00:00, value: 24492
+date: 2021-03-18 00:00:00, value: 28903
+
+Output (forecast):
+date: 2021-03-19 00:00:00, value: 35871
+date: 2021-03-20 00:00:00, value: 39726
+date: 2021-03-21 00:00:00, value: 40953
+date: 2021-03-22 00:00:00, value: 43846
+date: 2021-03-23 00:00:00, value: 46951
+date: 2021-03-24 00:00:00, value: 40715
+date: 2021-03-25 00:00:00, value: 47262
+
+- Example 2:
+Input (history):
+date: 2021-09-03 00:00:00, value: 47092
+date: 2021-09-04 00:00:00, value: 45352
+date: 2021-09-05 00:00:00, value: 42618
+date: 2021-09-06 00:00:00, value: 42766
+date: 2021-09-07 00:00:00, value: 38948
+date: 2021-09-08 00:00:00, value: 31222
+date: 2021-09-09 00:00:00, value: 37875
+
+Output (forecast):
+date: 2021-09-10 00:00:00, value: 43263
+date: 2021-09-11 00:00:00, value: 34973
+date: 2021-09-12 00:00:00, value: 33376
+date: 2021-09-13 00:00:00, value: 28591
+date: 2021-09-14 00:00:00, value: 27254
+date: 2021-09-15 00:00:00, value: 25404
+date: 2021-09-16 00:00:00, value: 27176
+
+- Example 3:
+Input (history):
+date: 2022-02-25 00:00:00, value: 14148
+date: 2022-02-26 00:00:00, value: 13166
+date: 2022-02-27 00:00:00, value: 11499
+date: 2022-02-28 00:00:00, value: 10273
+date: 2022-03-01 00:00:00, value: 8013
+date: 2022-03-02 00:00:00, value: 6915
+date: 2022-03-03 00:00:00, value: 7554
+
+Output (forecast):
+date: 2022-03-04 00:00:00, value: 6561
+date: 2022-03-05 00:00:00, value: 6396
+date: 2022-03-06 00:00:00, value: 5921
+date: 2022-03-07 00:00:00, value: 5476
+date: 2022-03-08 00:00:00, value: 4362
+date: 2022-03-09 00:00:00, value: 3993
+date: 2022-03-10 00:00:00, value: 4575
+
+[INPUT]"
+Covid-19,2021-03-12 00:00:00,2022-03-10 00:00:00,7,mistralai/ministral-3-14b-reasoning,0.7,textual,few_shot,3,uniform,plain,199.41,3288.57,3354.22,0.0,0.488998,1.098873,0.06777,0.599371,14959,185,19.346477270126343,"[4184, 4194, 3614, 3116, 2503, 2568, 2876]","[4.0, 6.0, 8.0, 9.0, 1.0, 2.0, 5.0]","[OBJECTIVE]
+Predict the next 7 values based on the historical series (364 periods).
+
+[STATISTICAL CONTEXT]
+- Mean: 87124.1099
+- Median: 39083.5
+- Standard Deviation: 107555.5417
+- Minimum Value: 3993
+- Maximum Value: 414188
+- First Quartile (Q1): 16033.5
+- Third Quartile (Q3): 109220.5
+- Trend Strength (STL): 0.9985
+- Seasonality Strength (STL): 0.7754
+
+[EXAMPLES]
+- Example 1:
+Input (history):
+date: 2021-03-12 00:00:00, value: 2 2 8 5 4
+date: 2021-03-13 00:00:00, value: 2 3 2 8 5
+date: 2021-03-14 00:00:00, value: 2 4 8 8 2
+date: 2021-03-15 00:00:00, value: 2 5 3 2 0
+date: 2021-03-16 00:00:00, value: 2 6 2 9 1
+date: 2021-03-17 00:00:00, value: 2 4 4 9 2
+date: 2021-03-18 00:00:00, value: 2 8 9 0 3
+
+Output (forecast):
+date: 2021-03-19 00:00:00, value: 3 5 8 7 1
+date: 2021-03-20 00:00:00, value: 3 9 7 2 6
+date: 2021-03-21 00:00:00, value: 4 0 9 5 3
+date: 2021-03-22 00:00:00, value: 4 3 8 4 6
+date: 2021-03-23 00:00:00, value: 4 6 9 5 1
+date: 2021-03-24 00:00:00, value: 4 0 7 1 5
+date: 2021-03-25 00:00:00, value: 4 7 2 6 2
+
+- Example 2:
+Input (history):
+date: 2021-09-03 00:00:00, value: 4 7 0 9 2
+date: 2021-09-04 00:00:00, value: 4 5 3 5 2
+date: 2021-09-05 00:00:00, value: 4 2 6 1 8
+date: 2021-09-06 00:00:00, value: 4 2 7 6 6
+date: 2021-09-07 00:00:00, value: 3 8 9 4 8
+date: 2021-09-08 00:00:00, value: 3 1 2 2 2
+date: 2021-09-09 00:00:00, value: 3 7 8 7 5
+
+Output (forecast):
+date: 2021-09-10 00:00:00, value: 4 3 2 6 3
+date: 2021-09-11 00:00:00, value: 3 4 9 7 3
+date: 2021-09-12 00:00:00, value: 3 3 3 7 6
+date: 2021-09-13 00:00:00, value: 2 8 5 9 1
+date: 2021-09-14 00:00:00, value: 2 7 2 5 4
+date: 2021-09-15 00:00:00, value: 2 5 4 0 4
+date: 2021-09-16 00:00:00, value: 2 7 1 7 6
+
+- Example 3:
+Input (history):
+date: 2022-02-25 00:00:00, value: 1 4 1 4 8
+date: 2022-02-26 00:00:00, value: 1 3 1 6 6
+date: 2022-02-27 00:00:00, value: 1 1 4 9 9
+date: 2022-02-28 00:00:00, value: 1 0 2 7 3
+date: 2022-03-01 00:00:00, value: 8 0 1 3
+date: 2022-03-02 00:00:00, value: 6 9 1 5
+date: 2022-03-03 00:00:00, value: 7 5 5 4
+
+Output (forecast):
+date: 2022-03-04 00:00:00, value: 6 5 6 1
+date: 2022-03-05 00:00:00, value: 6 3 9 6
+date: 2022-03-06 00:00:00, value: 5 9 2 1
+date: 2022-03-07 00:00:00, value: 5 4 7 6
+date: 2022-03-08 00:00:00, value: 4 3 6 2
+date: 2022-03-09 00:00:00, value: 3 9 9 3
+date: 2022-03-10 00:00:00, value: 4 5 7 5
+
+[INPUT]"
+Covid-19,2021-03-12 00:00:00,2022-03-10 00:00:00,7,mistralai/ministral-3-14b-reasoning,0.7,textual,few_shot,3,uniform,plain,199.3,3288.0,3353.88,0.0,0.198631,0.446362,0.032516,0.287581,14959,192,8.933908462524414,"[4184, 4194, 3614, 3116, 2503, 2568, 2876]","[4.0, 5.0, 9.0, 8.0, 4.0, 7.0, 2.0]","[OBJECTIVE]
+Predict the next 7 values based on the historical series (364 periods).
+
+[STATISTICAL CONTEXT]
+- Mean: 87124.1099
+- Median: 39083.5
+- Standard Deviation: 107555.5417
+- Minimum Value: 3993
+- Maximum Value: 414188
+- First Quartile (Q1): 16033.5
+- Third Quartile (Q3): 109220.5
+- Trend Strength (STL): 0.9985
+- Seasonality Strength (STL): 0.7754
+
+[EXAMPLES]
+- Example 1:
+Input (history):
+date: 2021-03-12 00:00:00, value: 2 2 8 5 4
+date: 2021-03-13 00:00:00, value: 2 3 2 8 5
+date: 2021-03-14 00:00:00, value: 2 4 8 8 2
+date: 2021-03-15 00:00:00, value: 2 5 3 2 0
+date: 2021-03-16 00:00:00, value: 2 6 2 9 1
+date: 2021-03-17 00:00:00, value: 2 4 4 9 2
+date: 2021-03-18 00:00:00, value: 2 8 9 0 3
+
+Output (forecast):
+date: 2021-03-19 00:00:00, value: 3 5 8 7 1
+date: 2021-03-20 00:00:00, value: 3 9 7 2 6
+date: 2021-03-21 00:00:00, value: 4 0 9 5 3
+date: 2021-03-22 00:00:00, value: 4 3 8 4 6
+date: 2021-03-23 00:00:00, value: 4 6 9 5 1
+date: 2021-03-24 00:00:00, value: 4 0 7 1 5
+date: 2021-03-25 00:00:00, value: 4 7 2 6 2
+
+- Example 2:
+Input (history):
+date: 2021-09-03 00:00:00, value: 4 7 0 9 2
+date: 2021-09-04 00:00:00, value: 4 5 3 5 2
+date: 2021-09-05 00:00:00, value: 4 2 6 1 8
+date: 2021-09-06 00:00:00, value: 4 2 7 6 6
+date: 2021-09-07 00:00:00, value: 3 8 9 4 8
+date: 2021-09-08 00:00:00, value: 3 1 2 2 2
+date: 2021-09-09 00:00:00, value: 3 7 8 7 5
+
+Output (forecast):
+date: 2021-09-10 00:00:00, value: 4 3 2 6 3
+date: 2021-09-11 00:00:00, value: 3 4 9 7 3
+date: 2021-09-12 00:00:00, value: 3 3 3 7 6
+date: 2021-09-13 00:00:00, value: 2 8 5 9 1
+date: 2021-09-14 00:00:00, value: 2 7 2 5 4
+date: 2021-09-15 00:00:00, value: 2 5 4 0 4
+date: 2021-09-16 00:00:00, value: 2 7 1 7 6
+
+- Example 3:
+Input (history):
+date: 2022-02-25 00:00:00, value: 1 4 1 4 8
+date: 2022-02-26 00:00:00, value: 1 3 1 6 6
+date: 2022-02-27 00:00:00, value: 1 1 4 9 9
+date: 2022-02-28 00:00:00, value: 1 0 2 7 3
+date: 2022-03-01 00:00:00, value: 8 0 1 3
+date: 2022-03-02 00:00:00, value: 6 9 1 5
+date: 2022-03-03 00:00:00, value: 7 5 5 4
+
+Output (forecast):
+date: 2022-03-04 00:00:00, value: 6 5 6 1
+date: 2022-03-05 00:00:00, value: 6 3 9 6
+date: 2022-03-06 00:00:00, value: 5 9 2 1
+date: 2022-03-07 00:00:00, value: 5 4 7 6
+date: 2022-03-08 00:00:00, value: 4 3 6 2
+date: 2022-03-09 00:00:00, value: 3 9 9 3
+date: 2022-03-10 00:00:00, value: 4 5 7 5
+
+[INPUT]"
+Covid-19,2021-03-12 00:00:00,2022-03-10 00:00:00,7,mistralai/ministral-3-14b-reasoning,0.7,textual,few_shot,3,uniform,plain,199.23,3287.57,3353.6,0.0,0.207279,0.465796,0.035951,0.317961,14959,201,9.490285634994509,"[4184, 4194, 3614, 3116, 2503, 2568, 2876]","[4.0, 5.0, 8.0, 5.0, 4.0, 9.0, 7.0]","[OBJECTIVE]
+Predict the next 7 values based on the historical series (364 periods).
+
+[STATISTICAL CONTEXT]
+- Mean: 87124.1099
+- Median: 39083.5
+- Standard Deviation: 107555.5417
+- Minimum Value: 3993
+- Maximum Value: 414188
+- First Quartile (Q1): 16033.5
+- Third Quartile (Q3): 109220.5
+- Trend Strength (STL): 0.9985
+- Seasonality Strength (STL): 0.7754
+
+[EXAMPLES]
+- Example 1:
+Input (history):
+date: 2021-03-12 00:00:00, value: 2 2 8 5 4
+date: 2021-03-13 00:00:00, value: 2 3 2 8 5
+date: 2021-03-14 00:00:00, value: 2 4 8 8 2
+date: 2021-03-15 00:00:00, value: 2 5 3 2 0
+date: 2021-03-16 00:00:00, value: 2 6 2 9 1
+date: 2021-03-17 00:00:00, value: 2 4 4 9 2
+date: 2021-03-18 00:00:00, value: 2 8 9 0 3
+
+Output (forecast):
+date: 2021-03-19 00:00:00, value: 3 5 8 7 1
+date: 2021-03-20 00:00:00, value: 3 9 7 2 6
+date: 2021-03-21 00:00:00, value: 4 0 9 5 3
+date: 2021-03-22 00:00:00, value: 4 3 8 4 6
+date: 2021-03-23 00:00:00, value: 4 6 9 5 1
+date: 2021-03-24 00:00:00, value: 4 0 7 1 5
+date: 2021-03-25 00:00:00, value: 4 7 2 6 2
+
+- Example 2:
+Input (history):
+date: 2021-09-03 00:00:00, value: 4 7 0 9 2
+date: 2021-09-04 00:00:00, value: 4 5 3 5 2
+date: 2021-09-05 00:00:00, value: 4 2 6 1 8
+date: 2021-09-06 00:00:00, value: 4 2 7 6 6
+date: 2021-09-07 00:00:00, value: 3 8 9 4 8
+date: 2021-09-08 00:00:00, value: 3 1 2 2 2
+date: 2021-09-09 00:00:00, value: 3 7 8 7 5
+
+Output (forecast):
+date: 2021-09-10 00:00:00, value: 4 3 2 6 3
+date: 2021-09-11 00:00:00, value: 3 4 9 7 3
+date: 2021-09-12 00:00:00, value: 3 3 3 7 6
+date: 2021-09-13 00:00:00, value: 2 8 5 9 1
+date: 2021-09-14 00:00:00, value: 2 7 2 5 4
+date: 2021-09-15 00:00:00, value: 2 5 4 0 4
+date: 2021-09-16 00:00:00, value: 2 7 1 7 6
+
+- Example 3:
+Input (history):
+date: 2022-02-25 00:00:00, value: 1 4 1 4 8
+date: 2022-02-26 00:00:00, value: 1 3 1 6 6
+date: 2022-02-27 00:00:00, value: 1 1 4 9 9
+date: 2022-02-28 00:00:00, value: 1 0 2 7 3
+date: 2022-03-01 00:00:00, value: 8 0 1 3
+date: 2022-03-02 00:00:00, value: 6 9 1 5
+date: 2022-03-03 00:00:00, value: 7 5 5 4
+
+Output (forecast):
+date: 2022-03-04 00:00:00, value: 6 5 6 1
+date: 2022-03-05 00:00:00, value: 6 3 9 6
+date: 2022-03-06 00:00:00, value: 5 9 2 1
+date: 2022-03-07 00:00:00, value: 5 4 7 6
+date: 2022-03-08 00:00:00, value: 4 3 6 2
+date: 2022-03-09 00:00:00, value: 3 9 9 3
+date: 2022-03-10 00:00:00, value: 4 5 7 5
+
+[INPUT]"
+Covid-19,2021-03-12 00:00:00,2022-03-10 00:00:00,7,mistralai/ministral-3-14b-reasoning,0.7,textual,few_shot,3,uniform,plain,199.39,3288.57,3354.33,0.0,0.203835,0.458056,0.037893,0.335133,14959,194,9.134669303894045,"[4184, 4194, 3614, 3116, 2503, 2568, 2876]","[4.0, 5.0, 8.0, 9.0, 3.0, 4.0, 2.0]","[OBJECTIVE]
+Predict the next 7 values based on the historical series (364 periods).
+
+[STATISTICAL CONTEXT]
+- Mean: 87124.1099
+- Median: 39083.5
+- Standard Deviation: 107555.5417
+- Minimum Value: 3993
+- Maximum Value: 414188
+- First Quartile (Q1): 16033.5
+- Third Quartile (Q3): 109220.5
+- Trend Strength (STL): 0.9985
+- Seasonality Strength (STL): 0.7754
+
+[EXAMPLES]
+- Example 1:
+Input (history):
+date: 2021-03-12 00:00:00, value: 2 2 8 5 4
+date: 2021-03-13 00:00:00, value: 2 3 2 8 5
+date: 2021-03-14 00:00:00, value: 2 4 8 8 2
+date: 2021-03-15 00:00:00, value: 2 5 3 2 0
+date: 2021-03-16 00:00:00, value: 2 6 2 9 1
+date: 2021-03-17 00:00:00, value: 2 4 4 9 2
+date: 2021-03-18 00:00:00, value: 2 8 9 0 3
+
+Output (forecast):
+date: 2021-03-19 00:00:00, value: 3 5 8 7 1
+date: 2021-03-20 00:00:00, value: 3 9 7 2 6
+date: 2021-03-21 00:00:00, value: 4 0 9 5 3
+date: 2021-03-22 00:00:00, value: 4 3 8 4 6
+date: 2021-03-23 00:00:00, value: 4 6 9 5 1
+date: 2021-03-24 00:00:00, value: 4 0 7 1 5
+date: 2021-03-25 00:00:00, value: 4 7 2 6 2
+
+- Example 2:
+Input (history):
+date: 2021-09-03 00:00:00, value: 4 7 0 9 2
+date: 2021-09-04 00:00:00, value: 4 5 3 5 2
+date: 2021-09-05 00:00:00, value: 4 2 6 1 8
+date: 2021-09-06 00:00:00, value: 4 2 7 6 6
+date: 2021-09-07 00:00:00, value: 3 8 9 4 8
+date: 2021-09-08 00:00:00, value: 3 1 2 2 2
+date: 2021-09-09 00:00:00, value: 3 7 8 7 5
+
+Output (forecast):
+date: 2021-09-10 00:00:00, value: 4 3 2 6 3
+date: 2021-09-11 00:00:00, value: 3 4 9 7 3
+date: 2021-09-12 00:00:00, value: 3 3 3 7 6
+date: 2021-09-13 00:00:00, value: 2 8 5 9 1
+date: 2021-09-14 00:00:00, value: 2 7 2 5 4
+date: 2021-09-15 00:00:00, value: 2 5 4 0 4
+date: 2021-09-16 00:00:00, value: 2 7 1 7 6
+
+- Example 3:
+Input (history):
+date: 2022-02-25 00:00:00, value: 1 4 1 4 8
+date: 2022-02-26 00:00:00, value: 1 3 1 6 6
+date: 2022-02-27 00:00:00, value: 1 1 4 9 9
+date: 2022-02-28 00:00:00, value: 1 0 2 7 3
+date: 2022-03-01 00:00:00, value: 8 0 1 3
+date: 2022-03-02 00:00:00, value: 6 9 1 5
+date: 2022-03-03 00:00:00, value: 7 5 5 4
+
+Output (forecast):
+date: 2022-03-04 00:00:00, value: 6 5 6 1
+date: 2022-03-05 00:00:00, value: 6 3 9 6
+date: 2022-03-06 00:00:00, value: 5 9 2 1
+date: 2022-03-07 00:00:00, value: 5 4 7 6
+date: 2022-03-08 00:00:00, value: 4 3 6 2
+date: 2022-03-09 00:00:00, value: 3 9 9 3
+date: 2022-03-10 00:00:00, value: 4 5 7 5
+
+[INPUT]"
+Covid-19,2021-03-12 00:00:00,2022-03-10 00:00:00,7,mistralai/ministral-3-14b-reasoning,0.7,textual,few_shot,3,uniform,plain,199.29,3287.86,3353.73,0.0,0.218477,0.490958,0.036334,0.321341,14959,213,9.994011878967283,"[4184, 4194, 3614, 3116, 2503, 2568, 2876]","[4.0, 5.0, 8.0, 9.0, 3.0, 5.0, 6.0]","[OBJECTIVE]
+Predict the next 7 values based on the historical series (364 periods).
+
+[STATISTICAL CONTEXT]
+- Mean: 87124.1099
+- Median: 39083.5
+- Standard Deviation: 107555.5417
+- Minimum Value: 3993
+- Maximum Value: 414188
+- First Quartile (Q1): 16033.5
+- Third Quartile (Q3): 109220.5
+- Trend Strength (STL): 0.9985
+- Seasonality Strength (STL): 0.7754
+
+[EXAMPLES]
+- Example 1:
+Input (history):
+date: 2021-03-12 00:00:00, value: 2 2 8 5 4
+date: 2021-03-13 00:00:00, value: 2 3 2 8 5
+date: 2021-03-14 00:00:00, value: 2 4 8 8 2
+date: 2021-03-15 00:00:00, value: 2 5 3 2 0
+date: 2021-03-16 00:00:00, value: 2 6 2 9 1
+date: 2021-03-17 00:00:00, value: 2 4 4 9 2
+date: 2021-03-18 00:00:00, value: 2 8 9 0 3
+
+Output (forecast):
+date: 2021-03-19 00:00:00, value: 3 5 8 7 1
+date: 2021-03-20 00:00:00, value: 3 9 7 2 6
+date: 2021-03-21 00:00:00, value: 4 0 9 5 3
+date: 2021-03-22 00:00:00, value: 4 3 8 4 6
+date: 2021-03-23 00:00:00, value: 4 6 9 5 1
+date: 2021-03-24 00:00:00, value: 4 0 7 1 5
+date: 2021-03-25 00:00:00, value: 4 7 2 6 2
+
+- Example 2:
+Input (history):
+date: 2021-09-03 00:00:00, value: 4 7 0 9 2
+date: 2021-09-04 00:00:00, value: 4 5 3 5 2
+date: 2021-09-05 00:00:00, value: 4 2 6 1 8
+date: 2021-09-06 00:00:00, value: 4 2 7 6 6
+date: 2021-09-07 00:00:00, value: 3 8 9 4 8
+date: 2021-09-08 00:00:00, value: 3 1 2 2 2
+date: 2021-09-09 00:00:00, value: 3 7 8 7 5
+
+Output (forecast):
+date: 2021-09-10 00:00:00, value: 4 3 2 6 3
+date: 2021-09-11 00:00:00, value: 3 4 9 7 3
+date: 2021-09-12 00:00:00, value: 3 3 3 7 6
+date: 2021-09-13 00:00:00, value: 2 8 5 9 1
+date: 2021-09-14 00:00:00, value: 2 7 2 5 4
+date: 2021-09-15 00:00:00, value: 2 5 4 0 4
+date: 2021-09-16 00:00:00, value: 2 7 1 7 6
+
+- Example 3:
+Input (history):
+date: 2022-02-25 00:00:00, value: 1 4 1 4 8
+date: 2022-02-26 00:00:00, value: 1 3 1 6 6
+date: 2022-02-27 00:00:00, value: 1 1 4 9 9
+date: 2022-02-28 00:00:00, value: 1 0 2 7 3
+date: 2022-03-01 00:00:00, value: 8 0 1 3
+date: 2022-03-02 00:00:00, value: 6 9 1 5
+date: 2022-03-03 00:00:00, value: 7 5 5 4
+
+Output (forecast):
+date: 2022-03-04 00:00:00, value: 6 5 6 1
+date: 2022-03-05 00:00:00, value: 6 3 9 6
+date: 2022-03-06 00:00:00, value: 5 9 2 1
+date: 2022-03-07 00:00:00, value: 5 4 7 6
+date: 2022-03-08 00:00:00, value: 4 3 6 2
+date: 2022-03-09 00:00:00, value: 3 9 9 3
+date: 2022-03-10 00:00:00, value: 4 5 7 5
+
+[INPUT]"
+Covid-19,2021-03-12 00:00:00,2022-03-10 00:00:00,7,mistralai/ministral-3-14b-reasoning,0.7,numeric,few_shot,3,uniform,csv,41.92,1685.0,1914.54,0.0,0.441494,0.992122,0.064742,0.572586,10884,235,18.12694358825684,"[4184, 4194, 3614, 3116, 2503, 2568, 2876]","[4598.0, 4697.0, 4835.0, 4973.0, 5111.0, 5249.0, 5387.0]","[OBJECTIVE]
+Predict the next 7 values based on the historical series (364 periods).
+
+[STATISTICAL CONTEXT]
+- Mean: 87124.1099
+- Median: 39083.5
+- Standard Deviation: 107555.5417
+- Minimum Value: 3993
+- Maximum Value: 414188
+- First Quartile (Q1): 16033.5
+- Third Quartile (Q3): 109220.5
+- Trend Strength (STL): 0.9985
+- Seasonality Strength (STL): 0.7754
+
+[EXAMPLES]
+- Example 1:
+Input (history):
+date,value
+2021-03-12 00:00:00,22854
+2021-03-13 00:00:00,23285
+2021-03-14 00:00:00,24882
+2021-03-15 00:00:00,25320
+2021-03-16 00:00:00,26291
+2021-03-17 00:00:00,24492
+2021-03-18 00:00:00,28903
+
+Output (forecast):
+date,value
+2021-03-19 00:00:00,35871
+2021-03-20 00:00:00,39726
+2021-03-21 00:00:00,40953
+2021-03-22 00:00:00,43846
+2021-03-23 00:00:00,46951
+2021-03-24 00:00:00,40715
+2021-03-25 00:00:00,47262
+
+- Example 2:
+Input (history):
+date,value
+2021-09-03 00:00:00,47092
+2021-09-04 00:00:00,45352
+2021-09-05 00:00:00,42618
+2021-09-06 00:00:00,42766
+2021-09-07 00:00:00,38948
+2021-09-08 00:00:00,31222
+2021-09-09 00:00:00,37875
+
+Output (forecast):
+date,value
+2021-09-10 00:00:00,43263
+2021-09-11 00:00:00,34973
+2021-09-12 00:00:00,33376
+2021-09-13 00:00:00,28591
+2021-09-14 00:00:00,27254
+2021-09-15 00:00:00,25404
+2021-09-16 00:00:00,27176
+
+- Example 3:
+Input (history):
+date,value
+2022-02-25 00:00:00,14148
+2022-02-26 00:00:00,13166
+2022-02-27 00:00:00,11499
+2022-02-28 00:00:00,10273
+2022-03-01 00:00:00,8013
+2022-03-02 00:00:00,6915
+2022-03-03 00:00:00,7554
+
+Output (forecast):
+date,value
+2022-03-04 00:00:00,6561
+2022-03-05 00:00:00,6396
+2022-03-06 00:00:00,5921
+2022-03-07 00:00:00,5476
+2022-03-08 00:00:00,4362
+2022-03-09 00:00:00,3993
+2022-03-10 00:00:00,4575
+
+[INPUT]"
+Covid-19,2021-03-12 00:00:00,2022-03-10 00:00:00,7,mistralai/ministral-3-14b-reasoning,0.7,numeric,few_shot,3,uniform,csv,38.56,1509.57,1748.27,0.0,0.263181,0.591418,0.048047,0.424937,10884,262,11.601844549179075,"[4184, 4194, 3614, 3116, 2503, 2568, 2876]","[4598.0, 4422.0, 4674.0, 4796.0, 4920.0, 5044.0, 5168.0]","[OBJECTIVE]
+Predict the next 7 values based on the historical series (364 periods).
+
+[STATISTICAL CONTEXT]
+- Mean: 87124.1099
+- Median: 39083.5
+- Standard Deviation: 107555.5417
+- Minimum Value: 3993
+- Maximum Value: 414188
+- First Quartile (Q1): 16033.5
+- Third Quartile (Q3): 109220.5
+- Trend Strength (STL): 0.9985
+- Seasonality Strength (STL): 0.7754
+
+[EXAMPLES]
+- Example 1:
+Input (history):
+date,value
+2021-03-12 00:00:00,22854
+2021-03-13 00:00:00,23285
+2021-03-14 00:00:00,24882
+2021-03-15 00:00:00,25320
+2021-03-16 00:00:00,26291
+2021-03-17 00:00:00,24492
+2021-03-18 00:00:00,28903
+
+Output (forecast):
+date,value
+2021-03-19 00:00:00,35871
+2021-03-20 00:00:00,39726
+2021-03-21 00:00:00,40953
+2021-03-22 00:00:00,43846
+2021-03-23 00:00:00,46951
+2021-03-24 00:00:00,40715
+2021-03-25 00:00:00,47262
+
+- Example 2:
+Input (history):
+date,value
+2021-09-03 00:00:00,47092
+2021-09-04 00:00:00,45352
+2021-09-05 00:00:00,42618
+2021-09-06 00:00:00,42766
+2021-09-07 00:00:00,38948
+2021-09-08 00:00:00,31222
+2021-09-09 00:00:00,37875
+
+Output (forecast):
+date,value
+2021-09-10 00:00:00,43263
+2021-09-11 00:00:00,34973
+2021-09-12 00:00:00,33376
+2021-09-13 00:00:00,28591
+2021-09-14 00:00:00,27254
+2021-09-15 00:00:00,25404
+2021-09-16 00:00:00,27176
+
+- Example 3:
+Input (history):
+date,value
+2022-02-25 00:00:00,14148
+2022-02-26 00:00:00,13166
+2022-02-27 00:00:00,11499
+2022-02-28 00:00:00,10273
+2022-03-01 00:00:00,8013
+2022-03-02 00:00:00,6915
+2022-03-03 00:00:00,7554
+
+Output (forecast):
+date,value
+2022-03-04 00:00:00,6561
+2022-03-05 00:00:00,6396
+2022-03-06 00:00:00,5921
+2022-03-07 00:00:00,5476
+2022-03-08 00:00:00,4362
+2022-03-09 00:00:00,3993
+2022-03-10 00:00:00,4575
+
+[INPUT]"
+Covid-19,2021-03-12 00:00:00,2022-03-10 00:00:00,7,mistralai/ministral-3-14b-reasoning,0.7,numeric,few_shot,3,uniform,csv,27.01,962.86,1025.75,0.0,0.189559,0.425975,0.030788,0.272291,10884,202,8.888615131378174,"[4184, 4194, 3614, 3116, 2503, 2568, 2876]","[4859.0, 4623.0, 4401.0, 4205.0, 4036.0, 3894.0, 3777.0]","[OBJECTIVE]
+Predict the next 7 values based on the historical series (364 periods).
+
+[STATISTICAL CONTEXT]
+- Mean: 87124.1099
+- Median: 39083.5
+- Standard Deviation: 107555.5417
+- Minimum Value: 3993
+- Maximum Value: 414188
+- First Quartile (Q1): 16033.5
+- Third Quartile (Q3): 109220.5
+- Trend Strength (STL): 0.9985
+- Seasonality Strength (STL): 0.7754
+
+[EXAMPLES]
+- Example 1:
+Input (history):
+date,value
+2021-03-12 00:00:00,22854
+2021-03-13 00:00:00,23285
+2021-03-14 00:00:00,24882
+2021-03-15 00:00:00,25320
+2021-03-16 00:00:00,26291
+2021-03-17 00:00:00,24492
+2021-03-18 00:00:00,28903
+
+Output (forecast):
+date,value
+2021-03-19 00:00:00,35871
+2021-03-20 00:00:00,39726
+2021-03-21 00:00:00,40953
+2021-03-22 00:00:00,43846
+2021-03-23 00:00:00,46951
+2021-03-24 00:00:00,40715
+2021-03-25 00:00:00,47262
+
+- Example 2:
+Input (history):
+date,value
+2021-09-03 00:00:00,47092
+2021-09-04 00:00:00,45352
+2021-09-05 00:00:00,42618
+2021-09-06 00:00:00,42766
+2021-09-07 00:00:00,38948
+2021-09-08 00:00:00,31222
+2021-09-09 00:00:00,37875
+
+Output (forecast):
+date,value
+2021-09-10 00:00:00,43263
+2021-09-11 00:00:00,34973
+2021-09-12 00:00:00,33376
+2021-09-13 00:00:00,28591
+2021-09-14 00:00:00,27254
+2021-09-15 00:00:00,25404
+2021-09-16 00:00:00,27176
+
+- Example 3:
+Input (history):
+date,value
+2022-02-25 00:00:00,14148
+2022-02-26 00:00:00,13166
+2022-02-27 00:00:00,11499
+2022-02-28 00:00:00,10273
+2022-03-01 00:00:00,8013
+2022-03-02 00:00:00,6915
+2022-03-03 00:00:00,7554
+
+Output (forecast):
+date,value
+2022-03-04 00:00:00,6561
+2022-03-05 00:00:00,6396
+2022-03-06 00:00:00,5921
+2022-03-07 00:00:00,5476
+2022-03-08 00:00:00,4362
+2022-03-09 00:00:00,3993
+2022-03-10 00:00:00,4575
+
+[INPUT]"
+Covid-19,2021-03-12 00:00:00,2022-03-10 00:00:00,7,mistralai/ministral-3-14b-reasoning,0.7,numeric,few_shot,3,uniform,csv,40.2,1605.57,1683.8,0.0,0.202614,0.455312,0.038189,0.337751,10884,207,9.14212441444397,"[4184, 4194, 3614, 3116, 2503, 2568, 2876]","[4982.0, 5479.0, 5921.0, 4362.0, 3993.0, 4575.0, 4982.0]","[OBJECTIVE]
+Predict the next 7 values based on the historical series (364 periods).
+
+[STATISTICAL CONTEXT]
+- Mean: 87124.1099
+- Median: 39083.5
+- Standard Deviation: 107555.5417
+- Minimum Value: 3993
+- Maximum Value: 414188
+- First Quartile (Q1): 16033.5
+- Third Quartile (Q3): 109220.5
+- Trend Strength (STL): 0.9985
+- Seasonality Strength (STL): 0.7754
+
+[EXAMPLES]
+- Example 1:
+Input (history):
+date,value
+2021-03-12 00:00:00,22854
+2021-03-13 00:00:00,23285
+2021-03-14 00:00:00,24882
+2021-03-15 00:00:00,25320
+2021-03-16 00:00:00,26291
+2021-03-17 00:00:00,24492
+2021-03-18 00:00:00,28903
+
+Output (forecast):
+date,value
+2021-03-19 00:00:00,35871
+2021-03-20 00:00:00,39726
+2021-03-21 00:00:00,40953
+2021-03-22 00:00:00,43846
+2021-03-23 00:00:00,46951
+2021-03-24 00:00:00,40715
+2021-03-25 00:00:00,47262
+
+- Example 2:
+Input (history):
+date,value
+2021-09-03 00:00:00,47092
+2021-09-04 00:00:00,45352
+2021-09-05 00:00:00,42618
+2021-09-06 00:00:00,42766
+2021-09-07 00:00:00,38948
+2021-09-08 00:00:00,31222
+2021-09-09 00:00:00,37875
+
+Output (forecast):
+date,value
+2021-09-10 00:00:00,43263
+2021-09-11 00:00:00,34973
+2021-09-12 00:00:00,33376
+2021-09-13 00:00:00,28591
+2021-09-14 00:00:00,27254
+2021-09-15 00:00:00,25404
+2021-09-16 00:00:00,27176
+
+- Example 3:
+Input (history):
+date,value
+2022-02-25 00:00:00,14148
+2022-02-26 00:00:00,13166
+2022-02-27 00:00:00,11499
+2022-02-28 00:00:00,10273
+2022-03-01 00:00:00,8013
+2022-03-02 00:00:00,6915
+2022-03-03 00:00:00,7554
+
+Output (forecast):
+date,value
+2022-03-04 00:00:00,6561
+2022-03-05 00:00:00,6396
+2022-03-06 00:00:00,5921
+2022-03-07 00:00:00,5476
+2022-03-08 00:00:00,4362
+2022-03-09 00:00:00,3993
+2022-03-10 00:00:00,4575
+
+[INPUT]"
+Covid-19,2021-03-12 00:00:00,2022-03-10 00:00:00,7,mistralai/ministral-3-14b-reasoning,0.7,numeric,few_shot,3,uniform,csv,47.45,2090.14,2570.1,0.0,0.219572,0.49342,0.042022,0.371646,10884,227,10.061891317367554,"[4184, 4194, 3614, 3116, 2503, 2568, 2876]","[4575.0, 3993.0, 4362.0, 5476.0, 5921.0, 6396.0, 6561.0]","[OBJECTIVE]
+Predict the next 7 values based on the historical series (364 periods).
+
+[STATISTICAL CONTEXT]
+- Mean: 87124.1099
+- Median: 39083.5
+- Standard Deviation: 107555.5417
+- Minimum Value: 3993
+- Maximum Value: 414188
+- First Quartile (Q1): 16033.5
+- Third Quartile (Q3): 109220.5
+- Trend Strength (STL): 0.9985
+- Seasonality Strength (STL): 0.7754
+
+[EXAMPLES]
+- Example 1:
+Input (history):
+date,value
+2021-03-12 00:00:00,22854
+2021-03-13 00:00:00,23285
+2021-03-14 00:00:00,24882
+2021-03-15 00:00:00,25320
+2021-03-16 00:00:00,26291
+2021-03-17 00:00:00,24492
+2021-03-18 00:00:00,28903
+
+Output (forecast):
+date,value
+2021-03-19 00:00:00,35871
+2021-03-20 00:00:00,39726
+2021-03-21 00:00:00,40953
+2021-03-22 00:00:00,43846
+2021-03-23 00:00:00,46951
+2021-03-24 00:00:00,40715
+2021-03-25 00:00:00,47262
+
+- Example 2:
+Input (history):
+date,value
+2021-09-03 00:00:00,47092
+2021-09-04 00:00:00,45352
+2021-09-05 00:00:00,42618
+2021-09-06 00:00:00,42766
+2021-09-07 00:00:00,38948
+2021-09-08 00:00:00,31222
+2021-09-09 00:00:00,37875
+
+Output (forecast):
+date,value
+2021-09-10 00:00:00,43263
+2021-09-11 00:00:00,34973
+2021-09-12 00:00:00,33376
+2021-09-13 00:00:00,28591
+2021-09-14 00:00:00,27254
+2021-09-15 00:00:00,25404
+2021-09-16 00:00:00,27176
+
+- Example 3:
+Input (history):
+date,value
+2022-02-25 00:00:00,14148
+2022-02-26 00:00:00,13166
+2022-02-27 00:00:00,11499
+2022-02-28 00:00:00,10273
+2022-03-01 00:00:00,8013
+2022-03-02 00:00:00,6915
+2022-03-03 00:00:00,7554
+
+Output (forecast):
+date,value
+2022-03-04 00:00:00,6561
+2022-03-05 00:00:00,6396
+2022-03-06 00:00:00,5921
+2022-03-07 00:00:00,5476
+2022-03-08 00:00:00,4362
+2022-03-09 00:00:00,3993
+2022-03-10 00:00:00,4575
+
+[INPUT]"
+Covid-19,2021-03-12 00:00:00,2022-03-10 00:00:00,7,mistralai/ministral-3-14b-reasoning,0.7,textual,few_shot,3,uniform,csv,199.21,3287.43,3353.48,0.0,0.428361,0.962609,0.06244,0.552232,12544,188,17.07999300956726,"[4184, 4194, 3614, 3116, 2503, 2568, 2876]","[4.0, 5.0, 9.0, 4.0, 8.0, 6.0, 7.0]","[OBJECTIVE]
+Predict the next 7 values based on the historical series (364 periods).
+
+[STATISTICAL CONTEXT]
+- Mean: 87124.1099
+- Median: 39083.5
+- Standard Deviation: 107555.5417
+- Minimum Value: 3993
+- Maximum Value: 414188
+- First Quartile (Q1): 16033.5
+- Third Quartile (Q3): 109220.5
+- Trend Strength (STL): 0.9985
+- Seasonality Strength (STL): 0.7754
+
+[EXAMPLES]
+- Example 1:
+Input (history):
+date,value
+2021-03-12 00:00:00,2 2 8 5 4
+2021-03-13 00:00:00,2 3 2 8 5
+2021-03-14 00:00:00,2 4 8 8 2
+2021-03-15 00:00:00,2 5 3 2 0
+2021-03-16 00:00:00,2 6 2 9 1
+2021-03-17 00:00:00,2 4 4 9 2
+2021-03-18 00:00:00,2 8 9 0 3
+
+Output (forecast):
+date,value
+2021-03-19 00:00:00,3 5 8 7 1
+2021-03-20 00:00:00,3 9 7 2 6
+2021-03-21 00:00:00,4 0 9 5 3
+2021-03-22 00:00:00,4 3 8 4 6
+2021-03-23 00:00:00,4 6 9 5 1
+2021-03-24 00:00:00,4 0 7 1 5
+2021-03-25 00:00:00,4 7 2 6 2
+
+- Example 2:
+Input (history):
+date,value
+2021-09-03 00:00:00,4 7 0 9 2
+2021-09-04 00:00:00,4 5 3 5 2
+2021-09-05 00:00:00,4 2 6 1 8
+2021-09-06 00:00:00,4 2 7 6 6
+2021-09-07 00:00:00,3 8 9 4 8
+2021-09-08 00:00:00,3 1 2 2 2
+2021-09-09 00:00:00,3 7 8 7 5
+
+Output (forecast):
+date,value
+2021-09-10 00:00:00,4 3 2 6 3
+2021-09-11 00:00:00,3 4 9 7 3
+2021-09-12 00:00:00,3 3 3 7 6
+2021-09-13 00:00:00,2 8 5 9 1
+2021-09-14 00:00:00,2 7 2 5 4
+2021-09-15 00:00:00,2 5 4 0 4
+2021-09-16 00:00:00,2 7 1 7 6
+
+- Example 3:
+Input (history):
+date,value
+2022-02-25 00:00:00,1 4 1 4 8
+2022-02-26 00:00:00,1 3 1 6 6
+2022-02-27 00:00:00,1 1 4 9 9
+2022-02-28 00:00:00,1 0 2 7 3
+2022-03-01 00:00:00,8 0 1 3
+2022-03-02 00:00:00,6 9 1 5
+2022-03-03 00:00:00,7 5 5 4
+
+Output (forecast):
+date,value
+2022-03-04 00:00:00,6 5 6 1
+2022-03-05 00:00:00,6 3 9 6
+2022-03-06 00:00:00,5 9 2 1
+2022-03-07 00:00:00,5 4 7 6
+2022-03-08 00:00:00,4 3 6 2
+2022-03-09 00:00:00,3 9 9 3
+2022-03-10 00:00:00,4 5 7 5
+
+[INPUT]"
+Covid-19,2021-03-12 00:00:00,2022-03-10 00:00:00,7,mistralai/ministral-3-14b-reasoning,0.7,textual,few_shot,3,uniform,csv,199.22,3287.43,3353.4,0.0,0.238174,0.535222,0.044181,0.390747,12544,234,10.536152601242064,"[4184, 4194, 3614, 3116, 2503, 2568, 2876]","[4.0, 5.0, 8.0, 9.0, 6.0, 4.0, 7.0]","[OBJECTIVE]
+Predict the next 7 values based on the historical series (364 periods).
+
+[STATISTICAL CONTEXT]
+- Mean: 87124.1099
+- Median: 39083.5
+- Standard Deviation: 107555.5417
+- Minimum Value: 3993
+- Maximum Value: 414188
+- First Quartile (Q1): 16033.5
+- Third Quartile (Q3): 109220.5
+- Trend Strength (STL): 0.9985
+- Seasonality Strength (STL): 0.7754
+
+[EXAMPLES]
+- Example 1:
+Input (history):
+date,value
+2021-03-12 00:00:00,2 2 8 5 4
+2021-03-13 00:00:00,2 3 2 8 5
+2021-03-14 00:00:00,2 4 8 8 2
+2021-03-15 00:00:00,2 5 3 2 0
+2021-03-16 00:00:00,2 6 2 9 1
+2021-03-17 00:00:00,2 4 4 9 2
+2021-03-18 00:00:00,2 8 9 0 3
+
+Output (forecast):
+date,value
+2021-03-19 00:00:00,3 5 8 7 1
+2021-03-20 00:00:00,3 9 7 2 6
+2021-03-21 00:00:00,4 0 9 5 3
+2021-03-22 00:00:00,4 3 8 4 6
+2021-03-23 00:00:00,4 6 9 5 1
+2021-03-24 00:00:00,4 0 7 1 5
+2021-03-25 00:00:00,4 7 2 6 2
+
+- Example 2:
+Input (history):
+date,value
+2021-09-03 00:00:00,4 7 0 9 2
+2021-09-04 00:00:00,4 5 3 5 2
+2021-09-05 00:00:00,4 2 6 1 8
+2021-09-06 00:00:00,4 2 7 6 6
+2021-09-07 00:00:00,3 8 9 4 8
+2021-09-08 00:00:00,3 1 2 2 2
+2021-09-09 00:00:00,3 7 8 7 5
+
+Output (forecast):
+date,value
+2021-09-10 00:00:00,4 3 2 6 3
+2021-09-11 00:00:00,3 4 9 7 3
+2021-09-12 00:00:00,3 3 3 7 6
+2021-09-13 00:00:00,2 8 5 9 1
+2021-09-14 00:00:00,2 7 2 5 4
+2021-09-15 00:00:00,2 5 4 0 4
+2021-09-16 00:00:00,2 7 1 7 6
+
+- Example 3:
+Input (history):
+date,value
+2022-02-25 00:00:00,1 4 1 4 8
+2022-02-26 00:00:00,1 3 1 6 6
+2022-02-27 00:00:00,1 1 4 9 9
+2022-02-28 00:00:00,1 0 2 7 3
+2022-03-01 00:00:00,8 0 1 3
+2022-03-02 00:00:00,6 9 1 5
+2022-03-03 00:00:00,7 5 5 4
+
+Output (forecast):
+date,value
+2022-03-04 00:00:00,6 5 6 1
+2022-03-05 00:00:00,6 3 9 6
+2022-03-06 00:00:00,5 9 2 1
+2022-03-07 00:00:00,5 4 7 6
+2022-03-08 00:00:00,4 3 6 2
+2022-03-09 00:00:00,3 9 9 3
+2022-03-10 00:00:00,4 5 7 5
+
+[INPUT]"
+Covid-19,2021-03-12 00:00:00,2022-03-10 00:00:00,7,mistralai/ministral-3-14b-reasoning,0.7,textual,few_shot,3,uniform,csv,199.24,3287.57,3353.54,0.0,0.233462,0.524633,0.042184,0.373086,12544,234,10.566424131393433,"[4184, 4194, 3614, 3116, 2503, 2568, 2876]","[4.0, 5.0, 9.0, 8.0, 6.0, 7.0, 3.0]","[OBJECTIVE]
+Predict the next 7 values based on the historical series (364 periods).
+
+[STATISTICAL CONTEXT]
+- Mean: 87124.1099
+- Median: 39083.5
+- Standard Deviation: 107555.5417
+- Minimum Value: 3993
+- Maximum Value: 414188
+- First Quartile (Q1): 16033.5
+- Third Quartile (Q3): 109220.5
+- Trend Strength (STL): 0.9985
+- Seasonality Strength (STL): 0.7754
+
+[EXAMPLES]
+- Example 1:
+Input (history):
+date,value
+2021-03-12 00:00:00,2 2 8 5 4
+2021-03-13 00:00:00,2 3 2 8 5
+2021-03-14 00:00:00,2 4 8 8 2
+2021-03-15 00:00:00,2 5 3 2 0
+2021-03-16 00:00:00,2 6 2 9 1
+2021-03-17 00:00:00,2 4 4 9 2
+2021-03-18 00:00:00,2 8 9 0 3
+
+Output (forecast):
+date,value
+2021-03-19 00:00:00,3 5 8 7 1
+2021-03-20 00:00:00,3 9 7 2 6
+2021-03-21 00:00:00,4 0 9 5 3
+2021-03-22 00:00:00,4 3 8 4 6
+2021-03-23 00:00:00,4 6 9 5 1
+2021-03-24 00:00:00,4 0 7 1 5
+2021-03-25 00:00:00,4 7 2 6 2
+
+- Example 2:
+Input (history):
+date,value
+2021-09-03 00:00:00,4 7 0 9 2
+2021-09-04 00:00:00,4 5 3 5 2
+2021-09-05 00:00:00,4 2 6 1 8
+2021-09-06 00:00:00,4 2 7 6 6
+2021-09-07 00:00:00,3 8 9 4 8
+2021-09-08 00:00:00,3 1 2 2 2
+2021-09-09 00:00:00,3 7 8 7 5
+
+Output (forecast):
+date,value
+2021-09-10 00:00:00,4 3 2 6 3
+2021-09-11 00:00:00,3 4 9 7 3
+2021-09-12 00:00:00,3 3 3 7 6
+2021-09-13 00:00:00,2 8 5 9 1
+2021-09-14 00:00:00,2 7 2 5 4
+2021-09-15 00:00:00,2 5 4 0 4
+2021-09-16 00:00:00,2 7 1 7 6
+
+- Example 3:
+Input (history):
+date,value
+2022-02-25 00:00:00,1 4 1 4 8
+2022-02-26 00:00:00,1 3 1 6 6
+2022-02-27 00:00:00,1 1 4 9 9
+2022-02-28 00:00:00,1 0 2 7 3
+2022-03-01 00:00:00,8 0 1 3
+2022-03-02 00:00:00,6 9 1 5
+2022-03-03 00:00:00,7 5 5 4
+
+Output (forecast):
+date,value
+2022-03-04 00:00:00,6 5 6 1
+2022-03-05 00:00:00,6 3 9 6
+2022-03-06 00:00:00,5 9 2 1
+2022-03-07 00:00:00,5 4 7 6
+2022-03-08 00:00:00,4 3 6 2
+2022-03-09 00:00:00,3 9 9 3
+2022-03-10 00:00:00,4 5 7 5
+
+[INPUT]"
+Covid-19,2021-03-12 00:00:00,2022-03-10 00:00:00,7,mistralai/ministral-3-14b-reasoning,0.7,textual,few_shot,3,uniform,csv,199.09,3286.57,3352.73,0.0,0.182455,0.410012,0.035558,0.31448,12544,186,8.368982315063477,"[4184, 4194, 3614, 3116, 2503, 2568, 2876]","[4.0, 5.0, 9.0, 7.0, 8.0, 7.0, 9.0]","[OBJECTIVE]
+Predict the next 7 values based on the historical series (364 periods).
+
+[STATISTICAL CONTEXT]
+- Mean: 87124.1099
+- Median: 39083.5
+- Standard Deviation: 107555.5417
+- Minimum Value: 3993
+- Maximum Value: 414188
+- First Quartile (Q1): 16033.5
+- Third Quartile (Q3): 109220.5
+- Trend Strength (STL): 0.9985
+- Seasonality Strength (STL): 0.7754
+
+[EXAMPLES]
+- Example 1:
+Input (history):
+date,value
+2021-03-12 00:00:00,2 2 8 5 4
+2021-03-13 00:00:00,2 3 2 8 5
+2021-03-14 00:00:00,2 4 8 8 2
+2021-03-15 00:00:00,2 5 3 2 0
+2021-03-16 00:00:00,2 6 2 9 1
+2021-03-17 00:00:00,2 4 4 9 2
+2021-03-18 00:00:00,2 8 9 0 3
+
+Output (forecast):
+date,value
+2021-03-19 00:00:00,3 5 8 7 1
+2021-03-20 00:00:00,3 9 7 2 6
+2021-03-21 00:00:00,4 0 9 5 3
+2021-03-22 00:00:00,4 3 8 4 6
+2021-03-23 00:00:00,4 6 9 5 1
+2021-03-24 00:00:00,4 0 7 1 5
+2021-03-25 00:00:00,4 7 2 6 2
+
+- Example 2:
+Input (history):
+date,value
+2021-09-03 00:00:00,4 7 0 9 2
+2021-09-04 00:00:00,4 5 3 5 2
+2021-09-05 00:00:00,4 2 6 1 8
+2021-09-06 00:00:00,4 2 7 6 6
+2021-09-07 00:00:00,3 8 9 4 8
+2021-09-08 00:00:00,3 1 2 2 2
+2021-09-09 00:00:00,3 7 8 7 5
+
+Output (forecast):
+date,value
+2021-09-10 00:00:00,4 3 2 6 3
+2021-09-11 00:00:00,3 4 9 7 3
+2021-09-12 00:00:00,3 3 3 7 6
+2021-09-13 00:00:00,2 8 5 9 1
+2021-09-14 00:00:00,2 7 2 5 4
+2021-09-15 00:00:00,2 5 4 0 4
+2021-09-16 00:00:00,2 7 1 7 6
+
+- Example 3:
+Input (history):
+date,value
+2022-02-25 00:00:00,1 4 1 4 8
+2022-02-26 00:00:00,1 3 1 6 6
+2022-02-27 00:00:00,1 1 4 9 9
+2022-02-28 00:00:00,1 0 2 7 3
+2022-03-01 00:00:00,8 0 1 3
+2022-03-02 00:00:00,6 9 1 5
+2022-03-03 00:00:00,7 5 5 4
+
+Output (forecast):
+date,value
+2022-03-04 00:00:00,6 5 6 1
+2022-03-05 00:00:00,6 3 9 6
+2022-03-06 00:00:00,5 9 2 1
+2022-03-07 00:00:00,5 4 7 6
+2022-03-08 00:00:00,4 3 6 2
+2022-03-09 00:00:00,3 9 9 3
+2022-03-10 00:00:00,4 5 7 5
+
+[INPUT]"
+Covid-19,2021-03-12 00:00:00,2022-03-10 00:00:00,7,mistralai/ministral-3-14b-reasoning,0.7,textual,few_shot,3,uniform,csv,199.19,3287.29,3353.33,0.0,0.198815,0.446776,0.036732,0.324868,12544,200,9.089874267578123,"[4184, 4194, 3614, 3116, 2503, 2568, 2876]","[4.0, 5.0, 8.0, 9.0, 9.0, 4.0, 5.0]","[OBJECTIVE]
+Predict the next 7 values based on the historical series (364 periods).
+
+[STATISTICAL CONTEXT]
+- Mean: 87124.1099
+- Median: 39083.5
+- Standard Deviation: 107555.5417
+- Minimum Value: 3993
+- Maximum Value: 414188
+- First Quartile (Q1): 16033.5
+- Third Quartile (Q3): 109220.5
+- Trend Strength (STL): 0.9985
+- Seasonality Strength (STL): 0.7754
+
+[EXAMPLES]
+- Example 1:
+Input (history):
+date,value
+2021-03-12 00:00:00,2 2 8 5 4
+2021-03-13 00:00:00,2 3 2 8 5
+2021-03-14 00:00:00,2 4 8 8 2
+2021-03-15 00:00:00,2 5 3 2 0
+2021-03-16 00:00:00,2 6 2 9 1
+2021-03-17 00:00:00,2 4 4 9 2
+2021-03-18 00:00:00,2 8 9 0 3
+
+Output (forecast):
+date,value
+2021-03-19 00:00:00,3 5 8 7 1
+2021-03-20 00:00:00,3 9 7 2 6
+2021-03-21 00:00:00,4 0 9 5 3
+2021-03-22 00:00:00,4 3 8 4 6
+2021-03-23 00:00:00,4 6 9 5 1
+2021-03-24 00:00:00,4 0 7 1 5
+2021-03-25 00:00:00,4 7 2 6 2
+
+- Example 2:
+Input (history):
+date,value
+2021-09-03 00:00:00,4 7 0 9 2
+2021-09-04 00:00:00,4 5 3 5 2
+2021-09-05 00:00:00,4 2 6 1 8
+2021-09-06 00:00:00,4 2 7 6 6
+2021-09-07 00:00:00,3 8 9 4 8
+2021-09-08 00:00:00,3 1 2 2 2
+2021-09-09 00:00:00,3 7 8 7 5
+
+Output (forecast):
+date,value
+2021-09-10 00:00:00,4 3 2 6 3
+2021-09-11 00:00:00,3 4 9 7 3
+2021-09-12 00:00:00,3 3 3 7 6
+2021-09-13 00:00:00,2 8 5 9 1
+2021-09-14 00:00:00,2 7 2 5 4
+2021-09-15 00:00:00,2 5 4 0 4
+2021-09-16 00:00:00,2 7 1 7 6
+
+- Example 3:
+Input (history):
+date,value
+2022-02-25 00:00:00,1 4 1 4 8
+2022-02-26 00:00:00,1 3 1 6 6
+2022-02-27 00:00:00,1 1 4 9 9
+2022-02-28 00:00:00,1 0 2 7 3
+2022-03-01 00:00:00,8 0 1 3
+2022-03-02 00:00:00,6 9 1 5
+2022-03-03 00:00:00,7 5 5 4
+
+Output (forecast):
+date,value
+2022-03-04 00:00:00,6 5 6 1
+2022-03-05 00:00:00,6 3 9 6
+2022-03-06 00:00:00,5 9 2 1
+2022-03-07 00:00:00,5 4 7 6
+2022-03-08 00:00:00,4 3 6 2
+2022-03-09 00:00:00,3 9 9 3
+2022-03-10 00:00:00,4 5 7 5
+
+[INPUT]"
+Covid-19,2021-03-12 00:00:00,2022-03-10 00:00:00,7,mistralai/ministral-3-14b-reasoning,0.7,numeric,cot_few,3,uniform,plain,58.03,2961.29,3727.05,0.0,0.47745,1.072922,0.06715,0.593887,13417,208,18.92323899269104,"[4184, 4194, 3614, 3116, 2503, 2568, 2876]","[4289.0, 4575.0, 5123.0, 5872.0, 6789.0, 7921.0, 9215.0]","[OBJECTIVE]
+Predict the next 7 values based on the historical series (364 periods).
+
+[STATISTICAL CONTEXT]
+- Mean: 87124.1099
+- Median: 39083.5
+- Standard Deviation: 107555.5417
+- Minimum Value: 3993
+- Maximum Value: 414188
+- First Quartile (Q1): 16033.5
+- Third Quartile (Q3): 109220.5
+- Trend Strength (STL): 0.9985
+- Seasonality Strength (STL): 0.7754
+
+[REASONING GUIDELINES]
+- Trend: Identify the overall direction (increasing, decreasing, stable) and the trend strength.
+- Seasonality: Patterns that repeat at regular intervals (e.g., daily, weekly, monthly).
+- Outliers: Possible outliers or abrupt changes.
+- Cycles: Not seasonal long-term patterns.
+- Noise reduction: Apply a technique to reduce noise when necessary.
+- Consistency with the provided descriptive statistics (mean, median, etc.).
+- Adjustment for data frequency and contextual events (holidays, promotions, etc.).
+
+[EXAMPLES]
+- Example 1:
+Input (history):
+date: 2021-03-12 00:00:00, value: 22854
+date: 2021-03-13 00:00:00, value: 23285
+date: 2021-03-14 00:00:00, value: 24882
+date: 2021-03-15 00:00:00, value: 25320
+date: 2021-03-16 00:00:00, value: 26291
+date: 2021-03-17 00:00:00, value: 24492
+date: 2021-03-18 00:00:00, value: 28903
+
+Output (forecast):
+date: 2021-03-19 00:00:00, value: 35871
+date: 2021-03-20 00:00:00, value: 39726
+date: 2021-03-21 00:00:00, value: 40953
+date: 2021-03-22 00:00:00, value: 43846
+date: 2021-03-23 00:00:00, value: 46951
+date: 2021-03-24 00:00:00, value: 40715
+date: 2021-03-25 00:00:00, value: 47262
+
+- Example 2:
+Input (history):
+date: 2021-09-03 00:00:00, value: 47092
+date: 2021-09-04 00:00:00, value: 45352
+date: 2021-09-05 00:00:00, value: 42618
+date: 2021-09-06 00:00:00, value: 42766
+date: 2021-09-07 00:00:00, value: 38948
+date: 2021-09-08 00:00:00, value: 31222
+date: 2021-09-09 00:00:00, value: 37875
+
+Output (forecast):
+date: 2021-09-10 00:00:00, value: 43263
+date: 2021-09-11 00:00:00, value: 34973
+date: 2021-09-12 00:00:00, value: 33376
+date: 2021-09-13 00:00:00, value: 28591
+date: 2021-09-14 00:00:00, value: 27254
+date: 2021-09-15 00:00:00, value: 25404
+date: 2021-09-16 00:00:00, value: 27176
+
+- Example 3:
+Input (history):
+date: 2022-02-25 00:00:00, value: 14148
+date: 2022-02-26 00:00:00, value: 13166
+date: 2022-02-27 00:00:00, value: 11499
+date: 2022-02-28 00:00:00, value: 10273
+date: 2022-03-01 00:00:00, value: 8013
+date: 2022-03-02 00:00:00, value: 6915
+date: 2022-03-03 00:00:00, value: 7554
+
+Output (forecast):
+date: 2022-03-04 00:00:00, value: 6561
+date: 2022-03-05 00:00:00, value: 6396
+date: 2022-03-06 00:00:00, value: 5921
+date: 2022-03-07 00:00:00, value: 5476
+date: 2022-03-08 00:00:00, value: 4362
+date: 2022-03-09 00:00:00, value: 3993
+date: 2022-03-10 00:00:00, value: 4575
+
+[INPUT]"
+Covid-19,2021-03-12 00:00:00,2022-03-10 00:00:00,7,mistralai/ministral-3-14b-reasoning,0.7,numeric,cot_few,3,uniform,plain,32.14,1189.29,1302.04,0.0,0.230396,0.517744,0.043226,0.382299,13417,227,10.395458698272703,"[4184, 4194, 3614, 3116, 2503, 2568, 2876]","[4358.0, 4987.0, 4765.0, 4532.0, 4389.0, 4246.0, 4103.0]","[OBJECTIVE]
+Predict the next 7 values based on the historical series (364 periods).
+
+[STATISTICAL CONTEXT]
+- Mean: 87124.1099
+- Median: 39083.5
+- Standard Deviation: 107555.5417
+- Minimum Value: 3993
+- Maximum Value: 414188
+- First Quartile (Q1): 16033.5
+- Third Quartile (Q3): 109220.5
+- Trend Strength (STL): 0.9985
+- Seasonality Strength (STL): 0.7754
+
+[REASONING GUIDELINES]
+- Trend: Identify the overall direction (increasing, decreasing, stable) and the trend strength.
+- Seasonality: Patterns that repeat at regular intervals (e.g., daily, weekly, monthly).
+- Outliers: Possible outliers or abrupt changes.
+- Cycles: Not seasonal long-term patterns.
+- Noise reduction: Apply a technique to reduce noise when necessary.
+- Consistency with the provided descriptive statistics (mean, median, etc.).
+- Adjustment for data frequency and contextual events (holidays, promotions, etc.).
+
+[EXAMPLES]
+- Example 1:
+Input (history):
+date: 2021-03-12 00:00:00, value: 22854
+date: 2021-03-13 00:00:00, value: 23285
+date: 2021-03-14 00:00:00, value: 24882
+date: 2021-03-15 00:00:00, value: 25320
+date: 2021-03-16 00:00:00, value: 26291
+date: 2021-03-17 00:00:00, value: 24492
+date: 2021-03-18 00:00:00, value: 28903
+
+Output (forecast):
+date: 2021-03-19 00:00:00, value: 35871
+date: 2021-03-20 00:00:00, value: 39726
+date: 2021-03-21 00:00:00, value: 40953
+date: 2021-03-22 00:00:00, value: 43846
+date: 2021-03-23 00:00:00, value: 46951
+date: 2021-03-24 00:00:00, value: 40715
+date: 2021-03-25 00:00:00, value: 47262
+
+- Example 2:
+Input (history):
+date: 2021-09-03 00:00:00, value: 47092
+date: 2021-09-04 00:00:00, value: 45352
+date: 2021-09-05 00:00:00, value: 42618
+date: 2021-09-06 00:00:00, value: 42766
+date: 2021-09-07 00:00:00, value: 38948
+date: 2021-09-08 00:00:00, value: 31222
+date: 2021-09-09 00:00:00, value: 37875
+
+Output (forecast):
+date: 2021-09-10 00:00:00, value: 43263
+date: 2021-09-11 00:00:00, value: 34973
+date: 2021-09-12 00:00:00, value: 33376
+date: 2021-09-13 00:00:00, value: 28591
+date: 2021-09-14 00:00:00, value: 27254
+date: 2021-09-15 00:00:00, value: 25404
+date: 2021-09-16 00:00:00, value: 27176
+
+- Example 3:
+Input (history):
+date: 2022-02-25 00:00:00, value: 14148
+date: 2022-02-26 00:00:00, value: 13166
+date: 2022-02-27 00:00:00, value: 11499
+date: 2022-02-28 00:00:00, value: 10273
+date: 2022-03-01 00:00:00, value: 8013
+date: 2022-03-02 00:00:00, value: 6915
+date: 2022-03-03 00:00:00, value: 7554
+
+Output (forecast):
+date: 2022-03-04 00:00:00, value: 6561
+date: 2022-03-05 00:00:00, value: 6396
+date: 2022-03-06 00:00:00, value: 5921
+date: 2022-03-07 00:00:00, value: 5476
+date: 2022-03-08 00:00:00, value: 4362
+date: 2022-03-09 00:00:00, value: 3993
+date: 2022-03-10 00:00:00, value: 4575
+
+[INPUT]"
+Covid-19,2021-03-12 00:00:00,2022-03-10 00:00:00,7,mistralai/ministral-3-14b-reasoning,0.7,numeric,cot_few,3,uniform,plain,30.73,1149.43,1253.32,0.0,0.237652,0.53405,0.036939,0.326699,13417,236,10.84219527244568,"[4184, 4194, 3614, 3116, 2503, 2568, 2876]","[4895.0, 4615.0, 5156.0, 4852.0, 4213.0, 3798.0, 3572.0]","[OBJECTIVE]
+Predict the next 7 values based on the historical series (364 periods).
+
+[STATISTICAL CONTEXT]
+- Mean: 87124.1099
+- Median: 39083.5
+- Standard Deviation: 107555.5417
+- Minimum Value: 3993
+- Maximum Value: 414188
+- First Quartile (Q1): 16033.5
+- Third Quartile (Q3): 109220.5
+- Trend Strength (STL): 0.9985
+- Seasonality Strength (STL): 0.7754
+
+[REASONING GUIDELINES]
+- Trend: Identify the overall direction (increasing, decreasing, stable) and the trend strength.
+- Seasonality: Patterns that repeat at regular intervals (e.g., daily, weekly, monthly).
+- Outliers: Possible outliers or abrupt changes.
+- Cycles: Not seasonal long-term patterns.
+- Noise reduction: Apply a technique to reduce noise when necessary.
+- Consistency with the provided descriptive statistics (mean, median, etc.).
+- Adjustment for data frequency and contextual events (holidays, promotions, etc.).
+
+[EXAMPLES]
+- Example 1:
+Input (history):
+date: 2021-03-12 00:00:00, value: 22854
+date: 2021-03-13 00:00:00, value: 23285
+date: 2021-03-14 00:00:00, value: 24882
+date: 2021-03-15 00:00:00, value: 25320
+date: 2021-03-16 00:00:00, value: 26291
+date: 2021-03-17 00:00:00, value: 24492
+date: 2021-03-18 00:00:00, value: 28903
+
+Output (forecast):
+date: 2021-03-19 00:00:00, value: 35871
+date: 2021-03-20 00:00:00, value: 39726
+date: 2021-03-21 00:00:00, value: 40953
+date: 2021-03-22 00:00:00, value: 43846
+date: 2021-03-23 00:00:00, value: 46951
+date: 2021-03-24 00:00:00, value: 40715
+date: 2021-03-25 00:00:00, value: 47262
+
+- Example 2:
+Input (history):
+date: 2021-09-03 00:00:00, value: 47092
+date: 2021-09-04 00:00:00, value: 45352
+date: 2021-09-05 00:00:00, value: 42618
+date: 2021-09-06 00:00:00, value: 42766
+date: 2021-09-07 00:00:00, value: 38948
+date: 2021-09-08 00:00:00, value: 31222
+date: 2021-09-09 00:00:00, value: 37875
+
+Output (forecast):
+date: 2021-09-10 00:00:00, value: 43263
+date: 2021-09-11 00:00:00, value: 34973
+date: 2021-09-12 00:00:00, value: 33376
+date: 2021-09-13 00:00:00, value: 28591
+date: 2021-09-14 00:00:00, value: 27254
+date: 2021-09-15 00:00:00, value: 25404
+date: 2021-09-16 00:00:00, value: 27176
+
+- Example 3:
+Input (history):
+date: 2022-02-25 00:00:00, value: 14148
+date: 2022-02-26 00:00:00, value: 13166
+date: 2022-02-27 00:00:00, value: 11499
+date: 2022-02-28 00:00:00, value: 10273
+date: 2022-03-01 00:00:00, value: 8013
+date: 2022-03-02 00:00:00, value: 6915
+date: 2022-03-03 00:00:00, value: 7554
+
+Output (forecast):
+date: 2022-03-04 00:00:00, value: 6561
+date: 2022-03-05 00:00:00, value: 6396
+date: 2022-03-06 00:00:00, value: 5921
+date: 2022-03-07 00:00:00, value: 5476
+date: 2022-03-08 00:00:00, value: 4362
+date: 2022-03-09 00:00:00, value: 3993
+date: 2022-03-10 00:00:00, value: 4575
+
+[INPUT]"
+Covid-19,2021-03-12 00:00:00,2022-03-10 00:00:00,7,mistralai/ministral-3-14b-reasoning,0.7,numeric,cot_few,3,uniform,plain,10.49,350.86,426.1,0.0,0.243584,0.547381,0.03944,0.34881,13417,236,10.776009321212769,"[4184, 4194, 3614, 3116, 2503, 2568, 2876]","[4859.0, 3867.0, 3562.0, 3248.0, 3057.0, 3176.0, 2984.0]","[OBJECTIVE]
+Predict the next 7 values based on the historical series (364 periods).
+
+[STATISTICAL CONTEXT]
+- Mean: 87124.1099
+- Median: 39083.5
+- Standard Deviation: 107555.5417
+- Minimum Value: 3993
+- Maximum Value: 414188
+- First Quartile (Q1): 16033.5
+- Third Quartile (Q3): 109220.5
+- Trend Strength (STL): 0.9985
+- Seasonality Strength (STL): 0.7754
+
+[REASONING GUIDELINES]
+- Trend: Identify the overall direction (increasing, decreasing, stable) and the trend strength.
+- Seasonality: Patterns that repeat at regular intervals (e.g., daily, weekly, monthly).
+- Outliers: Possible outliers or abrupt changes.
+- Cycles: Not seasonal long-term patterns.
+- Noise reduction: Apply a technique to reduce noise when necessary.
+- Consistency with the provided descriptive statistics (mean, median, etc.).
+- Adjustment for data frequency and contextual events (holidays, promotions, etc.).
+
+[EXAMPLES]
+- Example 1:
+Input (history):
+date: 2021-03-12 00:00:00, value: 22854
+date: 2021-03-13 00:00:00, value: 23285
+date: 2021-03-14 00:00:00, value: 24882
+date: 2021-03-15 00:00:00, value: 25320
+date: 2021-03-16 00:00:00, value: 26291
+date: 2021-03-17 00:00:00, value: 24492
+date: 2021-03-18 00:00:00, value: 28903
+
+Output (forecast):
+date: 2021-03-19 00:00:00, value: 35871
+date: 2021-03-20 00:00:00, value: 39726
+date: 2021-03-21 00:00:00, value: 40953
+date: 2021-03-22 00:00:00, value: 43846
+date: 2021-03-23 00:00:00, value: 46951
+date: 2021-03-24 00:00:00, value: 40715
+date: 2021-03-25 00:00:00, value: 47262
+
+- Example 2:
+Input (history):
+date: 2021-09-03 00:00:00, value: 47092
+date: 2021-09-04 00:00:00, value: 45352
+date: 2021-09-05 00:00:00, value: 42618
+date: 2021-09-06 00:00:00, value: 42766
+date: 2021-09-07 00:00:00, value: 38948
+date: 2021-09-08 00:00:00, value: 31222
+date: 2021-09-09 00:00:00, value: 37875
+
+Output (forecast):
+date: 2021-09-10 00:00:00, value: 43263
+date: 2021-09-11 00:00:00, value: 34973
+date: 2021-09-12 00:00:00, value: 33376
+date: 2021-09-13 00:00:00, value: 28591
+date: 2021-09-14 00:00:00, value: 27254
+date: 2021-09-15 00:00:00, value: 25404
+date: 2021-09-16 00:00:00, value: 27176
+
+- Example 3:
+Input (history):
+date: 2022-02-25 00:00:00, value: 14148
+date: 2022-02-26 00:00:00, value: 13166
+date: 2022-02-27 00:00:00, value: 11499
+date: 2022-02-28 00:00:00, value: 10273
+date: 2022-03-01 00:00:00, value: 8013
+date: 2022-03-02 00:00:00, value: 6915
+date: 2022-03-03 00:00:00, value: 7554
+
+Output (forecast):
+date: 2022-03-04 00:00:00, value: 6561
+date: 2022-03-05 00:00:00, value: 6396
+date: 2022-03-06 00:00:00, value: 5921
+date: 2022-03-07 00:00:00, value: 5476
+date: 2022-03-08 00:00:00, value: 4362
+date: 2022-03-09 00:00:00, value: 3993
+date: 2022-03-10 00:00:00, value: 4575
+
+[INPUT]"
+Covid-19,2021-03-12 00:00:00,2022-03-10 00:00:00,7,mistralai/ministral-3-14b-reasoning,0.7,numeric,cot_few,3,uniform,plain,7.34,222.86,264.73,0.0,0.212758,0.478108,0.039839,0.352346,13417,208,9.500728845596312,"[4184, 4194, 3614, 3116, 2503, 2568, 2876]","[4098.0, 3856.0, 3529.0, 3234.0, 2912.0, 2683.0, 2467.0]","[OBJECTIVE]
+Predict the next 7 values based on the historical series (364 periods).
+
+[STATISTICAL CONTEXT]
+- Mean: 87124.1099
+- Median: 39083.5
+- Standard Deviation: 107555.5417
+- Minimum Value: 3993
+- Maximum Value: 414188
+- First Quartile (Q1): 16033.5
+- Third Quartile (Q3): 109220.5
+- Trend Strength (STL): 0.9985
+- Seasonality Strength (STL): 0.7754
+
+[REASONING GUIDELINES]
+- Trend: Identify the overall direction (increasing, decreasing, stable) and the trend strength.
+- Seasonality: Patterns that repeat at regular intervals (e.g., daily, weekly, monthly).
+- Outliers: Possible outliers or abrupt changes.
+- Cycles: Not seasonal long-term patterns.
+- Noise reduction: Apply a technique to reduce noise when necessary.
+- Consistency with the provided descriptive statistics (mean, median, etc.).
+- Adjustment for data frequency and contextual events (holidays, promotions, etc.).
+
+[EXAMPLES]
+- Example 1:
+Input (history):
+date: 2021-03-12 00:00:00, value: 22854
+date: 2021-03-13 00:00:00, value: 23285
+date: 2021-03-14 00:00:00, value: 24882
+date: 2021-03-15 00:00:00, value: 25320
+date: 2021-03-16 00:00:00, value: 26291
+date: 2021-03-17 00:00:00, value: 24492
+date: 2021-03-18 00:00:00, value: 28903
+
+Output (forecast):
+date: 2021-03-19 00:00:00, value: 35871
+date: 2021-03-20 00:00:00, value: 39726
+date: 2021-03-21 00:00:00, value: 40953
+date: 2021-03-22 00:00:00, value: 43846
+date: 2021-03-23 00:00:00, value: 46951
+date: 2021-03-24 00:00:00, value: 40715
+date: 2021-03-25 00:00:00, value: 47262
+
+- Example 2:
+Input (history):
+date: 2021-09-03 00:00:00, value: 47092
+date: 2021-09-04 00:00:00, value: 45352
+date: 2021-09-05 00:00:00, value: 42618
+date: 2021-09-06 00:00:00, value: 42766
+date: 2021-09-07 00:00:00, value: 38948
+date: 2021-09-08 00:00:00, value: 31222
+date: 2021-09-09 00:00:00, value: 37875
+
+Output (forecast):
+date: 2021-09-10 00:00:00, value: 43263
+date: 2021-09-11 00:00:00, value: 34973
+date: 2021-09-12 00:00:00, value: 33376
+date: 2021-09-13 00:00:00, value: 28591
+date: 2021-09-14 00:00:00, value: 27254
+date: 2021-09-15 00:00:00, value: 25404
+date: 2021-09-16 00:00:00, value: 27176
+
+- Example 3:
+Input (history):
+date: 2022-02-25 00:00:00, value: 14148
+date: 2022-02-26 00:00:00, value: 13166
+date: 2022-02-27 00:00:00, value: 11499
+date: 2022-02-28 00:00:00, value: 10273
+date: 2022-03-01 00:00:00, value: 8013
+date: 2022-03-02 00:00:00, value: 6915
+date: 2022-03-03 00:00:00, value: 7554
+
+Output (forecast):
+date: 2022-03-04 00:00:00, value: 6561
+date: 2022-03-05 00:00:00, value: 6396
+date: 2022-03-06 00:00:00, value: 5921
+date: 2022-03-07 00:00:00, value: 5476
+date: 2022-03-08 00:00:00, value: 4362
+date: 2022-03-09 00:00:00, value: 3993
+date: 2022-03-10 00:00:00, value: 4575
+
+[INPUT]"
+Covid-19,2021-03-12 00:00:00,2022-03-10 00:00:00,7,mistralai/ministral-3-14b-reasoning,0.7,textual,cot_few,3,uniform,plain,199.19,3287.29,3353.35,0.0,0.514714,1.15666,0.077529,0.685682,15077,201,20.12885355949402,"[4184, 4194, 3614, 3116, 2503, 2568, 2876]","[4.0, 5.0, 7.0, 8.0, 4.0, 9.0, 7.0]","[OBJECTIVE]
+Predict the next 7 values based on the historical series (364 periods).
+
+[STATISTICAL CONTEXT]
+- Mean: 87124.1099
+- Median: 39083.5
+- Standard Deviation: 107555.5417
+- Minimum Value: 3993
+- Maximum Value: 414188
+- First Quartile (Q1): 16033.5
+- Third Quartile (Q3): 109220.5
+- Trend Strength (STL): 0.9985
+- Seasonality Strength (STL): 0.7754
+
+[REASONING GUIDELINES]
+- Trend: Identify the overall direction (increasing, decreasing, stable) and the trend strength.
+- Seasonality: Patterns that repeat at regular intervals (e.g., daily, weekly, monthly).
+- Outliers: Possible outliers or abrupt changes.
+- Cycles: Not seasonal long-term patterns.
+- Noise reduction: Apply a technique to reduce noise when necessary.
+- Consistency with the provided descriptive statistics (mean, median, etc.).
+- Adjustment for data frequency and contextual events (holidays, promotions, etc.).
+
+[EXAMPLES]
+- Example 1:
+Input (history):
+date: 2021-03-12 00:00:00, value: 2 2 8 5 4
+date: 2021-03-13 00:00:00, value: 2 3 2 8 5
+date: 2021-03-14 00:00:00, value: 2 4 8 8 2
+date: 2021-03-15 00:00:00, value: 2 5 3 2 0
+date: 2021-03-16 00:00:00, value: 2 6 2 9 1
+date: 2021-03-17 00:00:00, value: 2 4 4 9 2
+date: 2021-03-18 00:00:00, value: 2 8 9 0 3
+
+Output (forecast):
+date: 2021-03-19 00:00:00, value: 3 5 8 7 1
+date: 2021-03-20 00:00:00, value: 3 9 7 2 6
+date: 2021-03-21 00:00:00, value: 4 0 9 5 3
+date: 2021-03-22 00:00:00, value: 4 3 8 4 6
+date: 2021-03-23 00:00:00, value: 4 6 9 5 1
+date: 2021-03-24 00:00:00, value: 4 0 7 1 5
+date: 2021-03-25 00:00:00, value: 4 7 2 6 2
+
+- Example 2:
+Input (history):
+date: 2021-09-03 00:00:00, value: 4 7 0 9 2
+date: 2021-09-04 00:00:00, value: 4 5 3 5 2
+date: 2021-09-05 00:00:00, value: 4 2 6 1 8
+date: 2021-09-06 00:00:00, value: 4 2 7 6 6
+date: 2021-09-07 00:00:00, value: 3 8 9 4 8
+date: 2021-09-08 00:00:00, value: 3 1 2 2 2
+date: 2021-09-09 00:00:00, value: 3 7 8 7 5
+
+Output (forecast):
+date: 2021-09-10 00:00:00, value: 4 3 2 6 3
+date: 2021-09-11 00:00:00, value: 3 4 9 7 3
+date: 2021-09-12 00:00:00, value: 3 3 3 7 6
+date: 2021-09-13 00:00:00, value: 2 8 5 9 1
+date: 2021-09-14 00:00:00, value: 2 7 2 5 4
+date: 2021-09-15 00:00:00, value: 2 5 4 0 4
+date: 2021-09-16 00:00:00, value: 2 7 1 7 6
+
+- Example 3:
+Input (history):
+date: 2022-02-25 00:00:00, value: 1 4 1 4 8
+date: 2022-02-26 00:00:00, value: 1 3 1 6 6
+date: 2022-02-27 00:00:00, value: 1 1 4 9 9
+date: 2022-02-28 00:00:00, value: 1 0 2 7 3
+date: 2022-03-01 00:00:00, value: 8 0 1 3
+date: 2022-03-02 00:00:00, value: 6 9 1 5
+date: 2022-03-03 00:00:00, value: 7 5 5 4
+
+Output (forecast):
+date: 2022-03-04 00:00:00, value: 6 5 6 1
+date: 2022-03-05 00:00:00, value: 6 3 9 6
+date: 2022-03-06 00:00:00, value: 5 9 2 1
+date: 2022-03-07 00:00:00, value: 5 4 7 6
+date: 2022-03-08 00:00:00, value: 4 3 6 2
+date: 2022-03-09 00:00:00, value: 3 9 9 3
+date: 2022-03-10 00:00:00, value: 4 5 7 5
+
+[INPUT]"
+Covid-19,2021-03-12 00:00:00,2022-03-10 00:00:00,7,mistralai/ministral-3-14b-reasoning,0.7,textual,cot_few,3,uniform,plain,199.29,3288.14,3354.25,0.0,0.188413,0.423401,0.037058,0.327751,15077,185,8.659446716308594,"[4184, 4194, 3614, 3116, 2503, 2568, 2876]","[4.0, 3.0, 5.0, 8.0, 9.0, 2.0, 7.0]","[OBJECTIVE]
+Predict the next 7 values based on the historical series (364 periods).
+
+[STATISTICAL CONTEXT]
+- Mean: 87124.1099
+- Median: 39083.5
+- Standard Deviation: 107555.5417
+- Minimum Value: 3993
+- Maximum Value: 414188
+- First Quartile (Q1): 16033.5
+- Third Quartile (Q3): 109220.5
+- Trend Strength (STL): 0.9985
+- Seasonality Strength (STL): 0.7754
+
+[REASONING GUIDELINES]
+- Trend: Identify the overall direction (increasing, decreasing, stable) and the trend strength.
+- Seasonality: Patterns that repeat at regular intervals (e.g., daily, weekly, monthly).
+- Outliers: Possible outliers or abrupt changes.
+- Cycles: Not seasonal long-term patterns.
+- Noise reduction: Apply a technique to reduce noise when necessary.
+- Consistency with the provided descriptive statistics (mean, median, etc.).
+- Adjustment for data frequency and contextual events (holidays, promotions, etc.).
+
+[EXAMPLES]
+- Example 1:
+Input (history):
+date: 2021-03-12 00:00:00, value: 2 2 8 5 4
+date: 2021-03-13 00:00:00, value: 2 3 2 8 5
+date: 2021-03-14 00:00:00, value: 2 4 8 8 2
+date: 2021-03-15 00:00:00, value: 2 5 3 2 0
+date: 2021-03-16 00:00:00, value: 2 6 2 9 1
+date: 2021-03-17 00:00:00, value: 2 4 4 9 2
+date: 2021-03-18 00:00:00, value: 2 8 9 0 3
+
+Output (forecast):
+date: 2021-03-19 00:00:00, value: 3 5 8 7 1
+date: 2021-03-20 00:00:00, value: 3 9 7 2 6
+date: 2021-03-21 00:00:00, value: 4 0 9 5 3
+date: 2021-03-22 00:00:00, value: 4 3 8 4 6
+date: 2021-03-23 00:00:00, value: 4 6 9 5 1
+date: 2021-03-24 00:00:00, value: 4 0 7 1 5
+date: 2021-03-25 00:00:00, value: 4 7 2 6 2
+
+- Example 2:
+Input (history):
+date: 2021-09-03 00:00:00, value: 4 7 0 9 2
+date: 2021-09-04 00:00:00, value: 4 5 3 5 2
+date: 2021-09-05 00:00:00, value: 4 2 6 1 8
+date: 2021-09-06 00:00:00, value: 4 2 7 6 6
+date: 2021-09-07 00:00:00, value: 3 8 9 4 8
+date: 2021-09-08 00:00:00, value: 3 1 2 2 2
+date: 2021-09-09 00:00:00, value: 3 7 8 7 5
+
+Output (forecast):
+date: 2021-09-10 00:00:00, value: 4 3 2 6 3
+date: 2021-09-11 00:00:00, value: 3 4 9 7 3
+date: 2021-09-12 00:00:00, value: 3 3 3 7 6
+date: 2021-09-13 00:00:00, value: 2 8 5 9 1
+date: 2021-09-14 00:00:00, value: 2 7 2 5 4
+date: 2021-09-15 00:00:00, value: 2 5 4 0 4
+date: 2021-09-16 00:00:00, value: 2 7 1 7 6
+
+- Example 3:
+Input (history):
+date: 2022-02-25 00:00:00, value: 1 4 1 4 8
+date: 2022-02-26 00:00:00, value: 1 3 1 6 6
+date: 2022-02-27 00:00:00, value: 1 1 4 9 9
+date: 2022-02-28 00:00:00, value: 1 0 2 7 3
+date: 2022-03-01 00:00:00, value: 8 0 1 3
+date: 2022-03-02 00:00:00, value: 6 9 1 5
+date: 2022-03-03 00:00:00, value: 7 5 5 4
+
+Output (forecast):
+date: 2022-03-04 00:00:00, value: 6 5 6 1
+date: 2022-03-05 00:00:00, value: 6 3 9 6
+date: 2022-03-06 00:00:00, value: 5 9 2 1
+date: 2022-03-07 00:00:00, value: 5 4 7 6
+date: 2022-03-08 00:00:00, value: 4 3 6 2
+date: 2022-03-09 00:00:00, value: 3 9 9 3
+date: 2022-03-10 00:00:00, value: 4 5 7 5
+
+[INPUT]"
+Covid-19,2021-03-12 00:00:00,2022-03-10 00:00:00,7,mistralai/ministral-3-14b-reasoning,0.7,textual,cot_few,3,uniform,plain,199.31,3288.0,3353.81,0.0,0.194992,0.438184,0.031328,0.277074,15077,189,8.925878286361694,"[4184, 4194, 3614, 3116, 2503, 2568, 2876]","[4.0, 5.0, 9.0, 8.0, 4.0, 2.0, 7.0]","[OBJECTIVE]
+Predict the next 7 values based on the historical series (364 periods).
+
+[STATISTICAL CONTEXT]
+- Mean: 87124.1099
+- Median: 39083.5
+- Standard Deviation: 107555.5417
+- Minimum Value: 3993
+- Maximum Value: 414188
+- First Quartile (Q1): 16033.5
+- Third Quartile (Q3): 109220.5
+- Trend Strength (STL): 0.9985
+- Seasonality Strength (STL): 0.7754
+
+[REASONING GUIDELINES]
+- Trend: Identify the overall direction (increasing, decreasing, stable) and the trend strength.
+- Seasonality: Patterns that repeat at regular intervals (e.g., daily, weekly, monthly).
+- Outliers: Possible outliers or abrupt changes.
+- Cycles: Not seasonal long-term patterns.
+- Noise reduction: Apply a technique to reduce noise when necessary.
+- Consistency with the provided descriptive statistics (mean, median, etc.).
+- Adjustment for data frequency and contextual events (holidays, promotions, etc.).
+
+[EXAMPLES]
+- Example 1:
+Input (history):
+date: 2021-03-12 00:00:00, value: 2 2 8 5 4
+date: 2021-03-13 00:00:00, value: 2 3 2 8 5
+date: 2021-03-14 00:00:00, value: 2 4 8 8 2
+date: 2021-03-15 00:00:00, value: 2 5 3 2 0
+date: 2021-03-16 00:00:00, value: 2 6 2 9 1
+date: 2021-03-17 00:00:00, value: 2 4 4 9 2
+date: 2021-03-18 00:00:00, value: 2 8 9 0 3
+
+Output (forecast):
+date: 2021-03-19 00:00:00, value: 3 5 8 7 1
+date: 2021-03-20 00:00:00, value: 3 9 7 2 6
+date: 2021-03-21 00:00:00, value: 4 0 9 5 3
+date: 2021-03-22 00:00:00, value: 4 3 8 4 6
+date: 2021-03-23 00:00:00, value: 4 6 9 5 1
+date: 2021-03-24 00:00:00, value: 4 0 7 1 5
+date: 2021-03-25 00:00:00, value: 4 7 2 6 2
+
+- Example 2:
+Input (history):
+date: 2021-09-03 00:00:00, value: 4 7 0 9 2
+date: 2021-09-04 00:00:00, value: 4 5 3 5 2
+date: 2021-09-05 00:00:00, value: 4 2 6 1 8
+date: 2021-09-06 00:00:00, value: 4 2 7 6 6
+date: 2021-09-07 00:00:00, value: 3 8 9 4 8
+date: 2021-09-08 00:00:00, value: 3 1 2 2 2
+date: 2021-09-09 00:00:00, value: 3 7 8 7 5
+
+Output (forecast):
+date: 2021-09-10 00:00:00, value: 4 3 2 6 3
+date: 2021-09-11 00:00:00, value: 3 4 9 7 3
+date: 2021-09-12 00:00:00, value: 3 3 3 7 6
+date: 2021-09-13 00:00:00, value: 2 8 5 9 1
+date: 2021-09-14 00:00:00, value: 2 7 2 5 4
+date: 2021-09-15 00:00:00, value: 2 5 4 0 4
+date: 2021-09-16 00:00:00, value: 2 7 1 7 6
+
+- Example 3:
+Input (history):
+date: 2022-02-25 00:00:00, value: 1 4 1 4 8
+date: 2022-02-26 00:00:00, value: 1 3 1 6 6
+date: 2022-02-27 00:00:00, value: 1 1 4 9 9
+date: 2022-02-28 00:00:00, value: 1 0 2 7 3
+date: 2022-03-01 00:00:00, value: 8 0 1 3
+date: 2022-03-02 00:00:00, value: 6 9 1 5
+date: 2022-03-03 00:00:00, value: 7 5 5 4
+
+Output (forecast):
+date: 2022-03-04 00:00:00, value: 6 5 6 1
+date: 2022-03-05 00:00:00, value: 6 3 9 6
+date: 2022-03-06 00:00:00, value: 5 9 2 1
+date: 2022-03-07 00:00:00, value: 5 4 7 6
+date: 2022-03-08 00:00:00, value: 4 3 6 2
+date: 2022-03-09 00:00:00, value: 3 9 9 3
+date: 2022-03-10 00:00:00, value: 4 5 7 5
+
+[INPUT]"
+Covid-19,2021-03-12 00:00:00,2022-03-10 00:00:00,7,mistralai/ministral-3-14b-reasoning,0.7,textual,cot_few,3,uniform,plain,199.36,3288.43,3354.29,0.0,0.205929,0.462763,0.036333,0.321336,15077,202,9.433455228805542,"[4184, 4194, 3614, 3116, 2503, 2568, 2876]","[4.0, 5.0, 9.0, 5.0, 4.0, 8.0, 1.0]","[OBJECTIVE]
+Predict the next 7 values based on the historical series (364 periods).
+
+[STATISTICAL CONTEXT]
+- Mean: 87124.1099
+- Median: 39083.5
+- Standard Deviation: 107555.5417
+- Minimum Value: 3993
+- Maximum Value: 414188
+- First Quartile (Q1): 16033.5
+- Third Quartile (Q3): 109220.5
+- Trend Strength (STL): 0.9985
+- Seasonality Strength (STL): 0.7754
+
+[REASONING GUIDELINES]
+- Trend: Identify the overall direction (increasing, decreasing, stable) and the trend strength.
+- Seasonality: Patterns that repeat at regular intervals (e.g., daily, weekly, monthly).
+- Outliers: Possible outliers or abrupt changes.
+- Cycles: Not seasonal long-term patterns.
+- Noise reduction: Apply a technique to reduce noise when necessary.
+- Consistency with the provided descriptive statistics (mean, median, etc.).
+- Adjustment for data frequency and contextual events (holidays, promotions, etc.).
+
+[EXAMPLES]
+- Example 1:
+Input (history):
+date: 2021-03-12 00:00:00, value: 2 2 8 5 4
+date: 2021-03-13 00:00:00, value: 2 3 2 8 5
+date: 2021-03-14 00:00:00, value: 2 4 8 8 2
+date: 2021-03-15 00:00:00, value: 2 5 3 2 0
+date: 2021-03-16 00:00:00, value: 2 6 2 9 1
+date: 2021-03-17 00:00:00, value: 2 4 4 9 2
+date: 2021-03-18 00:00:00, value: 2 8 9 0 3
+
+Output (forecast):
+date: 2021-03-19 00:00:00, value: 3 5 8 7 1
+date: 2021-03-20 00:00:00, value: 3 9 7 2 6
+date: 2021-03-21 00:00:00, value: 4 0 9 5 3
+date: 2021-03-22 00:00:00, value: 4 3 8 4 6
+date: 2021-03-23 00:00:00, value: 4 6 9 5 1
+date: 2021-03-24 00:00:00, value: 4 0 7 1 5
+date: 2021-03-25 00:00:00, value: 4 7 2 6 2
+
+- Example 2:
+Input (history):
+date: 2021-09-03 00:00:00, value: 4 7 0 9 2
+date: 2021-09-04 00:00:00, value: 4 5 3 5 2
+date: 2021-09-05 00:00:00, value: 4 2 6 1 8
+date: 2021-09-06 00:00:00, value: 4 2 7 6 6
+date: 2021-09-07 00:00:00, value: 3 8 9 4 8
+date: 2021-09-08 00:00:00, value: 3 1 2 2 2
+date: 2021-09-09 00:00:00, value: 3 7 8 7 5
+
+Output (forecast):
+date: 2021-09-10 00:00:00, value: 4 3 2 6 3
+date: 2021-09-11 00:00:00, value: 3 4 9 7 3
+date: 2021-09-12 00:00:00, value: 3 3 3 7 6
+date: 2021-09-13 00:00:00, value: 2 8 5 9 1
+date: 2021-09-14 00:00:00, value: 2 7 2 5 4
+date: 2021-09-15 00:00:00, value: 2 5 4 0 4
+date: 2021-09-16 00:00:00, value: 2 7 1 7 6
+
+- Example 3:
+Input (history):
+date: 2022-02-25 00:00:00, value: 1 4 1 4 8
+date: 2022-02-26 00:00:00, value: 1 3 1 6 6
+date: 2022-02-27 00:00:00, value: 1 1 4 9 9
+date: 2022-02-28 00:00:00, value: 1 0 2 7 3
+date: 2022-03-01 00:00:00, value: 8 0 1 3
+date: 2022-03-02 00:00:00, value: 6 9 1 5
+date: 2022-03-03 00:00:00, value: 7 5 5 4
+
+Output (forecast):
+date: 2022-03-04 00:00:00, value: 6 5 6 1
+date: 2022-03-05 00:00:00, value: 6 3 9 6
+date: 2022-03-06 00:00:00, value: 5 9 2 1
+date: 2022-03-07 00:00:00, value: 5 4 7 6
+date: 2022-03-08 00:00:00, value: 4 3 6 2
+date: 2022-03-09 00:00:00, value: 3 9 9 3
+date: 2022-03-10 00:00:00, value: 4 5 7 5
+
+[INPUT]"
+Covid-19,2021-03-12 00:00:00,2022-03-10 00:00:00,7,mistralai/ministral-3-14b-reasoning,0.7,textual,cot_few,3,uniform,plain,199.45,3289.29,3355.21,0.0,0.192911,0.433507,0.030849,0.272832,15077,185,8.703139066696167,"[4184, 4194, 3614, 3116, 2503, 2568, 2876]","[4.0, 3.0, 5.0, 6.0, 5.0, 4.0, 3.0]","[OBJECTIVE]
+Predict the next 7 values based on the historical series (364 periods).
+
+[STATISTICAL CONTEXT]
+- Mean: 87124.1099
+- Median: 39083.5
+- Standard Deviation: 107555.5417
+- Minimum Value: 3993
+- Maximum Value: 414188
+- First Quartile (Q1): 16033.5
+- Third Quartile (Q3): 109220.5
+- Trend Strength (STL): 0.9985
+- Seasonality Strength (STL): 0.7754
+
+[REASONING GUIDELINES]
+- Trend: Identify the overall direction (increasing, decreasing, stable) and the trend strength.
+- Seasonality: Patterns that repeat at regular intervals (e.g., daily, weekly, monthly).
+- Outliers: Possible outliers or abrupt changes.
+- Cycles: Not seasonal long-term patterns.
+- Noise reduction: Apply a technique to reduce noise when necessary.
+- Consistency with the provided descriptive statistics (mean, median, etc.).
+- Adjustment for data frequency and contextual events (holidays, promotions, etc.).
+
+[EXAMPLES]
+- Example 1:
+Input (history):
+date: 2021-03-12 00:00:00, value: 2 2 8 5 4
+date: 2021-03-13 00:00:00, value: 2 3 2 8 5
+date: 2021-03-14 00:00:00, value: 2 4 8 8 2
+date: 2021-03-15 00:00:00, value: 2 5 3 2 0
+date: 2021-03-16 00:00:00, value: 2 6 2 9 1
+date: 2021-03-17 00:00:00, value: 2 4 4 9 2
+date: 2021-03-18 00:00:00, value: 2 8 9 0 3
+
+Output (forecast):
+date: 2021-03-19 00:00:00, value: 3 5 8 7 1
+date: 2021-03-20 00:00:00, value: 3 9 7 2 6
+date: 2021-03-21 00:00:00, value: 4 0 9 5 3
+date: 2021-03-22 00:00:00, value: 4 3 8 4 6
+date: 2021-03-23 00:00:00, value: 4 6 9 5 1
+date: 2021-03-24 00:00:00, value: 4 0 7 1 5
+date: 2021-03-25 00:00:00, value: 4 7 2 6 2
+
+- Example 2:
+Input (history):
+date: 2021-09-03 00:00:00, value: 4 7 0 9 2
+date: 2021-09-04 00:00:00, value: 4 5 3 5 2
+date: 2021-09-05 00:00:00, value: 4 2 6 1 8
+date: 2021-09-06 00:00:00, value: 4 2 7 6 6
+date: 2021-09-07 00:00:00, value: 3 8 9 4 8
+date: 2021-09-08 00:00:00, value: 3 1 2 2 2
+date: 2021-09-09 00:00:00, value: 3 7 8 7 5
+
+Output (forecast):
+date: 2021-09-10 00:00:00, value: 4 3 2 6 3
+date: 2021-09-11 00:00:00, value: 3 4 9 7 3
+date: 2021-09-12 00:00:00, value: 3 3 3 7 6
+date: 2021-09-13 00:00:00, value: 2 8 5 9 1
+date: 2021-09-14 00:00:00, value: 2 7 2 5 4
+date: 2021-09-15 00:00:00, value: 2 5 4 0 4
+date: 2021-09-16 00:00:00, value: 2 7 1 7 6
+
+- Example 3:
+Input (history):
+date: 2022-02-25 00:00:00, value: 1 4 1 4 8
+date: 2022-02-26 00:00:00, value: 1 3 1 6 6
+date: 2022-02-27 00:00:00, value: 1 1 4 9 9
+date: 2022-02-28 00:00:00, value: 1 0 2 7 3
+date: 2022-03-01 00:00:00, value: 8 0 1 3
+date: 2022-03-02 00:00:00, value: 6 9 1 5
+date: 2022-03-03 00:00:00, value: 7 5 5 4
+
+Output (forecast):
+date: 2022-03-04 00:00:00, value: 6 5 6 1
+date: 2022-03-05 00:00:00, value: 6 3 9 6
+date: 2022-03-06 00:00:00, value: 5 9 2 1
+date: 2022-03-07 00:00:00, value: 5 4 7 6
+date: 2022-03-08 00:00:00, value: 4 3 6 2
+date: 2022-03-09 00:00:00, value: 3 9 9 3
+date: 2022-03-10 00:00:00, value: 4 5 7 5
+
+[INPUT]"
+Covid-19,2021-03-12 00:00:00,2022-03-10 00:00:00,7,mistralai/ministral-3-14b-reasoning,0.7,numeric,cot_few,3,uniform,csv,16.87,546.43,688.11,0.0,0.436829,0.981638,0.06233,0.551252,11002,227,17.74463939666748,"[4184, 4194, 3614, 3116, 2503, 2568, 2876]","[4158.0, 4096.0, 3935.0, 3875.0, 3716.0, 3557.0, 3295.0]","[OBJECTIVE]
+Predict the next 7 values based on the historical series (364 periods).
+
+[STATISTICAL CONTEXT]
+- Mean: 87124.1099
+- Median: 39083.5
+- Standard Deviation: 107555.5417
+- Minimum Value: 3993
+- Maximum Value: 414188
+- First Quartile (Q1): 16033.5
+- Third Quartile (Q3): 109220.5
+- Trend Strength (STL): 0.9985
+- Seasonality Strength (STL): 0.7754
+
+[REASONING GUIDELINES]
+- Trend: Identify the overall direction (increasing, decreasing, stable) and the trend strength.
+- Seasonality: Patterns that repeat at regular intervals (e.g., daily, weekly, monthly).
+- Outliers: Possible outliers or abrupt changes.
+- Cycles: Not seasonal long-term patterns.
+- Noise reduction: Apply a technique to reduce noise when necessary.
+- Consistency with the provided descriptive statistics (mean, median, etc.).
+- Adjustment for data frequency and contextual events (holidays, promotions, etc.).
+
+[EXAMPLES]
+- Example 1:
+Input (history):
+date,value
+2021-03-12 00:00:00,22854
+2021-03-13 00:00:00,23285
+2021-03-14 00:00:00,24882
+2021-03-15 00:00:00,25320
+2021-03-16 00:00:00,26291
+2021-03-17 00:00:00,24492
+2021-03-18 00:00:00,28903
+
+Output (forecast):
+date,value
+2021-03-19 00:00:00,35871
+2021-03-20 00:00:00,39726
+2021-03-21 00:00:00,40953
+2021-03-22 00:00:00,43846
+2021-03-23 00:00:00,46951
+2021-03-24 00:00:00,40715
+2021-03-25 00:00:00,47262
+
+- Example 2:
+Input (history):
+date,value
+2021-09-03 00:00:00,47092
+2021-09-04 00:00:00,45352
+2021-09-05 00:00:00,42618
+2021-09-06 00:00:00,42766
+2021-09-07 00:00:00,38948
+2021-09-08 00:00:00,31222
+2021-09-09 00:00:00,37875
+
+Output (forecast):
+date,value
+2021-09-10 00:00:00,43263
+2021-09-11 00:00:00,34973
+2021-09-12 00:00:00,33376
+2021-09-13 00:00:00,28591
+2021-09-14 00:00:00,27254
+2021-09-15 00:00:00,25404
+2021-09-16 00:00:00,27176
+
+- Example 3:
+Input (history):
+date,value
+2022-02-25 00:00:00,14148
+2022-02-26 00:00:00,13166
+2022-02-27 00:00:00,11499
+2022-02-28 00:00:00,10273
+2022-03-01 00:00:00,8013
+2022-03-02 00:00:00,6915
+2022-03-03 00:00:00,7554
+
+Output (forecast):
+date,value
+2022-03-04 00:00:00,6561
+2022-03-05 00:00:00,6396
+2022-03-06 00:00:00,5921
+2022-03-07 00:00:00,5476
+2022-03-08 00:00:00,4362
+2022-03-09 00:00:00,3993
+2022-03-10 00:00:00,4575
+
+[INPUT]"
+Covid-19,2021-03-12 00:00:00,2022-03-10 00:00:00,7,mistralai/ministral-3-14b-reasoning,0.7,numeric,cot_few,3,uniform,csv,13.5,439.29,524.82,0.0,0.227381,0.510968,0.039233,0.346982,11002,236,10.348230600357056,"[4184, 4194, 3614, 3116, 2503, 2568, 2876]","[4589.0, 4223.0, 3993.0, 3623.0, 3462.0, 3217.0, 3023.0]","[OBJECTIVE]
+Predict the next 7 values based on the historical series (364 periods).
+
+[STATISTICAL CONTEXT]
+- Mean: 87124.1099
+- Median: 39083.5
+- Standard Deviation: 107555.5417
+- Minimum Value: 3993
+- Maximum Value: 414188
+- First Quartile (Q1): 16033.5
+- Third Quartile (Q3): 109220.5
+- Trend Strength (STL): 0.9985
+- Seasonality Strength (STL): 0.7754
+
+[REASONING GUIDELINES]
+- Trend: Identify the overall direction (increasing, decreasing, stable) and the trend strength.
+- Seasonality: Patterns that repeat at regular intervals (e.g., daily, weekly, monthly).
+- Outliers: Possible outliers or abrupt changes.
+- Cycles: Not seasonal long-term patterns.
+- Noise reduction: Apply a technique to reduce noise when necessary.
+- Consistency with the provided descriptive statistics (mean, median, etc.).
+- Adjustment for data frequency and contextual events (holidays, promotions, etc.).
+
+[EXAMPLES]
+- Example 1:
+Input (history):
+date,value
+2021-03-12 00:00:00,22854
+2021-03-13 00:00:00,23285
+2021-03-14 00:00:00,24882
+2021-03-15 00:00:00,25320
+2021-03-16 00:00:00,26291
+2021-03-17 00:00:00,24492
+2021-03-18 00:00:00,28903
+
+Output (forecast):
+date,value
+2021-03-19 00:00:00,35871
+2021-03-20 00:00:00,39726
+2021-03-21 00:00:00,40953
+2021-03-22 00:00:00,43846
+2021-03-23 00:00:00,46951
+2021-03-24 00:00:00,40715
+2021-03-25 00:00:00,47262
+
+- Example 2:
+Input (history):
+date,value
+2021-09-03 00:00:00,47092
+2021-09-04 00:00:00,45352
+2021-09-05 00:00:00,42618
+2021-09-06 00:00:00,42766
+2021-09-07 00:00:00,38948
+2021-09-08 00:00:00,31222
+2021-09-09 00:00:00,37875
+
+Output (forecast):
+date,value
+2021-09-10 00:00:00,43263
+2021-09-11 00:00:00,34973
+2021-09-12 00:00:00,33376
+2021-09-13 00:00:00,28591
+2021-09-14 00:00:00,27254
+2021-09-15 00:00:00,25404
+2021-09-16 00:00:00,27176
+
+- Example 3:
+Input (history):
+date,value
+2022-02-25 00:00:00,14148
+2022-02-26 00:00:00,13166
+2022-02-27 00:00:00,11499
+2022-02-28 00:00:00,10273
+2022-03-01 00:00:00,8013
+2022-03-02 00:00:00,6915
+2022-03-03 00:00:00,7554
+
+Output (forecast):
+date,value
+2022-03-04 00:00:00,6561
+2022-03-05 00:00:00,6396
+2022-03-06 00:00:00,5921
+2022-03-07 00:00:00,5476
+2022-03-08 00:00:00,4362
+2022-03-09 00:00:00,3993
+2022-03-10 00:00:00,4575
+
+[INPUT]"
+Covid-19,2021-03-12 00:00:00,2022-03-10 00:00:00,7,mistralai/ministral-3-14b-reasoning,0.7,numeric,cot_few,3,uniform,csv,42.38,1691.43,1816.2,0.0,0.233643,0.525041,0.040164,0.355214,11002,236,10.329068660736084,"[4184, 4194, 3614, 3116, 2503, 2568, 2876]","[4985.0, 4985.0, 4985.0, 4985.0, 4985.0, 4985.0, 4985.0]","[OBJECTIVE]
+Predict the next 7 values based on the historical series (364 periods).
+
+[STATISTICAL CONTEXT]
+- Mean: 87124.1099
+- Median: 39083.5
+- Standard Deviation: 107555.5417
+- Minimum Value: 3993
+- Maximum Value: 414188
+- First Quartile (Q1): 16033.5
+- Third Quartile (Q3): 109220.5
+- Trend Strength (STL): 0.9985
+- Seasonality Strength (STL): 0.7754
+
+[REASONING GUIDELINES]
+- Trend: Identify the overall direction (increasing, decreasing, stable) and the trend strength.
+- Seasonality: Patterns that repeat at regular intervals (e.g., daily, weekly, monthly).
+- Outliers: Possible outliers or abrupt changes.
+- Cycles: Not seasonal long-term patterns.
+- Noise reduction: Apply a technique to reduce noise when necessary.
+- Consistency with the provided descriptive statistics (mean, median, etc.).
+- Adjustment for data frequency and contextual events (holidays, promotions, etc.).
+
+[EXAMPLES]
+- Example 1:
+Input (history):
+date,value
+2021-03-12 00:00:00,22854
+2021-03-13 00:00:00,23285
+2021-03-14 00:00:00,24882
+2021-03-15 00:00:00,25320
+2021-03-16 00:00:00,26291
+2021-03-17 00:00:00,24492
+2021-03-18 00:00:00,28903
+
+Output (forecast):
+date,value
+2021-03-19 00:00:00,35871
+2021-03-20 00:00:00,39726
+2021-03-21 00:00:00,40953
+2021-03-22 00:00:00,43846
+2021-03-23 00:00:00,46951
+2021-03-24 00:00:00,40715
+2021-03-25 00:00:00,47262
+
+- Example 2:
+Input (history):
+date,value
+2021-09-03 00:00:00,47092
+2021-09-04 00:00:00,45352
+2021-09-05 00:00:00,42618
+2021-09-06 00:00:00,42766
+2021-09-07 00:00:00,38948
+2021-09-08 00:00:00,31222
+2021-09-09 00:00:00,37875
+
+Output (forecast):
+date,value
+2021-09-10 00:00:00,43263
+2021-09-11 00:00:00,34973
+2021-09-12 00:00:00,33376
+2021-09-13 00:00:00,28591
+2021-09-14 00:00:00,27254
+2021-09-15 00:00:00,25404
+2021-09-16 00:00:00,27176
+
+- Example 3:
+Input (history):
+date,value
+2022-02-25 00:00:00,14148
+2022-02-26 00:00:00,13166
+2022-02-27 00:00:00,11499
+2022-02-28 00:00:00,10273
+2022-03-01 00:00:00,8013
+2022-03-02 00:00:00,6915
+2022-03-03 00:00:00,7554
+
+Output (forecast):
+date,value
+2022-03-04 00:00:00,6561
+2022-03-05 00:00:00,6396
+2022-03-06 00:00:00,5921
+2022-03-07 00:00:00,5476
+2022-03-08 00:00:00,4362
+2022-03-09 00:00:00,3993
+2022-03-10 00:00:00,4575
+
+[INPUT]"
+Covid-19,2021-03-12 00:00:00,2022-03-10 00:00:00,7,mistralai/ministral-3-14b-reasoning,0.7,numeric,cot_few,3,uniform,csv,73.85,4149.43,4749.76,0.0,0.202263,0.454524,0.033359,0.295036,11002,207,9.12601399421692,"[4184, 4194, 3614, 3116, 2503, 2568, 2876]","[4897.0, 5488.0, 6875.0, 7541.0, 8329.0, 9117.0, 9854.0]","[OBJECTIVE]
+Predict the next 7 values based on the historical series (364 periods).
+
+[STATISTICAL CONTEXT]
+- Mean: 87124.1099
+- Median: 39083.5
+- Standard Deviation: 107555.5417
+- Minimum Value: 3993
+- Maximum Value: 414188
+- First Quartile (Q1): 16033.5
+- Third Quartile (Q3): 109220.5
+- Trend Strength (STL): 0.9985
+- Seasonality Strength (STL): 0.7754
+
+[REASONING GUIDELINES]
+- Trend: Identify the overall direction (increasing, decreasing, stable) and the trend strength.
+- Seasonality: Patterns that repeat at regular intervals (e.g., daily, weekly, monthly).
+- Outliers: Possible outliers or abrupt changes.
+- Cycles: Not seasonal long-term patterns.
+- Noise reduction: Apply a technique to reduce noise when necessary.
+- Consistency with the provided descriptive statistics (mean, median, etc.).
+- Adjustment for data frequency and contextual events (holidays, promotions, etc.).
+
+[EXAMPLES]
+- Example 1:
+Input (history):
+date,value
+2021-03-12 00:00:00,22854
+2021-03-13 00:00:00,23285
+2021-03-14 00:00:00,24882
+2021-03-15 00:00:00,25320
+2021-03-16 00:00:00,26291
+2021-03-17 00:00:00,24492
+2021-03-18 00:00:00,28903
+
+Output (forecast):
+date,value
+2021-03-19 00:00:00,35871
+2021-03-20 00:00:00,39726
+2021-03-21 00:00:00,40953
+2021-03-22 00:00:00,43846
+2021-03-23 00:00:00,46951
+2021-03-24 00:00:00,40715
+2021-03-25 00:00:00,47262
+
+- Example 2:
+Input (history):
+date,value
+2021-09-03 00:00:00,47092
+2021-09-04 00:00:00,45352
+2021-09-05 00:00:00,42618
+2021-09-06 00:00:00,42766
+2021-09-07 00:00:00,38948
+2021-09-08 00:00:00,31222
+2021-09-09 00:00:00,37875
+
+Output (forecast):
+date,value
+2021-09-10 00:00:00,43263
+2021-09-11 00:00:00,34973
+2021-09-12 00:00:00,33376
+2021-09-13 00:00:00,28591
+2021-09-14 00:00:00,27254
+2021-09-15 00:00:00,25404
+2021-09-16 00:00:00,27176
+
+- Example 3:
+Input (history):
+date,value
+2022-02-25 00:00:00,14148
+2022-02-26 00:00:00,13166
+2022-02-27 00:00:00,11499
+2022-02-28 00:00:00,10273
+2022-03-01 00:00:00,8013
+2022-03-02 00:00:00,6915
+2022-03-03 00:00:00,7554
+
+Output (forecast):
+date,value
+2022-03-04 00:00:00,6561
+2022-03-05 00:00:00,6396
+2022-03-06 00:00:00,5921
+2022-03-07 00:00:00,5476
+2022-03-08 00:00:00,4362
+2022-03-09 00:00:00,3993
+2022-03-10 00:00:00,4575
+
+[INPUT]"
+Covid-19,2021-03-12 00:00:00,2022-03-10 00:00:00,7,mistralai/ministral-3-14b-reasoning,0.7,numeric,cot_few,3,uniform,csv,12.05,409.57,480.5,0.0,0.222805,0.500686,0.036479,0.322629,11002,227,9.882694482803345,"[4184, 4194, 3614, 3116, 2503, 2568, 2876]","[4958.0, 4342.0, 3853.0, 3604.0, 3258.0, 2906.0, 2751.0]","[OBJECTIVE]
+Predict the next 7 values based on the historical series (364 periods).
+
+[STATISTICAL CONTEXT]
+- Mean: 87124.1099
+- Median: 39083.5
+- Standard Deviation: 107555.5417
+- Minimum Value: 3993
+- Maximum Value: 414188
+- First Quartile (Q1): 16033.5
+- Third Quartile (Q3): 109220.5
+- Trend Strength (STL): 0.9985
+- Seasonality Strength (STL): 0.7754
+
+[REASONING GUIDELINES]
+- Trend: Identify the overall direction (increasing, decreasing, stable) and the trend strength.
+- Seasonality: Patterns that repeat at regular intervals (e.g., daily, weekly, monthly).
+- Outliers: Possible outliers or abrupt changes.
+- Cycles: Not seasonal long-term patterns.
+- Noise reduction: Apply a technique to reduce noise when necessary.
+- Consistency with the provided descriptive statistics (mean, median, etc.).
+- Adjustment for data frequency and contextual events (holidays, promotions, etc.).
+
+[EXAMPLES]
+- Example 1:
+Input (history):
+date,value
+2021-03-12 00:00:00,22854
+2021-03-13 00:00:00,23285
+2021-03-14 00:00:00,24882
+2021-03-15 00:00:00,25320
+2021-03-16 00:00:00,26291
+2021-03-17 00:00:00,24492
+2021-03-18 00:00:00,28903
+
+Output (forecast):
+date,value
+2021-03-19 00:00:00,35871
+2021-03-20 00:00:00,39726
+2021-03-21 00:00:00,40953
+2021-03-22 00:00:00,43846
+2021-03-23 00:00:00,46951
+2021-03-24 00:00:00,40715
+2021-03-25 00:00:00,47262
+
+- Example 2:
+Input (history):
+date,value
+2021-09-03 00:00:00,47092
+2021-09-04 00:00:00,45352
+2021-09-05 00:00:00,42618
+2021-09-06 00:00:00,42766
+2021-09-07 00:00:00,38948
+2021-09-08 00:00:00,31222
+2021-09-09 00:00:00,37875
+
+Output (forecast):
+date,value
+2021-09-10 00:00:00,43263
+2021-09-11 00:00:00,34973
+2021-09-12 00:00:00,33376
+2021-09-13 00:00:00,28591
+2021-09-14 00:00:00,27254
+2021-09-15 00:00:00,25404
+2021-09-16 00:00:00,27176
+
+- Example 3:
+Input (history):
+date,value
+2022-02-25 00:00:00,14148
+2022-02-26 00:00:00,13166
+2022-02-27 00:00:00,11499
+2022-02-28 00:00:00,10273
+2022-03-01 00:00:00,8013
+2022-03-02 00:00:00,6915
+2022-03-03 00:00:00,7554
+
+Output (forecast):
+date,value
+2022-03-04 00:00:00,6561
+2022-03-05 00:00:00,6396
+2022-03-06 00:00:00,5921
+2022-03-07 00:00:00,5476
+2022-03-08 00:00:00,4362
+2022-03-09 00:00:00,3993
+2022-03-10 00:00:00,4575
+
+[INPUT]"
+Covid-19,2021-03-12 00:00:00,2022-03-10 00:00:00,7,mistralai/ministral-3-14b-reasoning,0.7,textual,cot_few,3,uniform,csv,199.45,3289.14,3354.97,0.0,0.450706,1.012822,0.063651,0.56294,12662,206,17.797449827194214,"[4184, 4194, 3614, 3116, 2503, 2568, 2876]","[5.0, 4.0, 5.0, 4.0, 4.0, 3.0, 6.0]","[OBJECTIVE]
+Predict the next 7 values based on the historical series (364 periods).
+
+[STATISTICAL CONTEXT]
+- Mean: 87124.1099
+- Median: 39083.5
+- Standard Deviation: 107555.5417
+- Minimum Value: 3993
+- Maximum Value: 414188
+- First Quartile (Q1): 16033.5
+- Third Quartile (Q3): 109220.5
+- Trend Strength (STL): 0.9985
+- Seasonality Strength (STL): 0.7754
+
+[REASONING GUIDELINES]
+- Trend: Identify the overall direction (increasing, decreasing, stable) and the trend strength.
+- Seasonality: Patterns that repeat at regular intervals (e.g., daily, weekly, monthly).
+- Outliers: Possible outliers or abrupt changes.
+- Cycles: Not seasonal long-term patterns.
+- Noise reduction: Apply a technique to reduce noise when necessary.
+- Consistency with the provided descriptive statistics (mean, median, etc.).
+- Adjustment for data frequency and contextual events (holidays, promotions, etc.).
+
+[EXAMPLES]
+- Example 1:
+Input (history):
+date,value
+2021-03-12 00:00:00,2 2 8 5 4
+2021-03-13 00:00:00,2 3 2 8 5
+2021-03-14 00:00:00,2 4 8 8 2
+2021-03-15 00:00:00,2 5 3 2 0
+2021-03-16 00:00:00,2 6 2 9 1
+2021-03-17 00:00:00,2 4 4 9 2
+2021-03-18 00:00:00,2 8 9 0 3
+
+Output (forecast):
+date,value
+2021-03-19 00:00:00,3 5 8 7 1
+2021-03-20 00:00:00,3 9 7 2 6
+2021-03-21 00:00:00,4 0 9 5 3
+2021-03-22 00:00:00,4 3 8 4 6
+2021-03-23 00:00:00,4 6 9 5 1
+2021-03-24 00:00:00,4 0 7 1 5
+2021-03-25 00:00:00,4 7 2 6 2
+
+- Example 2:
+Input (history):
+date,value
+2021-09-03 00:00:00,4 7 0 9 2
+2021-09-04 00:00:00,4 5 3 5 2
+2021-09-05 00:00:00,4 2 6 1 8
+2021-09-06 00:00:00,4 2 7 6 6
+2021-09-07 00:00:00,3 8 9 4 8
+2021-09-08 00:00:00,3 1 2 2 2
+2021-09-09 00:00:00,3 7 8 7 5
+
+Output (forecast):
+date,value
+2021-09-10 00:00:00,4 3 2 6 3
+2021-09-11 00:00:00,3 4 9 7 3
+2021-09-12 00:00:00,3 3 3 7 6
+2021-09-13 00:00:00,2 8 5 9 1
+2021-09-14 00:00:00,2 7 2 5 4
+2021-09-15 00:00:00,2 5 4 0 4
+2021-09-16 00:00:00,2 7 1 7 6
+
+- Example 3:
+Input (history):
+date,value
+2022-02-25 00:00:00,1 4 1 4 8
+2022-02-26 00:00:00,1 3 1 6 6
+2022-02-27 00:00:00,1 1 4 9 9
+2022-02-28 00:00:00,1 0 2 7 3
+2022-03-01 00:00:00,8 0 1 3
+2022-03-02 00:00:00,6 9 1 5
+2022-03-03 00:00:00,7 5 5 4
+
+Output (forecast):
+date,value
+2022-03-04 00:00:00,6 5 6 1
+2022-03-05 00:00:00,6 3 9 6
+2022-03-06 00:00:00,5 9 2 1
+2022-03-07 00:00:00,5 4 7 6
+2022-03-08 00:00:00,4 3 6 2
+2022-03-09 00:00:00,3 9 9 3
+2022-03-10 00:00:00,4 5 7 5
+
+[INPUT]"
+Covid-19,2021-03-12 00:00:00,2022-03-10 00:00:00,7,mistralai/ministral-3-14b-reasoning,0.7,textual,cot_few,3,uniform,csv,199.31,3288.0,3353.82,0.0,0.215001,0.483149,0.041072,0.363248,12662,215,9.766071319580078,"[4184, 4194, 3614, 3116, 2503, 2568, 2876]","[4.0, 5.0, 9.0, 8.0, 3.0, 4.0, 6.0]","[OBJECTIVE]
+Predict the next 7 values based on the historical series (364 periods).
+
+[STATISTICAL CONTEXT]
+- Mean: 87124.1099
+- Median: 39083.5
+- Standard Deviation: 107555.5417
+- Minimum Value: 3993
+- Maximum Value: 414188
+- First Quartile (Q1): 16033.5
+- Third Quartile (Q3): 109220.5
+- Trend Strength (STL): 0.9985
+- Seasonality Strength (STL): 0.7754
+
+[REASONING GUIDELINES]
+- Trend: Identify the overall direction (increasing, decreasing, stable) and the trend strength.
+- Seasonality: Patterns that repeat at regular intervals (e.g., daily, weekly, monthly).
+- Outliers: Possible outliers or abrupt changes.
+- Cycles: Not seasonal long-term patterns.
+- Noise reduction: Apply a technique to reduce noise when necessary.
+- Consistency with the provided descriptive statistics (mean, median, etc.).
+- Adjustment for data frequency and contextual events (holidays, promotions, etc.).
+
+[EXAMPLES]
+- Example 1:
+Input (history):
+date,value
+2021-03-12 00:00:00,2 2 8 5 4
+2021-03-13 00:00:00,2 3 2 8 5
+2021-03-14 00:00:00,2 4 8 8 2
+2021-03-15 00:00:00,2 5 3 2 0
+2021-03-16 00:00:00,2 6 2 9 1
+2021-03-17 00:00:00,2 4 4 9 2
+2021-03-18 00:00:00,2 8 9 0 3
+
+Output (forecast):
+date,value
+2021-03-19 00:00:00,3 5 8 7 1
+2021-03-20 00:00:00,3 9 7 2 6
+2021-03-21 00:00:00,4 0 9 5 3
+2021-03-22 00:00:00,4 3 8 4 6
+2021-03-23 00:00:00,4 6 9 5 1
+2021-03-24 00:00:00,4 0 7 1 5
+2021-03-25 00:00:00,4 7 2 6 2
+
+- Example 2:
+Input (history):
+date,value
+2021-09-03 00:00:00,4 7 0 9 2
+2021-09-04 00:00:00,4 5 3 5 2
+2021-09-05 00:00:00,4 2 6 1 8
+2021-09-06 00:00:00,4 2 7 6 6
+2021-09-07 00:00:00,3 8 9 4 8
+2021-09-08 00:00:00,3 1 2 2 2
+2021-09-09 00:00:00,3 7 8 7 5
+
+Output (forecast):
+date,value
+2021-09-10 00:00:00,4 3 2 6 3
+2021-09-11 00:00:00,3 4 9 7 3
+2021-09-12 00:00:00,3 3 3 7 6
+2021-09-13 00:00:00,2 8 5 9 1
+2021-09-14 00:00:00,2 7 2 5 4
+2021-09-15 00:00:00,2 5 4 0 4
+2021-09-16 00:00:00,2 7 1 7 6
+
+- Example 3:
+Input (history):
+date,value
+2022-02-25 00:00:00,1 4 1 4 8
+2022-02-26 00:00:00,1 3 1 6 6
+2022-02-27 00:00:00,1 1 4 9 9
+2022-02-28 00:00:00,1 0 2 7 3
+2022-03-01 00:00:00,8 0 1 3
+2022-03-02 00:00:00,6 9 1 5
+2022-03-03 00:00:00,7 5 5 4
+
+Output (forecast):
+date,value
+2022-03-04 00:00:00,6 5 6 1
+2022-03-05 00:00:00,6 3 9 6
+2022-03-06 00:00:00,5 9 2 1
+2022-03-07 00:00:00,5 4 7 6
+2022-03-08 00:00:00,4 3 6 2
+2022-03-09 00:00:00,3 9 9 3
+2022-03-10 00:00:00,4 5 7 5
+
+[INPUT]"
+Covid-19,2021-03-12 00:00:00,2022-03-10 00:00:00,7,mistralai/ministral-3-14b-reasoning,0.7,textual,cot_few,3,uniform,csv,199.24,3287.57,3353.51,0.0,0.235595,0.529427,0.041202,0.364399,12662,235,10.565682888031006,"[4184, 4194, 3614, 3116, 2503, 2568, 2876]","[4.0, 5.0, 8.0, 9.0, 6.0, 3.0, 7.0]","[OBJECTIVE]
+Predict the next 7 values based on the historical series (364 periods).
+
+[STATISTICAL CONTEXT]
+- Mean: 87124.1099
+- Median: 39083.5
+- Standard Deviation: 107555.5417
+- Minimum Value: 3993
+- Maximum Value: 414188
+- First Quartile (Q1): 16033.5
+- Third Quartile (Q3): 109220.5
+- Trend Strength (STL): 0.9985
+- Seasonality Strength (STL): 0.7754
+
+[REASONING GUIDELINES]
+- Trend: Identify the overall direction (increasing, decreasing, stable) and the trend strength.
+- Seasonality: Patterns that repeat at regular intervals (e.g., daily, weekly, monthly).
+- Outliers: Possible outliers or abrupt changes.
+- Cycles: Not seasonal long-term patterns.
+- Noise reduction: Apply a technique to reduce noise when necessary.
+- Consistency with the provided descriptive statistics (mean, median, etc.).
+- Adjustment for data frequency and contextual events (holidays, promotions, etc.).
+
+[EXAMPLES]
+- Example 1:
+Input (history):
+date,value
+2021-03-12 00:00:00,2 2 8 5 4
+2021-03-13 00:00:00,2 3 2 8 5
+2021-03-14 00:00:00,2 4 8 8 2
+2021-03-15 00:00:00,2 5 3 2 0
+2021-03-16 00:00:00,2 6 2 9 1
+2021-03-17 00:00:00,2 4 4 9 2
+2021-03-18 00:00:00,2 8 9 0 3
+
+Output (forecast):
+date,value
+2021-03-19 00:00:00,3 5 8 7 1
+2021-03-20 00:00:00,3 9 7 2 6
+2021-03-21 00:00:00,4 0 9 5 3
+2021-03-22 00:00:00,4 3 8 4 6
+2021-03-23 00:00:00,4 6 9 5 1
+2021-03-24 00:00:00,4 0 7 1 5
+2021-03-25 00:00:00,4 7 2 6 2
+
+- Example 2:
+Input (history):
+date,value
+2021-09-03 00:00:00,4 7 0 9 2
+2021-09-04 00:00:00,4 5 3 5 2
+2021-09-05 00:00:00,4 2 6 1 8
+2021-09-06 00:00:00,4 2 7 6 6
+2021-09-07 00:00:00,3 8 9 4 8
+2021-09-08 00:00:00,3 1 2 2 2
+2021-09-09 00:00:00,3 7 8 7 5
+
+Output (forecast):
+date,value
+2021-09-10 00:00:00,4 3 2 6 3
+2021-09-11 00:00:00,3 4 9 7 3
+2021-09-12 00:00:00,3 3 3 7 6
+2021-09-13 00:00:00,2 8 5 9 1
+2021-09-14 00:00:00,2 7 2 5 4
+2021-09-15 00:00:00,2 5 4 0 4
+2021-09-16 00:00:00,2 7 1 7 6
+
+- Example 3:
+Input (history):
+date,value
+2022-02-25 00:00:00,1 4 1 4 8
+2022-02-26 00:00:00,1 3 1 6 6
+2022-02-27 00:00:00,1 1 4 9 9
+2022-02-28 00:00:00,1 0 2 7 3
+2022-03-01 00:00:00,8 0 1 3
+2022-03-02 00:00:00,6 9 1 5
+2022-03-03 00:00:00,7 5 5 4
+
+Output (forecast):
+date,value
+2022-03-04 00:00:00,6 5 6 1
+2022-03-05 00:00:00,6 3 9 6
+2022-03-06 00:00:00,5 9 2 1
+2022-03-07 00:00:00,5 4 7 6
+2022-03-08 00:00:00,4 3 6 2
+2022-03-09 00:00:00,3 9 9 3
+2022-03-10 00:00:00,4 5 7 5
+
+[INPUT]"
+Covid-19,2021-03-12 00:00:00,2022-03-10 00:00:00,7,mistralai/ministral-3-14b-reasoning,0.7,textual,cot_few,3,uniform,csv,63.9,3093.86,3365.54,0.0,0.261449,0.587525,0.04808,0.425223,12662,255,11.483171939849854,"[4184, 4194, 3614, 3116, 2503, 2568, 2876]","[5489.0, 5329.0, 6174.0, 6847.0, 7089.0, 6656.0, 7128.0]","[OBJECTIVE]
+Predict the next 7 values based on the historical series (364 periods).
+
+[STATISTICAL CONTEXT]
+- Mean: 87124.1099
+- Median: 39083.5
+- Standard Deviation: 107555.5417
+- Minimum Value: 3993
+- Maximum Value: 414188
+- First Quartile (Q1): 16033.5
+- Third Quartile (Q3): 109220.5
+- Trend Strength (STL): 0.9985
+- Seasonality Strength (STL): 0.7754
+
+[REASONING GUIDELINES]
+- Trend: Identify the overall direction (increasing, decreasing, stable) and the trend strength.
+- Seasonality: Patterns that repeat at regular intervals (e.g., daily, weekly, monthly).
+- Outliers: Possible outliers or abrupt changes.
+- Cycles: Not seasonal long-term patterns.
+- Noise reduction: Apply a technique to reduce noise when necessary.
+- Consistency with the provided descriptive statistics (mean, median, etc.).
+- Adjustment for data frequency and contextual events (holidays, promotions, etc.).
+
+[EXAMPLES]
+- Example 1:
+Input (history):
+date,value
+2021-03-12 00:00:00,2 2 8 5 4
+2021-03-13 00:00:00,2 3 2 8 5
+2021-03-14 00:00:00,2 4 8 8 2
+2021-03-15 00:00:00,2 5 3 2 0
+2021-03-16 00:00:00,2 6 2 9 1
+2021-03-17 00:00:00,2 4 4 9 2
+2021-03-18 00:00:00,2 8 9 0 3
+
+Output (forecast):
+date,value
+2021-03-19 00:00:00,3 5 8 7 1
+2021-03-20 00:00:00,3 9 7 2 6
+2021-03-21 00:00:00,4 0 9 5 3
+2021-03-22 00:00:00,4 3 8 4 6
+2021-03-23 00:00:00,4 6 9 5 1
+2021-03-24 00:00:00,4 0 7 1 5
+2021-03-25 00:00:00,4 7 2 6 2
+
+- Example 2:
+Input (history):
+date,value
+2021-09-03 00:00:00,4 7 0 9 2
+2021-09-04 00:00:00,4 5 3 5 2
+2021-09-05 00:00:00,4 2 6 1 8
+2021-09-06 00:00:00,4 2 7 6 6
+2021-09-07 00:00:00,3 8 9 4 8
+2021-09-08 00:00:00,3 1 2 2 2
+2021-09-09 00:00:00,3 7 8 7 5
+
+Output (forecast):
+date,value
+2021-09-10 00:00:00,4 3 2 6 3
+2021-09-11 00:00:00,3 4 9 7 3
+2021-09-12 00:00:00,3 3 3 7 6
+2021-09-13 00:00:00,2 8 5 9 1
+2021-09-14 00:00:00,2 7 2 5 4
+2021-09-15 00:00:00,2 5 4 0 4
+2021-09-16 00:00:00,2 7 1 7 6
+
+- Example 3:
+Input (history):
+date,value
+2022-02-25 00:00:00,1 4 1 4 8
+2022-02-26 00:00:00,1 3 1 6 6
+2022-02-27 00:00:00,1 1 4 9 9
+2022-02-28 00:00:00,1 0 2 7 3
+2022-03-01 00:00:00,8 0 1 3
+2022-03-02 00:00:00,6 9 1 5
+2022-03-03 00:00:00,7 5 5 4
+
+Output (forecast):
+date,value
+2022-03-04 00:00:00,6 5 6 1
+2022-03-05 00:00:00,6 3 9 6
+2022-03-06 00:00:00,5 9 2 1
+2022-03-07 00:00:00,5 4 7 6
+2022-03-08 00:00:00,4 3 6 2
+2022-03-09 00:00:00,3 9 9 3
+2022-03-10 00:00:00,4 5 7 5
+
+[INPUT]"
+Covid-19,2021-03-12 00:00:00,2022-03-10 00:00:00,7,mistralai/ministral-3-14b-reasoning,0.7,textual,cot_few,3,uniform,csv,199.23,3287.57,3353.61,0.0,0.187952,0.422364,0.036633,0.32399,12662,192,8.695290565490723,"[4184, 4194, 3614, 3116, 2503, 2568, 2876]","[4.0, 5.0, 7.0, 5.0, 3.0, 9.0, 9.0]","[OBJECTIVE]
+Predict the next 7 values based on the historical series (364 periods).
+
+[STATISTICAL CONTEXT]
+- Mean: 87124.1099
+- Median: 39083.5
+- Standard Deviation: 107555.5417
+- Minimum Value: 3993
+- Maximum Value: 414188
+- First Quartile (Q1): 16033.5
+- Third Quartile (Q3): 109220.5
+- Trend Strength (STL): 0.9985
+- Seasonality Strength (STL): 0.7754
+
+[REASONING GUIDELINES]
+- Trend: Identify the overall direction (increasing, decreasing, stable) and the trend strength.
+- Seasonality: Patterns that repeat at regular intervals (e.g., daily, weekly, monthly).
+- Outliers: Possible outliers or abrupt changes.
+- Cycles: Not seasonal long-term patterns.
+- Noise reduction: Apply a technique to reduce noise when necessary.
+- Consistency with the provided descriptive statistics (mean, median, etc.).
+- Adjustment for data frequency and contextual events (holidays, promotions, etc.).
+
+[EXAMPLES]
+- Example 1:
+Input (history):
+date,value
+2021-03-12 00:00:00,2 2 8 5 4
+2021-03-13 00:00:00,2 3 2 8 5
+2021-03-14 00:00:00,2 4 8 8 2
+2021-03-15 00:00:00,2 5 3 2 0
+2021-03-16 00:00:00,2 6 2 9 1
+2021-03-17 00:00:00,2 4 4 9 2
+2021-03-18 00:00:00,2 8 9 0 3
+
+Output (forecast):
+date,value
+2021-03-19 00:00:00,3 5 8 7 1
+2021-03-20 00:00:00,3 9 7 2 6
+2021-03-21 00:00:00,4 0 9 5 3
+2021-03-22 00:00:00,4 3 8 4 6
+2021-03-23 00:00:00,4 6 9 5 1
+2021-03-24 00:00:00,4 0 7 1 5
+2021-03-25 00:00:00,4 7 2 6 2
+
+- Example 2:
+Input (history):
+date,value
+2021-09-03 00:00:00,4 7 0 9 2
+2021-09-04 00:00:00,4 5 3 5 2
+2021-09-05 00:00:00,4 2 6 1 8
+2021-09-06 00:00:00,4 2 7 6 6
+2021-09-07 00:00:00,3 8 9 4 8
+2021-09-08 00:00:00,3 1 2 2 2
+2021-09-09 00:00:00,3 7 8 7 5
+
+Output (forecast):
+date,value
+2021-09-10 00:00:00,4 3 2 6 3
+2021-09-11 00:00:00,3 4 9 7 3
+2021-09-12 00:00:00,3 3 3 7 6
+2021-09-13 00:00:00,2 8 5 9 1
+2021-09-14 00:00:00,2 7 2 5 4
+2021-09-15 00:00:00,2 5 4 0 4
+2021-09-16 00:00:00,2 7 1 7 6
+
+- Example 3:
+Input (history):
+date,value
+2022-02-25 00:00:00,1 4 1 4 8
+2022-02-26 00:00:00,1 3 1 6 6
+2022-02-27 00:00:00,1 1 4 9 9
+2022-02-28 00:00:00,1 0 2 7 3
+2022-03-01 00:00:00,8 0 1 3
+2022-03-02 00:00:00,6 9 1 5
+2022-03-03 00:00:00,7 5 5 4
+
+Output (forecast):
+date,value
+2022-03-04 00:00:00,6 5 6 1
+2022-03-05 00:00:00,6 3 9 6
+2022-03-06 00:00:00,5 9 2 1
+2022-03-07 00:00:00,5 4 7 6
+2022-03-08 00:00:00,4 3 6 2
+2022-03-09 00:00:00,3 9 9 3
+2022-03-10 00:00:00,4 5 7 5
+
+[INPUT]"
